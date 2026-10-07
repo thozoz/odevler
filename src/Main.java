@@ -4,16 +4,31 @@ public class Main {
     public static void main(String[] args) {
         Scanner girdi = new Scanner(System.in);
 
-        int ah = 0;
-        int sayi;
-        int toplam=0;
-        while (ah != 5) {
-            System.out.print("sayı gir: ");
-            sayi = girdi.nextInt();
-            toplam+=sayi;
-            ah++;
+        int tahmin=15;
+
+
+        while (true) {
+            System.out.print("tahmn et: ");
+            int sayi=girdi.nextInt();
+            if (sayi>tahmin){
+                System.out.print("daha küçük gir \n");
+            }
+            if(sayi<tahmin){
+                System.out.print("daha büyük gir \n");
+            }
+            if(sayi==tahmin){
+                System.out.print("başardın. \n");
+                break;
+            }
+
+
 
         }
-        System.out.print(toplam/5);    }
+
+
+
+
+
+    }
 }
 
