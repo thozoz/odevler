@@ -1,20 +1,19 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        double yarcap;
+        Scanner girdi = new Scanner(System.in);
+        System.out.print("sayı gir: ");
+        int sayi = girdi.nextInt();
+        int ters = 0;
 
-        Scanner girdi= new Scanner(System.in);
-        System.out.print("Sayı giriniz ");
-        yarcap = girdi.nextDouble();
-        //double alan=(yarcap*yarcap)*3.147826630;
+        while (sayi != 0) {
+            int sonRakam = sayi % 10;
+            ters = ters * 10 + sonRakam;
+            sayi = sayi / 10;
+        }
 
-        System.out.print("Son rakam: " +(int) yarcap%10);
-
-//NOOO
-
-
+        System.out.print("ters : " + ters);
     }
 }
-
 
