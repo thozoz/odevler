@@ -1,20 +1,17 @@
+import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int ayDegeri =1;
-        String ayDegeristr =null;
+        int art =0;
 
-        switch (ayDegeri){
-            case 1:
-                ayDegeristr="ocak";
-                break;
-            case 2:
-                ayDegeristr="subat";
-                break;
-            case 3:
-                ayDegeristr="mart";
-                break;
+        while(art<=150){
+            System.out.print(art);
+            System.out.print("\n");
+            art+=3;
+
+
+
 
 
         }
