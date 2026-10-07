@@ -3,20 +3,19 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int art =0;
-
-        while(art<=150){
-            System.out.print(art);
-            System.out.print("\n");
-            art+=3;
 
 
+        int art =6;  //5 faktoriel için 6 yazıyo çünkü why not (i=1 den başlıyo)
+        int i= 1;
+        int carp=1;
 
+        while(art!=i){
+            carp=i*carp;
 
+            i++;
 
         }
-
-
+        System.out.print(carp);
     }
 }
 
