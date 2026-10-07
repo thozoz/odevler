@@ -2,15 +2,15 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        int yas;
+        double yarcap;
+
         Scanner girdi= new Scanner(System.in);
-        System.out.print("Adınızı giriniz ");
-        String ad = girdi.next();
-        System.out.print("Soyad giriniz ");
-        String soyad = girdi.next();
-        System.out.print("yaş giriniz ");
-        yas = girdi.nextInt();
-        System.out.print("Ad " +ad+ " | Soyad "+soyad+" | yaş "+yas);
+        System.out.print("Yarıçap giriniz ");
+        yarcap = girdi.nextDouble();
+        double alan=(yarcap*yarcap)*3.147826630;
+
+
+        System.out.print("Alan: " +alan);
 
 //NOOO
 
