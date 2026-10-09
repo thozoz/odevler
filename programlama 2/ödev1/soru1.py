@@ -30,4 +30,4 @@ if (sayi1b==sayi2o or sayi1b==sayi2b) and sayi1b != sayi1o: #sayi1b != sayi1o mi
 
 #ortak rakam yoksa
 if ortak==False:
-    print("Ortak rakam yoktur.")
+    print("Ortak rakam yoktur")
