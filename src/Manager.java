@@ -1,16 +1,11 @@
-public class Manager {
-    private String department;
-    private String name;
-    private double salary;
+public class Manager extends Employee {
     private double bonus;
 
     public Manager() {
     }
 
     public Manager(String department, String name, double salary, double bonus) {
-        this.department = department;
-        this.name = name;
-        this.salary = salary;
+        super(department, name, salary);
         this.bonus = bonus;
     }
 
@@ -22,10 +17,9 @@ public class Manager {
         this.bonus = bonus;
     }
 
+    @Override
     public void showInfos() {
-        System.out.println("Department : " + department);
-        System.out.println("Name        : " + name);
-        System.out.println("Salary       : " + salary);
+        super.showInfos();
         System.out.println("Bonus      : " + bonus);
     }
 }
