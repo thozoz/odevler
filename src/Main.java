@@ -1,19 +1,15 @@
-import javax.swing.plaf.synth.SynthTextAreaUI;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
-        Musteri musteri1=new Musteri();
-        Musteri musteri2=new Musteri();
-
-        musteri1=musteri2;
-
-        musteri1.Add();
-        musteri1.Remove();
-        musteri1.Update();
+        OgrenciBilgileri ogrenci1 = new OgrenciBilgileri();
+        ogrenci1.ogrenciNumarasi = 101;
+        ogrenci1.adi = "Can Satar Sattı";
+        ogrenci1.tc = "171425025";
+        ogrenci1.yas = 20;
 
 
+        OgrenciIslemleri ogrenciIslemleri = new OgrenciIslemleri();
+        ogrenciIslemleri.ogrenciKaydet(ogrenci1);
+        ogrenciIslemleri.ogrenciBilgileriniGoster(ogrenci1);
     }
 }
-
