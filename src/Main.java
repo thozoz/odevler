@@ -1,11 +1,11 @@
 public class Main {
-    public static void skorHesapla(String name, int score) {
-        System.out.println(name+" adlı isimli oyuncunun puan: "+score);
-    }
-
-
     public static void main(String[] args) {
-        skorHesapla("Murat",3000);
-    }
+        Employee calisan = new Employee("Yazilim", "Ahmet Yilmaz", 50000);
+        calisan.showInfos();
 
+        System.out.println();
+
+        Manager mudur = new Manager("Yazilim", "Mehmet Demir", 80000, 15000);
+        mudur.showInfos();
+    }
 }
