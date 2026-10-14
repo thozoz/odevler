@@ -22,4 +22,9 @@ public class Manager extends Employee {
         super.showInfos();
         System.out.println("Bonus      : " + bonus);
     }
+
+    @Override
+    public void riseSalary(double amount) {
+        super.riseSalary(amount);
+    }
 }
