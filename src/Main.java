@@ -4,18 +4,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        Musteri musteri1=new Musteri();
+        Musteri musteri2=new Musteri();
 
-        int art =6;  //5 faktoriel için 6 yazıyo çünkü why not (i=1 den başlıyo)
-        int i= 1;
-        int carp=1;
+        musteri1=musteri2;
 
-        while(art!=i){
-            carp=i*carp;
+        musteri1.Add();
+        musteri1.Remove();
+        musteri1.Update();
 
-            i++;
 
-        }
-        System.out.print(carp);
     }
 }
 
