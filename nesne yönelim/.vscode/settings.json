@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": false,
+    "[java]": {
+        "editor.formatOnSave": false
+    },
+    "java.format.comments.wrap_comments": false
+}
