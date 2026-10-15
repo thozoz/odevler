@@ -79,15 +79,16 @@ doc = pymupdf.open(ORIGINAL)
 assert len(doc) == 7
 for i, page in enumerate(doc):
     page.insert_font(fontname='student', fontfile=FONT)
-    page.draw_rect(pymupdf.Rect(99,106.7,220,116.4), fill=(1,1,1),color=None)
+    # Boş alanlardaki noktalı çizgileri baştan sona kapat.
+    page.draw_rect(pymupdf.Rect(99,106.7,228,116.4), fill=(1,1,1),color=None)
     page.insert_text((103,114.6),'Efe Özan',fontname='student',fontsize=8.6)
-    page.draw_rect(pymupdf.Rect(299,106.7,396,116.4), fill=(1,1,1),color=None)
-    page.insert_text((303,114.6),'170425062',fontname='student',fontsize=8.6)
-    page.draw_rect(pymupdf.Rect(94,124.9,149,134.2),fill=(1,1,1),color=None)
-    page.insert_text((97,132.1),'12.10.2026',fontname='student',fontsize=8)
+    page.draw_rect(pymupdf.Rect(285,106.7,396,116.4), fill=(1,1,1),color=None)
+    page.insert_text((290,114.6),'170425062',fontname='student',fontsize=8.6)
+    page.draw_rect(pymupdf.Rect(80,122,150,134.2),fill=(1,1,1),color=None)
+    page.insert_text((85,129.2),'12.10.2026',fontname='student',fontsize=8)
     # Şube/Grup alanını doldur; hemen sağındaki imza çizgisine dokunma.
-    page.draw_rect(pymupdf.Rect(211,124.9,280,134.2),fill=(1,1,1),color=None)
-    page.insert_text((214,132.1),'Ali Buldu A Grubu',fontname='student',fontsize=7.5)
+    page.draw_rect(pymupdf.Rect(211,122,280,134.2),fill=(1,1,1),color=None)
+    page.insert_text((214,129.2),'Ali Buldu A Grubu',fontname='student',fontsize=7.5)
     for answer,x,y in zip(ANSWERS[i],(115,148,117,295),LINES[i]):
         add_line(page,answer,x,y)
     page.get_pixmap(matrix=pymupdf.Matrix(1.2,1.2),alpha=False).save(
