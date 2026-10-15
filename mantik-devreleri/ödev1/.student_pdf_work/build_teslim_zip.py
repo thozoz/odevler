@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TESLIM = ROOT / "teslim"
 FORM = "BLM2007_Doldurulmus_Deney_Yapraklari_Efe_Ozan_imzalı.pdf"
 REPORT = "BLM2007_Ayrintili_Cozum_Efe_Ozan.pdf"
-PYTHON_FILES = ["sayi_donusturucu.py", *[f"dogrulama_{i}.py" for i in range(2, 8)]]
+PYTHON_FILES = ["sayi_donusturucu.py", *[f"dogrulama_{i}.py" for i in range(1, 8)]]
 
 source_form = TESLIM / FORM
 source_report = TESLIM / REPORT

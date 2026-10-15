@@ -6,7 +6,9 @@ date: "12.10.2026"
 lang: tr-TR
 ---
 
-Deneylerin hesapları burada. Birinci deneyin kodu `sayi_donusturucu.py` dosyasında. İkinci ve dördüncü deneyleri de ayrı ayrı `dogrulama_2.py` ve `dogrulama_4.py` ile kontrol ettim. Diğer deneylerin kontrol kodları da ekli.
+Deneylerin hesapları burada. İlk deneyin programı: `sayi_donusturucu.py`.
+
+İlk deneyin kontrolü: `dogrulama_1.py`. Diğer deneylerin kontrol kodları da 2'den 7'ye kadar ayrı Python dosyalarında.
 
 ## Deney 1 - Sayı sistemi dönüştürücüsü
 
