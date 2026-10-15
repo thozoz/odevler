@@ -144,7 +144,7 @@ Sonuç **sonsuz devirli** bir ikili kesirdir. Bu nedenle, kaç bit kullanılırs
 - **İlk tahminim:** $1000$ değeri için 10 bit ($2^{10}=1024$), $0.125 = 1/8 = 2^{-3}$ adımı için 3 bit olmak üzere toplam en az 13 bit gerekecektir.
 - **Bağımsız kontrolüm:** Durum sayısı formülü ile kontrol: $\frac{1000-0}{0.125} + 1 = 8001$ ayrık değer. $2^{12} = 4096 < 8001 \le 8192 = 2^{13}$. Shannon bilgi teorisi gereğince 8001 durum en az 13 bit gerektirir.
 - **Karşı örneğim:** 12 bit seçilip tam kısma 9 bit verilirse maksimum değer $(111111111.111)_2 = 511.875$ olur ve 1000 temsil edilemez; tam kısma 10 bit verilirse kesre 2 bit kalır ($2^{-2}=0.25$), bu durumda $0.125$ adımı atlanarak temsil edilemez.
-- **YZ önerisini değerlendirmem veya kullanmadım beyanım:** YZ desteğiyle hazırlanan Q10.3 sabit noktalı bit formatı, bağımsız el hesaplamaları ve Python doğrulama kodu (`dogrulama_2_4.py`) çalıştırılarak sınır değerler ($0, 1000$) ve adım çözünürlüğü açısından doğrulanmıştır.
+- **YZ önerisini değerlendirmem veya kullanmadım beyanım:** YZ desteğiyle hazırlanan Q10.3 sabit noktalı bit formatı, bağımsız el hesaplamaları ve Python doğrulama kodu (`dogrulama_2.py`) çalıştırılarak sınır değerler ($0, 1000$) ve adım çözünürlüğü açısından doğrulanmıştır.
 
 ---
 ---
@@ -322,64 +322,10 @@ Sekiz onaltılı basamak, sekiz ikili basamağa göre **yaklaşık 16.78 milyon 
 - **İlk tahminim:** Verilen sayılardan yalnızca $0.625 = 5/8$ sonlu ikili basamakla ifade edilecek, diğer üç sayı 5 asal çarpanı nedeniyle sonsuz devirli çıkacaktır. Yuvarlama hatası kesme hatasına göre daha küçük veya eşit olacaktır.
 - **Bağımsız kontrolüm:** Python Fractions modülü ve el ile yapılan kesir hesaplarında $\frac{25}{256}$, $\frac{83}{128}$ ve $\frac{249}{256}$ değerleri onluya çevrilerek mutlak hatalar tam olarak hesaplanmış, 8-bitlik kesme hatasının maksimum üst sınırı olan $2^{-8} = 0.00390625$'in altında kaldığı doğrulanmıştır.
 - **Karşı örneğim:** "Onluk sistemde sonlu basamaklı olan her kesir ikili sistemde de sonludur" önermesinin yanlışlığı $0.1$ karşı örneği ile çürütülmüştür; onlukta 1 basamakta sonlu iken ikilide sonsuz devirlidir.
-- **YZ önerisini değerlendirmem veya kullanmadım beyanım:** YZ desteği ile hazırlanan yuvarlama tablosu ve 9. bit ($b_9$) karar mekanizması, `dogrulama_2_4.py` scripti ile bağımsız olarak çalıştırılıp tek tek kontrol edilmiş ve matematiksel olarak onaylanmıştır.
+- **YZ önerisini değerlendirmem veya kullanmadım beyanım:** YZ desteği ile hazırlanan yuvarlama tablosu ve 9. bit ($b_9$) karar mekanizması, `dogrulama_4.py` scripti ile bağımsız olarak çalıştırılıp tek tek kontrol edilmiş ve matematiksel olarak onaylanmıştır.
 
 ---
 
 # EK DOSYA: BAĞIMSIZ HESAPLAMA VE DOĞRULAMA KODU (Python)
 
-```python
-# BLM2007 Mantık Devreleri - Deney Yaprağı 2 ve 4 Bağımsız Doğrulama Kodu
-# Dosya: dogrulama_2_4.py
-from fractions import Fraction
-import math
-
-print("=== DENEY YAPRAĞI 2 DOĞRULAMA ===")
-adim = Fraction(1, 8)
-print(f"Adım büyüklüğü: {adim} = 2^-3 -> Kesir biti f = 3")
-
-max_tam = 1000
-tam_bit = math.ceil(math.log2(max_tam + 1))
-print(f"Tam kısım için bit sayısı: i = {tam_bit} (2^{tam_bit}-1 = {2**tam_bit - 1} >= 1000)")
-print(f"Toplam bit sayısı: {tam_bit + 3}")
-
-# 12-bit Yetersizlik İncelemesi
-max_val_12 = (2**9 - 1) + float(Fraction(7, 8))
-print(f"12-bit Yöntem 1 (Maksimum Değer): {max_val_12} < 1000 -> Yetersiz!")
-durum_sayisi = int(1000 / 0.125) + 1
-print(f"12-bit Yöntem 2 (Durum Sayısı): 2^12={2**12} < {durum_sayisi} -> Yetersiz!")
-
-# 173.625 Sekizli ve Onaltılı Dönüşüm Doğrulaması
-v = 173.625
-tam_oct, tam_hex = oct(173)[2:], hex(173)[2:].upper()
-print(f"173.625 -> Sekizli: {tam_oct}.5_8 | Onaltılı: {tam_hex}.A_16")
-
-print("\n=== DENEY YAPRAĞI 4 DOĞRULAMA ===")
-sayilar = [Fraction(625, 1000), Fraction(1, 10), Fraction(65, 100), Fraction(975, 1000)]
-
-for s in sayilar:
-    bits = []
-    rem = s
-    for _ in range(12):
-        rem *= 2
-        b = int(rem)
-        bits.append(b)
-        rem -= b
-    
-    b8 = bits[:8]
-    val_trunc = sum(b8[i] * Fraction(1, 2**(i+1)) for i in range(8))
-    err_trunc = abs(s - val_trunc)
-    
-    # Yuvarlama: Kalan >= 2^-9 ise yukarı
-    rem_after_8 = s - val_trunc
-    if rem_after_8 >= Fraction(1, 2**9):
-        val_round = val_trunc + Fraction(1, 2**8)
-    else:
-        val_round = val_trunc
-    err_round = abs(s - val_round)
-    
-    print(f"Sayı: {float(s)}")
-    print(f"  Kesilmiş: 0.{''.join(map(str, b8))} = {float(val_trunc)} | Mutlak Hata: {float(err_trunc):.8f}")
-    r_bits = [int((val_round * 2**(i+1)) % 2) for i in range(8)] # bit gösterimi
-    print(f"  Yuvarlanmış Değer: {float(val_round)} | Mutlak Hata: {float(err_round):.8f}")
-```
+Deney 2 için `dogrulama_2.py`, Deney 4 için `dogrulama_4.py` dosyalarını kullandım. Kodlar ayrı dosyalardadır.

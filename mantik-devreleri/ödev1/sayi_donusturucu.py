@@ -13,7 +13,6 @@ Girdi doğrulama, kesirli basamak kesinliği (8 basamak sınırı) ve hata yakal
 """
 
 import sys
-import io
 
 # Windows konsolunda Türkçe ve Unicode (≈ vb.) karakterlerin düzgün görüntülenmesi için UTF-8 ayarı
 if sys.stdout.encoding != 'utf-8':
@@ -22,7 +21,7 @@ if sys.stdout.encoding != 'utf-8':
         sys.stderr.reconfigure(encoding='utf-8')
     except Exception:
         pass
-from typing import Tuple, Optional, List, Dict
+from typing import Tuple, List, Dict, Any
 
 
 # İzin verilen geçerli tabanlar
@@ -214,7 +213,7 @@ def kesir_hedefe_cevir_rasyonel(pay: int, payda: int, hedef_taban: int, max_basa
     return "".join(basamaklar), kesin
 
 
-def sayi_donustur(sayi_metni: str, kaynak_taban: int, hedef_taban: int) -> Dict[str, any]:
+def sayi_donustur(sayi_metni: str, kaynak_taban: int, hedef_taban: int) -> Dict[str, Any]:
     """
     Ana dönüşüm fonksiyonu. Girdiyi denetler, dönüşümü gerçekleştirir ve
     ayrıntılı sonuç nesnesi döndürür.
@@ -275,8 +274,8 @@ def test_suite_calistir() -> List[Dict]:
         ("Başında Sıfırlar Bulunan Sayı", "001011.10", 2, 10, False, "11.5"),
         ("Sekiz Basamakta Tamamlanmayan Kesir (Yaklaşık)", "0.1", 10, 2, False, "0.00011001"),
         ("Onaltılıdan Sekizliye Dönüşüm", "2D.68", 16, 8, False, "55.32"),
-        ("Hatalı Girdi 1: İkili Tabanda Geçersiz Rakam (2)", "102", 2, 10, True, "Geçersiz karakter"),
-        ("Hatalı Girdi 2: Sekizli Tabanda Geçersiz Rakam (8)", "128", 8, 2, True, "Geçersiz karakter"),
+        ("Hatalı Girdi 1: İkili Tabanda Geçersiz Rakam (2)", "102", 2, 10, True, "taban 2 için geçersizdir"),
+        ("Hatalı Girdi 2: Sekizli Tabanda Geçersiz Rakam (8)", "128", 8, 2, True, "taban 8 için geçersizdir"),
         ("Hatalı Girdi 3: Boş Girdi", "   ", 10, 2, True, "Girdi boş olamaz"),
         ("Hatalı Girdi 4: Çoklu Kesir Ayracı", "10.11.01", 2, 16, True, "Birden fazla kesir ayracı"),
         ("Hatalı Girdi 5: Negatif Sayı Girişi", "-101.1", 2, 10, True, "Negatif sayılar kabul edilmez"),
@@ -307,9 +306,10 @@ def test_suite_calistir() -> List[Dict]:
                              "basarili": basarili, "cikti": res['sonuc'], "durum": res['durum']})
         except GirdiHatasi as e:
             if hata_bekleniyor:
-                print(f"  Beklenen Hata Başarıyla Yakalandı: {e}")
-                print("  Durum: BAŞARILI (PASSED - Hata Doğrulandı)")
-                basarili = True
+                basarili = beklenen.casefold() in str(e).casefold()
+                print(f"  Yakalanan Hata: {e}")
+                print(f"  Beklenen Hata İfadesi: {beklenen}")
+                print(f"  Durum: {'BAŞARILI (PASSED - Hata Doğrulandı)' if basarili else 'BAŞARISIZ (Yanlış Hata Mesajı)'}")
             else:
                 print(f"  BEKLENMEYEN HATA: {e}")
                 basarili = False
@@ -326,4 +326,6 @@ def test_suite_calistir() -> List[Dict]:
 
 
 if __name__ == "__main__":
-    test_suite_calistir()
+    sonuclar = test_suite_calistir()
+    if not all(test['basarili'] for test in sonuclar):
+        raise SystemExit(1)
