@@ -18,14 +18,14 @@ hex_kes = Fraction(6, 16) + Fraction(8, 256)
 print(f"Onaltili 2D.68 = {hex_tam} + {hex_kes} = {hex_tam + hex_kes} = {float(hex_tam + hex_kes)}")
 
 assert tam_val + kes_val == oct_tam + oct_kes == hex_tam + hex_kes == Fraction(45) + Fraction(13, 32)
-print("OK: uc gosterim esit (45 + 13/32 = 45.40625)")
+print("Ucu de 45.40625 cikti.")
 
 hat_kes = bin_frac("00001101")
 hat_hex_kes = Fraction(0, 16) + Fraction(13, 256)
 print(f"Hatali kesir 00001101 = {hat_kes} = {float(hat_kes)}, hex .0D = {hat_hex_kes} = {float(hat_hex_kes)}")
 assert hat_kes == hat_hex_kes == Fraction(13, 256)
 print(f"Hatali toplam = {45 + hat_kes} = {float(45 + hat_kes)}, fark = {float(Fraction(13,32) - hat_kes)}")
-print("OK: hatali deger 45 + 13/256 = 45.05078125")
+print("Yanlis gruplamada 45.05078125 cikiyor.")
 
 a = sum(int(bit) * 2**i for i, bit in enumerate(reversed("00101"))) + bin_frac("100")
 b = sum(int(bit) * 2**i for i, bit in enumerate(reversed("101"))) + bin_frac("1")

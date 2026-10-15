@@ -129,14 +129,14 @@ def sayi_donustur(sayi_metni: str, kaynak_taban: int, hedef_taban: int) -> Dict[
 
         sonuc_metni = f"{tam_hedef}.{kesir_hedef}"
         isaret = "=" if kesin_mi else "≈"
-        durum = "KESİN (EXACT)" if kesin_mi else "YAKLAŞIK (APPROXIMATE - 8 basamakta kesildi)"
+        durum = "Kesin" if kesin_mi else "Yaklaşık (8 basamakta kesildi)"
         kesir_onlu_ondalik = pay / payda
     else:
         kesir_hedef = ""
         kesin_mi = True
         sonuc_metni = tam_hedef
         isaret = "="
-        durum = "KESİN (EXACT - Tam Sayı)"
+        durum = "Kesin"
         kesir_onlu_ondalik = 0.0
 
     return {
@@ -159,60 +159,47 @@ def sayi_donustur(sayi_metni: str, kaynak_taban: int, hedef_taban: int) -> Dict[
 
 def test_suite_calistir() -> List[Dict]:
     senaryolar = [
-        ("Örnek Giriş (Kesin Kesirli Dönüşüm)", "101101.01101", 2, 16, False, "2D.68"),
-        ("Sıfır Değeri (Tam)", "0", 10, 2, False, "0"),
-        ("Yalnızca Kesirli Sayı (. ile başlayan)", ".101", 2, 10, False, "0.625"),
-        ("Başında Sıfırlar Bulunan Sayı", "001011.10", 2, 10, False, "11.5"),
-        ("Sekiz Basamakta Tamamlanmayan Kesir (Yaklaşık)", "0.1", 10, 2, False, "0.00011001"),
-        ("Onaltılıdan Sekizliye Dönüşüm", "2D.68", 16, 8, False, "55.32"),
-        ("Hatalı Girdi 1: İkili Tabanda Geçersiz Rakam (2)", "102", 2, 10, True, "taban 2 için geçersizdir"),
-        ("Hatalı Girdi 2: Sekizli Tabanda Geçersiz Rakam (8)", "128", 8, 2, True, "taban 8 için geçersizdir"),
-        ("Hatalı Girdi 3: Boş Girdi", "   ", 10, 2, True, "Girdi boş olamaz"),
-        ("Hatalı Girdi 4: Çoklu Kesir Ayracı", "10.11.01", 2, 16, True, "Birden fazla kesir ayracı"),
-        ("Hatalı Girdi 5: Negatif Sayı Girişi", "-101.1", 2, 10, True, "Negatif sayılar kabul edilmez"),
-        ("Hatalı Girdi 6: Geçersiz Taban Seçimi", "101", 5, 2, True, "Geçersiz kaynak taban")
+        ("İkiliden onaltılıya", "101101.01101", 2, 16, False, "2D.68"),
+        ("Sıfır", "0", 10, 2, False, "0"),
+        ("Noktadan başlayan sayı", ".101", 2, 10, False, "0.625"),
+        ("Baştaki sıfırlar", "001011.10", 2, 10, False, "11.5"),
+        ("Bitmeyen kesir", "0.1", 10, 2, False, "0.00011001"),
+        ("Onaltılıdan sekizliye", "2D.68", 16, 8, False, "55.32"),
+        ("İkili tabanda 2", "102", 2, 10, True, "taban 2 için geçersizdir"),
+        ("Sekizli tabanda 8", "128", 8, 2, True, "taban 8 için geçersizdir"),
+        ("Boş giriş", "   ", 10, 2, True, "Girdi boş olamaz"),
+        ("İki tane nokta", "10.11.01", 2, 16, True, "Birden fazla kesir ayracı"),
+        ("Negatif sayı", "-101.1", 2, 10, True, "Negatif sayılar kabul edilmez"),
+        ("Geçersiz taban", "101", 5, 2, True, "Geçersiz kaynak taban")
     ]
 
     sonuclar = []
-    print("=" * 80)
-    print("BLM2007 MANTIK DEVRELERİ - DENEY YAPRAĞI 1 TEST ÇIKTILARI")
-    print("=" * 80)
+    print("Deney 1 - Dönüştürücü testleri")
 
     for i, (tanim, girdi, r_kaynak, r_hedef, hata_bekleniyor, beklenen) in enumerate(senaryolar, 1):
-        print(f"\n[TEST {i:02d}] {tanim}")
-        print(f"  Girdi: '{girdi}' | Kaynak Taban: {r_kaynak} | Hedef Taban: {r_hedef}")
         try:
             res = sayi_donustur(girdi, r_kaynak, r_hedef)
             if hata_bekleniyor:
-                print(f"  BAŞARISIZ: Hata fırlatılması bekleniyordu ancak sonuç üretildi: {res['sonuc']}")
+                print(f"{i}. {tanim}: hata vermesi gerekiyordu, {res['sonuc']} çıktı")
                 basarili = False
             else:
                 eslesme = (res['sonuc'] == beklenen)
-                print(f"  Gerçekleşen: {res['sonuc']} ({res['isaret']}) [{res['durum']}]")
-                print(f"  Beklenen:    {beklenen}")
-                print(f"  Onluk Ara Değer: {res['toplam_onlu']}")
-                print(f"  Durum: {'BAŞARILI (PASSED)' if eslesme else 'UYARI: Beklenenle tam eşleşmedi'}")
+                print(f"{i}. {tanim}: {res['sonuc']} ({'doğru' if eslesme else 'yanlış, beklenen: ' + beklenen})")
                 basarili = eslesme
             sonuclar.append({"test_no": i, "tanim": tanim, "girdi": girdi, "r1": r_kaynak, "r2": r_hedef,
                              "basarili": basarili, "cikti": res['sonuc'], "durum": res['durum']})
         except GirdiHatasi as e:
             if hata_bekleniyor:
                 basarili = beklenen.casefold() in str(e).casefold()
-                print(f"  Yakalanan Hata: {e}")
-                print(f"  Beklenen Hata İfadesi: {beklenen}")
-                print(f"  Durum: {'BAŞARILI (PASSED - Hata Doğrulandı)' if basarili else 'BAŞARISIZ (Yanlış Hata Mesajı)'}")
+                print(f"{i}. {tanim}: {'beklenen hatayı verdi' if basarili else 'yanlış hata verdi'}")
             else:
-                print(f"  BEKLENMEYEN HATA: {e}")
+                print(f"{i}. {tanim}: beklenmeyen hata: {e}")
                 basarili = False
             sonuclar.append({"test_no": i, "tanim": tanim, "girdi": girdi, "r1": r_kaynak, "r2": r_hedef,
                              "basarili": basarili, "cikti": f"HATA: {e}", "durum": "REDDEDİLDİ"})
 
-    print("\n" + "=" * 80)
-    print("TEST ÖZETİ:")
-    toplam_test = len(sonuclar)
     basarili_test = sum(1 for s in sonuclar if s['basarili'])
-    print(f"Toplam Test: {toplam_test} | Başarılı: {basarili_test} | Başarısız: {toplam_test - basarili_test}")
-    print("=" * 80)
+    print(f"\n{basarili_test}/{len(sonuclar)} test doğru.")
     return sonuclar
 
 

@@ -19,4 +19,4 @@ print(f"C fark = {float(dogru_kesir - hatali_kesir)} (mutlak hata 0.35546875)")
 
 for v in [1, 5]:
     print(f"D ornek: {v} -> saga 1 sifir -> {v * 2} (x2, degisir)")
-print("OK: A,B yaklasik; C hatali basamak; D yanlis (saga sifir x2).")
+print("A ve B yaklasik, C ve D yanlis.")

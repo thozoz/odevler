@@ -8,4 +8,4 @@ for k in range(7, -1, -1):
     aralik = "YAKALANDI" if not (0 <= hatali <= 200) else "kacar"
     assert hata == 2 ** k
     print(f"k={k} bit {bit}->{1-bit}: {format(hatali,'08b')} = {hatali} ({hatali:02X}) | {yon} | hata {hata} | {aralik}")
-print("OK: hata=2^k, yalnizca 237 aralik disi.")
+print("Sadece 237 aralik disinda kaldi.")
