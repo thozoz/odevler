@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-"""Deney Yapragi 3 bagimsiz dogrulama (Fraction tabanli, float hatasiz)."""
 from fractions import Fraction
 
 def bin_frac(bits):
@@ -22,7 +20,6 @@ print(f"Onaltili 2D.68 = {hex_tam} + {hex_kes} = {hex_tam + hex_kes} = {float(he
 assert tam_val + kes_val == oct_tam + oct_kes == hex_tam + hex_kes == Fraction(45) + Fraction(13, 32)
 print("OK: uc gosterim esit (45 + 13/32 = 45.40625)")
 
-# Hatali ogrenci cozumu: kesre sola sifir -> 00001101
 hat_kes = bin_frac("00001101")
 hat_hex_kes = Fraction(0, 16) + Fraction(13, 256)
 print(f"Hatali kesir 00001101 = {hat_kes} = {float(hat_kes)}, hex .0D = {hat_hex_kes} = {float(hat_hex_kes)}")
@@ -30,7 +27,7 @@ assert hat_kes == hat_hex_kes == Fraction(13, 256)
 print(f"Hatali toplam = {45 + hat_kes} = {float(45 + hat_kes)}, fark = {float(Fraction(13,32) - hat_kes)}")
 print("OK: hatali deger 45 + 13/256 = 45.05078125")
 
-# Dusunme sorusu
-a = 4 + 1 + Fraction(1, 2)
-b = 4 + 1 + Fraction(1, 2)
+a = sum(int(bit) * 2**i for i, bit in enumerate(reversed("00101"))) + bin_frac("100")
+b = sum(int(bit) * 2**i for i, bit in enumerate(reversed("101"))) + bin_frac("1")
+assert a == b == Fraction(11, 2)
 print(f"00101.100 = {float(a)}, 101.1 = {float(b)}, esit mi: {a == b}")

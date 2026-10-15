@@ -1,16 +1,11 @@
-# -*- coding: utf-8 -*-
-"""Deney Yapragi 6 bagimsiz dogrulama."""
-CHAR = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5,
-        '6': 6, '7': 7, '8': 8, '9': 9}
-
 def deger(s, taban):
     t = 0
     for ch in s:
-        t = t * taban + CHAR[ch]
+        t = t * taban + int(ch)
     return t
 
 def gecerli(s, taban):
-    return all(CHAR[ch] < taban for ch in s)
+    return all(int(ch) < taban for ch in s)
 
 TABANLAR = [2, 8, 10, 16]
 kayitlar = {'A': '17', 'B': '21', 'C': '10001'}
@@ -23,7 +18,6 @@ for k, s in kayitlar.items():
         else:
             print(f"  taban {b:2d} GECERSIZ")
 
-# Ortak deger ara
 coz = []
 for ba in TABANLAR:
     if not gecerli('17', ba):
@@ -41,7 +35,6 @@ print(f"\nOrtak cozum sayisi: {len(coz)}")
 for va, ba, bb, bc in coz:
     print(f"  deger={va}: A taban {ba}, B taban {bb}, C taban {bc}")
 
-# Gorev 5: uc kayit da '10' olsaydi
 print("\n'10' analizi:")
 for b in TABANLAR:
     print(f"  10_{b} = {deger('10', b)}")

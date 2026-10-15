@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from fractions import Fraction
 import math
 
@@ -13,19 +12,17 @@ print(f"Tam kısım için gereken bit: 2^{tam_bit} - 1 = {2**tam_bit - 1} >= 100
 toplam_bit = tam_bit + 3
 print(f"Toplam bit sayısı = {toplam_bit}")
 
-# 12 bit yeterli mi?
-max_val_12 = (2**9 - 1) + float(Fraction(7, 8))
+max_val_12 = (2**9 - 1) + 7/8
 print(f"12 bit - en büyük değer: {max_val_12} (1000'den küçük mü: {max_val_12 < 1000})")
 
-durum_sayisi = int(1000 / 0.125) + 1
+durum_sayisi = 1000 * 8 + 1
 print(f"Gereken değer sayısı: {durum_sayisi}; 12 bit ile: {2**12} (Yeterli mi: {2**12 >= durum_sayisi})")
 
-# 10 tam bit ve 3 kesir biti
 def to_q10_3(val):
     tam = int(val)
     kesir = val - tam
     tam_bin = format(tam, '010b')
-    kesir_val = int(round(kesir * 8))
+    kesir_val = round(kesir * 8)
     kesir_bin = format(kesir_val, '03b')
     return f"{tam_bin}.{kesir_bin}"
 

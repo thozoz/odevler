@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-"""Deney Yapragi 7 bagimsiz dogrulama."""
 baslangic = 173
 print(f"Baslangic: {baslangic} = {format(baslangic, '08b')} = {format(baslangic, '02X')}")
 for k in range(7, -1, -1):

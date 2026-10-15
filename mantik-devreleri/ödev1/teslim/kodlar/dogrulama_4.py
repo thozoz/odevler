@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from fractions import Fraction
 
 print("=== DENEY YAPRAĞI 4 DOĞRULAMA ===")
@@ -8,7 +7,7 @@ sayilar = [Fraction(625, 1000), Fraction(1, 10), Fraction(65, 100), Fraction(975
 for s in sayilar:
     bits = []
     rem = s
-    for _ in range(12):
+    for _ in range(9):
         rem *= 2
         b = int(rem)
         bits.append(b)
@@ -18,11 +17,9 @@ for s in sayilar:
     val_trunc = sum(b8_trunc[i] * Fraction(1, 2**(i+1)) for i in range(8))
     err_trunc = abs(s - val_trunc)
 
-    # Dokuzuncu bit 1 ise yukarı yuvarla, tam ortadaysa büyük olanı seç.
     b9 = bits[8]
     rem_after_8 = s - val_trunc
-    half_lsb = Fraction(1, 2**9)
-    if rem_after_8 >= half_lsb:
+    if rem_after_8 >= Fraction(1, 2**9):
         val_round = val_trunc + Fraction(1, 2**8)
     else:
         val_round = val_trunc

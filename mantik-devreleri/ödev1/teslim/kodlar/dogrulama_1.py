@@ -1,12 +1,9 @@
-"""Deney 1: sayi_donusturucu.py sonuçlarının ayrı kontrolü."""
-
 from fractions import Fraction
 
 from sayi_donusturucu import GirdiHatasi, sayi_donustur
 
 
 def onluk_deger(metin, taban):
-    """Dönüştürücünün hesabından bağımsız olarak onluk değeri bul."""
     tam, nokta, kesir = metin.partition(".")
     deger = Fraction(int(tam or "0", taban))
     if nokta and kesir:
@@ -14,7 +11,6 @@ def onluk_deger(metin, taban):
     return deger
 
 
-# Girdi, kaynak taban, hedef taban, beklenen çıktı, kesin mi?
 ornekler = [
     ("101101.01101", 2, 16, "2D.68", True),
     ("2D.68", 16, 8, "55.32", True),
@@ -38,7 +34,6 @@ for girdi, kaynak, hedef, beklenen, kesin in ornekler:
     if kesin:
         assert gercek == bulunan, girdi
     else:
-        # Sekiz basamakta kesildiği için hata negatif olamaz ve 1 basamaktan küçüktür.
         assert 0 < gercek - bulunan < Fraction(1, hedef ** 8), girdi
     print(f"{girdi} ({kaynak}) -> {sonuc['sonuc']} ({hedef}): doğru")
 
