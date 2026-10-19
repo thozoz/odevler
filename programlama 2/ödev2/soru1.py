@@ -23,20 +23,22 @@ print("Ortak elemanlar:", ortaklar)
 
 birlesik = dizi1 + dizi2
 son_dizi = []
+son_uzunluk = 0
 
 for eleman in birlesik:
     if eleman not in ortaklar:
         son_dizi.append(eleman)
+        son_uzunluk += 1
 
 print("Birleşmiş dizi:", birlesik)
 print("Ortaklar çıkarılmış dizi:", son_dizi)
 
 i = 0
 
-while i < len(son_dizi) - 1:
+while i < son_uzunluk - 1:
     j = 0
 
-    while j < len(son_dizi) - 1 - i:
+    while j < son_uzunluk - 1 - i:
         if son_dizi[j] > son_dizi[j + 1]:
             gecici = son_dizi[j]
             son_dizi[j] = son_dizi[j + 1]
