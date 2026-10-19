@@ -1,15 +1,13 @@
-metin = "Merhaba dünya"
+metin = "Merhaba dünya" #sesli harf kontrolü yapılacak metin
 
-sesliler = "aeıioöuüAEIİOÖUÜ"
+sesliler = "aeıioöuüAEIİOÖUÜ" #sesli harfler listesi (kontrol için)
 
-uzunluk = 13
-sayi = 0
-i = 0
+uzunluk = 13 #dizi uzunluğu
+sesli_sayi = 0 #sesli harf sayan sayaç
 
-while i < uzunluk:
-    if metin[i] in sesliler:
-        sayi += 1
+for i in range(uzunluk): #metin dizisi içindeki her harfi aramak için metindeki harf sayısı kadar döngü
+    if metin[i] in sesliler: #metindeki her harf sıra sıra denenir döngü sayesinde. eğer bir harf sesliler dizisinde de varsa
+        sesli_sayi += 1 #sesli harf bulundugundan sayaç 1 artar
 
-    i += 1
-
-print("Sesli harf sayısı:", sayi)
+#kaç tane sesli harf yazdıran sayaç
+print("Sesli harf sayısı:", sesli_sayi)
