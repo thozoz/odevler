@@ -15,3 +15,6 @@ for harf in cumle + " ": #cümle sonuna boşluk ekledik ki son kelimenin sonunda
 
 #bulduğumuz en uzun kelimeyi yazdırma
 print("En uzun kelime:", en_uzun)
+
+
+
