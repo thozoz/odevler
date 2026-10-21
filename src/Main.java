@@ -1,18 +1,22 @@
 public class Main {
+    public static int diziTopla(int[] dizi, int boyut) {
+        int toplam = 0;
+        try {
+            for (int i = 0; i < boyut; i++) {
+                toplam += dizi[i];
+            }
+        } catch (ArrayIndexOutOfBoundsException error) {
+            System.out.println("Hatalı boyut girildi!");
+        }
+        return toplam;
+    }
+
     public static void main(String[] args) {
-        Employee calisan = new Employee("Yazilim", "Ahmet Yilmaz", 50000);
-        Manager mudur = new Manager("Yazilim", "Mehmet Demir", 80000, 15000);
 
-        calisan.riseSalary(5000);
-        mudur.riseSalary(10000);
 
-        calisan.showInfos();
-
+        int[] dizi = {1, 2, 3, 4, 5};
         System.out.println();
-
-        mudur.showInfos();
-
-        System.out.println();
-        System.out.println("Toplam calisan sayisi: " + Employee.getNumberOfEmployees());
+        System.out.println("Toplam: " + diziTopla(dizi, 3));
+        System.out.println("Toplam: " + diziTopla(dizi, 10));
     }
 }
