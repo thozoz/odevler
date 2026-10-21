@@ -1,22 +1,19 @@
 public class Main {
-    public static int diziTopla(int[] dizi, int boyut) {
-        int toplam = 0;
-        try {
-            for (int i = 0; i < boyut; i++) {
-                toplam += dizi[i];
+
+    public static void gecersizNumaralariGoster(String[] dizi) {
+        System.out.println("Biçimi uygun olmayan numaralar:");
+
+        for (String eleman : dizi) {
+            try {
+                Integer.parseInt(eleman);
+            } catch (NumberFormatException error) {
+                System.out.println("- " + eleman);
             }
-        } catch (ArrayIndexOutOfBoundsException error) {
-            System.out.println("Hatalı boyut girildi!");
         }
-        return toplam;
     }
 
     public static void main(String[] args) {
-
-
-        int[] dizi = {1, 2, 3, 4, 5};
-        System.out.println();
-        System.out.println("Toplam: " + diziTopla(dizi, 3));
-        System.out.println("Toplam: " + diziTopla(dizi, 10));
+        String[] dizi = {"1", "6", "1g", "10", "d"};
+        gecersizNumaralariGoster(dizi);
     }
 }
