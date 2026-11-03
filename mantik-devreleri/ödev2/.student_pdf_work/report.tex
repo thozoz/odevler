@@ -1,0 +1,197 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.95cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+\setmainfont{Arial}
+\setsansfont{Arial}
+\setmonofont{Consolas}[Scale=0.92]
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+\titlespacing*{\section}{0pt}{10pt}{4pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE Mantık Devreleri - Ödev 2}\\[5pt]
+    {\large Deney yaprakları 1-4}\\[8pt]
+    {\normalsize Efe Özan - 170425062}\\[4pt]
+    {\normalsize 29.10.2026}
+\end{center}
+\vspace{2pt}
+
+Deneylerin hesapları ve ara kayıtları burada. Her deneyin programı ve doğrulama kodu \texttt{kodlar/} klasöründedir:
+\texttt{ikili\_toplayici.py}, \texttt{ikili\_cikarici.py}, \texttt{ikili\_carpici.py}, \texttt{ikili\_bolucu.py} ve \texttt{dogrulama\_1..4.py}.
+
+\section*{Deney 1 - Elde adımlarını gösteren ikili toplayıcı}
+
+\textbf{1.} Bir sütunda iki bit ($a_i, b_i$) ve gelen elde ($c_{\text{in}}$) toplandığında sonuç biti $s_i = a_i \oplus b_i \oplus c_{\text{in}}$, çıkan elde $c_{\text{out}}$ ise en az iki giriş 1 olduğunda 1 olur. Sağdan sola çalışan algoritmayı \texttt{ikili\_toplayici.py} içinde kodladım.
+
+\begin{center}
+\small
+\begin{tabular}{ccccc}
+\toprule
+$a_i$ & $b_i$ & Gelen elde ($c_{\text{in}}$) & Sonuç biti ($s_i$) & Çıkan elde ($c_{\text{out}}$) \\
+\midrule
+\texttt{0} & \texttt{0} & \texttt{0} & \texttt{0} & \texttt{0} \\
+\texttt{0} & \texttt{0} & \texttt{1} & \texttt{1} & \texttt{0} \\
+\texttt{0} & \texttt{1} & \texttt{0} & \texttt{1} & \texttt{0} \\
+\texttt{0} & \texttt{1} & \texttt{1} & \texttt{0} & \texttt{1} \\
+\texttt{1} & \texttt{0} & \texttt{0} & \texttt{1} & \texttt{0} \\
+\texttt{1} & \texttt{0} & \texttt{1} & \texttt{0} & \texttt{1} \\
+\texttt{1} & \texttt{1} & \texttt{0} & \texttt{0} & \texttt{1} \\
+\texttt{1} & \texttt{1} & \texttt{1} & \texttt{1} & \texttt{1} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{2.} Dört işlemi programdan önce hesapladım: \texttt{0101 + 0011} ($c_0=0$) $\rightarrow$ \texttt{1000} elde \texttt{0} (8); \texttt{1111 + 0001} ($c_0=0$) $\rightarrow$ \texttt{0000} elde \texttt{1} (16); \texttt{1111 + 0000} ($c_0=1$) $\rightarrow$ \texttt{0000} elde \texttt{1} (16); \texttt{1111 + 1111} ($c_0=1$) $\rightarrow$ \texttt{1111} elde \texttt{1} (31). Programın ürettiği sütun kayıtları (\texttt{a\_i,b\_i,c\_in -> s\_i,c\_out}):
+
+\begin{center}
+\small
+\begin{tabular}{lccccccr}
+\toprule
+İşlem & Sütun 0 (1) & Sütun 1 (2) & Sütun 2 (4) & Sütun 3 (8) & Toplam & Son elde & Onlu \\
+\midrule
+\texttt{0101+0011} ($c_0=0$) & \texttt{1,1,0->0,1} & \texttt{0,1,1->0,1} & \texttt{1,0,1->0,1} & \texttt{0,0,1->1,0} & \texttt{1000} & \texttt{0} & 8 \\
+\texttt{1111+0001} ($c_0=0$) & \texttt{1,1,0->0,1} & \texttt{1,0,1->0,1} & \texttt{1,0,1->0,1} & \texttt{1,0,1->0,1} & \texttt{0000} & \texttt{1} & 16 \\
+\texttt{1111+0000} ($c_0=1$) & \texttt{1,0,1->0,1} & \texttt{1,0,1->0,1} & \texttt{1,0,1->0,1} & \texttt{1,0,1->0,1} & \texttt{0000} & \texttt{1} & 16 \\
+\texttt{1111+1111} ($c_0=1$) & \texttt{1,1,1->1,1} & \texttt{1,1,1->1,1} & \texttt{1,1,1->1,1} & \texttt{1,1,1->1,1} & \texttt{1111} & \texttt{1} & 31 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{3.} Dört bitlik bütün $16 \times 16 \times 2 = 512$ testi denedim. Hepsinde 4 bitlik çıktının değeri ile $\text{son\_elde} \times 16$ toplamı referans onlu toplamla birebir aynı çıktı (\textbf{512/512 doğru}; 256 testte son elde 0, 256 testte 1).
+
+\textbf{4.} Boş girdi (\texttt{""}), \texttt{0/1} dışındaki karakter (\texttt{"0121"}), farklı uzunluk (\texttt{"0101"} ve \texttt{"11"}) ve geçersiz başlangıç eldesi hata veriyor. $n$ bitlik toplamada son elde $n$. basamağa karşılık geldiği için ağırlığı $\mathbf{2^n}$'dir; yok saymak toplamdan $\mathbf{2^n}$ kaybettirir. Sınır örneği: $n=4$ için \texttt{1111 + 0001} işleminde son elde (\texttt{1}) atılırsa 16 yerine \texttt{0000} (0) kalır ve $2^4 = 16$ kaybedilir.
+
+\textbf{YZ önerisi değerlendirmem (Deney 1):} YZ'nin verdiği tam toplayıcı tablosunu ve sağdan sola döngü yapısını 4 zorunlu işlemde kağıt üzerinde adım adım takip ederek doğruladım.
+
+\newpage
+
+\section*{Deney 2 - Borç alma ve 2 tümleyeniyle çıkarma}
+
+\textbf{1.} \texttt{ikili\_cikarici.py} içinde birbirini çağırmayan iki ayrı fonksiyon yazdım:
+\begin{itemize}
+    \item \textbf{Borç alarak çıkarma (\texttt{borc\_alarak\_cikar}):} Sağdan sola tam çıkarıcı tablosuyla ilerler. Son borç \texttt{0} ise fark pozitiftir (\texttt{0000} ise sıfırdır). Son borç \texttt{1} ise $M < N$ olduğu için büyüklük $N - M$ borç zinciriyle bulunur ve başına \texttt{-} konur.
+    \item \textbf{2 tümleyeniyle çıkarma (\texttt{iki\_tumleyeniyle\_cikar}):} $N$'nin bitlerini tersleyip ($\sim N$) başlangıç eldesi $c_0 = 1$ ile $M + \sim N + 1$ toplamını yapar. Toplam \texttt{0000} ise sıfır olarak ayrılır. Son elde \texttt{1} ise sonuç pozitif (\texttt{ham\_toplam}), son elde \texttt{0} ise sonuç negatiftir ve \texttt{ham\_toplam}'ın 2 tümleyeni alınarak \texttt{-büyüklük} yazılır.
+\end{itemize}
+
+\textbf{2.} Beş zorunlu işlemin iki yöntemle çözümü ve ara kayıtları (borç ve elde zincirleri sağdan sola, yani sütun $0\rightarrow 3$ sırasıyla verilmiştir):
+
+\begin{center}
+\small
+\begin{tabular}{lccccccccl}
+\toprule
+İşlem & Ham fark & Borç (sütun 0$\rightarrow$3) & S.Borç & $\sim N$ & 4b $(-N)$ & Ham top. & Elde (sütun 0$\rightarrow$3) & S.Elde & Sonuç \\
+\midrule
+\texttt{1110 - 0011} & \texttt{1011} & \texttt{1,1,0,0} & \texttt{0} & \texttt{1100} & \texttt{1101} & \texttt{1011} & \texttt{0,0,1,1} & \texttt{1} & \texttt{1011} (11) \\
+\texttt{0011 - 1110} & \texttt{0101} & \texttt{0,0,1,1} & \texttt{1} & \texttt{0001} & \texttt{0010} & \texttt{0101} & \texttt{1,1,0,0} & \texttt{0} & \texttt{-1011} (-11) \\
+\texttt{1000 - 0001} & \texttt{0111} & \texttt{1,1,1,0} & \texttt{0} & \texttt{1110} & \texttt{1111} & \texttt{0111} & \texttt{0,0,0,1} & \texttt{1} & \texttt{0111} (7) \\
+\texttt{0101 - 0101} & \texttt{0000} & \texttt{0,0,0,0} & \texttt{0} & \texttt{1010} & \texttt{1011} & \texttt{0000} & \texttt{1,1,1,1} & \texttt{1} & \texttt{0000} (0) \\
+\texttt{0011 - 0000} & \texttt{0011} & \texttt{0,0,0,0} & \texttt{0} & \texttt{1111} & \texttt{0000} & \texttt{0011} & \texttt{1,1,1,1} & \texttt{1} & \texttt{0011} (3) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{3.} 0--15 aralığındaki \textbf{256 operand çiftinin} tamamında iki yöntem de onlu referans farkla aynı sonucu verdi (\textbf{256/256 doğru}).
+
+\textbf{4.} Sıfırın (\texttt{0000}) 4-bit genişlikte 2 tümleyeni $\sim\texttt{0000} + 1 = \texttt{1111} + 1 = (1)\texttt{0000} \rightarrow \texttt{0000}$'dır. Sabit 4-bit 2 tümleyeniyle $M + \texttt{0000}$ toplandığında \texttt{son\_elde = 0} çıkar. En küçük karşı örnek $\mathbf{M = 0000, N = 0000}$ (sonuç 0) ve pozitif karşı örnek $\mathbf{M = 0001, N = 0000}$ (sonuç $+1$, negatif değil). Karar kuralı: $M + \sim N + 1$ kullanıldığında $\text{son\_elde}=1 \implies M \ge N$, $\text{son\_elde}=0 \implies M < N$ olur; 4-bit tümleyen kullanılırsa \texttt{son\_elde == 1 veya N == 0000} kontrol edilmeli ve \texttt{0000} çıktısı işaretsiz sıfır yapılmalıdır.
+
+\textbf{YZ önerisi değerlendirmem (Deney 2):} YZ'nin önerdiği iki yöntemi 256 testte onlu referansla karşılaştırarak doğruladım; $N=\texttt{0000}$ sınır durumunu elle hesapladım.
+
+\section*{Deney 3 - Kısmi çarpımlarla ikili çarpıcı}
+
+\textbf{1.} Çarpanın sağdan $i$. biti $b_i$ için $n$ bitlik kısmi çarpım ($b_i=1$ ise $A$, $b_i=0$ ise $0^n$) sola $i$ basamak kaydırılır; sağına $i$ sıfır, soluna da toplam uzunluğu $n+m$ yapmak için $m-i$ sıfır eklenir. Kısmi çarpımları hazır çarpma kullanmadan bit düzeyi toplayıcıyla birleştirdim.
+
+\textbf{2.} Üç zorunlu çarpım için $n+m$ bitlik hizalı kısmi çarpımlar ve onlu katkıları:
+\begin{itemize}
+    \item \textbf{\texttt{1011 x 101}} ($11 \times 5 = 55$, $4+3=7$ bit): $i=0, b_0=1 \rightarrow \texttt{0001011}$ (11); $i=1, b_1=0 \rightarrow \texttt{0000000}$ (0); $i=2, b_2=1 \rightarrow \texttt{0101100}$ (44) $\rightarrow$ Toplam: \textbf{\texttt{0110111}} ($11 + 0 + 44 = \mathbf{55}$).
+    \item \textbf{\texttt{10111 x 110}} ($23 \times 6 = 138$, $5+3=8$ bit): $i=0, b_0=0 \rightarrow \texttt{00000000}$ (0); $i=1, b_1=1 \rightarrow \texttt{00101110}$ (46); $i=2, b_2=1 \rightarrow \texttt{01011100}$ (92) $\rightarrow$ Toplam: \textbf{\texttt{10001010}} ($0 + 46 + 92 = \mathbf{138}$).
+    \item \textbf{\texttt{11001 x 1010}} ($25 \times 10 = 250$, $5+4=9$ bit): $i=0, b_0=0 \rightarrow \texttt{000000000}$ (0); $i=1, b_1=1 \rightarrow \texttt{000110010}$ (50); $i=2, b_2=0 \rightarrow \texttt{000000000}$ (0); $i=3, b_3=1 \rightarrow \texttt{011001000}$ (200) $\rightarrow$ Toplam: \textbf{\texttt{011111010}} ($0 + 50 + 0 + 200 = \mathbf{250}$).
+\end{itemize}
+
+\newpage
+
+\textbf{3.} Sekiz test ve sıfır kısmi çarpımları atlayan 2. sürümle karşılaştırma (Sayım kuralı: başlangıç akümülatörü $0^{n+m}$ alınır; \textbf{Sürüm 1 her satır için 1 kez, toplamda $m$ kez} toplayıcıyı çağırır; \textbf{Sürüm 2 yalnız $b_i=1$ olan satırlar için 1 kez, toplamda birlerin sayısı kadar} çağırır):
+
+\begin{center}
+\small
+\begin{tabular}{clllrrr}
+\toprule
+\# & Senaryo & İşlem & Çıktı ($n+m$ bit) & Onlu & Sürüm 1 Çağrı & Sürüm 2 Çağrı \\
+\midrule
+1 & Zorunlu 1 ($11 \times 5$) & \texttt{1011 x 101} & \texttt{0110111} & 55 & 3 & 2 \\
+2 & Zorunlu 2 ($23 \times 6$) & \texttt{10111 x 110} & \texttt{10001010} & 138 & 3 & 2 \\
+3 & Zorunlu 3 ($25 \times 10$) & \texttt{11001 x 1010} & \texttt{011111010} & 250 & 4 & 2 \\
+4 & Çarpan sıfır ($13 \times 0$) & \texttt{1101 x 000} & \texttt{0000000} & 0 & 3 & 0 \\
+5 & Çarpan bir ($13 \times 1$) & \texttt{1101 x 001} & \texttt{0001101} & 13 & 3 & 1 \\
+6 & Çarpan $2$'nin kuvveti ($11 \times 8$) & \texttt{1011 x 1000} & \texttt{01011000} & 88 & 4 & 1 \\
+7 & Çarpan tüm bitleri 1 ($15 \times 7$) & \texttt{1111 x 111} & \texttt{1101001} & 105 & 3 & 3 \\
+8 & Çarpılan 0, çarpan tüm 1 ($0 \times 15$) & \texttt{0000 x 1111} & \texttt{00000000} & 0 & 4 & 4 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{4.} En büyük $n$ ve $m$ bitlik sayıların çarpımı $(2^n - 1)(2^m - 1) = 2^{n+m} - 2^n - 2^m + 1 < 2^{n+m} - 1$ olduğundan sonuç her zaman $\mathbf{n+m}$ \textbf{bit} içine sığar. $n+m-1$ bitin yetmediğine karşı örnek: $n=2, m=2$ için \texttt{11 x 11 = 1001} ($3 \times 3 = 9$, 4 bit); $n+m-1 = 3$ bit en çok \texttt{111} (7) tutabilir.
+
+\textbf{YZ önerisi değerlendirmem (Deney 3):} YZ'nin önerdiği sol/sağ sıfır doldurma kuralını ($m-i$ sol sıfır, $i$ sağ sıfır) \texttt{1011 x 101} işleminde satırların onlu katkılarını ($11 + 0 + 44 = 55$) toplayarak doğruladım.
+
+\section*{Deney 4 - Bölüm kalan ve kesirli bölme algoritması}
+
+\textbf{1.} Bitleri soldan sağa işleyen bölme algoritmasını hazır bölme/kalan kullanmadan \texttt{ikili\_bolucu.py} içinde yazdım. Sıfır bölen (\texttt{0} veya \texttt{000}) açık hata (\texttt{SifiraBolmeHatasi}) olarak reddedilir. Her adımda incelenen parça bölenle karşılaştırılır; büyük/eşitse bölüm biti \texttt{1} yazılıp fark alınır, küçükse \texttt{0} yazılıp parça korunur.
+
+\textbf{2-3.} Üç zorunlu işlemin tam bölüm $Q$, kalan $R$, adım kayıtları ve kesirli sonuçları:
+
+\begin{center}
+\small
+\begin{tabular}{lllllll}
+\toprule
+İşlem & Bölüm $Q$ & Kalan $R$ & $D = Q \times d + R$ & $0 \le R < d$ & Kesirli sonuç & Tekrar eden kalan \\
+\midrule
+\texttt{10110 $\div$ 100} & \texttt{101} (5) & \texttt{10} (2) & $22 = 5 \times 4 + 2$ & $0 \le 2 < 4$ & \texttt{= 101.1} (5.5) & Yok (1. adımda 0) \\
+\texttt{1101 $\div$ 10} & \texttt{110} (6) & \texttt{1} (1) & $13 = 6 \times 2 + 1$ & $0 \le 1 < 2$ & \texttt{= 110.1} (6.5) & Yok (1. adımda 0) \\
+\texttt{111 $\div$ 11} & \texttt{10} (2) & \texttt{1} (1) & $7 = 2 \times 3 + 1$ & $0 \le 1 < 3$ & \texttt{$\approx$ 10.01010101} & \texttt{10, 1, 10, 1...} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+    \item \textbf{Tam bölme adımları (\texttt{incelenen -> q\_biti, kalan}):}
+    \texttt{10110 $\div$ 100}: \texttt{1->0,1} $|$ \texttt{10->0,10} $|$ \texttt{101->1,1} $|$ \texttt{11->0,11} $|$ \texttt{110->1,10}. \;
+    \texttt{1101 $\div$ 10}: \texttt{1->0,1} $|$ \texttt{11->1,1} $|$ \texttt{10->1,0} $|$ \texttt{1->0,1}. \;
+    \texttt{111 $\div$ 11}: \texttt{1->0,1} $|$ \texttt{11->1,0} $|$ \texttt{1->0,1}.
+    \item \textbf{İki koşulun gerekliliği:} Sadece $D = Q \times d + R$ kontrol edilirse $22 \div 4$ için $Q=4, R=6$ ($4 \times 4 + 6 = 22$) gibi bölmenin bitmediği yanlış sonuçlar geçer; sadece $0 \le R < d$ kontrol edilirse $Q=0, R=2$ gibi bölüneni vermeyen sonuçlar geçer. İkisi birlikte $(Q, R)$ çiftini tekil yapar.
+    \item \textbf{Durma koşulları (\texttt{111 $\div$ 11}):} Tam bölme bölünenin 3 biti bitince durur ($Q=\texttt{10}, R=\texttt{1}$). Kesirli bölme ise kalan \texttt{0} olunca (\texttt{=}) veya kalan sıfırlanmadan 8 kesir basamağı dolunca (\texttt{$\approx$}) durur; \texttt{111 $\div$ 11}'de kalanlar \texttt{1} ve \texttt{10} arasında sonsuz döngüye girdiği için 8. basamakta \texttt{$\approx$ 10.01010101} olarak kesilmiştir.
+\end{itemize}
+
+\textbf{4.} Sınır testleri (Beklenen ve Gözlenen karşılaştırması) ve ara sıfır bitinin yanlış atılması örneği:
+
+\begin{center}
+\small
+\begin{tabular}{lllll}
+\toprule
+Sınır Senaryosu & İşlem & Beklenen Sonuç & Gözlenen Sonuç & Durum \\
+\midrule
+Sıfır bölünen & \texttt{0000 $\div$ 101} & $Q=\texttt{0}, R=\texttt{0}$, Kesirli \texttt{= 0} & $Q=\texttt{0}, R=\texttt{0}$, Kesirli \texttt{= 0} & Eşleşti \\
+Bölünenden büyük bölen & \texttt{011 $\div$ 110} & $Q=\texttt{0}, R=\texttt{11}$, Kesirli \texttt{= 0.1} & $Q=\texttt{0}, R=\texttt{11}$, Kesirli \texttt{= 0.1} & Eşleşti \\
+Eşit operandlar & \texttt{101 $\div$ 101} & $Q=\texttt{1}, R=\texttt{0}$, Kesirli \texttt{= 1} & $Q=\texttt{1}, R=\texttt{0}$, Kesirli \texttt{= 1} & Eşleşti \\
+Ara sıfır bitli bölüm & \texttt{1010 $\div$ 10} & $Q=\texttt{101}, R=\texttt{0}$, Kesirli \texttt{= 101} & $Q=\texttt{101}, R=\texttt{0}$, Kesirli \texttt{= 101} & Eşleşti \\
+Sıfır bölen & \texttt{101 $\div$ 000} & Hata (\texttt{SifiraBolmeHatasi}) & Hata (\texttt{SifiraBolmeHatasi}) & Eşleşti \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Ara sıfır bitini yakalayan örnek ve YZ değerlendirmem (Deney 4):} \texttt{1010 $\div$ 10} ($10 \div 2 = 5$) işleminde 3. adımda parça \texttt{1 < 10} olduğu için bölüme \texttt{0} yazılmalıdır ($Q=\texttt{101}=5, R=\texttt{0}$); bu sıfır biti yanlışlıkla atılırsa bölüm \texttt{11} (3) çıkar ve $3 \times 2 + 0 = 6 \ne 10$ kontrolüyle yakalanır. YZ'nin önerdiği kesir döngüsünü de \texttt{111 $\div$ 11} işleminde kalanların \texttt{10} ve \texttt{1} diye tekrar etmesini elle takip ederek doğruladım.
+
+\end{document}
