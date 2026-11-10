@@ -1,0 +1,164 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=1.90cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{fontspec}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+\IfFontExistsTF{Arial}{
+    \setmainfont{Arial}
+    \setsansfont{Arial}
+}{
+    \setmainfont{Liberation Sans}
+    \setsansfont{Liberation Sans}
+}
+
+\IfFontExistsTF{Consolas}{
+    \setmonofont{Consolas}[Scale=0.92]
+}{
+    \setmonofont{Liberation Mono}[Scale=0.92]
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+\titlespacing*{\section}{0pt}{9pt}{3pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE Mantık Devreleri - Ödev 3}\\[4pt]
+    {\large Ders 5 / Kodlama (Deney Yaprakları 1--4)}\\[6pt]
+    {\normalsize Efe Özan - 170425062}\\[3pt]
+    {\normalsize 10.11.2026}
+\end{center}
+\vspace{1pt}
+
+Bu belgede Ders 5 Deney Yaprakları 1--4 kapsamındaki kuramsal analizler, hesaplama tabloları ve doğrulama kayıtları yer almaktadır. Laboratuvar programları ve otomatik doğrulama betikleri \texttt{kodlar/} dizinindedir:
+\texttt{rakam\_donusturucu.py}, \texttt{gray\_donusturucu.py}, \texttt{bes\_bit\_ve\_eslik.py}, \texttt{karakter\_ve\_barkod.py} ve \texttt{dogrulama\_1..4.py}.
+
+\section*{Deney 1 - BCD, Artı-3 ve Aiken Rakam Dönüştürücüsü}
+
+\textbf{1.} Üç kod türü (8421 BCD, Artı-3 ve Standart Aiken 2421) için kodlayıcı ve çözümleyici \texttt{rakam\_donusturucu.py} içinde tasarlandı. Artı-3 her rakama 3 ekleyerek ($d+3$), Aiken ise kendinden tümleyen standart sözlükle kodlama yapar. Boş girdi, '0'--'9' dışı karakter, 4'ün katı olmayan bit uzunluğu ve sözlük dışı 4-bitlik sözcükler gerekçeli hata fırlatarak (\texttt{ValueError}) reddedilir.
+
+\textbf{2.} Zorunlu dönüşüm testleri ve 263 sayısı analizi:
+\begin{itemize}
+    \item \textbf{48 ve 003 dönüşümleri:} \texttt{48} dizisi BCD ile \texttt{0100 1000}, Artı-3 ile \texttt{0111 1011}, Aiken ile \texttt{0100 1110} olarak kodlandı. \texttt{003} dizisi BCD ile \texttt{0000 0000 0011}, Artı-3 ile \texttt{0011 0011 0110}, Aiken ile \texttt{0000 0000 0011} olarak kodlandı ve baştaki sıfırlar aynen korundu. Çözümleyiciler her iki diziyi de kayıpsız geri çözdü.
+    \item \textbf{263'ün Saf İkili vs BCD Karşılaştırması:} Onlu 263'ün saf ikili gösterimi $263_{10} = 256 + 4 + 2 + 1 = \mathbf{100000111_2}$ (9 bit) iken BCD gösterimi her basamağa 4 bit ayrılarak $\mathbf{0010\ 0110\ 0011_{BCD}}$ (\textbf{12 bit}) olur (BCD \%33.3 daha fazla alan harcar). Bu 12 bitlik BCD deseni saf ikili olarak okunursa $2^9 + 2^6 + 2^5 + 2^1 + 2^0 = 512 + 64 + 32 + 2 + 1 = \mathbf{611_{10}}$ değerine karşılık gelir ve veri tamamen yanlış anlaşılır.
+\end{itemize}
+
+\textbf{3.} 16 adet 4-bit desenin taranması ve Aiken 0101 vs 1011 karşılaştırması:
+\begin{itemize}
+    \item \textbf{BCD (8421):} 10 geçerli (\texttt{0000}--\texttt{1001}), 6 geçersiz (\texttt{1010}--\texttt{1111}).
+    \item \textbf{Artı-3:} 10 geçerli (\texttt{0011}--\texttt{1100}), 6 geçersiz (\texttt{0000}--\texttt{0010} ve \texttt{1101}--\texttt{1111}).
+    \item \textbf{Standart Aiken (2421):} 10 geçerli (\texttt{0000, 0001, 0010, 0011, 0100, 1011, 1100, 1101, 1110, 1111}), 6 geçersiz (\texttt{0101, 0110, 0111, 1000, 1001, 1010}).
+    \item \textbf{Ağırlıklı Toplam Kanıtı Yetersizliği:} Aiken'de \texttt{0101} ve \texttt{1011} desenlerinin ikisinin de $2421$ ağırlık toplamı $0\cdot 2 + 1\cdot 4 + 0\cdot 2 + 1\cdot 1 = \mathbf{5}$ ve $1\cdot 2 + 0\cdot 4 + 1\cdot 2 + 1\cdot 1 = \mathbf{5}$'tir. Ancak standart Aiken'de kendinden tümleyen (self-complementing) kuralı gereği 5 rakamı 4'ün (\texttt{0100}) 1 tümleyeni olan \texttt{1011} olarak sabitlenmiştir. \texttt{0101} sözlük dışıdır. Dolayısıyla ağırlıklı toplam tek başına geçerlilik kanıtı olamaz.
+\end{itemize}
+
+\textbf{4.} 9 Tümleyeni Analizi ve BCD Karşı Örneği:
+0--9 aralığındaki rakamların kod bitleri terslendiğinde (1 tümleyeni alındığında):
+\begin{itemize}
+    \item \textbf{Artı-3:} $d$ kodunun değeri $d+3$'tür. Bitleri terslemek $15 - (d+3) = 12 - d = (9-d) + 3$ verir. Bu tam olarak $9-d$ rakamının Artı-3 kodudur (\textbf{10/10 doğrulandı}).
+    \item \textbf{Aiken:} Simetrik sözlük tasarımıyla her $d \in \{0..4\}$ için tersi doğrudan $9-d \in \{5..9\}$ sözcüğüne eşittir (\textbf{10/10 doğrulandı}).
+    \item \textbf{BCD Karşı Örneği:} BCD kendinden tümleyen değildir (0/10). Örneğin $d=2$ için BCD = \texttt{0010}'dir. Bitleri terslendiğinde \texttt{1101} ($13_{10}$) elde edilir; bu sözcük BCD'de geçerli bir rakam bile değildir. $9 - 2 = 7$'nin gerçek BCD kodu ise \texttt{0111}'dir.
+\end{itemize}
+\textbf{YZ Önerisi Değerlendirmesi (Deney 1):} YZ'nin verdiği Aiken standart sözlük tablosunu ders notlarıyla ve \texttt{0101}'in geçersizliğiyle kağıt üzerinde tek tek doğruladım.
+
+\newpage
+
+\section*{Deney 2 - Gray Dönüştürücüsü ve Komşuluk Denetimi}
+
+\textbf{1.} \texttt{gray\_donusturucu.py} içinde XOR tabanlı iki yönlü algoritma kodlandı:
+\begin{itemize}
+    \item \textbf{İkili $\rightarrow$ Gray:} $g_{n-1} = b_{n-1}$; $g_i = b_{i+1} \oplus b_i$ ($i = n-2 \dots 0$). Giriş bit uzunluğu korunur.
+    \item \textbf{Gray $\rightarrow$ İkili:} $b_{n-1} = g_{n-1}$; $b_i = b_{i+1} \oplus g_i$ ($i = n-2 \dots 0$). Burada bir önceki adımda hesaplanmış olan ikili bit ($b_{i+1}$) kullanılır; hazır kütüphane fonksiyonu kullanılmamıştır.
+\end{itemize}
+
+\textbf{2.} 0--15 Tablosu, Ardışık Komşuluk ve Kapanış Analizi:
+0'dan 15'e kadar tüm 15 ardışık geçişte Hamming mesafesi tam 1'dir.
+\begin{itemize}
+    \item \textbf{15 $\rightarrow$ 0 Kapanışı:} 15'in Gray'i \texttt{1000}, 0'ın Gray'i \texttt{0000}'dır. Aralarında yalnız MSB ($2^3$) farklıdır (\textbf{Hamming mesafesi = 1}). 4 bitlik Gray kodu dairesel (cyclic) kapanışa sahiptir.
+    \item \textbf{9 $\rightarrow$ 0 Kapanışı (0--9 kesilmiş dizi):} 9'un Gray'i \texttt{1101}, 0'ın Gray'i \texttt{0000}'dır. 0., 2. ve 3. bitler olmak üzere tam \textbf{3 bit} farklıdır. Dizi kesilirse dairesel komşuluk özelliği bozulur.
+\end{itemize}
+
+\textbf{3.} Uzun Girdiler: \texttt{101110101} (9 bit) $\rightarrow$ Gray: \textbf{\texttt{111001111}} (9 bit) $\rightarrow$ Geri: \texttt{101110101}. \texttt{1000101} (7 bit) $\rightarrow$ Gray: \textbf{\texttt{1100111}} (7 bit) $\rightarrow$ Geri: \texttt{1000101}. Bit uzunluklarının korunduğu ve dönüşümün çift yönlü çalıştığı doğrulandı.
+
+\textbf{4.} Hatalı Ters Yöntem ve Karşı Örnek:
+Ters yönde önceki ikili bit yerine komşu Gray bitlerini XOR'layan hatalı formül ($b_i = g_{i+1} \oplus g_i$) 16 sözcüğün 12'sinde yanlış sonuç verir.
+\begin{itemize}
+    \item \textbf{Karşı Örnek (\texttt{1100}):} Onlu 8'in Gray kodu \texttt{1100}'dır. Doğru yöntem $b_3=1$, $b_2 = 1\oplus 1 = 0$, $b_1 = 0\oplus 0 = 0$, $b_0 = 0\oplus 0 = 0 \implies \mathbf{1000}$ üretir. Hatalı yöntem ise 1. adımda $b_2 = 1\oplus 1 = 0$, fakat 2. adımda $g_2 \oplus g_1 = 1 \oplus 0 = \mathbf{1}$ hesaplayarak ilk ayrışmayı $2^1$ basamağında yaşar ve hatalı olarak $\mathbf{1010}$ (10) üretir.
+    \item \textbf{Rastgele İki Gray Sözcüğü:} Gray kodu yalnız ardışık sayılarda tek bit farkı garanti eder. Örneğin 0 (\texttt{0000}) ile 2 (\texttt{0011}) arasında 2 bit; 0 (\texttt{0000}) ile 10 (\texttt{1111}) arasında 4 bit fark vardır.
+\end{itemize}
+\textbf{YZ Önerisi Değerlendirmesi (Deney 2):} YZ'nin Gray$\rightarrow$İkili algoritmasındaki önceki ikili biti kullanma kuralını \texttt{1100} örneğinde adım adım takip ederek doğruladım.
+
+\newpage
+
+\section*{Deney 3 - Beş Bitte İki Bir ve Eşlik Denetimi}
+
+\textbf{1.} \texttt{bes\_bit\_ve\_eslik.py} içinde iki denetleyici kuruldu:
+\begin{itemize}
+    \item \textbf{5'te 2 Denetleyicisi:} 5 bitlik sözcükte tam olarak iki adet 1 bulunmasını denetler. 11000'ın özel sıfır ataması gerekçesi: 7-4-2-1-0 ağırlıklarıyla 0 normalde \texttt{00000} (sıfır adet 1) verir. Ancak kodun güvenlik koşulu her sözcükte tam iki adet 1 bulunmasıdır. 11000'ın ağırlık toplamı $7+4=11$'dir ve 0--9 tekil rakamlarıyla çakışmaz; invariantı korumak için 0'a özel olarak \texttt{11000} atanmıştır.
+    \item \textbf{Eşlik Paketi Denetleyicisi:} 7 veri bitinin soluna $p$ eklenerek 8 bitlik paket oluşturulur. Çift eşlikte paketteki toplam 1 sayısı çift, tek eşlikte tek olmalıdır.
+\end{itemize}
+
+\textbf{2.} 5'te 2 Kodunda Hata Taramaları (50 ve 100 Deney):
+\begin{itemize}
+    \item \textbf{50 Tek Bit Hatası:} 10 geçerli sözcüğün her birinde 5 tek bit terslemesi sınandı. Her durumda 1 sayısı 1'e veya 3'e dönüştüğünden hataların \textbf{50/50'si (\%100)} saptandı, 0 hata kaçtı.
+    \item \textbf{100 İki Bit Hatası:} 10 sözcükte $\binom{5}{2}=10$ çift bit terslendi. İki adet 1'in 0 yapıldığı veya iki adet 0'ın 1 yapıldığı $4 \times 10 = \mathbf{40}$ hata saptandı. Ancak bir 1 ve bir 0'ın aynı anda terslendiği $6 \times 10 = \mathbf{60}$ hata (\%60) \textbf{KAÇTI}! Kaçan durumlarda 1 sayısı 2 kaldığı için paket başka bir geçerli rakama dönüştü (Örn: Rakam 0 (\texttt{11000}) 0. ve 2. bitler terslenirse \texttt{01100} yani Rakam 6 olur).
+\end{itemize}
+
+\textbf{3.} Eşlik Paketleri ve Hata Taramaları:
+\begin{itemize}
+    \item \texttt{1000011} (3 adet 1) $\rightarrow$ Çift eşlik paketi: \texttt{11000011} ($p=1$), Tek eşlik paketi: \texttt{01000011} ($p=0$).
+    \item \texttt{1000001} (2 adet 1) $\rightarrow$ Çift eşlik paketi: \texttt{01000001} ($p=0$), Tek eşlik paketi: \texttt{11000001} ($p=1$).
+    \item \textbf{Çift Eşlikli \texttt{11000011} Paketinde Hata Taraması:} 8 tek bit hatasının \textbf{8/8'i saptandı}. $\binom{8}{2}=28$ iki bit hatasının ise \textbf{28'i de KAÇTI (0/28 saptandı)}.
+    \item \textbf{Tek/Çift Tersleme Kuralı:} Tek sayıda bit hatası pariteyi tersler (daima saptanır); çift sayıda bit hatası pariteyi korur (daima kaçar).
+\end{itemize}
+
+\textbf{4.} Düzeltme Sınırı, Hata Yeri ve 01000 Analizi:
+Geçersiz \texttt{01000} deseninde yalnız tek bir 1 vardır. Tek bit hatası varsayımıyla olası özgün geçerli sözcükler: \texttt{11000} (0), \texttt{01100} (6), \texttt{01010} (5) ve \texttt{01001} (4)'dir (4 olası aday).
+\begin{itemize}
+    \item \textbf{Yalnızca $p$'nin Terslenmesi:} \texttt{11000011} paketinde yalnız $p$ biti 0 yapılırsa paket \texttt{01000011} olur ve eşlik alarmı verir. Ancak iletilen 7 veri biti tamamen sağlamdır!
+    \item \textbf{Kavramsal Ayrım:} \textit{Hata saptama} (paketin kuralsız olduğunu bilme) tek eşlikle mümkündür; ancak \textit{hatanın yerini bulma} (hangi bitin bozulduğunu bilme) ve \textit{düzeltme} için Hamming mesafesi en az 3 olan gelişmiş kodlar gerekir. Parite hatası verinin kendisinin bozulduğunu tek başına kanıtlamaz.
+\end{itemize}
+\textbf{YZ Önerisi Değerlendirmesi (Deney 3):} YZ'nin önerdiği kombinasyonel hata taramasını \texttt{11000}$\rightarrow$\texttt{01100} geçişinde bit bit takip ederek doğruladım.
+
+\newpage
+
+\section*{Deney 4 - Karakter Kodları ve Barkodun Bağımsız Doğrulanması}
+
+\textbf{1.} \texttt{karakter\_ve\_barkod.py} içinde H, E, L, P, boşluk ve 0--3 kümesini destekleyen ASCII ve EBCDIC (IBM-037) dönüştürücü kodlandı.
+\begin{itemize}
+    \item \texttt{HELP 2031} metninin ASCII karşılığı \texttt{48 45 4C 50 20 32 30 33 31}, EBCDIC karşılığı ise \texttt{C8 C5 D3 D7 40 F2 F0 F3 F1} olarak kodlandı ve kayıpsız geri çözüldü.
+    \item \textbf{H Karakterinin Bağımsız Ağırlık Denetimi:} ASCII kodu $48_{16} = 4\times 16^1 + 8\times 16^0 = 64+8 = \mathbf{72_{10}}$; ikili $01001000_2 = 2^6 + 2^3 = \mathbf{72_{10}}$. EBCDIC kodu $C8_{16} = 12\times 16^1 + 8\times 16^0 = 192+8 = \mathbf{200_{10}}$; ikili $11001000_2 = 2^7 + 2^6 + 2^3 = \mathbf{200_{10}}$ olarak tam doğrulandı.
+\end{itemize}
+
+\textbf{2.} Çapraz Çözüm ve Üst Bit (MSB) Yöntemi Yetersizliği:
+\texttt{48 45 4C 50} EBCDIC ile ve \texttt{C8 C5 D3 D7} ASCII ile çözülmeye çalışıldığında geçersiz bayt hatası fırlatılarak reddedildi.
+\begin{itemize}
+    \item \textbf{Üst Bit Neden Yetmez?} H harfinde tesadüfen ASCII ($01001000$) ile EBCDIC ($11001000$) arasında sadece 7. bit (MSB) farklı gibi dursa da bu genel bir kural değildir. Örneğin L harfinde ASCII \texttt{4C} ($01001100_2$) iken EBCDIC \texttt{D3} ($11010011_2$)'tür; MSB 1 yapılırsa \texttt{CC} olur ($CC \ne D3$). 0 rakamında ASCII \texttt{30} iken EBCDIC \texttt{F0}'dır ($B0 \ne F0$). ASCII ve EBCDIC farklı bölge (zone) yapılarına sahiptir; dönüşüm birebir tablo eşlemesi gerektirir.
+\end{itemize}
+
+\textbf{3.} Code 128 Üretimi ve Bağımsız Okuyucu ile Doğrulama:
+\texttt{python-barcode} üreticisi ile üretilen barkodlar, bağımsız optik kütüphane \texttt{pyzbar} (libzbar) ile tarandı:
+\begin{itemize}
+    \item \texttt{HELP 2031} $\rightarrow$ Okunan: \texttt{HELP 2031} (9 karakter); \texttt{HELP2031} $\rightarrow$ Okunan: \texttt{HELP2031} (8 karakter). Boşluk ayrı bir çubuk sembolü olarak optik alanda taşınır.
+    \item \texttt{000123} $\rightarrow$ Okunan: \texttt{000123} (6 karakter); \texttt{123} $\rightarrow$ Okunan: \texttt{123} (3 karakter). Barkod metin dizesi kodladığından baştaki sıfırlar korunur.
+\end{itemize}
+
+\textbf{4.} Üç Görünüm Deney Kaydı ve Ekranda Metin Gösterme Kanıtı:
+\begin{itemize}
+    \item \textbf{1. Özgün:} $350\times 280$ px, standart quiet zone $\rightarrow$ 5 denemede 5 başarı (\%100).
+    \item \textbf{2. Küçültülmüş:} $87\times 70$ px (1/4 ölçek) $\rightarrow$ 5 denemede 0 başarı (\%0). Piksel bulanıklığı nedeniyle zbar çubukları ayıramadı.
+    \item \textbf{3. Sessiz Alanı Daraltılmış:} Kenar sınır ihlali $\rightarrow$ Okunabilirlik kontrast ve çerçeve koşullarına bağlı hale geldi.
+    \item \textbf{Bağımsız Okuma Kanıtı:} Üreticiler barkod görselinin altına girdi metnini standart fontla basarlar (human readable text). Bu metin doğrudan girdi dizisinin çizilmesidir; optik çubukların taranıp deşifre edilmesiyle üretilmez. Çubuk deseni bozulsa bile alttaki metin doğru gözükür. Bu yüzden bağımsız bir optik okuyucuyla taranmadıkça barkodun optik doğruluğu kanıtlanmış sayılamaz.
+\end{itemize}
+\textbf{YZ Önerisi Değerlendirmesi (Deney 4):} YZ'nin barkod okuma önerisini \texttt{pyzbar} kütüphanesini bağımsız çalıştırarak ve görseli kırparak doğruladım.
+
+\end{document}
