@@ -83,18 +83,15 @@ def build_forms():
     assert len(doc) == 4
     for i, page in enumerate(doc):
         page.insert_font(fontname="student", fontfile=FONT)
-        # Ad Soyad
-        page.draw_rect(pymupdf.Rect(103, 107.0, 235, 117.0), fill=(1, 1, 1), color=None)
-        page.insert_text((106, 115.0), "Efe Özan", fontname="student", fontsize=8.6)
-        # Öğrenci No
-        page.draw_rect(pymupdf.Rect(292, 107.0, 395, 117.0), fill=(1, 1, 1), color=None)
-        page.insert_text((295, 115.0), "170425062", fontname="student", fontsize=8.6)
-        # Tarih
-        page.draw_rect(pymupdf.Rect(82, 122.0, 155, 134.0), fill=(1, 1, 1), color=None)
-        page.insert_text((85, 129.5), "10.11.2026", fontname="student", fontsize=8.0)
-        # Şube / Grup
-        page.draw_rect(pymupdf.Rect(216, 122.0, 290, 134.0), fill=(1, 1, 1), color=None)
-        page.insert_text((218, 129.5), "Ali Buldu A Grubu", fontname="student", fontsize=7.5)
+        # Noktalı alanları tamamen ört; değerleri etiketlerle aynı taban çizgisine yaz.
+        page.draw_rect(pymupdf.Rect(103, 108, 235, 121), fill=(1, 1, 1), color=None)
+        page.insert_text((106, 118.3872), "Efe Özan", fontname="student", fontsize=8.6)
+        page.draw_rect(pymupdf.Rect(292, 108, 395, 121), fill=(1, 1, 1), color=None)
+        page.insert_text((295, 118.3872), "170425062", fontname="student", fontsize=8.6)
+        page.draw_rect(pymupdf.Rect(82, 122, 155, 135), fill=(1, 1, 1), color=None)
+        page.insert_text((85, 132.6096), "10.11.2026", fontname="student", fontsize=8.0)
+        page.draw_rect(pymupdf.Rect(216, 122, 290, 135), fill=(1, 1, 1), color=None)
+        page.insert_text((218, 132.6096), "Ali Buldu A Grubu", fontname="student", fontsize=7.5)
 
         for answer, x, y in zip(ANSWERS[i], (115, 148, 123, 303), LINES[i]):
             add_line(page, answer, x, y)
