@@ -63,19 +63,20 @@ Bağımsız Okuyucu: `pyzbar` (libzbar)
 | `000123` | 6 | `000123` | Tam Eşleşti |
 | `123` | 3 | `123` | Tam Eşleşti |
 
-- **Boşluk Etkisi:** Boşluk karakteri barkodda ayrı bir optik sembol (Code 128 değeri 0) olarak çubuk/boşluk deseniyle kodlanır. Bu sayede boşluklu ve boşluksuz metinler optik olarak farklı genişlik ve desene sahip olur.
-- **Başlangıç Sıfırının Etkisi:** Barkod sayısal bir değer değil, bir dizge (string) kodlar. `000123`'ün başındaki üç adet sıfır optik alanda ayrı semboller olarak basılır ve bağımsız okuyucu tarafından 6 karakter olarak deşifre edilir. Sayısal aritmetikteki önemsiz sıfır kuralı barkodda geçerli değildir.
+- Okuyucu `HELP 2031` için 9, `HELP2031` için 8 karakter döndürdü; boşluk korundu.
+- Okuyucu `000123` için 6, `123` için 3 karakter döndürdü. Baştaki sıfırlar korundu çünkü barkod sayı değil metin taşır.
+- Karakter sayısı sembol sayısı değildir; Code C rakamları ikişerli kodlayabilir.
 
 ---
 
 ### 4. Üç Görünüm Deney Kaydı ve Ekranda Metin Gösterme Kanıtı
 
-`HELP 2031` barkodu üzerinde üç farklı optik görünüm sınandı:
+`HELP 2031` barkodu üzerinde üç farklı optik görünüm birer kez sınandı. Deterministik okuyucuya aynı görüntüyü tekrar vermek bağımsız deney sayılmadı:
 | Görünüm | Piksel Boyutu | Deneme Sayısı | Başarılı Okuma | Başarı Oranı | Durum |
 |:---|:---:|:---:|:---:|:---:|:---|
-| **1. Özgün** | $350 \times 280$ | 5 | 5 | \%100 | Başarılı (Net optik kontrast ve standart sessiz alan) |
-| **2. Küçültülmüş (1/4)** | $87 \times 70$ | 5 | 0 | \%0 | Başarısız (Piksel bulanıklığı çubukları ayırt edilemez kıldı) |
-| **3. Daraltılmış Sessiz Alan** | $358 \times 288$ | 5 | 5 | \%100 / Sınırlı | Çerçeve kontrastına bağlı kritik sınır |
+| **1. Özgün** | $350 \times 280$ | 1 | 1 | \%100 | Başarılı (Net optik kontrast ve standart sessiz alan) |
+| **2. Küçültülmüş (1/4)** | $87 \times 70$ | 1 | 0 | \%0 | Başarısız (Piksel bulanıklığı çubukları ayırt edilemez kıldı) |
+| **3. Daraltılmış Sessiz Alan** | $358 \times 288$ | 1 | 1 | \%100 | Bu görüntü zbar ile okundu |
 
 #### Üreticinin Metni Ekranda Göstermesi Neden Bağımsız Okuma Kanıtı Değildir?
 Barkod üreten yazılımlar genellikle üretilen görselin alt kısmına metni (insan tarafından okunabilir metin / human readable text) basarlar. Bu metin, kullanıcının girdiği dize parametresinin standart bir sistem yazı tipiyle ekrana yazdırılmasından ibarettir; optik çubukların bir kamera veya tarayıcı algoritmasıyla taranıp deşifre edilmesiyle üretilmez.

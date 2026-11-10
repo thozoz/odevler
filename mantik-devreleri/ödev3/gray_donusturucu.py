@@ -123,7 +123,7 @@ def karsilastir_kapanislar() -> Dict[str, any]:
             f"15'in Gray kodu {g_15}, 0'ın Gray kodu ise {g_0}'dır. Aralarındaki farklı bit sayısı {fark_15_0}'dir "
             "(yalnız en anlamlı bit farklıdır). Dolayısıyla 4 bitlik Gray kodu tam dairesel (cyclic) bir koddur. "
             f"Buna karşın dizi 0-9'da kesilirse: 9'un Gray kodu {g_9}, 0'ınki {g_0}'dır. Aralarında tam {fark_9_0} "
-            f"bit (konum indeksleri: {farkli_bitler_9_0}) farklıdır. Dizi kesildiğinde dairesel tek bit komşuluk "
+            f"bit (ağırlıkları: 2^3, 2^2 ve 2^0; soldan indeksleri: {farkli_bitler_9_0}) farklıdır. Dizi kesildiğinde dairesel tek bit komşuluk "
             "özelliği kaybolur."
         ),
     }

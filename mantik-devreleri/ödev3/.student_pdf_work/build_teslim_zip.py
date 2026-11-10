@@ -35,7 +35,7 @@ with pymupdf.open(source_form) as document:
     assert all("Ali Buldu A Grubu" in page.get_text().replace("\xa0", " ") for page in document)
 
 with pymupdf.open(source_report) as document:
-    assert len(document) == 4
+    assert len(document) == 5
     full_text = "\n".join(page.get_text() for page in document)
     assert all(f"Deney {i} -" in full_text for i in range(1, 5))
 

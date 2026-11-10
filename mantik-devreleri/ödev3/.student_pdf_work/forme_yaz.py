@@ -41,7 +41,7 @@ ANSWERS = [
     (
         "Tek bit hatalarının %100 saptanacağını, iki bit hatalarında ise birler kayarsa hataların kaçacağını öngördüm.",
         "50 tek bit hatasının 50'sinin de saptandığını, 100 iki bit hatasından 60'ının başka rakama dönüşüp kaçtığını doğruladım.",
-        "Rakam 0 (11000) 0. ve 2. bitler terslenirse 01100 (6) olup kaçar; çift eşlik 11000011'de 28 iki bit hatası kaçar.",
+        "Rakam 0 (11000) 7 ve 2 ağırlıklı bitler terslenirse 01100 (6) olup kaçar; çift eşlik 11000011'de 28 iki bit hatası kaçar.",
         "YZ'nin hata tarama sonucunu 11000->01100 geçişinde doğruladım.",
     ),
     (

@@ -27,7 +27,7 @@ Deneylerin hesapları ve ara kayıtları burada. Her deneyin programı ve doğru
 - 0-15 arası 15 ardışık geçişte Hamming mesafesi 1'dir.
 - 15 -> 0 kapanışında fark 1 bittir (dairesel kod). 9 -> 0 kapanışında (0-9 kesilmiş dizi) fark 3 bittir (dairesellik bozulur).
 - `101110101` -> Gray: `111001111` (9 bit); `1000101` -> Gray: `1100111` (7 bit).
-- Hatalı ters yöntem ($b_i = g_{i+1} \oplus g_i$) 16 sözcükten 12'sinde yanlış sonuç verir. Gray `1100` için doğru ikili `1000` iken hatalı yöntem `1010` verir (ilk ayrışma 1. basamak).
+- Hatalı ters yöntem ($b_i = g_{i+1} \oplus g_i$) 16 sözcükten 12'sinde yanlış sonuç verir. Gray `1100` için doğru ikili `1000` iken hatalı yöntem `1010` verir (ilk ayrışma $2^1$ konumu).
 
 ## Deney 3 - Beş Bitte İki Bir ve Eşlik Denetimi
 - 5'te 2 denetleyicisi: 5 bit ve tam 2 adet '1'. 11000 özel sıfır ataması: 00000 sıfır adet 1 içerdiği için kuralı bozar; ağırlığı 11 olan 11000 rakamlarla çakışmadığından 0'a atanmıştır.
@@ -45,5 +45,5 @@ Deneylerin hesapları ve ara kayıtları burada. Her deneyin programı ve doğru
 - Çapraz çözüm denemesi geçersiz bayt hatası verir.
 - MSB ekleme/kesme L'de (ASCII 4C -> CC != D3) ve 0'da (ASCII 30 -> B0 != F0) başarısız olur.
 - `python-barcode` ile üretilen `HELP 2031`, `HELP2031`, `000123`, `123` barkodları `pyzbar` ile birebir doğrulandı.
-- Üç görünüm deneyi: Özgün %100 başarı, küçültülmüş (1/4) %0 başarı (piksel bulanıklığı).
+- Deterministik okuyucuda her görüntü bir kez sınandı: özgün 350×280 px 1/1, küçültülmüş 87×70 px 0/1, daraltılmış sessiz alan 358×288 px 1/1; zbar üçüncü görüntüyü okudu.
 - Üreticinin metni ekranda göstermesi bir çizim işlemidir; optik okuma kanıtı değildir.

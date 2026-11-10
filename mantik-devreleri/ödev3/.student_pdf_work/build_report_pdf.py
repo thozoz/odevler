@@ -95,7 +95,7 @@ Bu belgede Ders 5 Deney Yaprakları 1--4 kapsamındaki kuramsal analizler, hesap
 0'dan 15'e kadar tüm 15 ardışık geçişte Hamming mesafesi tam 1'dir.
 \begin{itemize}
     \item \textbf{15 $\rightarrow$ 0 Kapanışı:} 15'in Gray'i \texttt{1000}, 0'ın Gray'i \texttt{0000}'dır. Aralarında yalnız MSB ($2^3$) farklıdır (\textbf{Hamming mesafesi = 1}). 4 bitlik Gray kodu dairesel (cyclic) kapanışa sahiptir.
-    \item \textbf{9 $\rightarrow$ 0 Kapanışı (0--9 kesilmiş dizi):} 9'un Gray'i \texttt{1101}, 0'ın Gray'i \texttt{0000}'dır. 0., 2. ve 3. bitler olmak üzere tam \textbf{3 bit} farklıdır. Dizi kesilirse dairesel komşuluk özelliği bozulur.
+    \item \textbf{9 $\rightarrow$ 0 Kapanışı (0--9 kesilmiş dizi):} 9'un Gray'i \texttt{1101}, 0'ın Gray'i \texttt{0000}'dır. $2^3$, $2^2$ ve $2^0$ konumlarındaki bitler olmak üzere tam \textbf{3 bit} farklıdır. Dizi kesilirse dairesel komşuluk özelliği bozulur.
 \end{itemize}
 
 \textbf{3.} Uzun Girdiler: \texttt{101110101} (9 bit) $\rightarrow$ Gray: \textbf{\texttt{111001111}} (9 bit) $\rightarrow$ Geri: \texttt{101110101}. \texttt{1000101} (7 bit) $\rightarrow$ Gray: \textbf{\texttt{1100111}} (7 bit) $\rightarrow$ Geri: \texttt{1000101}. Bit uzunluklarının korunduğu ve dönüşümün çift yönlü çalıştığı doğrulandı.
@@ -120,8 +120,8 @@ Ters yönde önceki ikili bit yerine komşu Gray bitlerini XOR'layan hatalı for
 
 \textbf{2.} 5'te 2 Kodunda Hata Taramaları (50 ve 100 Deney):
 \begin{itemize}
-    \item \textbf{50 Tek Bit Hatası:} 10 geçerli sözcüğün her birinde 5 tek bit terslemesi sınandı. Her durumda 1 sayısı 1'e veya 3'e dönüştüğünden hataların \textbf{50/50'si (\%100)} saptandı, 0 hata kaçtı.
-    \item \textbf{100 İki Bit Hatası:} 10 sözcükte $\binom{5}{2}=10$ çift bit terslendi. İki adet 1'in 0 yapıldığı veya iki adet 0'ın 1 yapıldığı $4 \times 10 = \mathbf{40}$ hata saptandı. Ancak bir 1 ve bir 0'ın aynı anda terslendiği $6 \times 10 = \mathbf{60}$ hata (\%60) \textbf{KAÇTI}! Kaçan durumlarda 1 sayısı 2 kaldığı için paket başka bir geçerli rakama dönüştü (Örn: Rakam 0 (\texttt{11000}) 0. ve 2. bitler terslenirse \texttt{01100} yani Rakam 6 olur).
+    \item \textbf{50 Tek Bit Hatası:} 10 geçerli sözcüğün her birinde 5 tek bit terslemesi sınandı. Her durumda 1 sayısı 1'e veya 3'e dönüştüğünden hataların \textbf{50/10'si (\%100)} saptandı, 0 hata kaçtı.
+    \item \textbf{100 İki Bit Hatası:} 10 sözcükte $\binom{5}{2}=10$ çift bit terslendi. İki adet 1'in 0 yapıldığı veya iki adet 0'ın 1 yapıldığı $4 \times 10 = \mathbf{40}$ hata saptandı. Ancak bir 1 ve bir 0'ın aynı anda terslendiği $6 \times 10 = \mathbf{60}$ hata (\%60) \textbf{KAÇTI}! Kaçan durumlarda 1 sayısı 2 kaldığı için paket başka bir geçerli rakama dönüştü (Örn: Rakam 0 (\texttt{11000}) 7 ve 2 ağırlıklı bitler terslenirse \texttt{01100} yani Rakam 6 olur).
 \end{itemize}
 
 \textbf{3.} Eşlik Paketleri ve Hata Taramaları:
@@ -133,7 +133,7 @@ Ters yönde önceki ikili bit yerine komşu Gray bitlerini XOR'layan hatalı for
 \end{itemize}
 
 \textbf{4.} Düzeltme Sınırı, Hata Yeri ve 01000 Analizi:
-Geçersiz \texttt{01000} deseninde yalnız tek bir 1 vardır. Tek bit hatası varsayımıyla olası özgün geçerli sözcükler: \texttt{11000} (0), \texttt{01100} (6), \texttt{01010} (5) ve \texttt{01001} (4)'dir (4 olası aday).
+Geçersiz \texttt{01000} deseninde yalnız tek bir 1 vardır. Tek bit hatası varsayımıyla olası özgün geçerli sözcükler: \texttt{11000} (0), \texttt{01100} (6), \texttt{01010} (5) ve \texttt{01001} (4)'dir (4 olası aday). Soruda istenen iki örnek: \texttt{11000} ve \texttt{01100}.
 \begin{itemize}
     \item \textbf{Yalnızca $p$'nin Terslenmesi:} \texttt{11000011} paketinde yalnız $p$ biti 0 yapılırsa paket \texttt{01000011} olur ve eşlik alarmı verir. Ancak iletilen 7 veri biti tamamen sağlamdır!
     \item \textbf{Kavramsal Ayrım:} \textit{Hata saptama} (paketin kuralsız olduğunu bilme) tek eşlikle mümkündür; ancak \textit{hatanın yerini bulma} (hangi bitin bozulduğunu bilme) ve \textit{düzeltme} için Hamming mesafesi en az 3 olan gelişmiş kodlar gerekir. Parite hatası verinin kendisinin bozulduğunu tek başına kanıtlamaz.
@@ -159,19 +159,62 @@ Geçersiz \texttt{01000} deseninde yalnız tek bir 1 vardır. Tek bit hatası va
 \textbf{3.} Code 128 Üretimi ve Bağımsız Okuyucu ile Doğrulama:
 \texttt{python-barcode} üreticisi ile üretilen barkodlar, bağımsız optik kütüphane \texttt{pyzbar} (libzbar) ile tarandı:
 \begin{itemize}
-    \item \texttt{HELP 2031} $\rightarrow$ Okunan: \texttt{HELP 2031} (9 karakter); \texttt{HELP2031} $\rightarrow$ Okunan: \texttt{HELP2031} (8 karakter). Boşluk ayrı bir çubuk sembolü olarak optik alanda taşınır.
+    \item \texttt{HELP 2031} $\rightarrow$ Okunan: \texttt{HELP 2031} (9 karakter); \texttt{HELP2031} $\rightarrow$ Okunan: \texttt{HELP2031} (8 karakter). Okuyucu boşluğu aynen korudu; karakter sayısı sembol sayısı değildir.
     \item \texttt{000123} $\rightarrow$ Okunan: \texttt{000123} (6 karakter); \texttt{123} $\rightarrow$ Okunan: \texttt{123} (3 karakter). Barkod metin dizesi kodladığından baştaki sıfırlar korunur.
 \end{itemize}
 
 \textbf{4.} Üç Görünüm Deney Kaydı ve Ekranda Metin Gösterme Kanıtı:
+Deterministik okuyucuda her görüntü bir kez sınandı; aynı görüntünün tekrarları bağımsız deney sayılmadı.
 \begin{itemize}
-    \item \textbf{1. Özgün:} $350\times 280$ px, standart quiet zone $\rightarrow$ 5 denemede 5 başarı (\%100).
-    \item \textbf{2. Küçültülmüş:} $87\times 70$ px (1/4 ölçek) $\rightarrow$ 5 denemede 0 başarı (\%0). Piksel bulanıklığı nedeniyle zbar çubukları ayıramadı.
-    \item \textbf{3. Sessiz Alanı Daraltılmış:} Kenar sınır ihlali $\rightarrow$ Okunabilirlik kontrast ve çerçeve koşullarına bağlı hale geldi.
+    \item \textbf{1. Özgün:} $350\times 280$ px, standart quiet zone $\rightarrow$ 1 denemede 1 başarı (\%100).
+    \item \textbf{2. Küçültülmüş:} $87\times 70$ px (1/4 ölçek) $\rightarrow$ 1 denemede 0 başarı (\%0). Piksel bulanıklığı nedeniyle zbar çubukları ayıramadı.
+    \item \textbf{3. Sessiz Alanı Daraltılmış:} $358\times 288$ px $\rightarrow$ 1 denemede 1 başarı (\%100). Bu görüntü zbar ile okundu; sonuç diğer görüntülere genellenmez.
     \item \textbf{Bağımsız Okuma Kanıtı:} Üreticiler barkod görselinin altına girdi metnini standart fontla basarlar (human readable text). Bu metin doğrudan girdi dizisinin çizilmesidir; optik çubukların taranıp deşifre edilmesiyle üretilmez. Çubuk deseni bozulsa bile alttaki metin doğru gözükür. Bu yüzden bağımsız bir optik okuyucuyla taranmadıkça barkodun optik doğruluğu kanıtlanmış sayılamaz.
 \end{itemize}
 \textbf{YZ Önerisi Değerlendirmesi (Deney 4):} YZ'nin barkod okuma önerisini \texttt{pyzbar} kütüphanesini bağımsız çalıştırarak ve görseli kırparak doğruladım.
 
+\newpage
+\section*{Ek tablolar - Deney Yaprağı 1 ve 2}
+\textbf{Deney 1: 0--9 dönüşüm tablosu}
+\begin{center}
+\begin{tabular}{cccc}
+\toprule Rakam & BCD & Artı-3 & Aiken 2421 \\ \midrule
+0 & 0000 & 0011 & 0000 \\
+1 & 0001 & 0100 & 0001 \\
+2 & 0010 & 0101 & 0010 \\
+3 & 0011 & 0110 & 0011 \\
+4 & 0100 & 0111 & 0100 \\
+5 & 0101 & 1000 & 1011 \\
+6 & 0110 & 1001 & 1100 \\
+7 & 0111 & 1010 & 1101 \\
+8 & 1000 & 1011 & 1110 \\
+9 & 1001 & 1100 & 1111 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\textbf{Deney 2: 16 satırlık dönüşüm tablosu}
+\begin{center}
+\begin{tabular}{cccc}
+\toprule Onlu & İkili & Gray & Geri çözülen ikili \\ \midrule
+0 & 0000 & 0000 & 0000 \\
+1 & 0001 & 0001 & 0001 \\
+2 & 0010 & 0011 & 0010 \\
+3 & 0011 & 0010 & 0011 \\
+4 & 0100 & 0110 & 0100 \\
+5 & 0101 & 0111 & 0101 \\
+6 & 0110 & 0101 & 0110 \\
+7 & 0111 & 0100 & 0111 \\
+8 & 1000 & 1100 & 1000 \\
+9 & 1001 & 1101 & 1001 \\
+10 & 1010 & 1111 & 1010 \\
+11 & 1011 & 1110 & 1011 \\
+12 & 1100 & 1010 & 1100 \\
+13 & 1101 & 1011 & 1101 \\
+14 & 1110 & 1001 & 1110 \\
+15 & 1111 & 1000 & 1111 \\
+\bottomrule
+\end{tabular}
+\end{center}
 \end{document}
 """
 

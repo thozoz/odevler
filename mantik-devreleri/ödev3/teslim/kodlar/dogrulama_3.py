@@ -25,6 +25,19 @@ def main():
         "tekil onlu rakama denk gelmez. Bu nedenle koddaki 2-bir kuralını korumak için 0 rakamına 11000 atanmıştır."
     )
     
+    # Uzunluk ve karakter hataları hem sözcükte hem eşlik paketinde reddedilmeli.
+    for denetleyici, girdiler in [
+        (denetle_beste_iki, ["0100", "01a00"]),
+        (denetle_eslik_paketi, ["0100001", "01a00011"]),
+    ]:
+        for girdi in girdiler:
+            try:
+                denetleyici(girdi)
+            except ValueError as hata:
+                print(f"  [REDDEDİLDİ] {girdi}: {hata}")
+            else:
+                raise AssertionError(f"Geçersiz girdi kabul edildi: {girdi}")
+
     # 2. 5'te 2 Hata Taramaları (50 ve 100 Deney)
     print("\n--- 2. 5'te 2 Kodunda Hata Taramaları ---")
     tek_tarama = beste_iki_tek_bit_taramasi()
@@ -38,7 +51,8 @@ def main():
     print("  => İki bit hatalarında 40 hata saptandı (1 sayısı 0 veya 4 oldu), 60 hata ise KAÇTI!")
     print("\nKaçan Hata Örnekleri (1 sayısı 2 kalarak başka bir geçerli rakama dönüşenler):")
     for ornek in iki_tarama["kacan_ornekler"][:5]:
-        print(f"  Eski Rakam {ornek['eski_rakam']} ({ornek['eski_sozcuk']}) -> Terslenen bitler {ornek['terslenen_bitler']} -> Yeni Sözcük {ornek['hatali_sozcuk']} => YENİ RAKAM: {ornek['yeni_rakam']} [KAÇTI]")
+        agirliklar = tuple([7, 4, 2, 1, 0][i] for i in ornek["terslenen_bitler"])
+        print(f"  Eski Rakam {ornek['eski_rakam']} ({ornek['eski_sozcuk']}) -> Terslenen bitler {agirliklar} ağırlıkları -> Yeni Sözcük {ornek['hatali_sozcuk']} => YENİ RAKAM: {ornek['yeni_rakam']} [KAÇTI]")
         
     # 3. Eşlik Denetimi: 1000011 ve 1000001
     print("\n--- 3. Eşlik Paketleri ve Hata Taramaları ---")
@@ -72,7 +86,7 @@ def main():
     print(f"Geçersiz Desen: '{analiz_01000['desen']}' (1 sayısı: {analiz_01000['bir_sayisi']})")
     print("Olası özgün geçerli 5'te 2 sözcükleri (tek bit hatası varsayımıyla):")
     for sz, rk, bit_konumu in analiz_01000["olasi_ozgun_sozcukler"]:
-        print(f"  Sözcük: '{sz}' -> Rakam: {rk} (Eğer bit {bit_konumu} bozulduysa)")
+        print(f"  Sözcük: '{sz}' -> Rakam: {rk} (Eğer {[7, 4, 2, 1, 0][bit_konumu]} ağırlıklı bit bozulduysa)")
     assert len(analiz_01000["olasi_ozgun_sozcukler"]) >= 2
     
     # Yalnız p'nin terslenmesi:

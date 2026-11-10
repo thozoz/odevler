@@ -78,17 +78,17 @@ def main():
         
     print(
         "Boşluk ve Başlangıç Sıfırının Etkisi:\n"
-        "- 'HELP 2031' ve 'HELP2031': Boşluk barkodda ayrı bir optik karakter sembolü (Code 128 değeri 0) olarak kodlanır.\n"
-        "  Boşluksuz metin 8 sembol, boşluklu metin 9 sembol içerir ve bağımsız okuyucu boşluğu aynen korur.\n"
-        "- '000123' ve '123': Barkod sayısal bir değer değil, bir dizge (string) kodlar. '000123' girdisinde baştaki üç adet\n"
-        "  sıfır ('000') optik desende ayrı çubuk kombinasyonlarıyla kodlanır ve bağımsız okuyucu tarafından 6 karakter olarak okunur;\n"
-        "  '123' ise 3 karakter olarak okunur. Sayısal aritmetikteki önemsiz sıfır kuralı optik barkod kodlamasında geçerli değildir."
+        "- Okuyucu 'HELP 2031' için 9, 'HELP2031' için 8 karakter döndürdü; boşluk korundu.\n"
+        "- '000123' 6, '123' 3 karakter olarak okundu; baştaki sıfırlar korundu çünkü barkod sayı değil metin taşır.\n"
+        "- Karakter sayısı Code 128 sembol sayısı değildir: Code C rakamları ikişerli kodlayabilir."
     )
     
     # 4. Üç Görünüm Deney Kaydı ve Ekranda Metin Gösterme Kanıtı Analizi
     print("\n--- 4. Üç Görünüm Deney Kaydı ---")
     gorunumler = uc_gorunum_deney_kaydi("HELP 2031")
+    assert [g["deneme_sayisi"] for g in gorunumler] == [1, 1, 1]
     for g in gorunumler:
+        assert g["durum"] == ("Başarılı" if g["basari_sayisi"] else "Okunamadı")
         print(f"{g['gorunum']}:")
         print(f"  Boyut: {g['boyut']} | Deneme: {g['deneme_sayisi']} | Başarı: {g['basari_sayisi']} ({g['basari_orani']}) -> {g['durum']}")
         

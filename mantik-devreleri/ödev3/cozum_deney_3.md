@@ -27,14 +27,14 @@
   10 geçerli sözcüğün her birinde 5 farklı bit konumu terslendi ($10 \times 5 = 50$).
   - 1 olan bit 0 olursa toplam 1 sayısı 1'e düşer.
   - 0 olan bit 1 olursa toplam 1 sayısı 3'e çıkar.
-  - Her iki durumda da 1 sayısı 2 olamayacağından hataların **50/50'si (\%100)** denetleyici tarafından saptandı (0 hata kaçtı).
+  - Her iki durumda da 1 sayısı 2 olamayacağından hataların **50/10'si (\%100)** denetleyici tarafından saptandı (0 hata kaçtı).
 - **İki Bit Hata Taraması (100 Deney):**
   10 geçerli sözcüğün her birinde $\binom{5}{2} = 10$ farklı bit çifti terslendi ($10 \times 10 = 100$).
   - İki adet 1 bitinin 0 yapıldığı $\binom{2}{2} = 1$ durum $\to$ 1 sayısı 0 olur (**saptandı**, $1\times 10 = 10$).
   - İki adet 0 bitinin 1 yapıldığı $\binom{3}{2} = 3$ durum $\to$ 1 sayısı 4 olur (**saptandı**, $3\times 10 = 30$).
   - Bir 1 bitinin 0, bir 0 bitinin 1 yapıldığı $2 \times 3 = 6$ durum $\to$ 1 sayısı yine 2 kalır!
   - 5 bitte 2 adet 1 içeren toplam desen sayısı $\binom{5}{2} = 10$'dur ve bu 10 desenin 10'u da 0--9 rakamlarına atanmıştır. Bu nedenle 1 sayısı 2 kalan her iki bit hatası başka bir geçerli rakama dönüşür ve **KAÇAR** ($6 \times 10 = \mathbf{60}$ hata kaçtı).
-  - **Kaçan Hata Örneği:** Eski rakam 0 (`11000`), 0. ve 2. bitler terslenirse `01100` olur; bu da Rakam 6'nın geçerli kodudur.
+  - **Kaçan Hata Örneği:** Eski rakam 0 (`11000`), 7 ve 2 ağırlıklı bitler terslenirse `01100` olur; bu da Rakam 6'nın geçerli kodudur.
 
 ---
 
@@ -54,11 +54,11 @@
 
 ### 4. Düzeltme Sınırı, Hata Yeri ve 01000 Analizi
 
-Geçersiz `01000` deseninde yalnızca tek bir 1 (3. bit) vardır. Tek bit hatası varsayımıyla olası özgün geçerli 5'te 2 sözcükleri:
-1. `11000` (Rakam 0, eğer 0. bit bozulduysa)
-2. `01100` (Rakam 6, eğer 2. bit bozulduysa)
-3. `01010` (Rakam 5, eğer 3. bit bozulduysa)
-4. `01001` (Rakam 4, eğer 4. bit bozulduysa)
+Geçersiz `01000` deseninde yalnızca 4 ağırlıklı bit 1’dir. Soruda istenen iki özgün sözcük örneği `11000` ve `01100`’dır; toplam dört aday vardır. Tek bit hatası varsayımıyla olası özgün geçerli 5'te 2 sözcükleri:
+1. `11000` (Rakam 0, eğer 7 ağırlıklı bit bozulduysa)
+2. `01100` (Rakam 6, eğer 2 ağırlıklı bit bozulduysa)
+3. `01010` (Rakam 5, eğer 1 ağırlıklı bit bozulduysa)
+4. `01001` (Rakam 4, eğer 0 ağırlıklı bit bozulduysa)
 
 Birden fazla (4 adet) olası özgün aday bulunduğu için alıcı hatanın hangi bitte olduğunu tespit edemez (hata yeri belirlenemez) ve düzeltme yapamaz.
 

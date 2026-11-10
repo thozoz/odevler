@@ -46,7 +46,7 @@
 - **15 $\rightarrow$ 0 Kapanışı:**
   $\text{Gray}(15) = 1000$, $\text{Gray}(0) = 0000$. Karşılık gelen konumlarda yalnız en anlamlı bit ($b_3$) farklıdır. **Fark: 1 bit.** Dolayısıyla 4 bitlik Gray kodu tam dairesel (cyclic) kapanışa sahiptir.
 - **9 $\rightarrow$ 0 Kapanışı (0--9'a kesilmiş dizi):**
-  $\text{Gray}(9) = 1101$, $\text{Gray}(0) = 0000$. Aralarında 0., 2. ve 3. bitler farklıdır. **Fark: 3 bit.** Dizi 0--9 aralığına kesildiğinde dairesel tek bit komşuluk kuralı bozulur.
+  $\text{Gray}(9) = 1101$, $\text{Gray}(0) = 0000$. Aralarında $2^3$, $2^2$ ve $2^0$ konumlarındaki bitler farklıdır. **Fark: 3 bit.** Dizi 0--9 aralığına kesildiğinde dairesel tek bit komşuluk kuralı bozulur.
 
 ---
 

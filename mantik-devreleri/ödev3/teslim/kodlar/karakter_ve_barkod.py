@@ -184,7 +184,7 @@ def uc_gorunum_deney_kaydi(metin: str = "HELP 2031") -> List[Dict[str, any]]:
     
     # 1. Görünüm: Özgün (Standard quiet zone, tam çözünürlük)
     img_ozgun = uret_code128_resmi(metin, quiet_zone=6.5, write_text=False)
-    deneme = 5
+    deneme = 1  # Aynı görüntünün deterministik tekrarları bağımsız deney değildir.
     basari = sum(1 for _ in range(deneme) if oku_barkod_bagimsiz(img_ozgun) == [metin])
     sonuclar.append({
         "gorunum": "1. Özgün (Standart quiet zone ve tam boyut)",
@@ -192,7 +192,7 @@ def uc_gorunum_deney_kaydi(metin: str = "HELP 2031") -> List[Dict[str, any]]:
         "deneme_sayisi": deneme,
         "basari_sayisi": basari,
         "basari_orani": f"%{basari/deneme*100:.0f}",
-        "durum": "Başarılı (Kusursuz okuma)",
+        "durum": "Başarılı" if basari else "Okunamadı",
     })
     
     # 2. Görünüm: Aşırı Küçültülmüş (Çözünürlük kaybı / piksellerin birbirine girmesi)
@@ -206,7 +206,7 @@ def uc_gorunum_deney_kaydi(metin: str = "HELP 2031") -> List[Dict[str, any]]:
         "deneme_sayisi": deneme,
         "basari_sayisi": basari_k,
         "basari_orani": f"%{basari_k/deneme*100:.0f}",
-        "durum": "Başarısız (Piksel bulanıklığından çubuklar ayırt edilemedi)",
+        "durum": "Başarılı" if basari_k else "Okunamadı",
     })
     
     # 3. Görünüm: Sessiz Alanları Daraltılmış / Sınır İhlali (Quiet zone = 0 ve kenar çakışması)
@@ -222,7 +222,7 @@ def uc_gorunum_deney_kaydi(metin: str = "HELP 2031") -> List[Dict[str, any]]:
         "deneme_sayisi": deneme,
         "basari_sayisi": basari_s,
         "basari_orani": f"%{basari_s/deneme*100:.0f}",
-        "durum": "Başarılı/Sınırlı (Optik kontrast sınırına bağlı)",
+        "durum": "Başarılı" if basari_s else "Okunamadı",
     })
     
     return sonuclar

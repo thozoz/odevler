@@ -74,7 +74,7 @@ $2421$ ağırlıklarıyla:
 ### 2. 0--15 Tablosu ve Kapanışlar
 0--15 arasındaki tüm 15 ardışık geçişte bit farkı (Hamming mesafesi) tam 1'dir.
 - **15 $\rightarrow$ 0 Kapanışı:** $\text{Gray}(15) = 1000 \to \text{Gray}(0) = 0000$ (fark: **1 bit**, dairesel kod).
-- **9 $\rightarrow$ 0 Kapanışı (0--9 kesilmiş dizi):** $\text{Gray}(9) = 1101 \to \text{Gray}(0) = 0000$ (fark: **3 bit**; 0., 2. ve 3. bitler). Dizi kesildiğinde komşuluk kapanışı bozulur.
+- **9 $\rightarrow$ 0 Kapanışı (0--9 kesilmiş dizi):** $\text{Gray}(9) = 1101 \to \text{Gray}(0) = 0000$ (fark: **3 bit**; $2^3$, $2^2$ ve $2^0$ konumlarındaki bitler). Dizi kesildiğinde komşuluk kapanışı bozulur.
 
 ### 3. Uzun Bit Dizileri
 - `101110101` (9 bit) $\to$ Gray: `111001111` $\to$ Geri: `101110101`.
@@ -97,8 +97,8 @@ Ters yönde $b_i = g_{i+1} \oplus g_i$ kullanan hatalı yöntem:
 - **Eşlik Paketleri:** 7 veri biti + $p$ eşlik biti = 8 bit.
 
 ### 2. 5'te 2 Hata Taramaları (50 ve 100 Deney)
-- **50 Tek Bit Hatası:** **50/50'si saptandı (\%100)**. 1 sayısı 1 veya 3'e dönüştü.
-- **100 İki Bit Hatası:** **40 saptandı**, **60 KAÇTI (\%60)**. Kaçan hatalarda bir 1 ve bir 0 yer değiştirerek 1 sayısı 2 kaldı ve başka bir geçerli rakama dönüştü (Örn: Rakam 0 `11000`, 0. ve 2. bitler terslenirse `01100` = Rakam 6 olur).
+- **50 Tek Bit Hatası:** **50/10'si saptandı (\%100)**. 1 sayısı 1 veya 3'e dönüştü.
+- **100 İki Bit Hatası:** **40 saptandı**, **60 KAÇTI (\%60)**. Kaçan hatalarda bir 1 ve bir 0 yer değiştirerek 1 sayısı 2 kaldı ve başka bir geçerli rakama dönüştü (Örn: Rakam 0 `11000`, 7 ve 2 ağırlıklı bitler terslenirse `01100` = Rakam 6 olur).
 
 ### 3. Eşlik Paketleri ve Hata Taramaları
 - `1000011` (3 adet 1) $\to$ Çift eşlik: `11000011` ($p=1$), Tek eşlik: `01000011` ($p=0$).
@@ -109,7 +109,7 @@ Ters yönde $b_i = g_{i+1} \oplus g_i$ kullanan hatalı yöntem:
 - **Tek/Çift Tersleme Kuralı:** Tek sayıda bit hatası pariteyi değiştirir (daima saptanır); çift sayıda bit hatası pariteyi korur (daima kaçar).
 
 ### 4. Düzeltme Sınırı ve 01000 Analizi
-Geçersiz `01000` deseni için olası özgün geçerli sözcükler: `11000` (0), `01100` (6), `01010` (5) ve `01001` (4)'dir (4 aday). Hatanın yeri bilinemez.
+Geçersiz `01000` deseni için olası özgün geçerli sözcükler: `11000` (0), `01100` (6), `01010` (5) ve `01001` (4)'dir (4 aday). Soruda istenen iki örnek: `11000` ve `01100`. Hatanın yeri bilinemez.
 - Yalnız $p$ terslenirse veri bitleri sağlam olduğu halde eşlik hatası alarmı verilir.
 - Hata saptama, hatanın yerini bulma ve veri bütünlüğü kavramsal olarak birbirinden bağımsızdır.
 
@@ -135,11 +135,49 @@ Geçersiz `01000` deseni için olası özgün geçerli sözcükler: `11000` (0),
 ### 3. Code 128 Üretimi ve Bağımsız Okuma
 Üretici: `python-barcode` | Okuyucu: `pyzbar` (libzbar)
 - `HELP 2031` (9 karakter), `HELP2031` (8 karakter), `000123` (6 karakter) ve `123` (3 karakter) bağımsız okuyucuyla karakter karakter birebir doğrulandı.
-- Boşluk optik bir çubuk sembolü olarak taşınır.
+- Okuyucu boşluğu aynen korudu; karakter sayısı sembol sayısı değildir.
 - Başlangıç sıfırları metin tabanlı optik kodlama sayesinde korunur.
 
 ### 4. Üç Görünüm Deney Kaydı ve Ekranda Metin Gösterme Kanıtı
-- **1. Özgün ($350\times 280$ px):** 5/5 (\%100 başarı).
-- **2. Küçültülmüş ($87\times 70$ px):** 0/5 (\%0 başarı, piksel bulanıklığı).
-- **3. Daraltılmış Sessiz Alan ($358\times 288$ px):** Çerçeve kontrastına bağlı kritik sınır.
+- **1. Özgün ($350\times 280$ px):** 1/1 (\%100 başarı).
+- **2. Küçültülmüş ($87\times 70$ px):** 0/1 (\%0 başarı, piksel bulanıklığı).
+- **3. Daraltılmış Sessiz Alan ($358\times 288$ px):** 1/1 (\%100 başarı); bu görüntü zbar ile okundu.
 - **Ekranda Metin Gösterme Kanıtı:** Üretici yazılımlar görselin altına girdi metnini standart sistem yazı tipiyle çizer; optik çubukların taranmasıyla elde edilmez. Bağımsız bir optik okuyucuyla (`pyzbar`) taranmadıkça kodlamanın çalıştığı kanıtlanamaz.
+
+
+### 0–9 dönüşüm tablosu
+
+| Rakam | BCD | Artı-3 | Aiken |
+|---|---|---|---|
+| 0 | `0000` | `0011` | `0000` |
+| 1 | `0001` | `0100` | `0001` |
+| 2 | `0010` | `0101` | `0010` |
+| 3 | `0011` | `0110` | `0011` |
+| 4 | `0100` | `0111` | `0100` |
+| 5 | `0101` | `1000` | `1011` |
+| 6 | `0110` | `1001` | `1100` |
+| 7 | `0111` | `1010` | `1101` |
+| 8 | `1000` | `1011` | `1110` |
+| 9 | `1001` | `1100` | `1111` |
+
+
+### 16 satırlık Gray tablosu
+
+| Onlu | İkili | Gray | Geri çözülen |
+|---|---|---|---|
+| 0 | `0000` | `0000` | `0000` |
+| 1 | `0001` | `0001` | `0001` |
+| 2 | `0010` | `0011` | `0010` |
+| 3 | `0011` | `0010` | `0011` |
+| 4 | `0100` | `0110` | `0100` |
+| 5 | `0101` | `0111` | `0101` |
+| 6 | `0110` | `0101` | `0110` |
+| 7 | `0111` | `0100` | `0111` |
+| 8 | `1000` | `1100` | `1000` |
+| 9 | `1001` | `1101` | `1001` |
+| 10 | `1010` | `1111` | `1010` |
+| 11 | `1011` | `1110` | `1011` |
+| 12 | `1100` | `1010` | `1100` |
+| 13 | `1101` | `1011` | `1101` |
+| 14 | `1110` | `1001` | `1110` |
+| 15 | `1111` | `1000` | `1111` |
