@@ -120,7 +120,7 @@ Ters yönde önceki ikili bit yerine komşu Gray bitlerini XOR'layan hatalı for
 
 \textbf{2.} 5'te 2 Kodunda Hata Taramaları (50 ve 100 Deney):
 \begin{itemize}
-    \item \textbf{50 Tek Bit Hatası:} 10 geçerli sözcüğün her birinde 5 tek bit terslemesi sınandı. Her durumda 1 sayısı 1'e veya 3'e dönüştüğünden hataların \textbf{50/10'si (\%100)} saptandı, 0 hata kaçtı.
+    \item \textbf{50 Tek Bit Hatası:} 10 geçerli sözcüğün her birinde 5 tek bit terslemesi sınandı. Her durumda 1 sayısı 1'e veya 3'e dönüştüğünden hataların \textbf{50/50'si (\%100)} saptandı, 0 hata kaçtı.
     \item \textbf{100 İki Bit Hatası:} 10 sözcükte $\binom{5}{2}=10$ çift bit terslendi. İki adet 1'in 0 yapıldığı veya iki adet 0'ın 1 yapıldığı $4 \times 10 = \mathbf{40}$ hata saptandı. Ancak bir 1 ve bir 0'ın aynı anda terslendiği $6 \times 10 = \mathbf{60}$ hata (\%60) \textbf{KAÇTI}! Kaçan durumlarda 1 sayısı 2 kaldığı için paket başka bir geçerli rakama dönüştü (Örn: Rakam 0 (\texttt{11000}) 7 ve 2 ağırlıklı bitler terslenirse \texttt{01100} yani Rakam 6 olur).
 \end{itemize}
 

@@ -97,7 +97,7 @@ Ters yönde $b_i = g_{i+1} \oplus g_i$ kullanan hatalı yöntem:
 - **Eşlik Paketleri:** 7 veri biti + $p$ eşlik biti = 8 bit.
 
 ### 2. 5'te 2 Hata Taramaları (50 ve 100 Deney)
-- **50 Tek Bit Hatası:** **50/10'si saptandı (\%100)**. 1 sayısı 1 veya 3'e dönüştü.
+- **50 Tek Bit Hatası:** **50/50'si saptandı (\%100)**. 1 sayısı 1 veya 3'e dönüştü.
 - **100 İki Bit Hatası:** **40 saptandı**, **60 KAÇTI (\%60)**. Kaçan hatalarda bir 1 ve bir 0 yer değiştirerek 1 sayısı 2 kaldı ve başka bir geçerli rakama dönüştü (Örn: Rakam 0 `11000`, 7 ve 2 ağırlıklı bitler terslenirse `01100` = Rakam 6 olur).
 
 ### 3. Eşlik Paketleri ve Hata Taramaları

@@ -27,7 +27,7 @@
   10 geçerli sözcüğün her birinde 5 farklı bit konumu terslendi ($10 \times 5 = 50$).
   - 1 olan bit 0 olursa toplam 1 sayısı 1'e düşer.
   - 0 olan bit 1 olursa toplam 1 sayısı 3'e çıkar.
-  - Her iki durumda da 1 sayısı 2 olamayacağından hataların **50/10'si (\%100)** denetleyici tarafından saptandı (0 hata kaçtı).
+  - Her iki durumda da 1 sayısı 2 olamayacağından hataların **50/50'si (\%100)** denetleyici tarafından saptandı (0 hata kaçtı).
 - **İki Bit Hata Taraması (100 Deney):**
   10 geçerli sözcüğün her birinde $\binom{5}{2} = 10$ farklı bit çifti terslendi ($10 \times 10 = 100$).
   - İki adet 1 bitinin 0 yapıldığı $\binom{2}{2} = 1$ durum $\to$ 1 sayısı 0 olur (**saptandı**, $1\times 10 = 10$).
