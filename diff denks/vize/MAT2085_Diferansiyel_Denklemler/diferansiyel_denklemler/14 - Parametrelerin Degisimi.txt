@@ -1,0 +1,542 @@
+[00:04] parametrelerin değişim metodu bu metot
+[00:04] İkinci
+[00:11] derece sabit katsayılı homojen olmayan
+[00:11] diferansiyel denklemlere
+[00:14] denklemlerin çözümüne 2in alternatif
+[00:17] metottur 2
+[00:19] derece sabit katsayılı
+[00:21] homojen
+[00:28] olmayan diferansiyel denklemlerin
+[00:28] çözümüne
+[00:30] alternatif metottur ilk
+[00:33] metodumuz belirsiz katsayılar metodu idi
+[00:37] 2 metodumuz ise parametrelerin değişim
+[00:40] metodudur neden bahsediyoruz Biz y'nin 2
+[00:43] türevi -2 y'nin türevi - 3y
+[00:48] = FX
+[00:51] gibi sabit katsayılı bütün yler
+[00:55] katsayıları sabit olan 2 derece
+[01:00] homojen olmayan diferansiyellerin çözümü
+[01:04] bu diferansiyeller homojen
+[01:06] olmadıklarından genel
+[01:09] çözüm y homojen
+[01:12] + y özel çözüm
+[01:15] oluyordu bu y özelin bulunmasında da iki
+[01:18] alternatif metodumuz vardı Bir önceki
+[01:22] videomuzda belirsiz katsayılar
+[01:24] metodunu incelemiştik y özelin
+[01:27] bulunmasındaki ilk metot katsayılar
+[01:30] metodu
+[01:32] idi katsayılar metodu ikin metot ise
+[01:35] parametrelerin değişimi metodudur Bu
+[01:38] videoda inceleyeceğimiz metot
+[01:40] parametrelerin değişimi
+[01:47] metodu Şimdi burada belirsiz katsayılar
+[01:47] metodunda karşı taraf polinom
+[01:50] eli sz ve bunların toplama çıkarma
+[01:53] çarpma durumunda
+[01:55] bulunmalarından bir
+[01:57] yöntemdi parametrelerin değiş
+[02:00] ise her durumu çözer FX ne olursa olsun
+[02:06] çözer her
+[02:08] durumu
+[02:10] çözer
+[02:12] FX ne olursa
+[02:15] olsun fakat şöyle bir zorluğu vardır
+[02:18] parametrelerin değişim
+[02:20] metodunun çok ağır integraller karşımıza
+[02:23] gelebilir
+[02:25] integral işlemleri gerektirir
+[02:33] integral işlemleri çok ağır olacağından
+[02:33] dolayı belirsiz katsayılar metodu
+[02:36] uygulanabildiği zaman onun uygulanması
+[02:39] tercih edilir soru çok daha kolay
+[02:41] çözülür parametrelerin değişim
+[02:44] metodu belirsiz katsayılar
+[02:47] uygulanamadığı da genellikle başvurulur
+[02:50] Veya bize özellikle sorunun
+[02:51] parametrelerin değişimi yöntemiyle
+[02:53] çözmemizi
+[02:55] istediğinde ne zaman belirsiz katsayılar
+[02:59] uygulanamaz
+[03:01] karşıdaki
+[03:02] FX
+[03:04] lnx
+[03:06] 1/2 sekant x tanjant x
+[03:12] gibi polinom belirsiz katsayılar ne
+[03:15] zaman uygulanabiliyor oldu polinom
+[03:19] E Sin Kos içermeyen durumlar olursa
+[03:24] parametrelerin değişimi metoduna
+[03:27] metodunu uygulamaya mecburuz
+[03:31] Fakat bu metot tekrar belirtiyorum her
+[03:33] durumu çözer bu durumları da çözer ama
+[03:36] çok iyi bir integral alıcı olmalıyız O
+[03:39] da çok mümkün değil bu nedenle polinom e
+[03:42] sincos olduğunda karşıda belirsiz
+[03:44] katsayılar metodunu Bunlar dışındaki
+[03:47] durumlarda da parametrelerin değişim
+[03:49] metodunu kullanmalıyız Şimdi bunlar
+[03:53] hakkında daha fazla uzun konuşmaya gerek
+[03:56] yok parametrelerin değişim metoduna Baş
+[04:06] parametrelerin değişimi
+[04:07] metodu bunun İngilizcesi variation of
+[04:16] parameter
+[04:16] variation of
+[04:24] parameters Şimdi parametrelerin değişim
+[04:24] metodunu teorik anlatım yerine soru
+[04:28] üzerinden ını anlatmayı tercih edeceğim
+[04:32] şimdi vereceğim soru Aslında belirsiz
+[04:35] katsayı metoduyla çözülebilir bir soru
+[04:38] olacak dediğim gibi parametrelerin
+[04:41] değişim metodu her tür durumu
+[04:43] çözebiliyor ilk
+[04:46] örneği basit bir örnekten seçip daha çok
+[04:49] kurallara odaklanmamız için bu tarz bir
+[04:52] örnekle başlıyorum y'nin 2 türevi -2
+[04:55] y'nin
+[04:57] türevi -
+[05:00] 15y eş e üzeri 2E
+[05:06] üzeri 4x
+[05:08] olsun
+[05:14] diferansiyelini çözünüz
+[05:14] derse biz ister burada belirsiz
+[05:18] katsayılar metodunu kullanmayı tercih
+[05:20] ederiz fakat diferansiyelini
+[05:23] parametrelerin değişimi metodu ile
+[05:25] çözünüz diyeceğim ben özellikle diğer
+[05:28] metotla çözsen de böyle bir durumda
+[05:30] kabul olmaz parametrelerin değişimi
+[05:32] metodu ile
+[05:35] çözünüz
+[05:37] metodu ile
+[05:45] çözünüz şimdi parametrelerin değişim
+[05:45] metodu ile ikinci derece sabit katsayılı
+[05:49] homojen olmayan bir diferansiyeli
+[05:51] çözerken 1ci adım genel çözümün neye
+[05:54] eşit olduğunu söylemektir y Genel genel
+[05:58] çözümümüz
+[06:01] y
+[06:04] homojen + y
+[06:13] Özeldir bu y özelin İngilizcesi y pard
+[06:13] bu zaten y homojen Bu da y General
+[06:16] İngilizce gören arkadaşlar için de bu
+[06:18] konunun
+[06:19] hangisi hangi başlık olduğunu anlamaları
+[06:22] için bu tarz bilgileri Veriyorum arada
+[06:25] şimdi bir adımımız genel çözümün homojen
+[06:28] ve özel çözüm olduğunu söylemektir
+[06:30] ikinci adım parametrelerin değişim
+[06:32] metodunda Tabii ki homojen çözümü
+[06:35] bulacağız buradaki parametrelerin
+[06:37] değişimi metodu özelin bulunmasında y
+[06:41] özel bulmada kullanılan bir şeydir
+[06:42] homojenin bulunması ile ilgili
+[06:45] kısım bu diferansiyeli 0a eşitleyerek
+[06:48] homojen karşının 0 olması ile
+[06:52] ilgilidir eş 0 karakteristik denklemi
+[06:56] yazıp onun çözümü üzerinden yazarız
+[06:58] y'nin
+[06:59] yerine r k y'nin türevi yerine
+[07:03] R ve buradaki y yerine de 1 koyarız -15
+[07:08] = 0 bunu çarpanlarına ayırdığımızda RR -
+[07:13] 5'e 3 çarpınca -15 toplayınca
+[07:18] -2 R buradan bir 5 çıkar Bir de R -3
+[07:22] çıkar Yani bizim y homojen imiz C1 e
+[07:27] üzer 5x
+[07:30] + C2 e üzeri -
+[07:41] 3x Buradan sonra parametrelerin değişim
+[07:41] metoduyla y özeli nasıl Bulacağımı
+[07:46] bakacağız y
+[07:52] özel parametrelerin değişim metoduyla
+[07:52] buluyoruz belirsiz katsayı metodunda
+[07:56] burada tahmin
+[07:58] yapıyorduk
+[08:00] metodu Şimdi burada 3üncü adımda şunu
+[08:04] yapacağız yhda bulduğumuz C1 yanındaki e
+[08:09] üzeri 5x ve
+[08:17] c2'den burada kalemimizin rengini bir
+[08:17] değiştirelim
+[08:30] şimdi buradaki e üzeri 5 x'i
+[08:30] y1 olarak
+[08:38] isimlendir e üzeri -3
+[08:38] x'i Y2 diye
+[08:46] isimlendir
+[08:46] bu y1 ve Y2 hangisinin önce yazılmasına
+[08:51] göre değişebilir Ama bu sonucu
+[08:52] değiştirmez siz hangisini y1 hangisine
+[08:55] Y2 derseniz deyin ama biz C1 yanındakine
+[08:58] y1 C2 yanındakine Y2 diyeceğiz
+[09:01] bazılarınız şunu düşünebilir önce -3
+[09:03] yazsaydık y1 değişecekti bütün işlemler
+[09:06] ona göre değişeceği için sonucu
+[09:07] değiştirmiyor bu y1 e üzeri 5x Y2 e
+[09:11] üzeri - 3x Bunları belirledikten sonra
+[09:15] Ronin bulunur
+[09:18] Ronin bulunur Ronin dediğimiz
+[09:24] şey bir determinant
+[09:33] buraya y1 buraya Y2 buraya y1 türevi
+[09:33] buraya y2n türevi ronim bir determinant
+[09:38] bununla bunun
+[09:39] çarpımından y1 x y2n türevinden Y2 x y1
+[09:45] türevini çıkartarak
+[09:49] hesaplarız
+[09:51] rski daha detaylı anlatımı ile ilgili
+[09:54] bir videoyu daha sonra çekeceğiz Şimdi
+[09:57] burada sadece r odaklanalım y1 Y2 y1
+[10:02] türevi y2n türevi yazılıyor ve
+[10:04] determinant hesaplanıyor y1 y2y
+[10:07] belirledikten sonra rsk hesaplayacağız
+[10:10] rsk e5x buraya
+[10:14] yazdık e üzeri - 3xi buraya yazdık
+[10:18] altlarına da türevi yazıyoruz e üzeri 5x
+[10:21] türevi 5e üzeri 5x eü -3 türevi -3 eü
+[10:29] 3
+[10:31] x şunu
+[10:44] şimdi
+[10:44] şu determinant Tamız kapattığımızda e
+[10:48] üzeri 5x ile -3 e üzeri -3 x'i çarpacağı
+[10:51] e üzeri 5x x
+[10:55] -3 e üzer - 3x
+[11:00] eksi e üzeri - 3x ile 5 e üzeri 5x
+[11:04] çarpacağı e üzeri -
+[11:08] 3x x 5 e üzeri
+[11:11] 5x burayı çarptığımızda -3 e üzeri 2x
+[11:16] çıkıyor Burası ise -5 e üzeri 2x çıkıyor
+[11:20] bunları topladığımızda da -8 e üzeri 2x
+[11:24] buluyoruz yani rski
+[11:33] -8 e üzeri 2x olarak
+[11:33] bulundu Şimdi parametrelerin değişimi
+[11:37] metodu ile çözüm
+[11:38] yaparken
+[11:46] homojendir hesaplıyoruz bizim için bir
+[11:46] sonraki adımda Bunlar kullanılmaya devam
+[11:49] edecek
+[11:51] y1 Y2 bu y1 y2y y homojenin içinden elde
+[11:56] etmiştik bunun R yanını aldık şimdi 4
+[12:00] adıma
+[12:02] geçeceğiz 4
+[12:10] adım parametrelerin değişim metodunda y
+[12:10] özel formülü
+[12:12] şudur y1 x u1 + Y2 x
+[12:26] U2 Şimdi biz y1 ve y2y zaten
+[12:26] biliyoruz y özel şu an
+[12:30] y1 imiz neydi bir geriye dönüp
+[12:33] bakalım y1 imiz e üzeri 5x Y2 miz e
+[12:37] üzeri -
+[12:45] 3x e üzeri
+[12:45] 5x x
+[12:47] u1 + e üzeri - 3x x U2 dirir o zaman
+[12:56] şimdi birçok kişinin aklına gelen soru
+[12:59] şu u1 ve U2 İşte bu parametrelerin
+[13:02] değişim
+[13:04] metodunda gelmiş olduk
+[13:07] u1 ve U2 yi hesaplama formülleri u1 ve
+[13:11] U2 yi
+[13:13] hesapladığımız y özeli bulmuş oluyoruz
+[13:16] yerlerine koyduğumuzda y özel
+[13:19] çıkacak u1
+[13:23] - Y2 x u1i hesaplarken y2y kullanıyoruz
+[13:29] buraya FX geliyor Az sonra ne olduğunu
+[13:32] konuşacağız Ron ve çarp a geliyor
+[13:37] DX u 2'nin hesaplanmasında eksi Yok u
+[13:42] 2'yi hesaplarken y1 kullanıyoruz
+[13:45] FX b rsk x a
+[13:51] DX y1 Y2 zaten belirlediğimiz ifadeler
+[13:54] homojen içinden seçtiklerimiz fxe
+[13:57] geldiğimizde
+[14:05] diferansiyelin
+[14:05] eşiti diferansiyel imizin karşısındaki
+[14:08] eşitlikte Duran ifade bakalım FX
+[14:11] neydi diferansiyele bir dönersek
+[14:14] göreceğiz FX ne
+[14:22] olduğunu 2E üzeri
+[14:22] 4x Burası
+[14:24] FX 2E üzer 4X
+[14:37] 2E üzeri 4x devam edersek
+[14:37] buradaki w
+[14:41] Ron Bir önceki adımda hesaplamıştır
+[14:44] Ron
+[15:00] 2x ve A'ya gel geldik
+[15:00] A y'nin 2ci
+[15:04] türevinin
+[15:10] katsayısı en başta diferansiyele dönüp
+[15:10] bir bakacağız y'nin 2ci türevinin
+[15:13] katsayısı
+[15:21] neydi y'nin ikinci türevinin katsayısı
+[15:21] hiçbir şey yazmadığına göre 1'dir
+[15:38] y'nin 2 türevinin katsayısı 1'di bütün
+[15:38] istenenler elde edilmiş durumda şimdi
+[15:42] u1i hesaplayarak
+[15:44] başlayalım - y2y yerine koyacağız Y2 miz
+[15:49] burada e üzeri -
+[15:51] 3x e üzeri - 3x x FX imiz 2E üzeri 4X
+[16:00] bölü Ron yanımız -8 e üzeri 2x a' mız 1
+[16:09] dxi de koyalım
+[16:12] şuraya buradaki çarpma ve
+[16:14] sadeleştirmeler imizi yaparsak burada e
+[16:17] üzeri x kalır e üzeri - 2x Şuradaki 2/8
+[16:21] de dışarı alırsak
+[16:29] 1/4 içeride
+[16:29] e üzeri -
+[16:30] x DX kaldı e üzeri - x'in integrali e
+[16:37] üzeri - x Aynen yazılır üssünün türevine
+[16:40] bölünür e üzeri - x üssünün türevi -1
+[16:44] olduğu için -1 böldüğümüzde başa bir
+[16:45] eksi gelir bunlara bu integraller + C
+[16:50] konulmaz + c'ler 0 kabul edilir Bu çözüm
+[16:55] metodunda U2 geldiğimizde
+[17:03] y1 x y1 imiz
+[17:03] neydi Şu y özeldeki ilk yazdığımız e
+[17:07] üzeri 5x e üzeri 5x Ç FX imiz 2E üzeri
+[17:23] 4x böl Ron Kımız -8 e üzeri 2x idi ız da
+[17:23] 1
+[17:25] DX - 1/4
+[17:32] burada e üzeri 9x olur buna bölersek e
+[17:32] üzeri 7x DX olur -14 yazarsak e üzeri 7
+[17:38] x'in integrali e üzeri 7x b üssünün
+[17:42] türevine böleceğiz 7 -
+[17:44] 1/28 e üzeri 7x
+[17:47] oldu u1 ve U2 yi bulduğumuza göre y
+[17:51] özeli bulmuş olduk y
+[17:55] özel eş
+[18:05] burada y1 yerine koymuştuk e üzeri 5x x
+[18:05] u1 e üzeri
+[18:08] 5x x u1 imiz
+[18:12] -14 e üzeri - x
+[18:16] + Y2 miz e üzeri - 3xi x -1 b28
+[18:29] U2 burayı çarptığımızda ek
+[18:29] 4 e üzer 4x olur burayı çarptığımızda -
+[18:41] 1/28 e üzer 4x
+[18:41] olur paydaları eşit dersek bunları
+[18:44] toplayabiliriz bunu 7 ile eşit -7 -1 de
+[18:48] burada var
+[18:50] -8 / 28 eü 4x şunu da 4 sadeleştirirsek
+[18:55] -
+[18:56] 2/7 e 4x
+[19:00] olur ve y özelimizi bulmuş olduk son
+[19:04] adıma geldik şimdi 5 adımda da
+[19:07] homojenleştirici
+[19:30] üzer 4x
+[19:30] oldu bu soru sanki çok uzunmuş gibi
+[19:33] gözüktü gözümüze Halbuki o kadar uzun
+[19:35] değil aynı zamanda kuralları da
+[19:38] öğretmeye çalıştığım için soru uzun hale
+[19:40] geldi şimdi baştan itibaren
+[19:42] parametrelerin değişim metodunda neler
+[19:44] yapıyoruz bir gözden geçirelim ve ezbere
+[19:48] bilmemiz gereken kuralların ne olduğuna
+[19:50] da Bir
+[19:56] bakalım şimdi bize bir diferansiyel
+[19:57] verildi ve parametrenin değişim
+[19:58] metoduyla çözmemiz
+[20:00] istendi ilk adımda y genelin y homojen +
+[20:05] y özel olduğunu söylüyoruz ikinci adımda
+[20:08] y homojeni çözüyoruz bunun için zaten
+[20:10] parametrenin değişim metodunda yeni bir
+[20:11] şey gelmiyor bu homojen çözüm karşı
+[20:15] tarafı 0a eşitleyip r'leri yerlerine
+[20:17] koyuyoruz y'nin 2 türevine R kare bu
+[20:19] şekilde çözüyoruz ve buradan homojen
+[20:21] çözüme
+[20:22] geldik parametrelerin değişim metodu 3
+[20:25] adım itibariyle başlıyor homojen
+[20:28] çözümdeki C1 yanındakine y1 c2n
+[20:31] yanındakine Y2 deniyor buradan y1 Y2
+[20:36] bunların rski buluyor ezbere ronı
+[20:39] bulunuyor ezbere bilmemiz gereken ilk
+[20:42] formül buradaki Ronin formülüdür bunu
+[20:45] bir kere bir yere not
+[20:48] alalım devam edersek Ron hesapladık rsk
+[20:51] bir
+[20:52] determinantı 4 adıma geldiğimizde y
+[20:56] özelin bulunuş formülüyle karşılaştık y
+[20:58] u1 Y2 U2 y1 Y2 yi zaten homojen elde
+[21:02] etmiştik yazdık onları yerlerini bu
+[21:04] formülü bilmeliyiz Bir de çok önemli
+[21:07] olarak u1 U2 bulunuş formülleri Onların
+[21:11] ikisi de birer
+[21:17] integral ve bu integrallerin
+[21:17] içindekilerin de ne olduğunu bu sağ
+[21:19] tarafta anlattık FX diferansiyelin eşiti
+[21:22] bu rski A y'nin 2 türevinin katsayısı y1
+[21:26] Y2 homojendir
+[21:28] bu u1 U2 yi hesapladığımız integrallerin
+[21:31] sonuçlarını artc koymuyoruz en sonunda y
+[21:35] homojen y özeliği birleştirdik şimdi bu
+[21:39] soru karşısı e olduğu için belirsiz
+[21:43] katsayı metodu ile de çözülebilir di ama
+[21:46] biz parametrelerin değişim metodunu
+[21:48] çözdük bu soruyu Bu soruya uyguladık
+[21:51] kolay çözümü çözümü olduğu için şimdi
+[21:55] gerçekten parametrenin değişim metodu
+[21:58] uygul zorunda olduğumuz bir soruyu
+[22:05] çözelim karşısı polinom
+[22:05] değilse karşısı e'li
+[22:08] değilse karşısı sin coslu
+[22:11] değilse mecburen parametrelerin değişim
+[22:14] metodunu uygulamak zorundayız bize
+[22:16] Ayrıyetten belirtmek zorunda değil bir
+[22:19] örnek y'nin 2
+[22:21] türevi + y = sec x
+[22:46] bulunuz şimdi şu kalemin rengini
+[22:46] değiştirelim kırmızı kırmızı
+[22:54] boğdu Şimdi burada Birinci Adım Bir kere
+[22:55] biz bu soruyu bir teşhis edelim önce de
+[22:56] ondan sonra birinci adımına başlayalım
+[22:59] derece sabit katsayılı homojen olmayan
+[23:02] bir diferansiyel karşıdaki ifadeye
+[23:04] baktığımızda secant x görüyoruz second x
+[23:08] belirsiz katsayı metodu uygulayamıyorum
+[23:31] ikinci adım özel çözümü bulacağız şey
+[23:31] homojen çözümü bulacağız diferansiyeli 0
+[23:34] eşitleyin 2 türevi + y = 0 dersek y'nin
+[23:40] 2 türevi yerine R kare y yerine de 1
+[23:43] yazarsak eş
+[23:45] 0 buradan R kare = -1 olur ki bir şeyin
+[23:50] karesi eksi etmez Bu nedenle bunun
+[23:53] sonuçları karmaşık sayı çıkar Bu r k eş
+[23:57] i k demek
+[23:59] r i r - i
+[24:03] çıkar homojen çözümde kökler karmaşık
+[24:07] sayı çıkarsa Reel ve sanal kısımlarını
+[24:11] alarak homojen çözümü
+[24:14] yazıyorduk bunları bu kısımlar yabancı
+[24:17] geliyorsa ik derece homojen
+[24:20] diferansiyellerin çözüm videosunu
+[24:22] izleyip buraları sağlamlaştı buraya
+[24:24] tekrar dönmeniz lazım reel kısım
+[24:28] sayı çıktı Buralar reel kısım 0'dır
+[24:31] sanal kısım ise bu i'lerin katsayısı ama
+[24:34] daima pozitif alınırdı bu burada 1
+[24:37] burada -1 ama biz onu hep 1 alacağız
+[24:39] pozitif olarak
+[24:40] alıyoruz y
+[24:43] homojen C1 x e üzeri reel kısım E'nin
+[24:46] üzerine geliyordu 0x çp kosinüs sanal
+[24:50] kısım kosinüs xin katsayısı oluyordu 1x
+[24:54] yazmamız anlamı yok x + C2 x ü 0x reel
+[24:59] kısım buraya geldi Sinüs x sanal kısım
+[25:03] X'in önüne geliyor Şunu adam gibi
+[25:05] yazarsak yh e üzer 0x 1 eder C1
+[25:11] cosx + C2 sinx oldu homojen çözümümüz
+[25:18] ulaştık şimdi 3 adım özel çözümün
+[25:27] başlangıcı burada parametreli değişim
+[25:27] metodu
+[25:29] homojen içinde bulduğumuz şu cos x'e y1
+[25:37] diyeceğiz homojen içinde bulduğumuz şu
+[25:37] sin x'e Y2 diyeceğiz ve bunların ronı
+[25:42] hesaplayacağız Ron Bu ikisini yukarıya
+[25:45] y1 Y2 olarak
+[25:46] yazıyoruz cos x sinx
+[25:49] kuralları unuttuysanız bir öncekinden
+[25:52] yazıp tekrar bu noktaya dönebilirsiniz
+[25:55] bir önceki soruda bütün kurallar var sin
+[25:57] bunlar yazılıyor aşağıya cos x'in türevi
+[26:00] - sin x' sin X'in türevi cos
+[26:03] x' Bu bir determinantı cos x ile cos x'i
+[26:07] çarparız cos KX
+[26:08] eder sinx ile - Sin x'i çarparız - sin
+[26:12] KX eder bir de biz araya çıkarma
+[26:14] koyacağız determinant dolayı + sin karex
+[26:17] olacak sin karex ile cos kare x'in
+[26:19] toplamı da 1'dir yani Ron
+[26:22] yanımız 1 çıktı
+[26:30] 4
+[26:31] adım Y özeli geçtiğimiz adımdı y özel
+[26:36] eş y1 x u1 + Y2 x
+[26:50] U2 buradan y özel yani y1 imiz cosx cos
+[26:50] x x
+[26:52] u1 + sinx ç u 2'dir
+[27:03] şimdi bizim bulmamız gereken u1 ve U2
+[27:03] dirir
+[27:06] u1
+[27:08] - Y2 x
+[27:11] FX bö rsk Ç aı daha yeni gördüğümüz için
+[27:16] yine de burada kuralları yazıyorum
+[27:20] - Y2 miz burada zaten sinx şurada
+[27:25] görüyoruz Y2 mizi
+[27:29] çarpı FX imiz diferansiyelin karşısı ı
+[27:32] Bir bakalım diferansiyelin
+[27:34] karşısını sekant x sekant da 1 b
+[27:39] cosur xar 1 b cos x bölü ronı bir önceki
+[27:46] adımda şurada 1 bulduk
+[27:48] zaten Buradaki a y'nin 2ci türevinin
+[27:51] katsayısı ydı bir dönüp bakalım y'nin 2
+[27:53] türevinin katsayısı ne y'nin 2 türevinin
+[27:57] katsayısı 1
+[28:07] A da buradan 1 oldu DX Yani bizim
+[28:07] buradan integral imiz
+[28:09] ek
+[28:11] sinx böl cosx DX haline geldi şimdi
+[28:17] burada paydanın türevinin apaçık bir
+[28:21] şekilde pay kısmında olduğunu görüyoruz
+[28:23] değişken değiştirme yapacağız cos x'e u
+[28:27] dersek
+[28:31] cos x'e u
+[28:31] dersek cos x'in türevi - sin xir bakın
+[28:35] buradaki eksi de var Şu eksiyi de içeri
+[28:37] alalım şuraya aldım şunu sildim - sin x
+[28:42] DX
+[28:44] de du
+[28:47] olur ve değişken değiştirmeyi başardık
+[28:51] 1/2 oldu 1/1 integrali ln uur
+[28:59] + C koymuyoruz bu
+[29:02] metotta c u1 ve u 2'yi bulurken cos x u
+[29:06] idi ln cos x bu metodun en büyük zorluğu
+[29:12] buradaki integralleri alamama
+[29:14] riskiniz alamadığınız da zaten bunu
+[29:17] koskocaman burada integrali ile beraber
+[29:19] getirip burada u 1'in yerine koyun En
+[29:21] azından hocaya Ben metodu anladım da
+[29:25] integrali yapamıyorum imajı verirsiniz
+[29:28] yani burada yarı bırakmayın getirip
+[29:30] şuralara koyun gerekirse genel çözümü de
+[29:33] içinde integraller olarak yazın Şimdi
+[29:36] devam edersek U2 yi
+[29:38] bulmaya umalım da bu daha güzel bir şey
+[29:41] gelsin y1 FX U2 hesaplanırken y1 geliyor
+[29:46] buraya Bunlar net olarak Kafamızda
+[29:48] oturmaya
+[29:50] başlamalı y1
+[29:53] imiz cos x idi şurada
+[29:57] görüyoruz cos x FX imiz secant x'i
+[30:10] 1/1 a' da 1'di DX cos x' L birbirini
+[30:10] götürdü integralin içinde topu topu 1
+[30:12] kaldı birin de integrali
+[30:15] x' u1i de bulduk U2 yi de bulduk şimdi y
+[30:19] üzeri
+[30:21] yazabiliriz gene de temiz bir soru çıktı
+[30:26] Eee u1 imiz
+[30:28] ln cos x cos x x ln cos
+[30:32] x cos x x ln cos x + u 2'yi x bulduk x
+[30:41] ile Sin x'i çarparsak onu da x sin x
+[30:43] şeklinde
+[30:45] yazalım Bu ikisi daha birleşemiyor ve y
+[30:48] özel çözümümüz bulmuş olduk şimdi bunu
+[30:51] homojen birleştirdiğimizde de genel
+[30:54] çözümümüz ulaşmış oluyoruz
+[30:58] y genel eş C1 cosx +
+[31:04] C2 sinx idi homojen çözüm + y özel
+[31:10] çözümü ekliyoruz cos x ln cos
+[31:14] x +
+[31:17] x
+[31:25] sinx Böylece genel çözüme ulaştık
+[31:25] parametrelerin değişim metodu y soru
+[31:28] çözsek de hep aynı formülleri kullanıp
+[31:31] duracağız tek sıkıntılı kısım Şuradaki
+[31:35] integralleri alamama riskimiz yoksa
+[31:38] parametrelerin değişim
+[31:39] metodu yani değişken soruda sorudan
+[31:45] soruya değişkenlik içeren bir tarz
+[31:47] yoktur belirsiz katsayı
+[31:49] gibi hep aynı şeyler uygulanır zorluk
+[31:52] sadece integralde karşımıza gelebilir
+[31:55] orada da dediğim gibi integrali almayı
+[31:58] başaramazsanız getirin şurada özelin
+[32:00] Şurayı integralli yazın Şurada da
+[32:02] integralli görsün genel çözümü sadece
+[32:06] bir integrali alamadığınız İmajını
+[32:08] verirsiniz
+[32:09] hocaya imajdan ziyade öyle gerçi Neyse
+[32:12] bu videomuzu da bu şekilde tamamlamış
+[32:15] oluyoruz

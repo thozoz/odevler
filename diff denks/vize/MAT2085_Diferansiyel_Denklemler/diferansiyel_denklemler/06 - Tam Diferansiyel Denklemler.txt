@@ -1,0 +1,444 @@
+[00:04] tam diferansiyel denklemler 1 derece
+[00:04] diferansiyellerin çözüm yöntemidir
+[00:06] 1 derece diferansiyeller de şimdiye
+[00:09] kadar ayrılabilir diferansiyel
+[00:11] denklemleri
+[00:13] işledik integral çarpanı metodunu
+[00:17] işledik çarpanı metodu Şimdi de 3ün
+[00:21] yöntemimiz olan tam diferansiyel
+[00:23] denklemler ve çözümünü
+[00:25] inceleyeceğiz tam diferansiyel
+[00:27] denklemler diferansiyel denklemin
+[00:29] belirli bir formatta verilmiş halinde
+[00:32] bir şartın gerçekleşmesini
+[00:34] ister 1 derece diferansiyelin belli bir
+[00:40] verilmiş halinde dedik bu hal nedir
+[00:43] şudur
+[00:46] mdx
+[00:48] +
+[00:50] ndy =
+[00:53] 0 diferansiyel denklem dy ve DX
+[00:58] biçiminde ayrılmış ve D DX önünde bir
+[01:01] katsayı D y'nin önünde bir katsayı
+[01:03] haline
+[01:05] getirildiğinde tam alıp olmadığını
+[01:07] kontrol için bir yöntemimiz var
+[01:10] İstediğimiz her an bir diferansiyeli bu
+[01:12] formata
+[01:14] getirebiliriz bir örneğini vereceğim
+[01:16] Ondan sonra Burada konuştuklarımı devam
+[01:18] edeceğiz genellikle bize bu formatta
+[01:21] verip tam diferansiyelleri çözmemizi
+[01:23] isterler Ama bu formatta verilmediğinde
+[01:26] de biz bu formata getirip tam
+[01:28] diferansiyelleri çözmeyi dene
+[01:31] şimdi y'nin türevi bunun katsayısı 2x
+[01:34] olsun burada 3x K - Y + 1
+[01:38] olsun buradaki y'nin türevi yerine dy /
+[01:42] DX
+[01:50] yazarsak 3x K - Y + 1 DX ile bu tarafı
+[01:50] çarparsak 2x dy
+[01:53] = 3x K - Y + 1
+[01:58] DX aynı tarafa toplarsak 3x K - - Y + 1
+[02:07] DX bunu bu tarafa alırsak arayı Art
+[02:10] yapıp eksiyi bu 2 x'in önüne alırsak dy
+[02:13] = 0 Alın size işte M Burası n de burası
+[02:19] M DX ndy formatına
+[02:23] getirdik bütün 1 derece diferansiyelleri
+[02:27] istediğimiz an yin yerine dy / DX
+[02:31] yazarak bu formata
+[02:33] getirebiliriz Tamam şimdi bu formata
+[02:35] getirilmiş bir
+[02:37] diferansiyel denklem 1 derece
+[02:39] diferansiyel denklem Eğer ki şu şartı
+[02:43] sağlarsa DX önündeki m'nin yani X'in
+[02:46] önündeki
+[02:54] m'nin Y'ye göre kısmi türevi
+[02:54] alınacak Y'ye göre kısmi türevi
+[02:58] alındığında bu y'nin önündeki n'nin
+[03:03] x'e göre kısmi türevi alındığında Eğer
+[03:06] ki bu ikisi birbirine eşit
+[03:10] çıkarsa
+[03:11] diferansiyel tamdır
+[03:13] denir
+[03:15] diferansiyel tamdır
+[03:19] denir yani bu diferansiyel denklem tam
+[03:22] diferansiyel
+[03:24] denklemdir şimdi kısmi türevin ne
+[03:28] olduğunu hatırlıyoruz diye ümit edelim
+[03:31] burada kısmi türev şudur Y'ye göre
+[03:35] normal türev şu şekilde yazılır DM / dy
+[03:40] kısmi türev ise Çengelli bir şekilde
+[03:43] yazılır şu şekil ile Bunun anlamı kısmi
+[03:49] türevde sadece
+[03:58] ylila sadece gidip ylin türevini
+[03:58] alacağız m'nin içindeki onların
+[04:00] türevlerini alacağız diğer bütün
+[04:01] harfleri sabit sayı kabul edeceğiz
+[04:03] Burada da n'nin içindeki sadece X'in
+[04:06] türevini alacağız diğer harfleri sabit
+[04:08] sayı kabul
+[04:09] edeceğiz diferansiyel denklem tam çıktı
+[04:13] diyelim bundan sonraki adım ne olacak
+[04:16] peki diferansiyel denklem tam
+[04:20] olunca Yani bu şu şart
+[04:23] sağlandığında
+[04:25] diferansiyel
+[04:28] denklem tam
+[04:38] olunca Buradaki en başlangıç halindeki M
+[04:38] DX
+[04:47] integrali ve buradaki n d y'nin
+[04:47] integrali aynı sonucu
+[05:02] biz bu Bunların aynı olmasından çözüme
+[05:02] ulaşacağız iki integralin sonucu
+[05:05] birbiriyle aynı olacak Biz de
+[05:08] diferansiyel denklemin çözümüne bu
+[05:10] ikisinin aynı olmasından
+[05:13] ulaşacağız tam diferansiyeller en kolay
+[05:17] diferansiyel denklem çözme
+[05:19] tekniklerinden birisidir Tabii türev ve
+[05:22] integrale belli düzeyde hakim isek bir
+[05:26] diferansiyel tam
+[05:28] çıkarsa yani m'nin Y'ye göre türevi
+[05:31] n'nin x'e göre türevine eşit çıkarsa bu
+[05:34] başlangıçtaki mx' integral sonucu nd
+[05:38] y'nin integral sonucuna eşit çıkmak
+[05:41] zorundadır ve bu her bir integralin
+[05:45] sonucu bize diferansiyel denklemin
+[05:47] çözümünü
+[05:49] vermektedir şimdi Bir örnek üzerinden bu
+[05:53] konuştuklarımızı daha iyi bir şekilde
+[05:56] anlayalım
+[06:12] DX
+[06:12] + 2y + x k +
+[06:17] 1 dy = 0 diferansiyelin Çözümü
+[06:31] nedir
+[06:31] bize çok açık bir
+[06:38] şekilde DX D y'yi ayırıp da vermiş zaten
+[06:38] bu formatta bir diferansiyel denklem
+[06:40] verildiği an ya bu bir tam diferansiyel
+[06:43] mi diye denemeliyiz DX önündeki kısma M
+[06:48] diyoruz D y'nin önündeki kısma n
+[06:52] diyoruz m'nin X'in önündeki kısmın Y'ye
+[06:56] göre kısmi türevini alıyoruz alalım
+[07:00] bakalım Y'ye göre kısmi türev alıyorsak
+[07:03] Sadece gidip ylila 2x y'de yli bir ifade
+[07:07] var y'nin türevi 1 eder 2x
+[07:16] kalır - 9x kareye gittik yli Hiçbir
+[07:16] ifade yok bu sabit sayı kabul edilir
+[07:19] türevi
+[07:20] 0'dır yani buradaki 2x y - 9x karenin
+[07:24] türevi 2x
+[07:25] edebildi geçelim
+[07:28] buraya n'nin
+[07:30] y x'e
+[07:32] göre y'nin önündekinin x'e göre kısmi
+[07:36] türevini alıyoruz Sadece gidip x'li
+[07:39] kısımların türevini alacağız 2 y'nin
+[07:41] türevi 0'dır Çünkü hiç xli bir şey yok x
+[07:45] karenin türevi 2x ir 1in türevi de 0'dır
+[07:50] bu ikisi birbirine eşit
+[07:52] çıktı m'nin Y'ye göre türevi n'nin x'e
+[07:56] göre türevine eşit çıktı bu diferans
+[08:00] tam
+[08:02] diferansiyel bir
+[08:05] adım kontrolümüz sağlandı bu
+[08:08] diferansiyel denklem tam
+[08:11] diferansiyeli tam diferansiyel olduğu
+[08:15] zaman 2in adıma geçeceğiz şu kalemimizin
+[08:19] rengini değiştirerek devam
+[08:27] edelim şimdi bu diferansiyel denklem tam
+[08:27] çıktıysa şun alıyoruz bunun
+[08:31] integrali
+[08:33] 2xy - 9x K
+[08:41] DX
+[08:41] eşittir bir de şunun integrali bu
+[08:43] ikisinin integralleri birbirine eşit
+[08:49] çıkmalı
+[08:49] 2y + x k + 1
+[08:55] dy Eğer ki diferansiyel denklem
+[08:59] tam
+[09:00] çıkarsa bunun integral sonucu ile bunun
+[09:03] integral sonucu birbirine eşit
+[09:05] çıkmalıdır fikir tamamen budur
+[09:09] çözümde
+[09:14] şimdi başlayalım x'e göre integral
+[09:14] alıyoruz 2 ve y burada sabit kabul
+[09:17] edilir sadece X'in integralini
+[09:21] alırız x'in integrali x k / 2 eder 2x k
+[09:26] /
+[09:28] 2y
+[09:29] 2 ve y sabit kabul edildiği için sadece
+[09:32] gittik X'in integralini aldık buraya
+[09:35] geldik - 9x kare bunun
+[09:38] integrali X'in üssünü bir arttıracağız
+[09:41] oluşan üse böleceğiz - 9x K /
+[09:45] 3 + burada C demiyoruz İşte bu tam
+[09:50] diferansiyel çözmenin özel cli hali
+[09:53] geliyor buraya CY diyoruz C'nin ne
+[09:58] olduğunu alttakini de çözdükten sonra
+[10:00] konuşacağız x'e göre integral
+[10:04] aldığımızda çıkan sabite CY diyeceğiz
+[10:07] Şurayı bir düzgün halde yazalım Şuradaki
+[10:10] 2'er birbirini götürür x k y buradaki 9
+[10:15] ile 3 birbirini götürür - 3x K +
+[10:20] CY şimdi alttakine gelirsek alttakini de
+[10:25] Y'ye göre integral alıyoruz 2 y'nin
+[10:28] integrali Y K / 2 olacağından direkt y
+[10:31] kare sonucunu verir x karenin integrali
+[10:35] x kare sabit bir sayı kabul edilir Y'ye
+[10:38] göre yanına sadece bir tane y atarız
+[10:40] integral alırken sabit sayıların
+[10:43] integrali alınırken yanına y konulur
+[10:46] Y'ye göre integral alıyorsak 1in
+[10:49] integrali de direkt y olur burada da
+[10:52] integral sonucundaki ciz CX
+[10:56] olacak Burada Düzgünce bir daha yaza
+[10:59] gerek yok zaten Gayet düzgün yazdık
+[11:01] şimdi CX ve CY nedir buradaki
+[11:06] CY alttaki integral
+[11:09] sonucunda alttaki integral
+[11:12] sonucunda integral
+[11:15] sonucunda sadece Y'ye bağlı olan
+[11:18] terimlere eşittir sadece Y'ye
+[11:22] bağlı terimlere
+[11:29] eşittir Bu ikisinin eşit çıkmasını bu
+[11:29] şekilde sağlıyoruz buradaki CY sadece
+[11:32] Y'ye bağlı olan terimlere bakarsak bir y
+[11:34] kare var bir de y
+[11:37] var demek ki
+[11:55] gelirsek CX ise üstteki integral
+[11:55] sonucunda
+[11:57] integral
+[12:00] sonucunda sadece x'e bağlı terimlerdir
+[12:09] terimlere
+[12:09] eşittir şimdi üstteki denkleme bakarsak
+[12:12] sadece x'e bağlı şu
+[12:18] var
+[12:18] CX - 3x
+[12:21] kür CX ve c'ler yerine yazdığımızda iki
+[12:26] integral sonucu artık birbirlerini eşit
+[12:29] hale
+[12:30] gelirler 3ün ve son adımımı
+[12:41] geliyoruz buradaki CX ve c'ler dediğim
+[12:41] gibi yerine yazdığımızda bu integralin
+[12:44] sonucuyla bu integralin sonucu birbirine
+[12:47] eşittir Bu integraller herhangi birinin
+[12:51] sonucu bizim diferansiyel denklemin
+[12:54] çözümüdür ister alttakini alıp çözüm
+[12:57] olarak yazacağız ister üsttekini alıp
+[12:59] çözüm olarak yazacağız keyfimize kalmış
+[13:01] bir şey zaten keyfimize kalmasa da İkisi
+[13:04] de birbiriyle
+[13:05] eşit y
+[13:08] k + x
+[13:15] ky +
+[13:15] y cxi zaten - 3x K bulduk - 3x K ve en
+[13:22] kritik adımlardan biri geliyor
+[13:24] eş C diyerek çözüm
+[13:27] yazılır bu birinci çözümün Yazım
+[13:30] şeklidir
+[13:37] veya Bunun yerine bu hocanın keyfine
+[13:37] kalmıştır ama ikisi de doğru kabul
+[13:39] edilir fxy = direkt şu kısmı yazarız y k
+[13:44] + x k y + y - 3x k +
+[13:51] c ister 2 çözümü ister 1 çözümü
+[13:56] yazın yaptıklarımızı bir tekrar ed
+[13:59] olursak baştan
+[14:00] itibaren öncelikle bu formatta verilen
+[14:03] bir
+[14:05] diferansiyelde biz
+[14:07] bu bu formatta verilen bir
+[14:09] diferansiyelde tam diferansiyel mi diye
+[14:12] kontrol ettik tam diferansiyel çıktı tam
+[14:15] diferansiyel çıkması Bu ilk dxi kısmın
+[14:20] integralinin dli kısmın integralini eşit
+[14:23] olmasını sağlıyor bize bunların
+[14:25] integraller aldığımızda CY ve CX koyduk
+[14:29] sabitlerin Bu ikisinin sonucunun
+[14:31] birbirine eşit olması için CY
+[15:00] cxinst.exe
+[15:00] daha zorlu bir örnek
+[15:02] alalım 2y kare e üzeri x y
+[15:08] k
+[15:13] DX
+[15:13] +
+[15:15] 2xy e üzeri x y
+[15:19] k
+[15:25] d eş
+[15:25] 0
+[15:27] diferansiyelini
+[15:39] çözünüz şu kalemin rengini maviye
+[15:39] çevirelim şimdi diferansiyel denklemin
+[15:42] verilme haline
+[15:45] baktığımızda burasının M burasının n
+[15:49] olduğunu görüyoruz DX xin katsayısına M
+[15:53] diyoruz yinin katsayısına n diyoruz
+[15:57] m'nin X'in önündekinin Y'ye göre kısmi
+[16:01] türevini
+[16:02] alacağız şimdi Y'ye göre kısmi türev
+[16:05] alacağız Ama burası da yli bu E'nin üstü
+[16:08] de yli işte burada çarpımın türevi
+[16:10] vardır birincinin türevi Y'ye göre türev
+[16:14] alıyoruz 4y x e üzer x y
+[16:19] k + 2y kareyi olduğu gibi
+[16:24] yazıyoruz incinin türevi e üzer x
+[16:28] karenin türevi e üzeri x y karenin
+[16:30] türevi e'li ifade Aynen
+[16:33] yazılır çarpı üzerinin türevi Y'ye göre
+[16:36] türev aldığımız için y karenin türevini
+[16:38] alacağız 2x
+[16:40] y şunu bir düzgünce yazacak olursak 4y e
+[16:46] üzeri x y
+[16:49] k + Şuradaki 2xy ile 2y kareyi çarparsak
+[16:54] 4 x y
+[16:57] k
+[16:59] y k e üzeri x y
+[17:02] k bakalım şimdi ikinciye n'nin y'nin
+[17:06] önündekinin x'e göre türevini
+[17:13] alacağız Şimdi burada x'e göre türev
+[17:13] aldığımıza göre yine çarpımın türevi var
+[17:16] Çünkü burası x'li E'nin üstü de x'li
+[17:19] birinci olarak 2x y ifadesini düşünelim
+[17:22] birincinin türevi 2x y'nin x'e göre
+[17:25] türevini alırsak X'in türevi 1 eder 2y
+[17:28] kalır
+[17:29] 2y x e üzer x y
+[17:32] k
+[17:39] + burada birinciyi olduğu gibi yazıyoruz
+[17:39] Şimdi
+[17:40] 2xy x e'li kısma geldik e x y k çp e
+[17:47] Aynen yaz çarpı üssünün türevi üssünün
+[17:49] türevini yazıyoruz xin türevi 1 eder y
+[17:52] kare
+[17:53] kalır Bunu da düzenleyecek olursak
+[17:57] 2y
+[18:16] kare
+[18:16] Art buradaki y kare ile burayı çarparsak
+[18:21] 2x y
+[18:24] kü B
+[18:27] üzeri x y
+[18:30] kare baktığımız zaman birbirlerine eşit
+[18:35] çıkmadılar Bunlar tam
+[18:42] diferansiyel
+[18:42] değil o yüzden bu soruyu burada Böylece
+[18:45] bırakıyoruz tam diferansiyel Diye
+[18:48] yazmıştım ben örneği ama tam
+[18:50] diferansiyel çıkmadı diferansiyeller tam
+[18:53] olmadığında integral çarpanı bulma
+[18:56] metodu kullanacağız Ama bu videomuzda
+[18:58] değil bir sonraki videomuzda
+[19:00] diferansiyel tam çıkmazsa Acaba bir
+[19:04] integral çarpanı bulup da tam hale
+[19:06] getirebilir miyiz diye araştıracağız ama
+[19:09] bu videomuzun konusu o değil Şimdi bu
+[19:13] soruyu burada noktalayalım çünkü bu tam
+[19:15] bir diferansiyel
+[19:17] çıkmadı Şimdi bir
+[19:19] sonraki sorumuza geçelim Bir Başka
+[19:31] soruya 2x y kare +
+[19:31] 4 +
+[19:34] 2x kare y -
+[19:39] 6 y
+[19:41] türev eş
+[19:44] 0
+[19:55] çözünüz hadi buna bir de başlangıç
+[19:55] koşulu dağıtalım
+[19:57] y 0 e 2
+[20:01] olsun
+[20:03] Şimdi bu verilen formata baktığımızda
+[20:06] tam istediğimiz formatta değil buradaki
+[20:08] y'nin türevini dy / DX görür ve tüm
+[20:12] denklemi DX ile
+[20:13] çarparsak istediğimiz format gelecek 2x
+[20:17] K 2x y k + 4
+[20:22] DX + 2x k y - 6
+[20:28] dy eş 0 oldu yani Şuradaki y türev
+[20:32] yerine dy / DX yazıp bütün denklemi DX
+[20:35] ile çarparsak tam olarak karşımıza bu
+[20:38] gelir şimdi burası M Burası n bakalım
+[20:42] diferansiyel imiz tam mı Birinci Adım
+[20:46] diferansiyel denklem tam mı deniyoruz
+[20:48] m'nin X'in katsayısı olan m'nin Y'ye
+[20:52] göre türevini alıyoruz kısmi türevini
+[20:55] burada y karenin türevi 2y eder
+[20:59] 4 4'ün türevi ise 0 eder n'nin
+[21:04] x'e göre türevini alıyoruz y'nin
+[21:07] katsayısı olan kısmın x'e göre buradaki
+[21:10] 2x karenin türevi 2 başa geçeceği için
+[21:13] 4x olur Bir de yanında y var 4x y olur
+[21:17] buradaki - 6'nın türevi
+[21:19] 0'dır Bu ikisi birbirine eşit çıktığı
+[21:22] için
+[21:24] eşitler
+[21:26] diferansiyel tam diferans
+[21:34] diferansiyel denklem tam olduğuna
+[21:34] göre ikinci adıma
+[21:38] geçebiliriz şu kısmın integrali bu
+[21:42] kısmın integral ne eşit olmak
+[21:46] zorundadır diferansiyelin tam olmasının
+[21:49] bize söylediği şey budur başka bir şey
+[21:52] değil bunun integrali bunun integral
+[21:55] eşit olacak 2x
+[21:58] 2x k
+[22:00] y -
+[22:02] 6
+[22:05] dy ilkinin x'e göre integralini alırsak
+[22:08] burada x'li kısmımız var x k / 2 eder O
+[22:12] 2x K / 2 y k bunların 3ü beraber bir
+[22:18] terim sadece xin integralini aldık
+[22:20] değerleri sabit + buradaki 4'ün
+[22:23] integrali
+[22:24] 4x + CY x'e göre integral aldığımızda
+[22:30] sabite CY diyorduk Y'ye göre aldığımızda
+[22:33] ise CX diyorduk burada Y'ye göre
+[22:35] integral alıyoruz Şuradaki yin integrali
+[22:37] alınacak 2x K Y K / 2 - 6'nın integrali
+[22:44] 6y + CX şunları bir düzenlerse buradaki
+[22:49] 2er birbirini götürür x kare y k + 4x +
+[22:55] CY aşağıdakini düzenlerse 2'er birbirini
+[22:59] götürdü x k y k - 6y +
+[23:04] CX CY aşağıdaki sadece Y'ye bağlı olan
+[23:08] terimde o da şu
+[23:11] cym - 6y CX imiz yukarıda sadece x'e
+[23:15] bağlı olan terim
+[23:28] cximage
+[23:28] ikisi de aynı Herhangi birini alıp
+[23:30] yazacağız üsttekini alıp yazıyorum Bu
+[23:33] sefer alttakini de yazabilirdim x k y k
+[23:38] +
+[23:40] 4x C'yi - 6y bulmuştuk - 6y = C
+[23:46] biçiminde çözümü
+[23:49] yazarız
+[23:51] şimdi Normalde çözümümüz burada bitti
+[23:53] ama başlangıç koşul vardı ne demiştik
+[23:57] başlangıç koşuluna bir alalım onu da y0
+[24:01] 2
+[24:02] demişiz y 0
+[24:05] 2 x'e 0 verdiğimizde Y2 çıkar demek bu x
+[24:10] yerine 0 y yerine 2 koyuyoruz 0 eder
+[24:13] Burası x yerine 0 koyuyoruz Burası da 0
+[24:15] eder y yerine 2 koyuyoruz
+[24:18] -12 = c c = -1 olarak bulundu en sona da
+[24:24] x k y k + 4x - 6y =
+[24:31] -12 diferansiyel denklemin çözümü
+[24:36] budur
+[24:39] şimdi bir diferansiyel tam çıktığında
+[24:42] integrallerin birbirine eşitliği
+[24:44] üzerinden diferansiyel denklemi
+[24:47] çözüyoruz bu videomuzu burada noktalayan
+[24:51] sonraki
+[24:52] videomuzda tam çıkmayan
+[24:56] diferansiyeller tam çıkmayan
+[25:00] diferansiyeller integral çarpanı
+[25:04] aranır panı
+[25:07] aranır integral çarpanı Bulabilirsek tam
+[25:10] yapabilecek şekilde yine Bu yöntemle
+[25:13] çözüme
+[25:15] ulaşabileceği ama integral çarpanı
+[25:17] bulamazsak demek ki tam diferansiyel ile
+[25:20] Çözüm çözüm mümkün değildir diye
+[25:22] geçeceğiz bir sonraki videomuz integral
+[25:26] çarpanı yardımıyla tam diferansiyelleri
+[25:30] çözme
+[25:32] olacak Buradaki videomuzu burada

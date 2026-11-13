@@ -1,0 +1,88 @@
+# MAT2085 Diferansiyel Denklemler - Sınav Stratejisi, Hoca Notları ve Kritik Kurallar
+
+## 1. Ders ve Sınav Bilgileri
+- **Ders:** MAT2085 Diferansiyel Denklemler (Marmara Üniversitesi)
+- **Öğretim Üyesi:** Dr. Neşe Özdemir
+- **Ders Kitabı:** William E. Boyce, Richard C. DiPrima - *Elementary Differential Equations and Boundary Value Problems*
+- **Ağırlıklar:** Vize %50, Final %50
+- **Dersin İlerleme Durumu ve Vize Kapsamı:**
+  - Ders izlencenin (syllabus) oldukça gerisinden geliyor.
+  - 2 Kasım'da 2. mertebe sabit katsayılı homojen denklemlere yeni giriş yapıldı.
+  - Vize öncesi son ders 9 Kasım. Bu nedenle 6. ve 7. hafta konuları olan "Belirsiz Katsayılar" ve "Parametrelerin Değişimi" vizeye yetişmeyecek / ağırlık taşımayacak.
+  - Sınav ağırlığı %80+ oranında **1. Mertebe Diferansiyel Denklemler** ve **2. Mertebe Sabit Katsayılı Homojen Denklemler** (karakteristik kökler) üzerine olacak.
+
+---
+
+## 2. Hocanın (Neşe Hoca) Özel Yöntem Kuralları ve Puan Kriterleri
+
+### A. Tam Diferansiyel Denklemler:
+1. **Adım 0 (Zorunlu Kontrol):** Kağıdın en başında mutlaka $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$ türevleri hesaplanıp denklemin tam olduğu gösterilmelidir. Bu adım yazılmazsa puan kırılır.
+2. **Çözüm Yöntemi:** 
+   - $M$ ve $N$'yi ayrı ayrı integre edip terimleri birleştirme (küme yöntemi) KULLANILMAYACAK (Hoca bu yönteme puan kırmasa bile zorlaştıracağını belirtti).
+   - **Kullanılacak Yöntem ($\psi$ metodu):**
+     $$\psi(x, y) = \int M(x, y)\,dx + g(y)$$
+     Ardından $y$'ye göre kısmi türev alınır:
+     $$\frac{\partial \psi}{\partial y} = \frac{\partial}{\partial y}\left(\int M\,dx\right) + g'(y) = N(x, y)$$
+     Buradan $g'(y)$ çekilir, integre edilerek $g(y)$ bulunur.
+     Genel çözüm: $\psi(x, y) = C$.
+
+### B. Bernoulli Diferansiyel Denklemleri:
+- Hazır ezber formül veya kısayol kesinlikle KULLANILMAYACAK.
+- Her terim $y^n$'e bölünerek ($y^{-n}$ ile çarpılarak) açıkça yazılacak:
+  $$y^{-n}y' + P(x)y^{1-n} = Q(x)$$
+- Değişken değiştirme ve türev adımı açıkça kağıtta gösterilecek:
+  $$v = y^{1-n} \implies v' = (1-n)y^{-n}y' \implies y^{-n}y' = \frac{v'}{1-n}$$
+- Denklem $v$'ye göre lineer hale getirilip integral çarpanı ($\mu(x)$) ile çözülecek, en son $v$ yerine $y^{1-n}$ geri yazılacak.
+
+### C. Riccati Diferansiyel Denklemleri:
+- Hoca Çalışma Kağıdı 2'de sormuş ve yöntem şartı koşmuştur.
+- **Dönüşüm Şartı:** $y = y_1 + v$ (Bernoulli'ye çeviren yol) KULLANILMAYACAK.
+- Doğrudan **$y = y_1 + \frac{1}{v}$** dönüşümü kullanılacak.
+  $$y' = y_1' - \frac{v'}{v^2}$$
+- Bu dönüşüm ana denklemde yerine yazıldığında Bernoulli aşaması atlanarak denklem doğrudan **1. Mertebeden Lineer Diferansiyel Denkleme** ($v' + P(x)v = Q(x)$) indirgenir.
+
+### D. Değişken Değiştirme ve İntegral Çarpanı:
+- $\mu(x) = e^{\int P(x)dx}$ hesaplanırken $+C$ yazılmaz.
+- Logaritma önündeki katsayılar içeri üs olarak alınmadan $e^{\ln...}$ sadeleştirmesi yapılmaz: $e^{-2\ln x} = e^{\ln(x^{-2})} = x^{-2} = \frac{1}{x^2}$.
+- Genel çözümde $y = \frac{1}{\mu(x)}\left[\int \mu(x)Q(x)dx + C\right]$ formülünde $+C$ sabiti parantez içindedir, $\mu(x)$'e o da bölünür.
+
+---
+
+## 3. Çalışma Kağıtları Dökümü
+
+### Çalışma Kağıdı 1 (19 Ekim):
+- 1(a-e): Değişkenlerine ayrılabilir ve lineer denklemler (bazıları BDP/IVP)
+- 1(f), 1(g): Bernoulli denklemleri
+- 1(h), 1(j): Homojen denklemler ($y/x$ tipi, $y=vx$ dönüşümü)
+- 2: Tam diferansiyel yapacak parametre $A$'yı bulma ve çözme
+- 3: Tam olmayan diferansiyellerde integral çarpanı ($\mu(x)$ veya $\mu(y)$) bulma
+- 4: $x\cos y\,dy + (x+3)\sin y\,dx = 0$
+- 5(a), 5(b): Varlık ve Teklik Teoremi (Picard): $f(x,y)$ ve $\frac{\partial f}{\partial y}$ süreklilik analizi.
+
+### Çalışma Kağıdı 2 (4 Kasım):
+- 1: Bernoulli denklemi
+- 2: Riccati denklemi ($y_1 = 1/t$ özel çözümü verilmiş: $y' = -1/t^2 - y/t + y^2$)
+- 3: Belirsiz katsayılar metodu ($y_p$ formunu tahmin etme, rezonans tuzağı: $-1 \pm 2i$ kökleri varken $t e^{-t}\cos 2t$)
+- 4: $y'' + 2y' + y = e^{-t}\ln t$ (katlı kök ve parametrelerin değişimi)
+- 5: Belirsiz katsayılar çözümleri
+- 6: Parametrelerin değişimi ($\sec 3x$ ve $\sinh$)
+
+---
+
+## 4. YouTube BUders Video Eşleşmeleri
+Klasördeki transkript dosyaları BUders'in "Diferansiyel Denklemler" serisine aittir:
+- 01: Tanım
+- 02: Sınıflandırma (Mertebe, Derece, Lineerlik)
+- 03: 1. Mertebe Harita
+- 04: Ayrılabilir
+- 05: Lineer (İntegral Çarpanı)
+- 06: Tam Diferansiyel
+- 07: İntegral Çarpanı ile Tam Yapma
+- 08: Bernoulli
+- 09: Riccati (Klasik/Uzun yol; yerine ayrı video olan $1/v$ "Kısa Yol" videosu izlenmeli)
+- 10: Homojen ($y=vx$)
+- 11-12: 2. Mertebe Sabit Katsayılı Homojen
+- 13: Belirsiz Katsayılar
+- 14: Parametrelerin Değişimi
+- 17: Mertebe İndirgeme
+- 18: Abel Teoremi / Wronskian

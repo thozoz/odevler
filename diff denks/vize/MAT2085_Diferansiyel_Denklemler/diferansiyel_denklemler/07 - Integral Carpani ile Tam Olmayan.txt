@@ -1,0 +1,485 @@
+[00:02] Integral çarpanı yardımıyla tam
+[00:02] diferansiyelleri çözme.
+[00:05] Integral çarpanıyla ilk olarak
+[00:08] eee 1inci derece lineer
+[00:10] diferansiyellerin çözümünde
+[00:12] karşılaşmıştık.
+[00:14] Bir de tam diferansiyelleri çözerken
+[00:17] diferansiyel tam olmadığında
+[00:20] diferansiyel
+[00:23] tam olmadığında
+[00:31] da bir integral çarpanı bularak
+[00:31] diferansiyeli tam yapabilir miyiz diye
+[00:34] bakarız.
+[00:35] integral çarpanı
+[00:39] çarpanı
+[00:41] bulup
+[00:43] tam yapabilir miyiz diye bakarız.
+[00:47] Yapabilir miyiz diye bakarız.
+[00:53] Bunu yapabilirsek normal tam
+[00:53] diferansiyelleri çözme fikirleriyle
+[00:55] diferansiyelimizi çözeriz. Tam
+[00:58] diferansiyellerde
+[01:05] mdx + n
+[01:05] = 0 formatında yazıldığında diferansiyel
+[01:08] denklem.
+[01:14] Bu M'nin
+[01:15] X'in önündeki M'nin Y'ye göre kısmi
+[01:18] türevi eğer ki y'nin önündeki nnin
+[01:28] x'e göre türevine eşit olmazsa
+[01:28] diferansiyel tam değildir. eşit
+[01:30] olduğunda
+[01:33] eee diferansiyel tam diferansiyel olmuş
+[01:37] oluyordu ve m ddx'in integrali n'nin
+[01:40] integraline eşit oluyordu. Diferansiyel
+[01:43] tam değildir. İşte tam bu noktada
+[01:46] diferansiyel tam olmadığında
+[01:49] integral çarpanı aranır.
+[01:57] Integral çarpanı bulup integral
+[01:57] çarpanına mü diyelim.
+[01:59] bulup
+[02:02] diferansiyeli
+[02:04] bu diferansiyel denklemle çarpıp
+[02:08] ardından
+[02:09] bunu tam yapabiliyor muyuz diye
+[02:11] araştıracağız. Integral çarpanı bulmak
+[02:14] için kullanacağımız formüller.
+[02:17] İki tane formülümüz vardır. Integral
+[02:19] çarpanı bulmak için kullandığımız
+[02:22] m'nin y'ye göre kısmi türevi şu şunların
+[02:27] şu hallerini yazalım. my demek
+[02:30] m'nin y'ye göre kısmi türevi. Nx demek
+[02:34] n'nin x'e göre kısmi türevi. NY - NX
+[02:40] bö
+[02:42] N.
+[02:44] Yani şundan şundan şunu çıkarıp N'ye
+[02:47] böldüğümüzde
+[02:49] sonuç eğer sadece x'e bağlı çıkarsa
+[02:59] çıkarsa
+[02:59] diğerine de bakalım.
+[03:02] Nx
+[03:04] -y
+[03:06] bö m
+[03:10] sadece y'ye bağlı çıkarsa sonuç sadece
+[03:14] y'ye bağlı çıkarsa
+[03:22] integral çarpanı bulmak için
+[03:22] kullanılabilir.
+[03:24] çarpanı
+[03:26] vardır
+[03:28] ve biz onu bulup diferansiyel denklemi
+[03:31] tam yapabiliriz.
+[03:33] Eğer bunun sonucu sadece x'e bağlı
+[03:35] çıkmazsa, bunun sonucu sadece y'ye bağlı
+[03:38] çıkmazsa, ikisi de sağlanmazsa o zaman
+[03:41] diferansiyel denklem için
+[03:44] integral çarpanı bulamayız.
+[03:47] Bize birinin sağlanması yeterlidir.
+[03:48] İkisinin sağlanması şartı falan yoktur.
+[03:52] biri bile sağlansa biz integral çarpanı
+[03:54] bulabiliriz.
+[03:56] İkisi de sağlanmadığı takdirde
+[03:59] o zaman artık tam diferansiyel
+[04:01] yöntemiyle diferansiyel denklemi
+[04:03] çözemeyeceğimize karar veririz. Peki
+[04:06] bunları belirledikten sonra integral
+[04:07] çarpanı nasıl bulacağız? Integral
+[04:09] çarpanı bulmanın yolu m e üzeri şunları
+[04:14] yerine yazmak olacak.
+[04:17] my - nx b/ n
+[04:22] dx çünkü o x'e bağlı çıkıyor. Veya
+[04:26] integral çarpanımız m e üzeri
+[04:32] nx -
+[04:34] b/ m dy olacak. Hangisi sağlanırsa zaten
+[04:40] onu kullanacağız. Buradan integral
+[04:42] çarpanımızı bulup
+[04:45] diferansiyel denklemi o integral
+[04:46] çarpanıyla çarpacağız ve arkasından
+[04:49] çözüme gideceğiz. Şimdi bu teorik
+[04:51] anlatımımızın arkasından bir soruya
+[04:53] geçeceğiz. Ama neler yaptık, ne için
+[04:55] yaptık onları bir daha konuşalım. Bize
+[04:57] verilmiş olan bir diferansiyel denklem
+[05:00] MDX NY formatında ise hemen M'nin Y'ye
+[05:04] göre kısmı türevi N'nin X'e göre kısmı
+[05:06] türevi eşit mi diye bakarız.
+[05:07] Diferansiyel tam mı değil mi diye. Eşit
+[05:10] çıkmadığında tam değilse hemen
+[05:12] diferansiyel denklemin tam diferansiyel
+[05:15] ile çözülemeyeceğine karar vermemeliyiz.
+[05:18] Integral çarpanı bulup bulamayacağımıza
+[05:20] bakmalıyız.
+[05:21] Integral çarpanı bulmanın yolu
+[05:24] myy - nx/ n'nin sadece x'e bağlı çıkması
+[05:28] durumunda integral çarpanı bunda vardır.
+[05:31] Nx - my/ m'nin sadece y'ye bağlı
+[05:34] çıkmasında da bunda integral çarpanı
+[05:36] vardır. Eğer ikisi de bu şartı
+[05:38] sağlamazsa integral çarpanı bulamıyoruz
+[05:41] demektir. Tam diferansiyel çözüm yok
+[05:43] demektir.
+[05:45] Integral çarpanını bulmak için de bu
+[05:47] formülleri kullanırız. Şimdi örnek
+[05:49] üzerindeki uygulama çok daha iyi
+[05:52] anlamamızı sağlayacak zaten.
+[06:06] y² - x dx
+[06:06] + 2y dy = 0. Diferansiyelini çözünüz.
+[06:24] Şimdi çok açık bize MDX
+[06:24] NY formatında verilmiş.
+[06:27] Hemen M'nin
+[06:30] Y'ye göre kısmi türevini alıyoruz. X'in
+[06:32] önündekinin Y'ye göre kısmi türevi
+[06:34] alınır.
+[06:36] 2Y'dir.
+[06:38] N'nin önünde şey Y'nin önündekinin ise
+[06:43] X'e göre kısmi türevi alınır. Bunun x'e
+[06:45] göre kısmi türevi 0'dır.
+[06:48] Bu ikisi birbirine eşit olmadığı için
+[06:56] diferansiyel
+[06:56] tam değildir.
+[06:58] Tam değil.
+[07:01] Şimdi diferansiyel tam çıkmadığında
+[07:05] hemen burada bu tam diferansiyel yöntemi
+[07:08] ile çözülemez deyip geçmemeliyiz. İkinci
+[07:11] adımda integral çarpanı aramalıyız.
+[07:15] Integral çarpanı arama formüllerimiz az
+[07:18] önce yazmıştık.
+[07:20] my - nx b/ n sadece x'e bağlı çıkarsa
+[07:29] x'li çıkarsa
+[07:31] bundan integral çarpanı vardır. Diğerine
+[07:34] bakmayız bile. Ama bundan sadece x'i
+[07:36] bulamazsak
+[07:37] nx - my b/ m sadece y'li çıkarsa bundan
+[07:45] vardır. Eğer ikisi de sağlanmazsa
+[07:48] integral çarpanı bulamayacağız zaten.
+[07:51] İlkini deneyerek başlayalım. My
+[07:55] 2y
+[08:01] nx
+[08:01] 0
+[08:04] böl nbirine
+[08:12] böldüğümüzde sonuç 1 çıktı.
+[08:12] Sonuç 1 çıktığına göre biz bunu
+[08:17] x'li sadece x'e bağlı kabul edebiliriz.
+[08:20] Sabit sayı
+[08:27] sadece
+[08:27] x'e bağlı kabul edilebilir.
+[08:34] Aynı şekilde sadece y'ye bağlı da kabul
+[08:34] edilebilir.
+[08:36] Şimdi mesela ikinciye bakarsak bunu
+[08:39] normalde kontrol etmemize gerek yok ama
+[08:40] biz bakalım. Nx'imiz 0, my'miz
+[08:45] 2y/
+[08:47] m'miz y² - x. Bunun sonucu -2y/
+[08:59] y² - x oldu. Herhangi bir sadeleştirme
+[08:59] yok. Bu hem x hem de y'li.
+[09:03] İkisi de var. Buradan integral çarpanı
+[09:06] elde edilebilmesi mümkün değil. İlki
+[09:09] sabit sayı çıktığı zaman onu sadece x'e
+[09:12] bağlı da kabul edebiliriz. Sadece y'ye
+[09:14] bağlı da kabul edebiliriz. Buradan
+[09:15] integral çarpanı var. Şimdi integral
+[09:18] çarpanımızı bulacağız.
+[09:20] M = e üzeri buradan bulduğumuz 1'i
+[09:25] getirip içine yazıyoruz. Sadece x'e
+[09:28] bağlı çıkan kısım bu. O yüzden x'e bağlı
+[09:30] integral alıyoruz. Buranın integrali 1in
+[09:34] integrali x olur. E üzeri x etti.
+[09:37] Integral çarpanı bulunurken + cılmaz.
+[09:40] Integralden kaynaklı.
+[09:46] E üzeri x olarak integral çarpanını
+[09:46] bulduk. Artık 3üncü adıma geçip integral
+[09:49] çarpanıyla diferansiyelin iki tarafını
+[09:51] da diferansiyelin
+[09:54] çarpılması gerekiyor.
+[09:56] E üzeri x
+[09:59] diferansiyelimiz neydi? Bir ona bakalım.
+[10:17] y² - x dx + 2y d
+[10:17] eee şöyle yapalım eş 0 bu 0'ı da e üzeri
+[10:20] x ile çarpıyoruz iki tarafı da e üzeri x
+[10:22] ile çarpıyoruz kısacası
+[10:25] bu taraf zaten 0 olacak e üzeri x ile
+[10:28] çarptığımızda
+[10:31] y² e üzeri -
+[10:34] X e üzeri x oldu.
+[10:38] dx
+[10:41] e üzeri x ile 2y'yi çarpınca da 2y e
+[10:44] üzeri x d oldu.
+[10:48] Şimdi
+[10:50] diferansiyel tam oldu mu diye tekrar
+[10:52] kontrol etmeliyiz. Burası m, burası n.
+[10:57] Integral çarpanıyla çarptıktan sonra
+[11:00] işlemleri doğru yaptıysak kesinlikle tam
+[11:03] diferansiyel gelmesi lazım. Bunu bir
+[11:05] sağlama olarak düşünmeliyiz. m'nin y'ye
+[11:08] göre
+[11:10] kısmi türevini alırsak y² e x'in kısmi
+[11:15] türevi y kareli olduğu için 2y e üzeri x
+[11:19] olur. Burada y'li hiçbir terim olmadığı
+[11:21] için bunun türevi 0dır.
+[11:24] Buraya geldiğimizde ise n'nin x'e göre
+[11:27] kısmi türevini alıyoruz. Yli ile işimiz
+[11:30] yok. E üzeri x'in türevi e üzeri x'in
+[11:33] kendisidir.
+[11:35] 2y
+[11:37] e üzeri x oldu. Evet, birbirlerine eşit
+[11:40] bunlar
+[11:42] ve tam diferansiyel oldu.
+[11:46] Yani integral çarpanımızı bulduk.
+[11:50] Diferansiyelimizi integral çarpanıyla
+[11:52] çarptık ve tam diferansiyele geldik.
+[11:54] Şimdi
+[11:56] burada yeni oluşan durumun
+[11:59] integrallerini alacağız. Tam
+[12:01] diferansiyel olduğu zaman yapılan şey
+[12:03] diferansiyel tamsa bunun integralinin
+[12:06] sonucu bunun integralinin sonucuna
+[12:08] eşittir. 4. adımımıza geçiyoruz.
+[12:20] 4. adımda y² e üzeri x - x üzeri x
+[12:20] dx.
+[12:22] Bunun integrali bunun integraline eşit
+[12:24] olmalıdır.
+[12:26] 2y e üzeri x d
+[12:31] x'e göre
+[12:33] integral alıyoruz. y² sabittir. e üzeri
+[12:36] x'in integrali e üzeri x'tir. y²
+[12:40] e üzeri x çıktı.
+[12:42] İkincisine geldiğimizde x e üzeri x
+[12:45] problemli bir integraldir.
+[12:49] O lapt ile çözülmesi gerekiyor. Kenara
+[12:51] gidiyorum şimdi. X e üzeri x dx
+[12:56] u neye diyeceğiz? Laptüyü kenara
+[12:58] yazalım.
+[13:00] Logaritma yok. Ark yok polinom var. U
+[13:06] polinoma diyeceğiz. X laptü neye U
+[13:10] diyeceğimizin
+[13:13] sıralamasıdır.
+[13:15] Sola doğru sağa doğru ilerlediğimizde
+[13:17] ilk hangisi gelirse o U'dur. Geri kalan
+[13:19] her şey de dv'dir. DV = e üzeri x dx
+[13:25] oldu. Buradan du üreteceğiz. du/ dx x'e
+[13:29] göre türev alarak üretiyoruz bunu. Du/
+[13:33] dx = 1 oldu. Du= dx oldu. Buradan da her
+[13:38] iki tarafın integralini alarak v
+[13:40] üreteceğiz. V = e üzeri x oldu.
+[13:44] U x v - vd'dur. Kısmi integral. U'muz x,
+[13:51] v'miz e üzeri x - v'miz e üzeri x'muz
+[13:55] dx.
+[13:57] E üzeri x'in integrali tekrar e üzeri x
+[13:59] gelir. X e üzeri x - e üzeri x olur.
+[14:06] Bunu götürüp yukarıda yerine koyalım.
+[14:09] Eksi var. -x e üzeri x + e üzeri x +
+[14:15] burada integral alırken çıkan sonuca cğ
+[14:17] de cy diyorduk.
+[14:20] Şimdi alt tarafa geçtik. Y'ye göre
+[14:21] integral alıyoruz. Bu kolay bir
+[14:23] integral. y'nin integrali y²/ 2'dir.
+[14:27] 2y²/
+[14:29] 2e e üzeri x + buraya da cx diyoruz.
+[14:33] Burada 2er birbirini götürür. y²
+[14:37] + cx.
+[14:39] Cx yukarıdaki x'e bağlılar sadece. Cy de
+[14:43] aşağıdaki sadece y'ye bağlılar. Aşağıda
+[14:45] sadece y'ye bağlı olan
+[14:49] bir şey yok. C 0. Yukarıda sadece x'e
+[14:52] bağlı olan şu bölüm var.
+[14:54] Bunlar sadece x'e bağlı. Cx = -x e üzeri
+[14:59] x + e üzeri x oldu. En son 5. adımda da
+[15:03] sonucumuzu yazacak olursak
+[15:11] ister bunu alıp yazabiliriz ister
+[15:11] altındakini ben buna alıp yazıyorum.
+[15:14] y² e üzeri x - x üzeri x + e üzeri x
+[15:20] cy'yi 0 bulduk zaten. Eşittir bir de
+[15:24] karşı tarafa c diyeceğiz.
+[15:27] Sonucun yazım şekli buydu. Bundan önce
+[15:31] tam diferansiyellerin çözüm videosunu
+[15:33] incele izlemiş olmalısınız. Burada artık
+[15:35] bazı noktaları pratik bir şekilde
+[15:37] yapıyoruz.
+[15:39] Şimdi baştan itibaren yaptıklarımıza
+[15:41] hızlıca bir bakıp bir örnek daha çözüp
+[15:43] bu videomuzu tamamlayacağız.
+[15:45] Şimdi diferansiyel denklemle
+[15:47] karşılaştık. Tam mı diye baktık tam
+[15:49] diferansiyel çıkmadı. Hemen bu tam
+[15:52] diferansiyelle çözüm yok deyip
+[15:53] geçmiyoruz. Acaba bir integral çarpanı
+[15:56] bulabilir miyiz? Onun için şu iki
+[15:58] formülü kullanıyoruz.
+[16:00] İlki sadece x'e, ikincisi sadece y'ye
+[16:03] bağlı çıkarsa kullanılabilir.
+[16:05] Sadece x'e bağlı çıktı birisi. Onunla
+[16:07] integral çarpanını bulduk. Şu formül
+[16:10] yardımıyla
+[16:12] diferansiyelimizi çarptık. integral
+[16:14] çarpanıyla
+[16:16] ortaya çıkan diferansiyel tam
+[16:18] diferansiyel oldu mu diye kontrol ettik
+[16:19] ki oldu. Sonra ilk kısmının
+[16:24] integrali ikinci kısmının integraline
+[16:26] eşit olması gerekiyor. Bu tam
+[16:27] diferansiyelin çözüm mantığıdır zaten.
+[16:30] Oradan da diferansiyelimizi çözdük.
+[16:33] Burada integrali alırken bir de kısmi
+[16:35] integral karşımıza geldi. O da ekstra
+[16:37] bir zorluktu.
+[16:40] Ona alışmalıyız. Diferansiyel
+[16:42] denklemlerde kısmi integraller hep
+[16:44] karşımıza gelebilir. Integral almada
+[16:46] yeterince kuvvetli olmalıyız. Şimdi
+[16:49] integral çarpanıyla
+[16:52] bir çözüme bir örnek daha yapıp geçelim.
+[17:01] -2y³
+[17:01] + 1
+[17:08] dx +
+[17:08] 3xy²
+[17:10] + x³
+[17:27] Birinci adım diferansiyel tam mı diye
+[17:27] bakacağız. Eğer tamsa zaten otomatikman
+[17:30] çözüm kendiliğinden gidiyor. Burası
+[17:33] M'miz.
+[17:35] Burası N'miz. X'in katsayısı her zaman
+[17:39] dx'linin katsayısı M, DY'linin katsayısı
+[17:41] N'dir. M'nin Y'ye göre kısmi türevini
+[17:45] alıyoruz.
+[17:47] -6y eder. 1in türevi -6y²are eder. 3
+[17:52] başa geçer 1 azalır. 2inci tarafa
+[17:55] geçersek n'nin x'e göre alacağız kısmi
+[17:58] türevini.
+[18:00] X'e göre alırsak burası 3y²are eder.
+[18:04] X'in türevi 1'dir çünkü. Bir de buradan
+[18:07] +
+[18:09] 3x² gelir.
+[18:12] X'e göre türev aldığımızda birbirine
+[18:14] eşit çıkmadıklarını çok net olarak
+[18:16] görüyoruz. Diferansiyel tam değil.
+[18:23] Şimdi integral çarpanı bulup da tam
+[18:23] yapabilecek miyiz? Ona bakacağız. İkinci
+[18:25] adıma geçiyoruz.
+[18:28] Şimdi 2inci adımda formüllerimize
+[18:31] bakacağız.
+[18:33] my - nx/ n sadece x'e bağlı çıkmalı.
+[18:39] Bakalım. My'miz
+[18:42] -6y²,
+[18:44] nx'imiz
+[18:46] şu. Onu eksi ile çarpacağız. -3y²
+[18:51] - 3x²
+[18:53] bö
+[18:55] n'miz
+[18:57] 3x
+[18:59] y² + x³
+[19:03] - 9y²
+[19:06] - 3x²
+[19:09] bx
+[19:12] y² + x³ yukarısı -3 parantezine
+[19:16] alınabilir.
+[19:19] 3y²
+[19:20] + x²
+[19:22] aşağısı da x parantezine alınabilir. 3y²
+[19:26] + x²
+[19:28] şunlar birbirini götürdü ve sonuç -3/x
+[19:31] çıktı. Sadece x'e bağlı çıktı. Bundan
+[19:35] integral çarpanı bulunabiliyor. İkinciyi
+[19:38] kontrol etmemize dahi gerek yok.
+[19:41] İkinciyi zaten ilkinden x'i x'e bağlı
+[19:44] bir şey çıkmazsa kontrol edeceğiz.
+[19:46] Eğer o da y'ye bağlı çıkmazsa zaten bu
+[19:49] yöntemle çözüm yok demektir. Şimdi
+[19:53] buradan x'e bağlı çıktığına göre
+[19:55] integral çarpanımızı bulacağız. M'yü
+[19:59] M = E üzeri bu bulduğumuz X'e bağlı
+[20:03] kısmı
+[20:04] -3/ x biçiminde yazdık.
+[20:08] -3/ x'in integrali e üzeri -3 ln x olur.
+[20:15] E'nin üzerinde ln olduğunda e ile
+[20:17] buradaki lnin içindeki yer
+[20:19] değiştirmelidir. X üzeri -3 ln
+[20:23] ln 1 ettiğinden dolayı x üzeri -3 olarak
+[20:27] integral çarpanımızı bulduk. 3ün adım
+[20:31] diferansiyelimizi bu integral çarpanıyla
+[20:33] çarpacağız.
+[20:35] Ardından da bakalım. Tam diferansiyel
+[20:38] çıktı mı çıkmadı mı kontrol edeceğiz.
+[20:40] Bakalım şu diferansiyelimiz neydi bizim?
+[20:43] -2y³ + 1 dx -2y³
+[20:48] + 1 dx + gidip 2inci kısmına bakalım.
+[20:53] 3xy² + x³ dy
+[20:57] 3xy²
+[21:00] + x³
+[21:02] dy
+[21:04] = 0 x o tarafı da x üzeri -3 ile
+[21:07] çarpıyoruz. Şunu doğru yazdık mı
+[21:08] bakalım? 3x y² tamam.
+[21:12] Şimdi
+[21:14] çarpmaya başlarsak
+[21:21] x üzeri -3 ile burayı çarparsak -2x
+[21:21] üzeri -3 y üzer
+[21:25] -3
+[21:27] dx oldu.
+[21:30] Art burayı çarpmaya başlarsak 3x üzeri
+[21:34] -2 olur. x ile x üzeri -3'ü çarpınca
+[21:39] y²
+[21:41] + x üzeri -3 ile x üzeri -3'ü çarpınca
+[21:44] da 1 olur. d karşı taraf zaten 0.
+[21:48] Şimdi
+[21:50] m'miz bu, n'miz bu. Bakalım tam
+[21:53] diferansiyel oldu mu? M'nin
+[21:58] y'ye göre alıyoruz.
+[22:00] Buradaki y küpünü alırsak 3 başa geçer.
+[22:03] -6
+[22:05] x üzeri -3 y² olur. Y'ye göre x üzeri
+[22:09] -3'ün
+[22:11] türevi zaten 0dır. N'nin x'e göre
+[22:15] türevini alıyoruz. N'nin x'e göre türevi
+[22:17] eksi baş -2 başa geçer 1 azalır. -6x
+[22:21] üzeri -3y²
+[22:23] 1inkisi ise 0'dır.
+[22:26] Evet tam diferansiyel oldu. Tam
+[22:30] diferansiyel olduğuna göre 4. adımda
+[22:33] soruyu bitirmeye doğru gideceğiz. 4.
+[22:37] adımımız tam diferansiyel olduğuna göre
+[22:39] bu tam diferansiyel olan kısımdaki
+[22:41] x'inin integrali
+[22:53] -2x üzeri -3y 3 + x üzeri -3 dx
+[22:53] buradaki y'inin integraline eşit
+[22:57] olmalıdır.
+[23:07] 3x üzer -2y üzer 2 + 1 dğumu
+[23:07] bir bakalım şuna. Evet. Şimdi
+[23:10] integrallerini alacağız. X'e göre
+[23:12] integral alıyoruz burada. Üssü 1
+[23:14] arttıracağız. -2x üzeri -2y³
+[23:18] bölü oluşan üste böleceğiz. -2 + üssü
+[23:22] bir arttıracağız. Oluşan üste böleceğiz.
+[23:24] X üzeri -2/ -2 + cy diyeceğiz burada.
+[23:29] Devam edersek alttakini bu sefer y'ye
+[23:31] göre alıyoruz.
+[23:33] E 3x üzeri -2y³/
+[23:37] 3
+[23:39] + 2incisi sabit sayı zaten y + cx
+[23:42] olacak.
+[23:44] Şunları temiz bir şekilde ikisini
+[23:46] yazacak olursak ilkini yazalım. Burada
+[23:50] -2 ile -2 gitti.
+[23:52] x üzeri -2 y³
+[23:56] -
+[23:57] x üzeri -2/ 2 + cy. Bu ilkiydi.
+[24:04] 2inciyi yazacak olursak şimdi
+[24:08] 3'ler birbirini götürür. x üzeri -2 y³ +
+[24:12] y + cx.
+[24:16] Cy alttakinde sadece Y'ye bağlı olan
+[24:19] terimdir. Burada Y CY'miz
+[24:27] Y'ye eşit. CX'imiz yukarıdaki sadece
+[24:27] eksi bağlı olan terim. Cx'imiz de -x
+[24:30] üzeri -2/ 2. Şu kısım. Şimdi çözümü
+[24:35] yazmaya gelirsek 5. Ve adım
+[24:40] alttakini aldım. İkisi de zaten
+[24:42] birbiriyle aynı çıkıyor. Alttakini alıp
+[24:44] C'ye eşitliyoruz. X üzeri -2 Y³ + Y.
+[24:50] CX'i de -
+[24:53] X üzeri -2/2 bulmuştuk. = C. Ve
+[24:57] diferansiyel denklemimizin çözümüne
+[25:00] ulaşmış olduk.
+[25:03] integral çarpanı bulup tam olmayan
+[25:06] diferansiyeli tam hale getirip çözme
+[25:08] fikri bu şekildeydi.
+[25:11] Böylece bu videomuzu da noktalamış
+[25:13] olduk.
+[25:15] Yeah.

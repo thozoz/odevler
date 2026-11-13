@@ -1,0 +1,469 @@
+[00:03] 1 derece homojen diferansiyellerin
+[00:03] çözümü y = vx
+[00:07] dönüşümü
+[00:08] Genellikle bu yukarıdaki ismi yerine y =
+[00:12] vx dönüşümü yapılan diferansiyeller diye
+[00:15] de geçer bu bölüm şimdi buradaki 1
+[00:18] derece homojen diferansiyel derken neyi
+[00:21] kastediyoruz y'nin türevi yalnız
+[00:28] bırakıldığında karşı
+[00:28] taraf x / y'nin bir fonksiyonu
+[00:34] olursa y'nin türevini yalnız
+[00:37] bıraktığımızda karşı taraf x / y'nin bir
+[00:41] fonksiyonu haline gelirse yani sadece x
+[00:44] / yli y / x'li değişkenlerden oluşursa
+[00:48] biz buna 1 derece homojen diferansiyel
+[00:52] diyoruz homojen diferansiyel
+[00:57] diyoruz şimdi birkaç tane diferansiyel
+[01:00] denklem yazalım homojen olup
+[01:03] olmadıklarına
+[01:05] bakalım şimdi
+[01:07] mesela x k + y
+[01:18] k - 2x y y türev =
+[01:18] 0 1 derece homojen diferansiyel mi 1
+[01:23] derece homojen diferansiyel
+[01:30] mi Çünkü Çünkü öncelikle bir
+[01:30] diferansiyelin 1ci derece homojen bir
+[01:33] diferansiyel olduğuna karar verelim
+[01:36] ki y = vx dönüşümüyle diferansiyeli
+[01:40] çözelim şimdi ne dedik yukarıda Eğer ki
+[01:43] bir diferansiyel denklem 1 dereceyken
+[01:46] y'nin türevini yalnız
+[01:49] bıraktığımızda karşı taraf x / y'nin bir
+[01:52] fonksiyonu haline gelebilir o 1 derece
+[01:56] hjen diferansiyel y'nin türevini yalnız
+[01:58] bırakalım şu y türevli bu tarafa atalım
+[02:02] x k + y k = 2x y y türev 2x y'yi bölü
+[02:09] olarak geçirelim y türevi önce yazalım x
+[02:13] k
+[02:14] b
+[02:16] 2xy + y k /
+[02:20] 2xy devam edersek y'nin türevi eş
+[02:25] buradan bir x Aşağıdan bir x sadeleşir x
+[02:28] / 2
+[02:30] y + buradan bir y ile buradan bir y
+[02:35] sadeleşir y / 2x olur görüleceği üzere
+[02:42] Burası sadece ve sadece x /
+[02:46] y y / x'ten
+[02:49] oluştu Kısacası FX y fonksiyonu olarak
+[02:53] ifade edebiliriz bunu buna a dersek
+[02:57] Burası a / 2
+[03:00] Burası da 1/2 A olur mesela Yani
+[03:03] kısacası Burası FX y olarak ifade
+[03:08] edilebildi Bu bir homojen
+[03:16] diferansiyelden bizim karşımıza böyle
+[03:16] bir diferansiyel
+[03:18] geldiğinde acaba bu homojen diferansiyel
+[03:21] midir diye bir
+[03:23] düşünüp bu formata getirebiliyor muyuz
+[03:26] diye bakmalı ardından Eğer ki
+[03:29] getirebilir
+[03:30] nasıl çözüldüğünü Az sonra göreceğiz y =
+[03:32] vx dönüşümü yapıyoruz bir başka
+[03:35] diferansiyel denkleme bakalım şu an
+[03:37] çözmüyor sadece bir diferansiyel denklem
+[03:39] homojen mi Değil mi karar veriyoruz Eğer
+[03:42] ki homojen
+[03:44] ise bu y = vx dönüşümü ile diferansiyel
+[03:49] denklemi
+[03:50] çözeceğiz y'nin türevi
+[03:53] eş x + y / y - x
+[04:06] homojen bu hali pek homojen gibi
+[04:06] durmuyor çünkü x b y y / x olacak Payı x
+[04:10] parantezine
+[04:11] alsak paydayı da x parantezine alırsak x
+[04:15] parantezinde 1 + y /
+[04:19] x paydayı da x parantezine
+[04:22] alırsak y x -1 olur x birbirini
+[04:27] götürdüğünde
+[04:29] y'nin türevi 1 + y /
+[04:33] x y / x -
+[04:37] 1 Burası çok açık bir
+[04:41] şekilde FX y FX b y li bir fonksiyon
+[04:48] haline dönüştü değişkenler sadece x / y
+[04:52] y / x homojen
+[05:02] Evet şimdi bir diferansiyelin homojen
+[05:02] olup olmadığını y'nin türevini yalnız
+[05:05] bıraktığımızda karşı tarafın y bx x / y
+[05:10] Bunlar dan oluşup oluşmadığı ile karar
+[05:13] veriyoruz mesela yalnız bıraktığımızda
+[05:16] şurada ekstra bir x kare kalsa y'nin
+[05:18] türevini yalnız bıraktık x / y + y k / x
+[05:23] k + x + 1 Bununla ilgili problemimiz yok
+[05:28] y k / x k b x karesidir Bununla ilgili
+[05:31] de bir problemimiz yok fakat buradaki x
+[05:34] bunun homojen olmasını Bozar homojen
+[05:44] değil Kısacası diferansiyel denklemin
+[05:44] homojen olabilmesi için karşı tarafının
+[05:47] x b y ve y b x' tarafından sadece
+[05:51] bırakılmış olması
+[05:53] gerekiyor şimdi 1 derece
+[05:55] diferansiyellerin homojen olmasının ne
+[05:58] demek olduğunu anladık varsayıyorum
+[06:01] y'nin türevi yalnız bırakıldığında karşı
+[06:04] tarafın sadece x / y y / x'ten
+[06:07] oluşması homojen diferansiyellerin
+[06:09] çözümüne geçiyoruz Şimdi
+[06:13] homojen
+[06:15] diferansiyellerin
+[06:16] çözümü bir homojen diferansiyel
+[06:19] karşılaştığımızda 1 derecede y = vx
+[06:27] dönüşümü yapmalıyız
+[06:37] y = vx dönüşümü
+[06:37] yaptığımızda diferansiyel y'den v'li
+[06:40] hale geçer v'li hale
+[06:45] gelir bu v'li
+[06:48] halde çoğunlukla çoğunlukla demeyelim
+[06:52] hemen hemen her
+[06:54] zaman ayrılabilir bir diferansiyel olur
+[06:58] ayrılabilir
+[07:00] bir
+[07:02] diferansiyel
+[07:04] olur zaman zaman buradaki v'li hal
+[07:07] integral çarpanı tekniği kullanılan
+[07:11] durumda
+[07:13] olabiliyor şimdi homojen bir
+[07:16] diferansiyelin homojen olup olmadığından
+[07:18] nereden şüphelen ceğiz bir
+[07:20] diferansiyelin içinde x b y olursa y b x
+[07:24] olursa bu direkt homojen olduğu
+[07:26] konusunda
+[07:33] veya biz hiç bunlar bunların olup
+[07:33] olmadığına
+[07:34] bakmadan y'nin türevini yalnız
+[07:38] bıraktığımızda bıraktığımızda karşı
+[07:42] taraf x / y'nin bir fonksiyonu haline
+[07:46] geldiyse bunun homojen diferansiyel
+[07:49] olduğunu ve dolayısıyla y ve x metoduyla
+[07:52] çözüleceğini
+[07:53] anlarız şimdi birkaç örnek üzerinden
+[07:58] bakalım
+[08:05] mesela önce çok açık bir soruyla
+[08:05] başlayalım y'nin türevi y / x +
+[08:10] tanjant y b x diferansiyelini
+[08:18] çözünüz
+[08:18] şimdi bu o kadar açık bir şekilde
+[08:21] homojen diferansiyel verilmiş ki
+[08:24] ekstradan bunun homojen mi Değil mi
+[08:26] böyle şüphelere Düşeceğiz bir durum yok
+[08:28] y y x bu taraf direk FX y'nin bir
+[08:35] fonksiyonu bu homojen
+[08:42] diferansiyel buna karar verdiğimize göre
+[08:42] bir
+[08:43] adım Y eş vx dönüşümü
+[08:54] yapacağız diferansiyeli y değişkeninde v
+[08:54] değişkenine çevireceğiz buradaki
+[08:56] [Alkış]
+[08:57] v x bağlı
+[09:05] fonksiyondur şimdi x'e bağlı fonksiyon
+[09:05] olduğuna göre ve şimdi bizim burada y
+[09:07] türevli ifademiz var bu dönüşümü
+[09:09] yapacağımız ifadenin Bir de türevini
+[09:11] alıyoruz y'nin türevi burada çarpımın
+[09:13] türevi vardır v'nin türevi çar x +
+[09:18] birinciyi olduğu gibi yazıyoruz
+[09:20] ikincinin türevi zaten X'in türevi
+[09:23] 1'dir y'nin türevini de isteyen kişiler
+[09:26] ezberleyebilir her seferinde yapıp
+[09:28] durmak yerine ve x bunun türevi çarpımın
+[09:32] türevidir birincinin türevi çarpı 2ci
+[09:34] artı birinciyi olduğu gibi yazıyoruz
+[09:36] çarpı ikincinin türevi ydi X'in türevi 1
+[09:39] ettiği için yazmadık Bu ikisini şimdi
+[09:41] diferansiyel denklemde yerine
+[09:45] koyuyoruz ikinci adımda yerine koyma
+[09:48] y'nin türevi yerine v'nin türevi x + v
+[09:53] koyduk eşittir buradaki y y
+[09:57] yerine vx koyuyor
+[10:00] y'nin türevi yerine bunu y yerine de vxi
+[10:04] koyuyoruz vx / x +
+[10:09] tanjant vx /
+[10:13] x buradan xer birbirini götürdü buradan
+[10:16] x' L birbirini götürdü v'nin türevi x +
+[10:20] v = v + tanj v çıktı karşılıklı bu v'ler
+[10:25] de birbirini
+[10:27] götürür V'in
+[10:30] türevi x = tanjant V oldu Daha önce de
+[10:34] belirttiğim gibi Bundan sonrası hep
+[10:37] ayrılabilir diferansiyel gelir çok
+[10:40] nadiren de integral çarpanı tekniği
+[10:42] gelebilir ki burada ayrılabilir oldu ilk
+[10:45] önce ayrılabilir liği deneyelim yani
+[10:47] ayrılabilir olduğu çok açık zaten
+[10:49] ayrılabilir diferansiyel ayrılabilir
+[10:52] diferansiyel karşılaşınca v'nin türevi
+[10:56] yerine dv / DX
+[10:58] yazarız ve x' L bir tarafa v' lileri bir
+[11:01] tarafa toplarız DX ve x'i diğer tarafa
+[11:05] tanjant v'yi bu tarafa
+[11:08] geçirdik dv / tanjant V
+[11:13] eş DX / x
+[11:17] oldu şimdi tanjant V 1 B tanjant V
+[11:20] kotanjant vye
+[11:23] eşittir kotanjant V
+[11:28] dv x /
+[11:30] x ardından her iki tarafın integralini
+[11:34] alırız daha öncelerde bir videoda da
+[11:37] belirtmiştim tanjant X
+[11:39] ve kotanjant x' lin integrallerin ezbere
+[11:44] bilinmesinde diferansiyel denklemlerde
+[11:46] büyük fayda vardır tanjant x'in
+[11:48] integrali - ln cos x + c'dir
+[11:53] kotanjantın integrali ln sinx + c'dir
+[11:59] Bu ikisini ezbere bilmek diferansiyel
+[12:02] denklemde önemli bir güçtür buradaki
+[12:05] kotanjant v'nin integralini alıyoruz
+[12:09] ln sin V
+[12:11] diyeceğiz eş + C ayrılabilirler de
+[12:15] sadece X'in tarafına konur
+[12:17] lnx +
+[12:25] C şimdi
+[12:26] buradaki Bizim
+[12:28] amacımız v'yi bulmak v'yi bulduktan
+[12:31] sonra y'yi bulacağız Bizim
+[12:36] amacımız y'yi bulmak v'yi bulduktan
+[12:40] sonra getirip şuraya koyduğumuzda çözüm
+[12:43] olan y'yi bulmuş
+[12:46] olacağız Bu nedenle Şimdi burada v'yi
+[12:49] yalnız bırakmalıyız leni Öncelikle diğer
+[12:51] tarafa gönderelim
+[12:53] sinüs V ln log e olduğu için tabanı
+[12:57] diğer tarafa e üzeri lnx + C
+[13:04] olur Sonra bu sinüs v'yi yalnız
+[13:07] bırakmamız lazım bu v ile karşı
+[13:10] taraftaki yer değiştirerek bu sin Ar
+[13:12] sinine
+[13:14] dönüşür Arc sin içinde e üzeri
+[13:20] lnx + C eş V olur Ve v'yi böylece yalnız
+[13:27] bırakmış olduk
+[13:29] son
+[13:35] adım çözümü bitireceğim adım Bizim
+[13:35] amacımız v'yi bulmak di Bizim amacımız
+[13:38] y'yi bulmak y = vx dönüşümü yaptık v'yi
+[13:42] sadece getirip şuraya koyacağız y = Arc
+[13:47] sin e üzeri lnx
+[13:52] +
+[13:59] c x x gelecek bizim
+[13:59] diferansiyel denklem imizin çözümü bu
+[14:04] olur şimdi neler yaptığımızı kısaca bir
+[14:07] üzerinden
+[14:08] geçelim Eğer ki bir diferansiyel
+[14:11] denklemin homojen olduğunu karar
+[14:13] verebilirsen içinde y b xx B yler olması
+[14:16] homojen olmasını
+[14:19] gösteriyor
+[14:27] burada y = vx dönüşümü
+[14:27] yapıyoruz bu buradan devam
+[14:31] ettiğimizde y'nin türevini alıp y'nin
+[14:34] türevini ve y'yi diferansiyel denklemde
+[14:37] yerine
+[14:37] koyuyoruz arkasından buradan çözümü
+[14:41] yapıyoruz ve v'nin ne olduğunu
+[14:44] buluyoruz v'yi yalnız bırakıp
+[14:48] e getirip y'nin yanındaki
+[14:53] x'e y'nin karşısındaki X'in yanındaki
+[14:56] vye koyuyoruz diğer bir alternatif çözüm
+[15:00] daha vardır hiç y'yi v'yi yalnız
+[15:04] bırakmadan yapılan çözüm şu adıma
+[15:07] geldikten sonra Hatta şu adıma geldikten
+[15:13] sonra hiç v'yi yalnız bırakmadan
+[15:17] istersek bu da çok yaygın bir yapılan
+[15:20] şeydir V
+[15:23] yerine y / x
+[15:26] yazıp çözümü öyle bırakabiliriz
+[15:32] Bu yaptığım işlemler çok ağır
+[15:32] matematiksel işlemleri O yüzden bu bunu
+[15:36] kullanmanız sizin açınızdan daha faydalı
+[15:38] olabilir istersek V yerine y / x yazıp
+[15:41] çözümü öyle
+[15:47] bırakabiliriz birçok üniversitede
+[15:47] hocanın da tercih ettiği odur şimdi
+[15:49] sinüs v = e üzer x + c bulduk sinüs onun
+[15:54] içine V yerine getirip y / x yazıp e
+[15:59] lnx + C olarak çözümü bırakabilir didik
+[16:05] neyin yerine şu alternatif çözümün
+[16:09] yerine ikisi birbiriyle aynı
+[16:12] şeydir yani zaman zaman v'yi yalnız
+[16:16] bırakmak çok zor olacak Bu nedenle Biz
+[16:19] v'yi yalnız bırakmak yerine istersek
+[16:21] v'yi sin V gibi bir şey bulduktan sonra
+[16:24] V yerine gelip y b x yazarak çözümü öyle
+[16:27] bırakabiliriz
+[16:30] bir örnek daha
+[16:47] çözelim x k + y k - 2x y y türev eş 0
+[16:47] diferansiyelini çözdünüz
+[16:52] Şimdi
+[16:52] burada homojen olması için hiçbir
+[16:55] şüphemiz yok diferansiyel denklemde x /
+[16:58] y
+[16:59] veya y /
+[17:01] x
+[17:06] görmüyoruz
+[17:06] ama bir y türevi yalnız bırakıp acaba
+[17:10] bunlar geliyor mu gelmiyor mu diye
+[17:12] bakmak homojen çözümü kullanıp
+[17:15] kullanamayacağı karar vermek için
+[17:17] gerekli adımdır Burada şu -2 x y y
+[17:22] türevi diğer tarafa atarsak x k + y k =
+[17:26] 2xy y türev 2x y'yi bölü olarak
+[17:30] geçirirsek y türev x k b
+[17:34] 2xy + y k /
+[17:38] 2xy devam edersek y türev eş x / 2y + y
+[17:46] / 2x olur görüleceği üzere x / y ve y /
+[17:51] xere ulaştığım göre y türev yalnız
+[17:56] bırakıldığında karşı tarafta sadece x y
+[17:59] ve y b xer olduğuna göre bu homojen bir
+[18:04] diferansiyelden denklemin homojen olduğu
+[18:07] gizli
+[18:08] verilmiştir Aklımızdan 1 derece
+[18:11] diferansiyel çözerken acaba bu homojen
+[18:13] olabilir mi diye geçme alışkanlığı
+[18:16] olmalıdır hemen y türevi yalnız bırakıp
+[18:19] karşıda Bunlar oluştu mu diye
+[18:20] bakabiliriz oluşmuşsa zaten homojen
+[18:23] çözüm vardır Birinci adımımız homojen
+[18:26] olup olmadığına karar vermekti ki
+[18:27] homojen olduğuna kar verdik 2 adımda
+[18:30] homojen her zaman için y = vx dönüşümü
+[18:34] yapılır ve hemen bunun türevini alacağız
+[18:37] Bir de diferansiyel denklemde yerine
+[18:39] koyacağız y'nin türevi eşittir çarpımın
+[18:42] türevi vardı burada V türev x + v'yi
+[18:47] olduğu gibi yazıyoruz X'in türevi 1
+[18:49] ediyordu Şimdi bu
+[18:51] ikisini bu homojen olduğunu
+[18:54] belirlediğimiz diferansiyel denklemde
+[18:55] yerine koyuyoruz y'nin türevi yerine vin
+[18:58] türevi x + v
+[19:01] eş x / y'de buradaki y'nin yerine vx
+[19:06] koyacağız x / 2 vx + y yerine de vx
+[19:13] koyuyoruz vx B
+[19:22] 2x devam edecek olursak V türev x + v
+[19:22] burası bizi her zaman ayrılabilir liğe
+[19:24] götürecek diye konuşmuştuk x' birbirini
+[19:27] götürdü 1/2 2v x' L birbirini götürdü +
+[19:31] V / 2 şu v'yi bu tarafa
+[19:35] atarsak V türev x = 1/2 v - v geçeceği
+[19:42] için payda eşitledi imizde - V / 2 kalır
+[19:45] orada burada da paydayı eşitleyip şunu
+[19:47] birleştirirsek V türev x = 2 - bununla
+[19:52] da bunu
+[19:53] çarparsak şunu 2 ile çarpmaya gerek yok
+[19:56] şunu v ile genişlet yetiyor zaten
+[19:59] 1 - V K /
+[20:03] 2v bu her zaman ayrılabilir çıkar
+[20:06] demiştik V türev yerine dv /
+[20:10] DX x x = 1 - V K /
+[20:16] 2v v' lileri bir tarafa xeri bir tarafa
+[20:20] toplarsak bu 2v yi bu tarafa çarpım
+[20:23] olarak 1 - V kareyi bölü olarak geçeriz
+[20:26] 2v / 1 - V K
+[20:29] dv eş DX bu tarafa çarpım olarak x de
+[20:32] bölüm olarak gelir DX / x net olarak
+[20:35] diferansiyel denkleme ayırdık her iki
+[20:37] tarafın integralini
+[20:39] alırsak burada paydadaki
+[20:42] kısmın türevinin pay kısmında olduğunu
+[20:45] görüyoruz buna u dersek bunun türevi -
+[20:47] 2v veriyor Fakat yukarıda 2v var başına
+[20:51] bir Eksi Bir de integralin dışına eksi
+[20:53] koyarsak Burası da du
+[20:57] olacaktır
+[21:10] 1/1 B x' dir bunun integrali direkt
+[21:10] lnx + C'yi verdi Buranın da integrali -
+[21:16] ln
+[21:17] u olur O da eş
+[21:21] lnx + c'dir u dediğimiz şeyi yerine
+[21:27] koyarsak
+[21:29] u dediğimiz şey -
+[21:31] ln u 1 - V kareydi 1 - V
+[21:36] K eş lnx + c'dir
+[21:41] en son son
+[21:43] adımda bir önceki soruda v'yi Ben yalnız
+[21:46] bırakıp y'nin yerine getirmiştim ama o
+[21:49] çok sağlıklı değil Son Adım olarak hep
+[21:52] şunu yapmalıyız V
+[21:55] yerine y / x yazalım
+[21:59] Neden bunu yapıyoruz yaptığımız dönüşüm
+[22:01] y = vx dönüşümü Ya şu x'i bu tarafa bölü
+[22:04] olarak geçirip V yerine y / x yazalım ve
+[22:08] diferansiyel denklemi öylece bırakalım
+[22:11] diferansiyel denklemin çözümü odur 1 ek
+[22:15] y k / x k olur V yerine y / x yazıyoruz
+[22:19] Çünkü eş lnx + C diferansiyel denklemin
+[22:25] çözümü budur ve hali bulduktan sonra
+[22:29] v'yi yalnız bırakmayı zorlamayalım V
+[22:32] yerine y b x yazalım daha sağlıklı ve
+[22:35] daha kolay bir
+[22:39] çözümdür son bir örnek daha yapıp bu
+[22:42] yöntemi noktalayalım
+[22:56] y'nin türevi eş 2y üzer 4 + x üzer 4 b x
+[22:56] y
+[22:57] k
+[22:58] diferansiyelini
+[23:06] çözünüz şimdi bu diferansiyel denkleme
+[23:06] baktığımızda homojen olduğunu bir
+[23:09] algılamalı yız hemen şunları
+[23:11] ayırdığımızda y'nin türevi zaten yalnız
+[23:14] 2y üzer 4 / x y k + x üzer 4 /
+[23:21] x y k ardından y'nin türevi eşittir
+[23:26] buradan y üzeri 4 ile y k birbirini
+[23:28] götürü
+[23:29] 2
+[23:30] x buradan x üzeri 4 x birbirini götürür
+[23:35] x k b y k tamamen y b x ve x b
+[23:41] yin bir fonksiyonudur karşı taraf Yani
+[23:44] bu bu bir homojen
+[23:51] diferansiyel yapacağımız bir adımda
+[23:51] bunun homojen olduğuna kesin olarak
+[23:53] karar
+[23:54] verdik adımda bu homojen olduğuna göre
+[23:57] yx yapacağız hemen Bir de bunun türevini
+[24:01] alacağız y türev eş Burası çarpımın
+[24:03] türevi ydi V türev x + v x X'in türevi 1
+[24:09] Bu ikisini götürüp bu homojen hale
+[24:11] yerine koyacağız ve karşımıza
+[24:14] ayrılabilir bir diferansiyel gelmesini
+[24:17] bekleyeceğiz y'nin türevi yerine V türev
+[24:20] x v koyduk y yerine de vx koyarsak 2 vx
+[24:25] / x + x k vx koyarsak Bunun yerine v k x
+[24:39] k buradan xer birbirini götürür Buradan
+[24:39] da x küler birbirini götürür V türev x +
+[24:43] v = 2v +
+[24:46] 1/3 şu v'yi bu tarafa
+[24:49] attığımızda v'nin türevi x = v + 1 / V K
+[24:55] olur burada payda eşit dediğimizde V
+[24:58] türev x = v üzer 4 + 1 / V K oldu bu her
+[25:04] zaman ayrılabilir kalır
+[25:06] demiştik v'nin türevi yerine dv / DX
+[25:10] yazıyoruz dv / DX x x = v üzeri 4 + 1
+[25:17] b v k v kübü bu tarafa çarpı V üzeri 4 +
+[25:22] 1'i bölü olarak geçirirsek v k b v üzer
+[25:26] 4 + 1 dv
+[25:29] dxi bu tarafa çarpı x'i de böl olarak
+[25:31] geçirirsek DX /
+[25:34] x buraya da ne olduysa böyle
+[25:38] Neyse ayrılabilir olduğunu gördük her
+[25:41] iki tarafın integralini
+[25:43] alırsak Burada yine değişken değiştirme
+[25:46] var paydanın türevi paydaya u dersek V
+[25:51] üzeri 4'ün türevi 4 V kür fakat yukarıda
+[25:53] V K var Bunun yanına bir 4 koyduğumuzda
+[25:56] dışarıya da 1/4 koyduğumuzda 4'ler
+[25:58] birbirini götürüyor
+[26:01] buraya du
+[26:07] diyebiliriz
+[26:07] 1/4
+[26:25] 1/4 ln u olur eş lnx + C buradan devam
+[26:25] edersek u neye demiştik V 4 + 1'e 1/4 ln
+[26:31] V üzer 4 + 1 = ln x + c amacımız bizim V
+[26:39] bulmak değildi son
+[26:41] adımda V
+[26:44] yerine y / x
+[26:47] yazarız son adımda bunu yaparsak 1/4
+[26:52] ln y üzer 4 / x üzer 4 +
+[26:57] 1 eş lnx + C bizim diferansiyel
+[27:02] denklemin çözümü olur homojen
+[27:06] diferansiyel denklemlerin çözümü budur
+[27:09] tamamıyla y = vx metodunun kullanıldığı
+[27:13] diferansiyel denklemlerdeki

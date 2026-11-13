@@ -1,0 +1,354 @@
+[00:03] integral çarpanı metodu 1 derece
+[00:03] diferansiyellerin çözümünde önemli
+[00:06] yöntemlerden birisidir ilk yöntem olarak
+[00:09] ayrılabilir diferansiyellerin çözümünü
+[00:11] incelemiştik 1 derece diferansiyeller
+[00:14] ikinci olarak integral çarpanı metodunu
+[00:17] inceleyeceğiz bu kalıp olarak bir
+[00:19] formata Uyan 1 derece diferansiyelleri
+[00:23] çözer bu kalıp Format nedir Onunla
+[00:26] başlıyoruz y'nin türevi
+[00:34] px
+[00:34] y
+[00:36] eş
+[00:42] QX bu formata Uyan
+[00:42] diferansiyellerin hepsini çözebilen
+[00:45] yöntemdir integral çarpanı metodu bu
+[00:49] formatı İlla bize tamamen bu şekilde
+[00:51] vermek zorunda değil biz y'nin
+[00:53] türevlerinin y'nin türevinin katsayısını
+[00:56] 1 bıraktığımızda bu format oluşuyorsa bu
+[01:00] çarpanı metoduyla çözülebilir birçok
+[01:03] kaynakta bu yöntemin ismi bu
+[01:07] diferansiyelli 1in
+[01:10] derece
+[01:12] lineer diferansiyeller denir Bu nedenle
+[01:16] birçok kaynakta bu integral çarpanı
+[01:18] metodu 1 derece lineer diferansiyellerin
+[01:21] çözümü diye geçer ama biz asıl ismi olan
+[01:24] integral çarpanı metodu üzerinden
+[01:27] gideceğiz Şimdi formatı bu Peki Buradaki
+[01:31] formül ne integral
+[01:33] çarpanı mü gibi süslü bir harf olarak
+[01:37] atanır integral çarpanı bu harfin bir
+[01:39] anlamı yoktur A da diyebilirsiniz
+[01:41] canınız istiyorsa B de diyebilirsiniz
+[01:43] Ben alıştığım dolayı mü kullanacağım mü
+[01:47] burada integral çarpanıdır bu e
+[01:51] üzeri integral içinde buradaki y'nin
+[01:55] katsayısı olan px integral didir
+[02:04] biz buna integral çarpanı diyoruz
+[02:04] integral çarpanını bulduktan
+[02:07] sonra integral çarpanı bulunduktan sonra
+[02:12] integral
+[02:14] çarpanı bulunduktan
+[02:21] sonra diferansiyelin her iki tarafı
+[02:21] integral çarpanı ile çarpılır
+[02:24] diferansiyelin
+[02:41] çarpılır çarpanı
+[02:41] ile
+[02:44] çarpılır Şimdi burada ne demek istiyoruz
+[02:47] onu bir görelim y'nin türevi
+[02:50] +
+[02:53] px y bunu gidip integral çarpan mızda
+[02:57] çarpıyoruz mü ile
+[03:00] eştir karşı tarafı da mü ile
+[03:04] çarpıyoruz
+[03:06] QX her iki tarafı integral çarpanı ile
+[03:09] çarptıktan sonra şu sol
+[03:12] taraf
+[03:14] daima integral çarpanı ile y'nin
+[03:19] çarpımının türevi olur her
+[03:25] zaman
+[03:25] eş m x GX QX
+[03:33] ardından her iki tarafın integrali
+[03:33] alınarak
+[03:34] y yalnız bırakılıp bulunur ardından her
+[03:38] iki tarafın integrali
+[03:44] alınır
+[03:44] integrali alınır metodun özü budur şimdi
+[03:49] bir baştan itibaren başlarsak
+[03:53] konuştuklarımı buradaki y'nin türevi px
+[03:57] y = QX şeklindeki
+[04:00] formata Uyan
+[04:01] diferansiyeller bu formatın aynısı
+[04:04] şeklinde olan diferansiyeller integral
+[04:07] çarpanı tekniği ile çözülebilir integral
+[04:09] çarpanı mü olarak isimlendirdi onu
+[04:13] birçok kaynakta ı a kafalarına göre
+[04:17] isimlendirilirler ona takılmayacak Biz
+[04:18] burada mü üzerinden gideceğiz e üzeri px
+[04:23] DX buradaki y'nin katsayısının e
+[04:26] üzerinde integralinin alınmasıyla
+[04:28] integral çarpanı bulunur integral
+[04:31] çarpanı bulunduktan sonra diferansiyelin
+[04:33] her iki tarafı integral çarpanı ile
+[04:36] çarpılır bu çarpma işleminin sonucunda
+[04:39] sol taraf daima integral çarpanı ile
+[04:42] y'nin çarpımının türevi olur Sağ taraf
+[04:45] ise integral çarpanı ile QX çarpımıdır
+[04:47] ardından her iki tarafın integrali
+[04:50] alınarak sonuca ulaşılır yani y'yi
+[04:52] yalnız bırakıp sonucu buluruz artık
+[04:55] uygulamalara geçelim yöntem basit bir
+[04:58] yöntemdir
+[05:00] birkaç uygulamayı yaptıktan sonra zaten
+[05:02] çok rahat kafada
+[05:05] şekillenecek basit bir örnekle
+[05:07] başlayalım bir 45 örnek çözeriz
+[05:10] şimdi y'nin
+[05:12] türevi + y = x Bir de başlangıç koşulu
+[05:19] da verelim y0 = 2 başlangıç değer
+[05:24] problemini çözünüz
+[05:27] başlangıç değer
+[05:35] çözünüz şimdi diferansiyel denkleme
+[05:35] baktığımızda 1 derece bir diferansiyel
+[05:37] olduğunu görüyoruz ve bizim formatı
+[05:40] birebir
+[05:42] uyuyor y'nin
+[05:45] türevi px
+[05:47] y
+[05:50] QX buradaki P xim 1 QX x y'nin türevinin
+[05:55] katsayısı da 1 bu formata uyduğu için
+[05:58] biz Bun çarpanı çözebiliriz birin adım
+[06:02] integral çarpanını
+[06:04] bulacağız integral çarpanı e üzeri px
+[06:11] DX bizim buradaki P xim
+[06:20] 1'dir 1
+[06:20] DX buranın integralini aldığımızda 1in
+[06:23] integrali x çıkar e üzer x olur burada
+[06:27] bir not alacağız
+[06:30] integral çarpanı bulunurken + C konulmaz
+[06:34] integral sonucuna + C konulmaz + C
+[06:41] konulmaz yani burada bir integral
+[06:43] alıyoruz Normalde + C konulması lazım
+[06:46] Biz bu + C'yi koymuyoruz en son
+[06:47] koyduğumuz c o C'yi içeriyor kabulü
+[06:50] vardır Biz
+[06:53] burada integral çarpanı bulduk integral
+[06:57] çarpanı da diferansiyelin her iki
+[06:59] tarafını çarpacağı Şimdi ikinci adım
+[07:04] exx x y'nin türevi + y = x x
+[07:13] exx sol
+[07:14] taraf daima integral çarpanı ile yani
+[07:18] exx ile y'nin çarpımının türevi olur exx
+[07:23] x y'nin
+[07:25] türevi = x e üzeri x
+[07:30] ardından her iki tarafın integralini
+[07:32] alarak y'yi yalnız bırakacağız alalım
+[07:35] her iki tarafın
+[07:43] integralini Burası x'e göre integral
+[07:43] alıyoruz x e üzeri x x'e göre integral
+[07:49] alıyoruz şimdi buradaki türevle integral
+[07:52] birbirini götüreceği için Burası direkt
+[07:55] exx y kalır eş
+[07:59] buradaki integral ise iyi ki kolay örnek
+[08:03] dedik kısmi integral
+[08:06] çıktı Yani
+[08:08] u dv yöntemimiz yani laptü kullanacağız
+[08:13] Şimdi
+[08:14] burada Bir hatırlamış Oluruz laptü kime
+[08:18] u diyeceğimizi belirlemenin yöntemidir
+[08:28] logaritma bu içeride yok arklı bir ifade
+[08:28] yok
+[08:30] polinom var x bir
+[08:33] polinomdur bu sağa doğru tek tek
+[08:37] sorduğumuzda hangisi ilk varsa o uur
+[08:41] bizim buradaki
+[08:43] Uz
+[08:49] x' geriye kalan her şey dv olur geriye
+[08:49] ex ve DX kaldı Bunlar dv olur D = ex
+[08:57] DX bundan sonraki adımda u'dan du
+[09:02] üretiriz du / DX du üretmenin yolu bunun
+[09:06] x'e göre türevini almaktır eş 1 du = DX
+[09:12] olur gerekli değerlerimizin hepsini
+[09:15] buluyoruz Buradan da her iki tarafın
+[09:17] integralini alarak v'yi buluruz her iki
+[09:20] tarafın integralini alıyoruz
+[09:22] burada buranın integrali V karşıdaki e
+[09:26] üzeri x'in integrali e üzer x eü x
+[09:29] kendisine
+[09:31] eşittir buradaki V bulunurken de + C
+[09:34] konulmaz kısmi integralde bunu da
+[09:37] unutmayalım Şimdi burada kısmi
+[09:40] integralin formülüne gelirsek u x v -
+[09:45] vdd Uz
+[09:49] x v' miz e üzeri
+[09:53] x
+[09:56] - VM e
+[10:00] xuz DX buradaki e üzeri x'in integrali
+[10:04] de x e üzer x - e üzer x + c en son bir
+[10:10] + C
+[10:12] koyacağız Şimdi bunu getirip buraya
+[10:14] yazarsak x e üzer x - e üzer x + c e
+[10:20] üzeri x'e bölersek her
+[10:23] tarafı burada x kalır burada -1 kalır
+[10:27] Burada ise c / üzer x
+[10:35] kalır ve diferansiyel imizin sonucuna
+[10:35] ulaştık ama bizim diferansiyel imiz
+[10:38] başlangıç değer
+[10:50] problemiyle C'yi bulmalıyız y0 = 2 imiş
+[10:50] x yerine 0 koyunca Y2 çıkacak 2
+[10:55] = 0 - 1 + c / e üzeri 0 e üzeri 0 1 eder
+[11:02] bu -1 bu tarafa atarsak 3 = C C'yi de
+[11:06] bulduğumuza göre tam somucu Dolayısıyla
+[11:09] bulmuş
+[11:10] olduk y = x - 1 + 3 / e üzeri x bu
+[11:18] diferansiyel denklemin
+[11:22] sonucudur diferansiyel denklemin uzun
+[11:24] olmasının nedeni kısmi integralle
+[11:27] karşılaşmamızı
+[11:29] zor karşımıza gelebilecek şey zaten bir
+[11:31] integral çarpanı metodunda Karşı
+[11:33] taraftaki integralin kısmi integral
+[11:36] içermesidir şimdi ne yaptığımıza bir
+[11:37] baştan başlayalım burada baktığımızda
+[11:40] tam formata Oyan bir diferansiyel
+[11:42] denklem gördük hemen integral çarpanını
+[11:45] bulduk e üzeri x çıktı integral çarpanı
+[11:48] ile diferansiyelin her iki tarafını
+[11:50] çarptık sol taraf e integral çarpanı ile
+[11:52] y'nin çarpımının türevine dönüşüyor sağ
+[11:55] tarafta ise bu oldu her iki tarafın
+[11:58] integralini aldık burada burada
+[11:59] integralle türev birbirini götürdü sağ
+[12:02] tarafın integrali ise bir kısmi integral
+[12:04] çıktı laptu yöntemiyle çözdük onu ve
+[12:07] onun da
+[12:08] Eee integralinin sonucunu bulduk e üzeri
+[12:11] x'i bölü olarak geçirdiğimizde y'yi
+[12:13] bulduk ki diferansiyel denklemlerde amaç
+[12:16] türevi alınan fonksiyon olan y'yi
+[12:17] bulmaktır diferansiyel denklemi çözmüş
+[12:20] olduk başlangıç koşul vardı en sona onu
+[12:24] yerine koyarak C'yi de bulduk bir başka
+[12:27] örneğimiz geçelim
+[12:36] x y'nin
+[12:36] türevi + 2y = 10x
+[12:42] K başlangıç koşulu olmasın bu sefer
+[12:45] diferansiyelin Çözümü
+[12:58] nedir şimdi buradaki x'i her tarafa bölü
+[12:58] olarak attığımızda bütün diferansiyeli
+[13:00] x'e böldüğümüzde tam aradığımız formatın
+[13:02] geleceğini görmeliyiz Bu soruda y'nin
+[13:05] türevi + 2 b
+[13:08] x y eş Burayı da x'e
+[13:13] bölersek Burayı da x'e bölersek 10x olur
+[13:18] bütün ifadeyi x'e böldüm ve tam olarak
+[13:21] bizim aradığımız format geldi y'nin
+[13:23] türevi + px y QX
+[13:29] integral çarpanı ile çözüm var bir
+[13:33] adım integral çarpanı olan müzü
+[13:36] bulacağız e üzeri px Burası
+[13:40] ilgilendiriyor bizi e üzer
+[13:54] 2/2 B x'in integrali 2 lnx e üzeri 2 ln
+[13:54] xin üzerinde ln olduğu zaman çok önemli
+[13:57] bir işlem vardır burada bu geçiş
+[13:59] işlemini çok iyi bilmeliyiz e ile Lenin
+[14:04] içindeki kısım yer
+[14:06] değiştirirler x üzeri 2 ln e olur ln de
+[14:11] 1 ettiğinden dolayı x kare olarak
+[14:15] integral çarpanını buluruz E'nin
+[14:17] üzerinde ln gördüğümüz zaman e ile Lenin
+[14:20] içinin yeri değişmek zorundadır bu Kural
+[14:23] çok önemlidir bu kuralı yapmadığımızda
+[14:25] soruda krize girecektik ilerleyen
+[14:27] kısımlarda
+[14:29] Şimdi burada 2ci adıma geçebiliriz 2ci
+[14:34] adım integral çarpanı ile diferansiyelin
+[14:37] her iki tarafını çarpmaktır ama en
+[14:40] baştaki diferansiyelde y'nin türevinin
+[14:42] katsayısının 1 bırakılmış olduğu
+[14:45] diferansiyelden baştaki ile çarpmayın x
+[14:48] k x y'nin türevi +
+[14:52] 2/2 y = 10x x x k
+[15:04] sol taraf daima ve daima integral
+[15:04] çarpanı
+[15:05] ile y'nin
+[15:08] çarpımının türevi
+[15:11] olur Sağ taraf ise 10x K
+[15:15] oldu her iki tarafın integralini
+[15:19] alırsak her iki tarafın integralini
+[15:22] aldığımızda sol tarafta integralle türev
+[15:24] birbirini götürür ve x kare y kalır
+[15:29] sağ tarafın integrali Az önceki soru
+[15:31] gibi zor bir durum değil X'in üstünü bir
+[15:33] ırıp oluşan üsse böleriz 10x üzeri
+[15:36] 4/4 +
+[15:40] c ve şimdi buradaki x kareyi de bölü
+[15:43] olarak attığımızda y' mizi buluruz şu
+[15:45] 10'la da 4'ü sadeleştirirsek
+[15:48] 5/2 x kare çünkü x kareyi bölü olarak
+[15:51] attım Bir tane x kare gitti + c / x k bu
+[15:57] diferansiyel denklemin çözüm
+[16:06] budur son bir örnek daha yapıp bu
+[16:06] videomuzu noktalayalım
+[16:16] dy / DX görüntüyü biraz daha
+[16:16] değiştirelim
+[16:19] + y kotanjant
+[16:23] x
+[16:24] eş k x
+[16:29] yelinin Çözümü
+[16:31] nedir yine başlangıç değer vermedim
+[16:34] başlangıç değer verildiğinde sadece en
+[16:36] sondaki C'yi bulmak içindir o
+[16:39] diferansiyelin
+[16:48] bulunuz şimdi bakalım bunun Öncelikle
+[16:48] bizim integral çarpanı formatına
+[16:50] benzediğini görmeliyiz bu dy / DX
+[16:53] demek dy / DX = y türev demektir Onun
+[16:58] yerine bunu yazalım
+[17:00] şu y'den sonra kotanjant x'i yazmış
+[17:03] kotanjant x'i önce yazalım x
+[17:06] y eş kosekant
+[17:09] x bizim format y türev + px y QX tam
+[17:16] anlamıyla formata uyuyor px burada
+[17:19] kotanjant x QX de kosekant x 1 adımımız
+[17:24] başlıyoruz integral çarpanını bulacağız
+[17:27] M eş e
+[17:29] üzeri px DX olacak yani kotanjant
+[17:37] x
+[17:37] DX kotanjantın integrali e üzeri
+[17:43] ln sin x
+[17:47] dir tanjant ve kotanjant integralleri
+[17:50] şuraya yazıyorum ezbere bilmekte fayda
+[17:52] vardır tanjant x'in integrali - ln cos x
+[17:59] + c'dir
+[18:01] kotanjant x'in
+[18:04] integrali
+[18:05] ln
+[18:11] sinx + c'dir
+[18:11] Biz burada + C kullanmıyoruz integral
+[18:14] çarpanı bulurken + C kullanmayacağımız
+[18:16] geride belirtmiştik Zaten o nedenle + C
+[18:19] kullanmadık şimdi buradan sonra önemli
+[18:21] bir şey geldi E'nin üzerinde yine ln var
+[18:24] E ile sinx yer değiştirmelidir sinx
+[18:33] üzeri ln e lne 1 ettiğinden dolayı sinx
+[18:33] olarak integral çarpan mızı bulduk şimdi
+[18:38] diferansiyel imizin her iki tarafını bu
+[18:40] integral çarpanı ile
+[18:41] çarpacağı şu halinin Tabii
+[18:45] ki sinx
+[18:54] Ç y'nin türevi + kotanjant x
+[18:54] y eş kosekant zaten 1/8 ir
+[19:00] çar
+[19:01] sinx kosekant ve sekantın ne olduğunu
+[19:04] iyi bilmeliyiz kosekant
+[19:06] 1/6 sin x' L burada birbirini
+[19:10] götürdü bu sol taraf daima integral
+[19:13] çarpanı ile y'nin çarpımının türevi sin
+[19:16] x Ç y'nin
+[19:18] türevi sağ tarafta ise 1 kaldı çok
+[19:22] korkunç bir denklemin çözümü aslında çok
+[19:24] basit bir hal
+[19:26] aldı buradaki integralle türev birbirini
+[19:35] götürür burada
+[19:35] sinx x y kalır burada 1in integrali ise
+[19:39] x eder +
+[19:42] c sin x'i bölü olarak getirdiğimizde de
+[19:45] y = x + c b sin x olarak diferansiyel
+[19:51] denklemin sonucunu
+[19:53] buluruz integral çarpanı ile çözümün
+[19:57] mantığı burada anlattık ız bu şekilde bu
+[20:00] videomuzu noktalı

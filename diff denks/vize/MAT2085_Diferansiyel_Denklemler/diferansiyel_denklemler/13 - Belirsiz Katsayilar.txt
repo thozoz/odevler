@@ -1,0 +1,1165 @@
+[00:03] Belirsiz katsayılar metodu.
+[00:03] Belirsiz katsayılar metodu 2. derece
+[00:07] sabit katsayılı homojen olmayan
+[00:09] diferansiyel denklemlerin çözümündeki
+[00:12] ilk yöntemimizdir.
+[00:14] 2. derece
+[00:17] sabit katsayılı
+[00:25] homojen olmayan sabit katsayılı homojen
+[00:25] olmayan
+[00:28] diferansiyel denklemlerin çözümündeki
+[00:31] ilk yöntemimizdir. Bundan sonraki
+[00:34] göreceğimiz yöntem parametrelerin
+[00:37] değişimi yöntemidir.
+[00:40] İkinci derece sabit katsayıda homojen
+[00:42] olmayan ne demek? çıkıyor. Ona bakalım.
+[00:45] Y'nin 2. türevi -3y'nin türevi -4y =
+[00:50] karşı taraf 0 olduğunda
+[00:53] sabit katsayılı homojen diferansiyel
+[00:56] denklem oluyordu. Bunun çözümü ile
+[00:58] ilgili bir video çekmiştik. O kısmı
+[01:02] izlemeden buraya başlamayın çünkü bunun
+[01:04] içinde geçecek. Sabit katsayılı 2ci
+[01:06] derece homojen diferansiyel denklemlerin
+[01:09] çözümünü bilmeden bu kısmı anlamakta
+[01:12] zorlanırız. O yüzden o izlenmediyse önce
+[01:15] o izlenmeli. Karşı taraf 0 olduğunda 2ci
+[01:19] derece sabit katsayılı homojen. Karşı
+[01:21] taraf 0 olmayıp
+[01:24] x değişkenine bağlı veya t değişkenine
+[01:26] bağlı yazılabilir. Ben x değişkenine
+[01:28] bağlı anlatacağım konuyu.
+[01:31] Oradaki değişkenin çok önemi yok. x veya
+[01:33] t olabilir. Karşı tarafta bir fonksiyon
+[01:36] bulunması durumunda biz buna 2ci derece
+[01:40] sabit katsayılı homojen olmayan
+[01:42] diferansiyel denklem diyoruz.
+[01:50] Sabit katsayılı olması y'nin
+[01:50] türevlerinin ve y'li ifadenin
+[01:52] katsayılarının sabit sayı olması ile
+[01:54] ilgilidir. Şimdi bu şekildeki homojen
+[01:57] olmayan ikinci derecelerde
+[02:00] homojen olmayan
+[02:15] homojen çözümle
+[02:15] özel çözümün
+[02:18] toplamına eşittir.
+[02:21] İngilizcesi bu özel çözümün particular
+[02:23] solution'dır. Bu metodun İngilizce ismi
+[02:25] de undetermin coefficient metottur.
+[02:29] Buradaki
+[02:30] homojen ve özel çözümün toplamından
+[02:33] oluşmaktadır. Eğer ki homojen değilse bu
+[02:37] bir ikinci derece diferansiyel.
+[02:40] Şimdi homojen çözümün bulunuşunu bir
+[02:43] önceki videomuzda halletmiştik.
+[02:45] karakteristik polinom bulunup onun
+[02:47] üzerinden bulunuyordu. Bu özelinin
+[02:51] bulunuşunda
+[02:53] iki yöntemimiz vardır. Belirsiz katsayı
+[02:57] metodu. Şu an onu işleyeceğiz.
+[03:00] Katsayı metodu.
+[03:05] İkinci yöntemimiz parametrelerin
+[03:05] değişimi yöntemi. Bundan sonraki
+[03:08] çekeceğimiz video bu olacak.
+[03:09] Parametrelerin değişimi,
+[03:13] yöntemi
+[03:15] hangisi ne zaman uygulanabilir? Bu tarz
+[03:19] ayrı ayrılması gereken noktaları
+[03:22] konuşacağız. Belirsiz katsayıyı ne zaman
+[03:24] uygulamalıyız? Parametrenin değişimini
+[03:26] ne zaman uygulamalıyız? Bunları
+[03:27] konuşacağız. Bu iki yöntemde
+[03:31] genel çözümdeki
+[03:33] özel çözümü bulmak için yöntemlerdir.
+[03:36] Homojen çözümün bulunuşu dediğim gibi
+[03:38] tekrardan bir önceki videoda
+[03:41] anlatılmıştı.
+[03:43] Şimdi demek ki 2. derece sabit katsayılı
+[03:47] homojen olmayan diferansiyellerin
+[03:49] genel çözümü homojen ve özel çözümden
+[03:52] oluşmakta. Bu özel çözümün bulunuşunda
+[03:55] da belirsiz katsayı metodu ve
+[03:57] parametrenin değişimi metodu
+[03:59] bulunmaktadır.
+[04:01] Şimdi
+[04:03] belirsiz kastayı metodu ne zaman
+[04:06] uygulanabilir?
+[04:12] Belirsiz kastayı metodu y'nin 2ci türevi
+[04:12] -3y'nin türevi + 2y diye. Bu tarafı
+[04:15] sallayalım. Bu tarafın ne olduğu çok
+[04:17] önemli değil. Karşı taraftaki f(x)
+[04:21] belirsiz katsayı metodunu ne zaman
+[04:23] uygulayacağız? Şu an onu konuşuyoruz.
+[04:25] f(x) polinom olursa
+[04:34] polinomla kastettiğimiz şey x + 3 bir
+[04:34] polinomdur. 2x - 1 bir polinomdur.
+[04:38] Sadece bir sayı 3 bir polinomdur.
+[04:42] x² - 3x + 2 bir polinomdur.
+[04:46] bizim 2. derece diferansiyelimizin
+[04:48] karşısında polinom bulursa bulunursa
+[04:52] belirsiz katsayı metodu uygulamalıyız.
+[05:00] 2inci durum
+[05:00] bu f(x)'in bulunduğu yerde e ifade
+[05:03] olursa yani üstler fonksiyon
+[05:08] yani mesela 2e üzeri 3x 5e üzeri -x
+[05:13] gibi.
+[05:14] Burada e'li bir ifade bulunursa yine
+[05:17] belirsiz katsayı metodu uygulamalıyız.
+[05:29] 3ün durum bu f(x) yerinde sin
+[05:29] veya
+[05:30] cos olursa
+[05:39] mesela 2 sin3x
+[05:39] 5 cos 2x
+[05:41] gibi karşısı sinli veya coslu olursa
+[05:45] tanjant kotanjant demiyoruz. Bakın
+[05:48] burada tanjant kotanjant gördüğümüzde
+[05:50] parametrelerin değişimi yöntemi olacak.
+[05:53] Sin veya cos gördüğümüzde belirsiz
+[05:55] katsayı metodu uygulayabiliriz.
+[05:58] Ve son olarak da
+[06:01] bu ilk üç yöntemin
+[06:04] polinom,
+[06:10] e
+[06:10] ve sin cos'lu ifadelerin
+[06:14] cos'lu ifadelerin
+[06:20] ifadelerin
+[06:20] toplama,
+[06:23] çıkarma
+[06:25] ve çarpma durumu durumunda olması,
+[06:29] çarpma durumunda
+[06:32] bulunması.
+[06:40] Burada toplama, çıkarma, çarpma dedik.
+[06:40] Bölmeyi demedik. Buna atladığımız gibi
+[06:42] bir fikre kapılmayın. Burada bölme
+[06:45] durumunda olurlarsa bu metot
+[06:47] uygulanamaz.
+[06:53] Kısacası parametrelerin değişimi metodu
+[06:53] ne zaman uygulanır?
+[06:55] Bu gördüklerimiz dışında bir şey f(x)
+[06:58] yerinde bulunursa o zaman da
+[07:01] parametrelerin değişimi metodu
+[07:02] uygulayacağız. f(x) yerinde ln(x)
+[07:05] bulunuyor. Ne polinom, ne e ne de sin
+[07:07] kosu. O yüzden parametrelerin değişim
+[07:10] metodu uygulanacak.
+[07:17] Yani belirsiz katsayı metodu polinom,
+[07:17] eli sin veya cos ve bunların toplama,
+[07:21] çıkarma, çarpma durumunda bulunmasında
+[07:23] uygulanabilir.
+[07:26] Bu konuşmamızı yaptıktan sonra her bir
+[07:29] durumu ayrı ayrı inceleyeceğiz. Şimdi
+[07:45] metodu.
+[07:45] Birinci durum.
+[07:56] Karşı taraf polinom ise diferansiyelin
+[07:56] karşısı polinom ise
+[08:01] karşısı
+[08:03] polinom
+[08:08] ise
+[08:08] bütün yöntemlerin nasıl yapılacağını
+[08:11] birer örneği üzerinden
+[08:13] konuşacağız.
+[08:16] Soru y'nin 2. türevi -2y'nin türevi -3y
+[08:23] = x + 1.
+[08:28] Diferansiyel denkleminin
+[08:30] diferansiyelinin
+[08:41] nedir?
+[08:41] Şimdi bu diferansiyele baktığımızda ilk
+[08:44] olarak 2 derece bir diferansiyel
+[08:47] olduğunun farkına varmalı.
+[08:49] Y'nin katsayılarının sabit sayı
+[08:51] olduğunun farkına varmalıyız.
+[08:54] Ardından da karşısı 0 olmadığı için
+[08:57] homojen olmayan bir diferansiyel denklem
+[08:59] olduğunun farkına varmalıyız.
+[09:01] Şimdi burada birinci adım olarak
+[09:04] söylememiz gereken şey
+[09:07] genel çözümün
+[09:09] buradaki G genelin kısaltılması
+[09:12] homojen çözüm ile
+[09:16] özel çözümün bu Homojenin
+[09:19] Ö de özelin kısaltılması
+[09:22] toplamına eşit olduğudur. Genel çözüm
+[09:24] homojenle özel çözümün toplamına
+[09:27] eşittir.
+[09:34] Belirsiz katsayı mezodu bu sorunun
+[09:34] çözümünde ne zaman devreye girecek? Özel
+[09:37] çözümün bulunuşunda
+[09:39] homojen çözümün bulunuşuyla soruya devam
+[09:42] edilir. İkinci adım
+[09:45] homojen çözüm bulunur.
+[09:48] Homojen çözüm bulunur.
+[09:52] Homojen çözümün bulunması için bu
+[09:54] diferansiyeli homojen hale getiririz.
+[09:56] Yani karşısını 0 yaparız. Y'nin 2 türevi
+[10:00] -2y'nin türevi -3y = 0. Y'nin 2. türevi
+[10:05] yerine r², Y'nin türevi yerine r -2r,
+[10:10] y'nin yerine de rırız. -3 = 0.
+[10:17] Çarpanlarına ayırdığımızda -3'e + 1 diye
+[10:21] çarpanlarına ayrılıyor.
+[10:23] R - 3 x R + 1
+[10:28] = 0. R bir 3, bir de -1 oluyor.
+[10:32] Birbirinden farklı.
+[10:34] iki tane reel sonuç çıktı. Yani bizim y
+[10:38] homojenimiz
+[10:40] C1 x E üzeri 3x
+[10:46] + c2 x e üzeri -x.
+[10:50] Buradaki bu bulunuşu anlamayanlar daha
+[10:53] önce de belirttiğim gibi 2. derece
+[10:56] homojen sabit katsayıların çözüm
+[10:58] videosunu izlemelidirler.
+[11:01] Homojen çözümü böylece bulduk.
+[11:03] 3üncü adım
+[11:05] özel çözüme geliyoruz.
+[11:14] Y özel
+[11:14] bulunmalıdır.
+[11:22] Şimdi y özeli bulacakken karşımızda iki
+[11:22] yöntem vardır.
+[11:25] Ya belirsiz katsayı metodu kullanacağız
+[11:27] ya da parametrelerin değişimi metodunu.
+[11:31] Dönüp sorumuza geliyoruz. Diferansiyelin
+[11:34] karşısı
+[11:36] polinom.
+[11:39] Belirsiz katsayı metodunun uygulandığı
+[11:41] durumlara yukarıya dönüp bakarsak dört
+[11:44] durumda uygulanıyor.
+[11:46] Polinom ise karşısı, e ise karşısı, sin
+[11:50] veya cos olursa karşısı ve bunların
+[11:53] toplama, çıkarma, çarpma durumunda
+[11:54] bulunması.
+[11:57] Buradaki polinom
+[11:59] kalemimizin rengini değiştirerek devam
+[12:01] edelim. üzerinde bazı oynamalar
+[12:03] yapacağız. Çünkü şimdi
+[12:07] burada
+[12:09] 1inci derece bir polinom var.
+[12:19] Burada şunu düşünmüş matematikçiler.
+[12:19] Bu karşı taraf 1inci derece bir
+[12:20] polinomsa demek ki y'nin yerine konulan
+[12:24] şey de bir polinom olmalı. Biz buraya
+[12:26] polinom koyarsak ve türevlerini alıp
+[12:29] toplayıp çıkartırsak yine polinom kalır.
+[12:32] Yoksa nasıl polinom kalsın diye
+[12:34] düşünmüşler.
+[12:35] Bu nedenle buradaki y'yi
+[12:38] belirsiz katsayı metodunda y özel tahmin
+[12:42] edilir.
+[12:49] Belirsiz katsayı metodunun temeli Y
+[12:49] özeli tahmin etmeye
+[12:52] dayalıdır.
+[12:54] Nasıl bir tahminde bulunacağız? dönersek
+[12:56] geriye
+[12:59] şimdi buradaki 1. derece ise
+[13:05] bunun 1. derece çıkmasını sağlayan şey
+[13:09] en küçük türev, en az türev alınmış
+[13:12] ifadedir veya türev alınmamış ifadedir.
+[13:15] Buradaki kısımdır. Çünkü bir ifadenin
+[13:18] türevini aldıkça derecesi azalır. Bu
+[13:22] nedenle buradakinin derecesinin kaç
+[13:24] olacağını buradaki en düşük dereceli
+[13:27] türev veya y belirler. Burada y'li
+[13:30] olmasaydı y'nin türevi 1ci derece
+[13:33] demekti. Şimdi buradan anladığımız şey
+[13:36] yinci
+[13:37] derecedir. Burası da 1ci derece.
+[13:48] Y dediğimiz şey Y özelle aynıdır.
+[13:48] Burası 1. derece ise buradaki en sağda
+[13:51] yazılmış olan y'li de 1. derece
+[13:54] olmalıdır. Yani yinci derece ise bizim y
+[13:58] özelimiz de 1. derece olmalıdır. 1.
+[14:00] dereceyi temsil eden genel polinom
+[14:04] ax + b'dir.
+[14:07] 1. dereceyi temsil eden genel polinom
+[14:10] üzerinden
+[14:11] soruya devam ediyoruz.
+[14:14] ax + b gibi bir ifade
+[14:18] burada yerine konulursa, türevleri
+[14:21] alınırsa yine 1ci derece çıkar. Bu
+[14:24] tahminde bulunmalıyız. Şimdi bu
+[14:27] anlattıklarımdan bazılarınızın kafasında
+[14:29] hiçbir şey canlanmadı ise burada y
+[14:32] yazıyorsa
+[14:34] en sonuncusu y ise buranın derecesi kaç
+[14:37] ise y özel o derecededir. Burası x
+[14:41] kareli olsaydı burada y yazıyor olsaydı
+[14:45] y özel 2 derece olurdu. Burada y varsa
+[14:48] karşının derecesi ile y özel aynıdır.
+[14:52] Burada y türevi olursa
+[14:55] karşının derecesinden bir fazla
+[14:57] olacaktır y özelimiz. Bir sonraki
+[15:00] örneğimizde de bunu konuşacağız.
+[15:04] Bir sonraki örneğimizde tekrar bu tahmin
+[15:07] üzerine konuşacağımız için bundan
+[15:09] sonraki aşamaya devam edelim. Tahmini
+[15:12] çok iyi anlamamış olsanız dahi aşamaları
+[15:16] bir izlemeye devam etmenizde fayda var.
+[15:19] Şimdi 1inci derece bir polinom olduğunu
+[15:21] tahmin ettik. Bunun türevleri alınıp
+[15:23] diferansiyelde yerine konulur. Bunun
+[15:26] türevleri alınıp
+[15:29] alınıp diferansiyelde yerine konur. Amaç
+[15:39] yerine konulur. Amaç burada
+[15:39] belirsiz olan a ve b katsayılarını
+[15:41] bulmak. Bu metoda bu ismi o yüzden
+[15:43] koymuşlar zaten. Belirsiz katsayıları
+[15:46] bulmaya çalışıyoruz.
+[15:48] Y özelimizin ilk türevini alırsak ax +
+[15:52] b'nin ilk türevi a'dır. Y özelin 2inci
+[15:56] türevini alırsak a gibi sabit bir
+[15:58] sayının x'e göre türevi 0dır. Bunları
+[16:01] diferansiyelde yerine koyarsak
+[16:18] Eksi neydi sonrası? 2y'nin türevi -3y.
+[16:18] 2y'nin türevi diyoruz. Y özel y demek
+[16:21] zaten. -2a
+[16:25] -3 x ax + b -3ax
+[16:30] - 3b = diferansiyelimizin karşısı neydi?
+[16:35] x + 1.
+[16:44] Buradan devam edersek bu taraftaki x'li
+[16:44] kısım bu taraftaki x'li kısmı
+[16:46] çıkartmalıdır.
+[16:49] -3a'nın
+[16:51] x'in katsayısı olan 1 etmesi gerekir.
+[16:54] -3a = 1. a = -1/ 3.
+[17:03] Buradaki diğer sabitler ise buradaki 1'i
+[17:03] çıkartmalıdır. -2a
+[17:06] -3b
+[17:08] = 1.
+[17:11] A yerine -1/3'ü koyarsak yani buradaki
+[17:14] diğer iki sabit. Buradaki 1'i
+[17:16] çıkartıyor.
+[17:18] A'yı bulmuştuk. Yerine koyarsak burası +
+[17:21] 2/3 eder. Karşıya atarsak
+[17:24] -3b 1/3 kalır. b -1/9 çıkar.
+[17:32] Yani bizim y özelimiz a ve b
+[17:34] katsayılarını yerine koyduğumuzda -1/3x
+[17:39] a'yı getirdik. Buraya koyduk. B'yi de
+[17:41] buraya koyduk. -1/9
+[17:44] olur.
+[17:46] Ve böylece diferansiyelin çözümünü
+[17:48] bitirmiş oluyoruz. Çünkü biz en başta ne
+[17:51] demiştik? 1inci adımda y genel y homojen
+[17:55] + y özel idi. Y homojeni zaten bulduk. Y
+[17:59] özeli de bulduk. Yani diferansiyel
+[18:01] denklemi çözmeyi başardık.
+[18:06] 4. adım
+[18:19] y genel eş c1 üzeri 3x + c2e üzeri -x
+[18:19] -1/3x
+[18:21] -1/9.
+[18:23] Şu homojeni yanlış yazmış olmayalım.
+[18:26] Evet, doğru yazmışız.
+[18:30] Ve bu diferansiyel denklemimizin çözümü
+[18:33] budur.
+[18:35] Belirsiz katsayı metodunda
+[18:38] y özeli bulurken tahmin ediyoruz.
+[18:43] Ve tekrar bu tahmini konuşacak olursak
+[18:45] en önemli aşama burası. Burada y varsa
+[18:48] en sonuncusu karşı taraf kaçıncı derece
+[18:51] ise bizim y özelimiz de o derecede olur.
+[18:56] Eğer burada y değil de y türevi olursa
+[19:00] karşı taraf neyse y özelin derecesi onun
+[19:04] bir fazlası olur. Şimdiki örneğimiz o
+[19:08] olacak.
+[19:14] Kalemimizin rengini tekrar maviye
+[19:14] döndürelim.
+[19:22] Bir soru daha yapıyoruz bu metoda ait.
+[19:22] Polinom kısmını tamamlamış olacağız
+[19:24] arkasından.
+[19:25] -6y'nin
+[19:27] türevi + 9y =
+[19:32] Yalnız burada y'nin türevi olacak
+[19:34] demiştik. Burayı silelim. Diğer
+[19:37] örneğimiz de birebir aynı mantığa gider.
+[19:39] Yoksa
+[19:41] buradan sonrası eşittir
+[19:44] buraya da x² + 1 diyelim. Bu sefer
+[19:48] karşıya 2 derece bir polinom koyduk.
+[19:52] Diferansiyelinin çözümü nedir?
+[20:00] Çözümü
+[20:00] nedir?
+[20:02] Birinci adım
+[20:10] Y genel çözümün
+[20:10] Y homojen + Y particular Particler
+[20:14] nereden çıktı? İngilizceye kaydı. Y özel
+[20:17] olduğunun
+[20:19] farkında olmalıyız. Genel çözüm homojen
+[20:21] çözümle özel çözümün toplamına eşittir.
+[20:26] İkinci adım
+[20:32] Y homojen çözümü buluruz. Y homojeni
+[20:32] bulurken karşı tarafı 0a eşit kabul
+[20:36] ederiz.
+[20:38] Eş 0. Buradan karakteristik denklemimize
+[20:41] ulaşırız. Y'nin 2ci türevi yerine r²,
+[20:43] y'nin türevi yerine r. r² - 6r = 0 eder.
+[20:49] r parantezine alırsak r - 6 = 0'dan r
+[20:53] bir 0 bir de 6 çıkar. Yani y homojen =
+[20:57] c1 e üzeri 0x
+[21:00] + c2e üzeri 6x 0x zaten 1 edeceği için y
+[21:05] homojenin en düzgün halini yazalım. C1 +
+[21:09] c2 e üzeri 6x'tir.
+[21:13] Y homojenimizi bulduk.
+[21:16] Şimdi karşı tarafı polinom gördüğümüzden
+[21:18] dolayı
+[21:21] belirsiz katsayı metodu kullanmamız
+[21:23] gerektiğini anlıyoruz. Karşıyı polinom
+[21:26] gördüğümüzden dolayı
+[21:28] belirsiz kas sayı metodunda y özeli
+[21:31] tahmin edeceğiz. Şimdi yine kalemimizin
+[21:34] rengini kırmızıya çevirelim.
+[21:40] Şimdi
+[21:40] burada karşıda 2 derece
+[21:45] bir polinom var.
+[21:47] Buraya baktığımızda burada ise en düşük
+[21:50] dereceli ifade y türevi. Eğer ki
+[21:55] burada y olsaydidı,
+[21:58] y olsaydı bunun derecesi ne ise y özelde
+[22:03] o idi. Yani 2 derece olurdu. Fakat
+[22:07] buradaki ifade türevli 1inci türev.
+[22:10] Burası 1inci türevse
+[22:13] burası kaçıncı derece ise y özel bunun 1
+[22:18] fazlasında dereceye sahiptir. Burası 2
+[22:22] derece olduğuna göre y özel 3. derece
+[22:25] olmalıdır. 3. dereceyi temsil eden genel
+[22:28] polinomumuz ax³ bx²
+[22:32] + cx + d. Burayı tekrar ediyorum. En
+[22:37] önemli noktası burasıdır bu metodun.
+[22:40] Burada en sonuncu ifademiz y olsaydı
+[22:44] bunun derecesiyle aynı idi. Y özel.
+[22:47] Burada y türevi olduğu zaman bunun
+[22:50] derecesi neyse bunun 1 fazlasıdır. Y
+[22:52] özel. Kafamızda bu şekilde oturtmalıyız
+[22:56] bunu.
+[22:59] Sorumuza devam edersek devamında Y özeli
+[23:02] tahmin ettiğimize göre türevlerini alıp
+[23:05] diferansiyelde yerine koyacağız.
+[23:07] 1ci türevi 3ax²
+[23:11] + 2bx
+[23:13] + c. Bir kez daha türevini alıyoruz.
+[23:18] 6ax
+[23:20] + 2b.
+[23:22] Bunu diferansiyelimizde yerine koyarsak
+[23:24] diferansiyelimiz şurada y'nin 2.
+[23:25] türeviydi. 6ax + 2b
+[23:31] 1. türevi 6 ile çarpıyoruz.
+[23:34] -12ax²
+[23:37] - 12b
+[23:39] - 6c
+[23:41] eş karşısı neydi polinomumuzun?
+[23:44] diferansiyelimizin x² + 1'di.
+[23:49] x² + 1.
+[23:52] Şimdi buradan devam edersek
+[23:55] 2 dereceli tek ifademiz buradaki -12a
+[24:00] x² buradaki -12a'nın
+[24:08] bize buradaki x karenin katsayısı olan
+[24:08] 1'i vermesi gerekir. a= -1/12.
+[24:13] Bunu bulduk.
+[24:15] Gelirse şimdi sıra x'lilere. Burada bir
+[24:17] x'li var. Başka da bir x'li ifademiz
+[24:23] şurada vardı. Ben onu yazmayı unuttum.
+[24:27] Şunu -6 ile çarparken -12b yazmışım.
+[24:30] -12bx olacak. O bir de bu var.
+[24:35] 6a - 12b. Yani bu x'lilerin katsayıları
+[24:40] toplamı 0 etmek zorunda. Çünkü bu
+[24:42] tarafta x'li hiçbir şey yok.
+[24:46] A'nın biz -1/12 olduğunu bilirsek 6 ile
+[24:48] çarparsak -1/2.
+[24:51] Bunu da karşı tarafa atarsak 12b.
+[24:54] Buradan b = -1/24
+[24:57] çıkar.
+[25:05] En son sabit terimlere geçersek 2b - 6c
+[25:05] 1 edecek. 2b - 6c = 1. Biz b'nin -1/24
+[25:12] olduğunu biliyoruz. Burada yerine
+[25:14] koyarsak onu -1/12 eder. Karşıya atarsak
+[25:17] + 1/12 13/12
+[25:21] = -6c. -6'yı da bölü olarak geçirirsek
+[25:25] 13/ -13/72
+[25:27] sonucunu buluruz C'de.
+[25:31] Yani bizim Y özelimiz
+[25:34] belirsiz olan katsayıları bulduk.
+[25:37] A'yı -1/12 bulduk. -1/12x³
+[25:45] x³
+[25:45] -1/24
+[25:48] x²
+[25:50] -13/72
+[25:57] x + d'yi
+[25:57] bulamadık.
+[25:59] Buradaki en sonuncu ifade
+[26:02] diferansiyelde y'nin türevi ise y
+[26:05] özeldeki en sonuncu harfi bulamazsınız.
+[26:09] Onu d olarak bırakmaya devam ederiz
+[26:12] çözümde. Ve en son adımımız olan 4.
+[26:15] adımda
+[26:18] Y genel çözümü yazacağız. Homojenle
+[26:23] özel çözümümüzü birleştireceğiz. C2 E
+[26:26] üzeri 6x'ti yanlış hatırlamıyorsam.
+[26:29] Homojen çözümümüz -1/12x³
+[26:33] -1/24x²
+[26:35] -13/72x
+[26:38] + d bizim buradaki genel çözümümüzdür.
+[26:50] Ve bu şekilde birinci durumumuz olan
+[26:50] geriye dönelim biraz
+[26:59] polinom durumumuzu bitirmiş olduk.
+[26:59] Şimdi karşısının eli ifade olduğunda y
+[27:04] özeli nasıl tahmin ettiğimizi
+[27:06] konuşacağız.
+[27:07] Polinom olduğunda
+[27:10] en sonuncusu y ise karşı tarafın
+[27:13] derecesiyle aynı idi. Y özel. En
+[27:16] sonuncusu y türevse karşı tarafın
+[27:18] derecesinin bir fazlası idi. E'li
+[27:22] ifademize başlıyoruz. 2inci durum.
+[27:26] Belirsiz katsayı metodu en uzun konu
+[27:29] anlatımına sahip diferansiyel
+[27:31] bölümlerinden birisidir.
+[27:35] Şimdi ikinci durumla devam edelim.
+[27:39] Kalemimizin rengini tekrar maviye
+[27:40] çevirelim.
+[27:55] Diferansiyelin karşısı ise
+[27:55] diferansiyelin karşısı
+[28:06] yine örnek üzerinden konuşarak
+[28:06] gideceğiz. Y'nin 2. türevi - 6y'nin
+[28:11] türevi
+[28:13] + 9y = 2e üzeri 5x diferansiyelini
+[28:19] çözünüz.
+[28:21] Birçok üniversite hocasının en çok
+[28:23] sevdiği belirsiz katsayı metodu tipidir.
+[28:27] Eliği sormayı çok severler.
+[28:29] Diferansiyelinin
+[28:40] Şimdi burada birinci adımımız yine
+[28:40] değişmiyor. Buna baktığımızda 2ci derece
+[28:44] sabit katsayılı homojen olmayan bir
+[28:46] diferansiyel denklem görüyoruz. Bu
+[28:48] nedenle genel çözümümüz y homojen + y
+[28:54] özeldir.
+[28:56] İkinci adımımızda y özele hiç kafa
+[28:59] yormadan y homojenimizi hesaplıyoruz.
+[29:02] Karşı tarafı 0 kabul ederek yapılır.
+[29:04] Homojen çözüm -6y'nin türevi + 9y = 0.
+[29:11] Y'nin 2. türevi yerine R²are, Y'nin 1.
+[29:14] türevi yerine R, Y'nin kendisinin yerine
+[29:16] ise 1 konularak karakteristik denklem
+[29:19] elde edilir. Bunu çarpanlarına
+[29:21] ayırdığımızda -3 -3 R 2 durumda da 3
+[29:26] olarak bulundu.
+[29:30] Karakteristik denklemin
+[29:32] iki sonucu birbiriyle aynı çıkarsa
+[29:35] homojeni yazarken C1E üzeri 3x yazdıktan
+[29:38] sonra 2inci homojen kökü yazarken e
+[29:43] üzeri 3x'in yanına bir x çarpanı
+[29:45] eklenirdi.
+[29:47] Homojen çözümü yaparken ikisi birbiriyle
+[29:49] aynı çıkarsa r'lerin ilkini olduğu gibi
+[29:52] yazıyoruz. E üzeri 3x. İkincisinde E
+[29:54] üzeri 3x'in yanına x çarpanı gelecek.
+[29:57] Eğer burada hata yaptıysak bundan
+[29:59] sonrasını okumayabilir hocalar.
+[30:02] Çünkü çok önem verilen bir noktadır
+[30:04] burası. Şimdi 3üncü adıma geldik. Y
+[30:08] özeli bulmak için hangi yöntemi
+[30:11] kullanacağımıza karar vermemiz
+[30:13] gerekiyor. Parametrelerin değişimi mi?
+[30:16] Belirsiz katsayı mı? Biz zaten burada
+[30:17] belirsiz katsayı anlattığımız için
+[30:19] belirsiz katsayıyı kullanacağız da E'li
+[30:22] ifade bulunduğu zaman karşıda belirsiz
+[30:25] katsayı kullanılabiliyordu. O yüzden
+[30:27] parametrenin değişim metoduna hiç
+[30:29] girmiyorum.
+[30:30] Y özel
+[30:33] tahmin edilmeli.
+[30:40] Belirsiz kastayı metodunda her zaman
+[30:40] için Y özeli tahmine odaklıyızdır.
+[30:44] Y özeli tahmin edeceğiz. Şimdi karşıda e
+[30:48] bulunuyor.
+[30:49] Burada da matematikçilerin düşündüğü şey
+[30:51] şu.
+[30:53] Bir şeyin iki kez türevini almışız. Bir
+[30:55] şeyin bir kez türevini almışız. -6 ile
+[30:58] çarpmışız. Bir de y'li ifade var. 9'la
+[31:00] çarpmışız, toplamışız, çıkartmışız. 2y
+[31:03] üzeri 5x etmiş.
+[31:05] O zaman y nasıl bir şey olmalı diye
+[31:07] düşünmüşler.
+[31:09] Yani buradaki düşüncenin sonucu da şu.
+[31:11] E'li ifadeler
+[31:13] istedikleri kadar türevi alınsın
+[31:17] değişmezler. E üzeri 5x'in türevini
+[31:19] aldıkça sadece katsayı değişimine uğrar.
+[31:22] E'liyi aynen yazıp üssün türevini çarpıp
+[31:24] olarak yazıyoruz. Yani y eğli bir şey
+[31:27] olmalı diye karar verilmiş. Yani karşıda
+[31:30] e üzeri 5x varsa
+[31:32] direkt y özel a x e üzeri 5x olur. Bunda
+[31:40] hiç püf nokta yok mu? Tabii ki var.
+[31:42] Şimdi bundan sonrası çok önemli. Yani
+[31:47] burası
+[31:55] 2e üzeri 5x'e y özeli direkt a x e üzeri
+[31:55] 5x diyoruz. Buradaki 2'yi de işimiz yok
+[31:58] bizim. E üzeri 5x'in katsayısını
+[32:00] belirlemeye çalışacağız.
+[32:04] E üzeri 5x
+[32:06] Y özel tahmini yapılırken
+[32:09] YH'ın içinde var mı diye bakılmalıdır.
+[32:13] YH içinde
+[32:19] var mı?
+[32:19] Buradaki e üzeri 3x, buradaki de e üzeri
+[32:21] 3x x 3 yok.
+[32:26] Yok cevabını veriyorsak y özel
+[32:30] direkt a x e üzeri 5x'tir.
+[32:39] Burada yaptığımız gibi.
+[32:39] Yani karşıda e'li bir şey varken
+[32:42] y özel tahminini
+[32:44] yh'a bakmadan yapamayız. O yüzden burada
+[32:48] önce yh'a bakıyoruz.
+[32:50] Yoksa a x e üzeri 5x. Peki varsa
+[33:03] bir kez
+[33:03] varsa yani buradakilerden E üzeri 3x E
+[33:06] üzeri 3x'ten birisi E üzeri 5x olsaydı
+[33:10] Y özelimize ekstra bir X çarpanı
+[33:14] gelecektir. X E üzeri 5X olur.
+[33:24] Yani bu
+[33:24] yh içinde bulunursa bir defa buraya bir
+[33:27] x çarpanı gelecek. Y özelde
+[33:35] yh için de iki defa bulunursa ikisi de E
+[33:35] üzeri 5x'i olursa YH için
+[33:41] iki kez E üzeri 5x varsa
+[33:49] Y özel
+[33:49] o zaman bir kez daha x ile çarpılması
+[33:52] gerekir ki x² e üzeri 5x olur. Yani
+[33:56] burada 2'si de e üzeri 5x'li olursa y
+[33:59] özel x²are ile çarpılmış olmak
+[34:01] zorundadır.
+[34:04] Karşıda ei varken tahminin bütün püf
+[34:07] noktaları bu kırmızı ile yazdığım 3
+[34:10] noktadır.
+[34:12] Burada e üzeri 5x var. Biz burada yh'ın
+[34:14] içine baktık. Yok. O yüzden bizim y
+[34:17] özelimiz ae üzeri 5x oldu. Bunun
+[34:21] türevlerini alıp diferansiyelimizi de
+[34:22] yerine yazacağız. Yoksa iş çok kolay
+[34:26] zaten. e üzeri 5x'in türevi e üzeri 5x x
+[34:30] 5'tir. Yani 5a e üzeri 5x olur. İlk
+[34:34] türev 2inci defa türevini alırsak
+[34:43] bir 5 çarpanı daha gelecektir. 25a e
+[34:43] üzeri 5x olur. Bunları
+[34:45] diferansiyelimizde yerine koyarsak
+[34:47] diferansiyel şurada gözüküyor zaten. 25a
+[34:51] e üzeri 5x
+[34:53] burada -6 ile çarpacağız bunu. -30
+[34:58] ae üzeri 5x. Burada da bir de 9'la
+[35:01] çarpacağız y özeli. + 9ae üzeri 5x e=
+[35:07] diferansiyelimizin karşısı ne idi?
+[35:11] diferansiyelin karşısı 2e üzeri 5x'tir.
+[35:16] Bizim amacımız burada yine a'yı bulmak.
+[35:20] 25ae üzeri 5x - 30a üzeri 5x buradan -5
+[35:26] kalır. Buradan da 9la toplarsak 4ae
+[35:30] üzeri 5x = 2e üzer olur. Buradaki 4a'nın
+[35:36] 2 etmesi gerekir ki a da buradan 1/2
+[35:40] olarak bulunur. Yani y özel = 1/2 e
+[35:47] üzeri 5x'tir.
+[35:50] Ve son adımımızda, 4. adımımızda
+[35:54] y özelle y homojeni birleştiririz. Y
+[35:58] genel çözümümüz homojen çözüm. C1 üzeri
+[36:02] 3x + c2e üzeri 3x x idi. + y özelimizi
+[36:09] de eklersek 1/2e üzeri 5x. Genel
+[36:14] çözümümüz budur.
+[36:17] Şimdi burada yaptıklarımızı kısaca
+[36:19] özetleyecek olursak karşıda ei varken
+[36:24] Y özel tahmininde Y homojenin içinde var
+[36:27] mı yok mu sorusu önemliydi. Yoksa sadece
+[36:31] ae üzeri 5x bir kez varsa x çarpanı
+[36:36] gelecek. ax e üzeri 5x 2 kez varsa ax² e
+[36:41] üzeri 5x olur.
+[36:44] Şimdi bir örnekte
+[36:47] y h'in içinde einin bulunduğunu çözüp
+[36:53] durumu da geçeceğiz.
+[36:55] Bir örnek daha yazalım.
+[37:04] Y'nin 2. türevi -
+[37:04] 3y'nin türevi + 2y =
+[37:10] 5e üzeri 2x diferansiyelinin çözümü
+[37:14] nedir?
+[37:17] Nin
+[37:18] çözümü
+[37:21] nedir?
+[37:27] 2ci derece sabit katsayılı homojen
+[37:27] olmayan bir diferansiyel görüyoruz.
+[37:29] Karşısı e olduğu için anında aklımıza
+[37:32] zaten belirsiz katsayı metodu ile
+[37:33] çözeceğimiz an gelmelidir. Burada
+[37:37] birinci adım
+[37:40] Y genel eş y homojen + y özeldir. Bunu
+[37:46] sürekli yazmakta fayda vardır. Hocalar
+[37:48] bunun yazılmasından memnun olurlar.
+[37:51] Belki ekstra puan bile verirler. Gidişat
+[37:53] yollarında hata yaparsanız ekstra puan
+[37:56] kazandırır bize. Homojeni bulurken karşı
+[37:59] tarafı 0 kabul ederek diferansiyelimizi
+[38:01] çözüyoruz. -3y'nin türevi + 2y = 0.
+[38:07] y'nin 2. türevi yerine r², y'nin türevi
+[38:10] yerine r, yerine ise 1 koyarsak + 2 = 0.
+[38:15] çarpanlarını ayırırsak -2 -1 radan bir 2
+[38:20] bir de r = 1 çıkar. Yani homojen
+[38:22] çözümümüz c1 e üzeri 2x + c2 e üzeri x
+[38:28] olur.
+[38:30] Şimdi 3ün adımda
+[38:34] y özelimizi tahmin edeceğiz.
+[38:41] Eşittir diyelim şuraya. Şu kalemimizin
+[38:41] rengini değiştirelim. Bu adımdan
+[38:43] sonrasında
+[38:51] şimdi karşıda e üzeri 2x var. Burada y
+[38:51] özeli tahmin ederken homojenin içinde
+[38:53] var mı diye bakmalıyız. Evet var. Kaç
+[38:57] kez var? Bir kez var. Bu nedenle y
+[39:00] özelimiz a x - ekstra 1 x çarpanı
+[39:04] gelecek. E üzeri 2x olacak.
+[39:10] Bütün olay yukarıda da uzun uzadıya
+[39:12] anlattığım
+[39:14] einin homojenin içinde olup olmaması
+[39:17] durumuydu. Olmasaydı a üzeri 2x
+[39:20] olacaktı. Bir kez olduğu için ax e üzeri
+[39:23] 2x oldu. 2 defa olsaydı ax² e üzeri 2x
+[39:27] olacaktı. Şimdi bunun türevlerini alıp
+[39:29] diferansiyelde yerine yazacağız. Bunun
+[39:32] türevini alırken dikkat etmeliyiz.
+[39:34] Çarpımın türevi var çünkü ax'i bir
+[39:37] bütün.
+[39:38] E üzeri 2x'i bir bütün düşünelim. ax'in
+[39:41] türevi a'dır. E üzeri 2x 1incinin türevi
+[39:45] çarpı 2 + 2incinin türevi çarpı 1inci
+[39:48] yapacağız. e üzeri 2x'in türevi e üzeri
+[39:51] 2x ç'dir. Bunun başına bir 2 gelecek.
+[39:54] 2ax e üzeri 2x.
+[40:01] Bir kez daha türev alıyoruz.
+[40:01] Artık burası çarpımın türevi değil. E
+[40:04] üzeri 2x olduğu gibi yazıp üssünün
+[40:06] türevi gelecek. 2ae üzeri 2x.
+[40:12] Bu kısım yine çarpımın türevi 2a - bir
+[40:14] bütün düşünüyoruz.
+[40:16] 2ax'in türevi 2a x e üzeri 2x olduğu
+[40:20] gibi yazdık. + e üzeri 2x'in türevinden
+[40:23] sadece bir ekstra 2 çarpanı gelecek. 4ax
+[40:28] e üzeri 2x olur. Buradan da şu ikisi
+[40:31] birleştiği için 4a e üzeri 2x + 4ax
+[40:39] e üzeri 2x sonucunu buluruz. Bunları
+[40:42] diferansiyelimizde yerine koyarsak y'nin
+[40:45] 2. türevini yerine koyarsak 4a e üzeri
+[40:49] 2x + 4ax
+[40:52] e üzeri 2x sonra y'nin türevini 3 -3 ile
+[40:58] çarpıyoruz. -3 ile çarparsak bunu -3a e
+[41:02] üzeri 2x -3 ile burayı çarparsak -6ax
+[41:06] e üzeri 2x
+[41:08] en sonuncusu + 2ydi y'yi de 2 ile
+[41:12] çarpacağız + 2ax
+[41:16] e üzeri 2x olur. Eşittir karşısı ise 5e
+[41:19] üzeri 2x'ti.
+[41:28] Şimdi
+[41:28] 4ae üzeri 2x 4ax e üzeri 2x bu şekilde
+[41:32] ifademizi görüyoruz. Yanında x çarpanı
+[41:34] olanlar her zaman birbirlerini
+[41:37] götürürler. Burada götürmezlerse
+[41:39] kesinlikle türevi yanlış yapmışsınızdır.
+[41:41] Veya başka bir hatanız vardır. Bu bu
+[41:45] birbirini götürürler. 4a'dan 3a'yı
+[41:48] çıkartırsak ae üzeri 2x = 5e üzeri 2x
+[41:53] olur ki a'nın 5 olduğunu çok net olarak
+[41:56] görmekteyiz.
+[41:58] A'yı 5 bulursak bizim y özelimiz
+[42:02] 5ax
+[42:04] e üzeri 2x 5ax nereden geldi? A'nın
+[42:08] yerine 5 koyduk. 5x e üzeri 2x olur.
+[42:14] En son adımda da
+[42:21] 4 adımda
+[42:21] y genelimizi yazıyoruz.
+[42:24] Homojenle özel çözümü birleştireceğiz.
+[42:26] Homojen çözümümüz C1E üzer 2x + C2E üzer
+[42:31] X
+[42:33] + 5X E üzeri 2X olur.
+[42:44] Şimdi böylece
+[42:44] 2inci durumu da bitirmiş olduk.
+[42:48] Kalemimizin rengini değiştirip 3üncü
+[42:50] durumla devam edelim. Üçüncü
+[42:52] bahsettiğimiz durum karşıda sin cos
+[42:55] olması durumuydu.
+[42:57] 3ün durum
+[43:12] sin
+[43:12] veya cos olursa
+[43:15] coslu olursa
+[43:22] bir örnek üzerinden yine başlayacağız ve
+[43:22] burada y özel tahminini nasıl
+[43:24] yapacağımızı konuşacağız.
+[43:26] Y'nin 2. türevi
+[43:28] -2y'nin türevi -3y = 3 sin 5x
+[43:38] diferansiyelini
+[43:47] Şimdi bu diferansiyele baktığımızda
+[43:47] sabit katsayılı 2ci derece homojen
+[43:49] olmayan bir diferansiyel görüyoruz.
+[43:51] Karşısında sinli gördüğümüz için
+[43:53] belirsiz katsayı metodu kullanacağımızı
+[43:55] anlamalıyız.
+[43:57] Birinci adım
+[44:03] Y
+[44:03] genel = YH + Y özel.
+[44:09] 2inci adım
+[44:11] YH'ı bulmalıyız. Bunu 0a eşit kabul
+[44:13] edeceğiz ve r'leri yerine koyacağız.
+[44:16] Artık kısaltarak gidiyorum. r² - 2r -3 =
+[44:21] 0. Buradan da çarpanlarına ayırdığımızda
+[44:24] -3'e 1'den r bir de r = -1 çıkar. Yani
+[44:29] yh'ımız ikisi birbirinden farklı çıktığı
+[44:32] için c1 üzeri 3x + c2e üzeri -x olur.
+[44:44] 3. adım
+[44:44] y özeli tahmin edeceğiz.
+[44:48] Y özel tahmini. Kalemimizin rengini yine
+[44:51] kırmızı yapalım.
+[44:57] Burada
+[44:57] 3 sin 5x var.
+[45:00] Sin 5x varsa
+[45:03] a sin 5x. Buradaki 3'ü almıyoruz. Tabii
+[45:07] ki bizim derdimiz bunun başına a gibi
+[45:10] katsayılar yazıp hangi AB'lerin 3
+[45:13] çıkarttığını bulmaya çalışıyoruz. A sin
+[45:16] 5x. Burada bunun coslusu yazmasa dahi
+[45:19] cosusunu da koyarız. B cos 5x
+[45:25] a sin 5x b cos 5x. Bunları yazdıktan
+[45:29] sonra şuna bakmamız lazım. Sin 5x
+[45:35] aynı gibidir. Bu da sin 5x burada var
+[45:39] mı?
+[45:46] Yok ise bunu olduğu gibi bu şekilde
+[45:46] yazarız. Eğer varsa
+[45:51] olsaydı sin 5x
+[45:54] x çarpanı gelecekti. Y özel şöyle
+[45:56] olurdu. ax sin 5x
+[46:00] + bx cos 5x
+[46:05] bu şekilde olurdu.
+[46:08] Bu da e gibidir. Sin 5x'in y özel
+[46:11] tahmini de yh'ın içine bakmayı
+[46:13] gerektirir. Yh'ın içine bakarız. Sin 5x
+[46:16] varsa ekstra bir x çarpanı gelir. Yoksa
+[46:21] a sin 5x b cos 5x yazarız. Burada cos'lu
+[46:25] sadece olsaydı yine sin ve cos'un
+[46:27] ikisini de yazacaktık. Sin veya cos'un
+[46:30] hangisinin olduğu önemli değil. Her
+[46:32] zaman ikisi de yazılmalıdır.
+[46:35] Bu duruma bir örnek çözmeyeceğim. Temel
+[46:37] fikri zaten netleşti konunun. Bunun
+[46:40] türevlerini alıp diferansiyelde yerine
+[46:43] koyacağız. Türevini aldık. sin 5x'in
+[46:46] türevi cos 5x eder. Çarpı içerisinin
+[46:48] türevi gelir. 5 5a cos 5x
+[46:54] cos 5x'in türevi - sin5x x 5 olur. -5b
+[46:59] sin 5x.
+[47:01] Bir kez daha türevi alırsak
+[47:05] burası -25a
+[47:08] sin5x olur.
+[47:10] Burası da -25b
+[47:13] sin 5x olur.
+[47:16] Bunları yerine koyup a katsayılarımızı
+[47:19] bulacağız. Y'nin 2. türevine bunu
+[47:20] yazıyoruz. -25a sin 5x
+[47:26] -25b
+[47:28] ikisi de sin olmuş. Yanlış almışız.
+[47:30] türevi demek ki sin 5x burada cos 5x
+[47:34] olacaktı. Dalmışım.
+[47:37] Düzeltelim. Burası -25b cos 5x.
+[47:42] Şimdi buraya gelirsek
+[47:45] y'nin türevini -2 ile çarpıyoruz. Bunu
+[47:47] -2 ile çarpacağız. -10a
+[47:50] cos 5x.
+[47:53] Burayı -2 ile çarparsak
+[47:56] + 10b
+[47:59] sin 5x.
+[48:06] Burayı da -3 ile çarpacağız en sonunda
+[48:06] y'yi. -3a
+[48:15] -3a sin 5x
+[48:15] -3b
+[48:18] cos 5x
+[48:20] = 3 sin 5x edecek.
+[48:25] Burada hiç
+[48:27] cos'lu olmadığı için karşıda buradaki
+[48:30] cosluların sonucunun 0 etmesi gerekiyor.
+[48:33] Burada cos'umuz var. Bir de burada
+[48:34] cos'umuz var. -25b -28b
+[48:50] e= 0 edecek. Burayı yapacak olsak -25a
+[48:50] -28a
+[48:57] + 10b. Sinlilerin katsayıları ise
+[48:57] buradaki sinin katsayısı olan 3'ü
+[48:59] verecek. Bu sin cos'larda hep a
+[49:02] katsayıları çok kötü sayılar çıkar.
+[49:04] Bundan kurtuluşumuz yoktur. Bu 10a'yı bu
+[49:07] tarafa atarsak a = 10'u da bölü olarak
+[49:11] geçirirsek
+[49:13] -14b/5.
+[49:15] Bunu getirip buradaki
+[49:17] a yerine yazarsak -14/5
+[49:22] yazacak olursak buradan a'nın yerine -28
+[49:25] ile çarpacağız. Epey uğraştırıcı A ve B
+[49:28] katsayısı çıkacak buradan. Ben şimdi
+[49:30] onlarla uğraşmak istemiyorum. A 1 çıkmış
+[49:34] olsun. B 2 çıkmış olsun. Salladım
+[49:37] bunları.
+[49:39] Hiç sayıları düzgün verememişim. Çok
+[49:41] büyük sayılarla uğraşacağız. Şimdi
+[49:43] burada amacımız buradaki iki bilinmeyali
+[49:45] denklemi çözmek işte A ve B'yi bulmak.
+[49:47] A1 B2 olsun. Burayı salladığımızda
+[49:50] anlaşalım tabii ki. Y özelimiz burada
+[49:54] sin 5x.
+[49:56] A'yı 1 koyarsam yerine, B'yi de 2
+[49:58] koyarsam
+[50:00] 2 cos 5x eder.
+[50:10] Buradan da bunu en sonuncu adımımızda 4.
+[50:10] adımda
+[50:12] Y geneli yazarken homojenle
+[50:15] birleştireceğiz. Yh'la Y özeli
+[50:17] birleştirip noktalamış olacağız.
+[50:22] Burada sin ve cos olduğunda tahminde sin
+[50:25] veya cos'tan hangisinin bulunduğu önemli
+[50:27] değil. İkisini de yazmamız gerekiyor. A
+[50:30] sin 5x, b cos 5x şeklinde.
+[50:33] Yh'ın içinde var mı diye bakacağız. Sin
+[50:35] 5x olsaydı x çarpanı gelecekti. Olmadığı
+[50:39] için herhangi bir şey getirmedik.
+[50:43] Şimdi 4. ve son durumumuza geleceğiz.
+[50:45] Bir başa dönüp birçok şey yaptık. İyice
+[50:49] dağılmadan nerede olduğumuzu bir kontrol
+[50:51] edelim.
+[51:06] Son bir kez o noktaya bakalım.
+[51:06] Şimdi
+[51:09] bitirdik. Karşıda sin veya cos olursayı
+[51:12] bitirdik. Şimdi 4. ve son durumumuz ile
+[51:15] sin cos ifadelerin toplama çıkarma ve
+[51:18] çarpma durumunda bulunması. Toplama
+[51:21] çıkarma ve çarpma durumuyla da konumuzu
+[51:24] noktalamış olacağız.
+[51:27] Şimdi biraz daha aşağıya hızlıca
+[51:29] gidelim.
+[51:38] Tamamdır.
+[51:38] Şimdi kalemimizin rengini de mavi yapıp
+[51:41] son bölümünü de yapıp bitirelim. Uzun ve
+[51:44] yorucu bir video oldu. 4. durum
+[51:56] sin
+[51:56] cos
+[51:58] e
+[52:00] polinomun
+[52:17] Şimdi bunların toplama çıkarma durumunda
+[52:17] olması arkasından da çarpma durumunu
+[52:19] inceleyeceğiz. Toplama çıkarma
+[52:21] durumundayken her birinin kuralı ayrı
+[52:23] ayrı tahmin edilir. Buradan şöyle bir
+[52:26] soru uyduralım. Buna da y'nin 2. türevi
+[52:30] -2y'nin türevi - 3y =
+[52:36] 2e üzeri 3x +
+[52:40] x - 5 +
+[52:44] 4
+[52:46] cos 7x olsun.
+[52:50] diferansiyelinin
+[53:00] nenin özel çözümünü tahmin ediniz fakat
+[53:00] çözmeyiniz.
+[53:05] Tahmin
+[53:05] ediniz
+[53:08] ama çözmeyiniz. Bu şekilde soruları
+[53:11] birçok üniversite çok
+[53:14] defalar sormuştur. Buradaki çok uzun bir
+[53:17] şeyse işlem çok uzun olacağından
+[53:20] çözdürtmeyip sadece tahmini doğru yapıp
+[53:22] yapmadığımıza bakmak isterler. Şimdi bu
+[53:24] şekilde bir şeyi tahmin etmeden önce
+[53:27] kesinlikle
+[53:29] birinci adım YH'ı bulmalıyız. YH'a
+[53:32] bakmadan tahmin yapılamaz. Burayı karşı
+[53:35] tarafı 0 kabul edip yh'ımızı çözelim. r²
+[53:38] - 2r - 3 = 0'dan rr -3'e 1. R bir 3
+[53:45] çıktı. Bir de r= -1 çıktı.
+[53:48] Yh
+[53:50] c1 üzeri -3x
+[53:53] + c2
+[53:56] e üzeri -x çıktı.
+[54:00] Yanlış yazdım.
+[54:02] Burası + 3x çıktı. -x çıktı. Burası da
+[54:08] şimdi burada
+[54:10] y özeli tahmin ediyoruz. Her birini
+[54:13] kuralını ayrı ayrı tahmin edeceğiz. Şu
+[54:15] kalemin rengini kırmızı yapalım.
+[54:19] Şimdi Eliyi tahmin ediyoruz.
+[54:23] Eli YH'ın içinde var mı diye bakacağız.
+[54:26] Evet var. Bir kez Yh'ın içinde E'li var.
+[54:30] Bu nedenle AX E üzeri 2X. Neden buraya x
+[54:35] geldiğini konuşmuştuk. Buradaki eğer ki
+[54:37] olmasaydı ae üzeri 2x diyecektik. Bir
+[54:40] kez olduğu için ae üzeri 2x nereden
+[54:44] geldi? ae üzeri 3x oldu. X çarpanı geldi
+[54:49] ekstradan.
+[54:50] Şimdi E'li kısmını hallettik. Polinoma
+[54:53] geliyoruz. Artı
+[54:56] polinom için sol tarafta bulunana
+[54:59] bakacağız. Burada y'li varsa
+[55:02] en düşük olan Y'li ise Y özelle buradaki
+[55:07] karşıdaki polinomun derecesi aynıydı. Bu
+[55:10] polinom 1ci derece olduğu için biz de
+[55:12] buraya 1. derece polinom yazacağız. A
+[55:14] harfini kullandığımız için B'den devam
+[55:16] ediyoruz. bx + C. Eğer ki burada y
+[55:19] türevi olsaydı,
+[55:21] y türevi olsaydı karşı tarafın
+[55:24] derecesinin 1 fazlasını alıyorduk. Ama
+[55:27] burada en sonuncusu y olduğu için karşı
+[55:30] tarafla aynısını aldık. Şimdi buraya
+[55:33] geldik. cos 7x cos 7x yağışın içinde var
+[55:38] mı? Yok. O zaman d x cos7x burada sin
+[55:44] olmasa dahi e x sin7x yazıp
+[55:50] y özel tahminimizi bitiriyoruz.
+[55:53] çözmeyiniz derken işte buradaki a c d e
+[55:56] katsayılarını bulmamamızı istiyor. Bu
+[55:59] şekilde toplama çıkarma durumunu
+[56:01] konuşmuş olduk. Her birinin kuralı ayrı
+[56:04] ayrı tahmin edilir ve toplama durumunda
+[56:08] yazılır.
+[56:13] Şimdi son durumumuz olan çarpmaya
+[56:13] geliyoruz.
+[56:32] sormayı birçok üniversitenin sormayı en
+[56:32] çok sevdiği yerdir bu. Bunların çarpma
+[56:35] durumunda bulunması.
+[56:37] Burada bunu üç alt başlıkta
+[56:39] inceleyeceğiz. bir e ile
+[56:44] polinom
+[56:46] çarpma durumunda olursa
+[56:58] y'nin 2. türevi -3y'nin türevi -4y =
+[56:58] x e üzeri 2x
+[57:02] sadece tahmin edeceğiz y özelleri
+[57:05] çözmeyeceğiz.
+[57:13] Y özeli tahmin ediniz.
+[57:13] Tahmin ediniz. Çözme adımları aynı
+[57:16] zaten. Tahmin ettikten sonra türevlerini
+[57:19] alıp yerine koyuyoruz.
+[57:21] Şimdi
+[57:24] homojen bulmadan tahmin yapmayacağız.
+[57:28] yh bulunmalı önce
+[57:31] r² - 3r - 4 = 0 rr -4'e 1 diye ayrılır.
+[57:38] R bir 4 bir de r = -1.
+[57:42] YH'ımız
+[57:43] C1E üzeri 4x + C2E -X'tir.
+[57:53] Şimdi
+[57:54] E'li ile polinomu tahmin ederken,
+[57:57] Eli ile polinom çarpma durumundayken
+[57:59] tahmin yaparken şuna bakıyoruz.
+[58:04] Y özel polinom kaçıncı derece ise buraya
+[58:07] onu yazıyoruz. Polinom kaçıncı derece?
+[58:11] 1 derece. Buraya ax + b'yi yazıyoruz.
+[58:19] Sol tarafa falan bakma hiç yoktur.
+[58:19] Çarpım durumundayken polinom kaçıncı
+[58:21] derece yazılır? 1. dereceydi. ax + b'yi
+[58:24] yazdık. Şimdi bakacağımız şey şu olacak.
+[58:27] Eli yhta var mı?
+[58:32] Yh'ta
+[58:34] var mı?
+[58:37] E üzeri 2x YH'ta yok. Yoksa buraya e
+[58:41] üzeri 2x'i konduruyoruz.
+[58:44] Bir kez olsaydı
+[58:51] e üzeri 2x burada olsaydı buna bir x
+[58:51] çarpanı gelecekti. Y özeldi. Ax + b
+[58:57] x e üzeri 2x olacaktı. İki kez olsaydı
+[59:10] y özele
+[59:10] x² çarpanı gelecekti. ax + b
+[59:14] x²
+[59:16] e üzeri 2x olurdu. Olan bir duruma örnek
+[59:19] yapmayacağım. Buradaki temel fikir
+[59:21] şudur. Polinom kaçıncı derece ise ax + b
+[59:24] yazır. Burası x² olsaydı ax² + bx + c
+[59:28] yazacaktık. 2. dereceyi temsil eden
+[59:29] genel polinomun yanına e üzeri 2x'i
+[59:32] konduracaktık. Eğer e üzeri 2x burada
+[59:34] bir kez geçerse ekstra bir x çarpanı
+[59:36] gelecek. İki defa geçerse ekstra bir
+[59:39] x²are çarpanı gelecek. Bizim bu sorumuz
+[59:42] için y özelimiz budur.
+[59:46] Birinci durum olan e ile polinom
+[59:48] çarpımını böylece tamamladık.
+[59:51] Eli ile sin cos çarpanı
+[60:04] Eli ile
+[60:04] sin cos çarpımı.
+[60:14] Y'nin 2. türevi -2, y'nin türevi -3y. E
+[60:14] =
+[60:16] 2e üzeri 3x cos 5x.
+[60:22] Yine yh önce tahmin edilmeli. Yh
+[60:25] bulunmalı. GH bulmadan
+[60:27] çarpma durumundayken tahmin yapmıyoruz.
+[60:31] YH bulunmalı.
+[60:34] Yh'ımızı bulursak buradan r² - 2r - 3 =
+[60:38] 0. Buradakileri 0a eşitleyip r koyuyoruz
+[60:41] yerlerine. rr -3'e 1. R bir 3 bir de r
+[60:45] -1 çıktı.
+[60:48] y = yh = c1e üzeri 3x + c2e üzeri -x.
+[60:55] Şimdi y özel tahminimize geçeceğiz.
+[60:58] Kalemimizin rengini yine kırmızı
+[61:00] yapalım.
+[61:24] Şu ayarlarda bir bozulma oldu. Şu ayarı
+[61:24] bir düzeltirsek.
+[61:26] Hı.
+[61:28] Tamam.
+[61:31] Y özel.
+[61:34] Burada
+[61:36] cososinüs 5x varsa
+[61:39] a sin 5x + b cos 5x'i anında yazıyoruz.
+[61:48] cos 5x'i gördüğümüz için yanına da e
+[61:51] üzeri 3x'i konduruyoruz buraya.
+[61:56] Sonra şuna bakacağız.
+[61:58] Bu sefer ei var mı diye bakmayacağız.
+[62:02] e üzeri 3x cos 5x
+[62:06] beraber şekilde
+[62:20] Yoksa
+[62:21] şu yazdığımızdır.
+[62:22] Cos 5x için a sin 5x b cos 5x yanına da
+[62:26] e üzeri 3x'i konduruz. Eğer varsa şuraya
+[62:30] bir ekstradan x çarpanı gelecekti. E
+[62:33] üzeri 3x ile cos 5x beraber şekilde
+[62:35] olursa.
+[62:37] Burayı da uzatmadan geçelim. Çok sevilen
+[62:40] bir tarz değildir sorulma açısından.
+[62:43] Şimdi 3ün durumumuza gelirsek
+[62:47] polinom
+[63:01] y'nin 2. türevi -2y'nin türevi -3y =
+[63:01] x²
+[63:03] cos 4x diyelim.
+[63:07] Şimdi
+[63:09] burada YH'a bakmanın
+[63:13] YH gerekmez
+[63:22] derken yanılıyoruz. YH gerekir.
+[63:22] YH'ı bulalım.
+[63:24] Az önce bulduğumuzda aynı zaten bu. C1
+[63:27] üzeri 3x + C2E üzeri -X'tir.
+[63:38] Şurayı kapatalım.
+[63:38] Şimdi
+[63:44] burada polinom kaçıncı derece? 2.
+[63:45] derece. Y özel tahmin yapıyoruz. Polinom
+[63:47] 2ci derece. O yüzden 2. dereceyi şu
+[63:49] şekilde yazıyoruz. ax² + bx + c
+[63:54] x cos 4x +
+[63:59] bundan sonra harflerin hepsi değişecek.
+[64:01] dx² + exx + f
+[64:07] sin 4x. Böyle bir şeyi asla bize
+[64:09] çözdürtmezler. Sadece tahmin edin,
+[64:11] bırakın derler. Bundan sonra sadece şuna
+[64:14] bakacağız. cos 4x
+[64:17] polinomla sin cos çarpımında sadece
+[64:19] cos4x
+[64:21] yh'ta var mı?
+[64:31] cos 4x var ise
+[64:31] x çarpanı gelecek.
+[64:37] Yok ise
+[64:37] gelmez.
+[64:39] Buradaki cos 4x yh'ımızın içinde
+[64:41] olmadığı için bizim y özel tahminimiz bu
+[64:44] olur. Eğer ki olsaydı buraya bir x
+[64:47] çarpanı, buraya da bir x çarpanı
+[64:49] ekleyecektik. Buradaki temel fikir de
+[64:51] budur. Polinom kaçıncı derece ise onları
+[64:54] cos ve sinin önüne yazıyoruz. Harfleri
+[64:57] farklı olacak şekilde. Eğer cos'lu kısım
+[65:00] varsa bunun içinde bir ekstra x çarpanı
+[65:01] geliyor. Yoksa herhangi bir çarpanın
+[65:03] gelmesine gerek yok.
+[65:05] Bu şekilde belirsiz katsayılar metodunu
+[65:08] tamamlamış olduk. Daha çok da y özel
+[65:11] tahmininin nasıl yapılacağına
+[65:13] odaklandık.
+[65:14] Böylece bu videomuzu da tamamlamış
+[65:17] oluyoruz.
+[65:19] Yeah.

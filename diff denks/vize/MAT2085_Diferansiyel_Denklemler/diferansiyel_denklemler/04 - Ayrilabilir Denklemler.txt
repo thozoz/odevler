@@ -1,0 +1,257 @@
+[00:03] ayrılabilir diferansiyel
+[00:03] denklemler ayrılabilir diye nitelenen
+[00:06] diferansiyel denklemler 1 derece
+[00:10] diferansiyeller 1 derece
+[00:13] diferansiyeller Bu nedenle ayrılabilir
+[00:16] diferansiyel denklemleri çözme kavramı 1
+[00:19] derece diferansiyelleri çözme kavramıdır
+[00:22] 1 derece diferansiyelde ilk akla gelmesi
+[00:27] gereken yöntemdir
+[00:28] derece diferansiyel çözmeye kalkıştığı
+[00:33] ilk akla gelmesi gereken yöntem
+[00:35] ayrılabilir olup olmadığıdır
+[00:37] diferansiyelin ilk akla gelmesi
+[00:40] gereken yöntemdir
+[00:48] ayrılabilir ne demek şimdi Bu kavramın
+[00:48] ne demek olduğuna bakarsak bir
+[00:50] diferansiyel denklemi y'nin
+[00:53] türevi dy / dxe eşittir ayrılabilir
+[00:58] diferansiyel denklem ile çözüm
+[01:00] yapacaksak bir diferansiyelin
+[01:02] ayrılabilir olup olmadığını anlamak
+[01:04] istiyorsak ilk
+[01:07] iş y türev yerine dy / DX
+[01:18] yazmaktır dy / dxi yazmışsa zaten bize
+[01:18] hazır vermiş demektir Eğer ki y'nin
+[01:21] türevi yerinde dy / DX yazmıyorsa biz bu
+[01:24] y türev yerine dy / DX yazıp ayrılabilir
+[01:28] liği onun arkasından araş
+[01:31] dy / DX yazdığımızda bir
+[01:34] diferansiyelde bu tarafa yileri
+[01:36] toplayabiliyor
+[01:44] ylila da x' lileri toplayabiliyor
+[01:44] bir diferansiyelde bu diferansiyel
+[01:55] ayrılabilir 1 derece bir diferansiyelde
+[01:55] y'nin türevi yerine dy / DX yazmamız
+[01:58] ardından
+[02:00] x' lilerin hepsini bir tarafa
+[02:03] ylila toplayabiliyor olak bu
+[02:05] diferansiyel denklem
+[02:08] ayrılabilir diferansiyel denklem
+[02:10] ayrılabilir olursa her iki tarafın
+[02:13] integrali alınarak diferansiyel denklem
+[02:15] çözülür çok basit bir yöntemdir sadece
+[02:19] integral
+[02:20] almaya muhtaç bir yöntem olması zor
+[02:24] zaman zaman zorlu bir soru karşımıza
+[02:27] gelmesine neden olur her iki
+[02:30] integrali alınarak ayırdıktan sonra her
+[02:34] iki tarafın integrali alınarak
+[02:38] çözüme
+[02:41] ulaşılır
+[02:43] çözüme
+[02:46] ulaşılır şimdi karşımıza gelen 1 derece
+[02:49] bir diferansiyelde bunu bir test
+[03:01] edelim y'nin türevi eş 6y k x diferans
+[03:01] yelinin Çözümü
+[03:04] nedir
+[03:06] yerinin
+[03:08] Çözümü nedir şimdi baktığımızda
+[03:11] diferansiyel denklem 1 derece bir
+[03:13] diferansiyel aklımıza ilk gelmesi
+[03:16] gereken yöntem acaba bu ayrılabilir bir
+[03:18] diferansiyel mi Bunu test etmek
+[03:21] istiyorsak Birinci Adım yapacağımız şey
+[03:24] y'nin türevi yerine dy / DX yazmak
+[03:28] olacak yazalım
+[03:30] dy / DX = 6y k
+[03:35] x şimdi xeri bir tarafa yileri bir
+[03:39] tarafa toplayabiliyor olak Evet
+[03:40] ayrılabilir bu dxi bu tarafa çarpım
+[03:43] olarak geçirirsek d = 6y k x x
+[03:49] DX şimdi buradaki bu y kareyi de bu
+[03:53] tarafa bölü olarak geçirebilir ayırmaya
+[03:56] başarabiliyor diferansiyeli
+[04:03] y k 6x
+[04:03] DX Anladık ki bu diferansiyel denklem
+[04:06] ayrılabilirmiyim
+[04:18] her iki tarafın integralini
+[04:18] alarak diferansiyel imizin çözümüne
+[04:21] ulaşıyoruz 6x
+[04:25] DX buradaki y kareyi yukarıya yü -2 diye
+[04:30] çevirmeliyiz y üzeri -2 dy = 6x DX şimdi
+[04:37] her iki tarafın integralini
+[04:39] alalım Y'ye göre integral alıyoruz bu
+[04:41] tarafta üsü bir arttıracağız oluşan üs
+[04:43] böleceğiz y üzeri -1 B
+[04:48] -1 eş Bu tarafın integralini alırsak
+[04:52] 6'yı dışarıda düşünelim x'in integrali x
+[04:55] k / 2 şimdi önemli husus geliyor + c
+[04:59] sadece X'in tarafına konulur sadece X'in
+[05:04] tarafına + C konulur + C yazılır yani
+[05:09] y'nin tarafına + C yazmayacağı buradan
+[05:13] işlemimiz devam
+[05:15] edersek şu -1 ile bu tarafı çarpalım y
+[05:19] üzeri -1 = - 3x k - c oldu Bizim
+[05:26] amacımız bir diferansiyel denklemi
+[05:28] çözmede y'nin ne olduğunu bulmaktır her
+[05:31] iki tarafın -1 üssünü alırsak y = 1
+[05:36] B - 3x k - c olur ve diferansiyel
+[05:41] denklemin çözümü
+[05:45] budur Eğer başlangıç koşulu verilmediyse
+[05:48] bu C değeri bulunmaz burada bir
+[05:52] başlangıç koşulu olmadığı için
+[05:54] diferansiyel denklemde C değeri bu
+[05:57] şekilde kalacak yaptığımız işleme birak
+[05:59] bakarsak 1 derece bir diferansiyel
+[06:02] karşılaştığımızda ilk aklımıza gelmesi
+[06:04] gereken yöntem ayrılabilir mi y'nin
+[06:07] türevi yerine hemen dy / DX yazdık ve
+[06:10] yileri bir tarafa xeri bir tarafa
+[06:12] toplamayı başarabildim bu
+[06:14] ayrılabilirmiyim
+[06:23] tarafına + C koymuyoruz sadece X'in
+[06:23] tarafına + C koyuyoruz ve amacımız y'nin
+[06:26] kendisini yalnız bırakmak ki burada da
+[06:28] yalnız bırakmayı Başar
+[06:30] şimdi bir örnek daha yapalım Bu
+[06:32] başlangıç değerli bir örnek
+[06:42] olsun y'nin türevi
+[06:42] eş 3x K + 4x - 4 bö 2y -
+[06:52] 4 y1 = 3 başlangıç değer problemini
+[06:58] çözünüz
+[06:59] başlangıç değer problemini
+[07:04] çözünüz burada y1 = 3 gibi bir başlangıç
+[07:07] değer verildiği zaman buna başlangıç
+[07:09] değer problemi denir problemini
+[07:14] çözünüz şimdi buradaki bu 1 derece bir
+[07:18] diferansiyel görüyoruz acaba ayrılabilir
+[07:20] mi geçmesi lazım Aklımızdan Birinci Adım
+[07:23] olarak hemen y'nin türevi yerine dy / DX
+[07:27] yazıyoruz
+[07:33] Ve ayrılabilirlik inanılmaz derecede net
+[07:33] gözüküyor
+[07:35] burada bu 2y - 4ü bu tarafa dxi bu
+[07:38] tarafa geçirdiğimizde ayrılabilir liği
+[07:40] elde etmiş oluyoruz 2y - 4
+[07:44] dy 3x K + 4x - 4 DX ayrılabilirlik de
+[07:51] dikkat edilmesi gereken önemli
+[07:53] hususlardan birisi dy ve DX
+[07:56] kesinlikle pay kısımlarında bulun
+[08:00] gerekir paydada dy DX görmeyeceğiz dy DX
+[08:04] her zaman yukarıda olacaklar şimdi bu
+[08:06] diferansiyel denklemi açık bir şekilde
+[08:23] ayırabilmek 4'ün integrali yanına bir y
+[08:23] gelir -4 olur + C sadece xin tarafına
+[08:28] koyuyoruz x karenin integrali 3x K / 3 x
+[08:33] k 4x integrali 4x K / 2'den 2x K - 4'ün
+[08:39] integrali yanına bir x k - 4x + C şimdi
+[08:44] diferansiyel denklemin çözümüne ulaştık
+[08:48] burada y'yi yalnız bırakmak mümkün
+[08:51] olmadığı için kolay olmadığı için
+[08:53] diferansiyel denklemin çözümünü böyle
+[08:55] bırakabiliriz bu diferansiyel denklemin
+[08:58] çözümünü böyle bırakmaya kapalı çözüm
+[09:00] denir yani y'yi tam olarak
+[09:04] bulmadık İngilizcesi de implicit
+[09:07] solution bunun yani y'yi yalnız
+[09:11] bırakmadı İsak tamamen buna kapalı çözüm
+[09:13] diyoruz yanlış
+[09:16] sayılmaz bazen hocalar
+[09:19] özellikle İngilizcede daha çok bu
+[09:21] tabirler vardır explicit solution bulun
+[09:24] Yani tam çözümü bulun dediği zaman y'yi
+[09:26] kesinlikle yalnız bırakmamız gerekir Ama
+[09:29] burada bize öyle bir şey söylemiyor y'yi
+[09:31] yalnız bırakmak zorunda
+[09:37] değiliz Şimdi ikinci adımda bizim
+[09:37] başlangıç değerimiz var
+[09:39] burada ikinci adıma gelirsek başlangıç
+[09:43] değerimiz kaçtı Bir bakalım şuna y1 =
+[09:48] 3 Bunun anlamı x yerine 1 konulunca y3
+[09:55] çıkıyor y yerine 3 koyuyoruz x yerine 1
+[09:59] 9
+[10:01] - 12
+[10:03] = 1 + 2 - 4 +
+[10:08] c -3
+[10:11] = -1 + c c
+[10:15] =
+[10:21] -2 bunu da bulduğumuza göre tam
+[10:21] çözümümüz
+[10:23] y k - 4y = x + 2x K - 4x -
+[10:38] 2'dir son bir örnek daha
+[10:38] yapıp ayrılabilir diferansiyel denklem
+[10:41] metodunu Böylece tamamlamış
+[10:44] olacağız zorluk sadece integral alırken
+[10:47] karşımıza gelebilecek Zorlu
+[10:54] integrallerde biraz daha zorlayıcı bir
+[10:54] örnekle başlayalım y'nin türevi eş x y k
+[11:04] 1 + x
+[11:04] k diferansiyelini çözünüz başlangıç
+[11:07] değer vermedim Yani en sondaki C'yi
+[11:10] bulmaca
+[11:12] diferansiyelini çözünüz şimdi baktık 1
+[11:15] derece bir diferansiyel acaba
+[11:18] ayrılabilir mi diye Aklımızdan
+[11:19] geçirmeliyiz şu y türev yerine dy / dxi
+[11:22] yazdık
+[11:23] Hemen bazen bize hazır verir dy dxi ben
+[11:27] hiçbir örnekte hazır vermedim bx yazarsa
+[11:30] direkt sağa sola toplamaya
+[11:33] başlayacağız x y
+[11:36] k 1 + x
+[11:44] k Şuradaki dxi karşıya y küpü Bu tarafa
+[11:44] getirdiğimizde ayrılabilirlik çok açık
+[11:47] gözüküyor dy / y
+[11:50] k x / 1 + x k DX ayırmayı çok açık
+[11:57] başardık her iki tarafın integral
+[12:00] alıyoruz buradaki yukarıya y üzeri -3
+[12:04] diye çevireceğiz üstünü bir arttırırsak
+[12:07] y üzeri -2 oluşan üste bölersek -2 eş Bu
+[12:11] tarafın integrali bitti Bu tarafın
+[12:14] integral
+[12:16] geldiğimizde değişken değiştirme yöntemi
+[12:19] uygulamaya
+[12:21] mecburuz direkt integral alma kuralı yok
+[12:24] içeride buradaki 1 + x kareyi u dediğim
+[12:30] bunun türevi 2x etmektedir Bunun türevi
+[12:34] Eğer DX ile çarpım durumunda olursa biz
+[12:37] ona du diyorduk 1 + x karenin türevi 2x
+[12:42] fakat yukarıda x var yanına bir 2
+[12:44] çarpanı koyup Bir de integral imizin
+[12:46] dışına 1/2 atarsak artık buna du
+[12:55] diyebiliriz değişken değiştirme
+[12:55] yönteminin temeli u dediğimiz şeyin
+[12:59] DX ile çarpım durumunda bulunması
+[13:02] gerekir ki o DX ile çarpım durumundaki
+[13:05] kısma du
+[13:07] diyebilirim devam ediyoruz Daha buradaki
+[13:09] integral
+[13:11] bitmedi du / u'ya ulaştık öu yukarıya u
+[13:16] üzer - 1/2 diye döner Şurayı da biz bir
+[13:20] adam edelim
+[13:22] - ya da gerek yok - /
+[13:28] diyelim b 2 ö u yukarıya u üzeri - 1/2
+[13:33] diye döner üstünü bir arttırırsak u
+[13:35] üzeri 1/2 oluşan üste bölersek 1/2 bu
+[13:39] 1/2 L birbirini götürdü Bir de + cmi
+[13:42] ekliyoruz C dediğimiz şeyi de yerine
+[13:45] yazarsak - y üzeri -2 / 2 = 1 + x kare u
+[13:53] demiştik üssün 1/2 olması bunun kök
+[13:56] içinde olacağı anlamına gelir + c
+[13:59] buradaki 2 ile karşı tarafı çarparsak
+[14:02] Hatta -2 ile çarpalım y üzer -2 =
+[14:08] -2 1 + x k - 2C
+[14:17] olur Buradan da her iki tarafın -1
+[14:17] üssünü alırsak y k = 1
+[14:22] B
+[14:24] -2 1 + x k - 2C bu işlemler yaptım
+[14:29] aslında diferansiyel denklemin çözümü
+[14:31] şurada
+[14:33] bitmişti daha güzel bir görüntüye sahip
+[14:36] olan çözüm üretmek için yaptım Yoksa bir
+[14:38] anlamı yok Şurada şöyle bıraktığımızda
+[14:40] da tam puanı almamız
+[14:43] gerekir Bu şekilde ayrılabilir
+[14:45] diferansiyel denklemlerle ilgili
+[14:47] videomuzu tamamlıyoruz

@@ -1,0 +1,58 @@
+Bir
+çalışan yönetim sistemi tasarlamak istiyorsunuz. Bu sistemde çalışanlar farklı
+türlerde olabilir:
+
+
+Tam Zamanlı Çalışan:
+
+
+1.Sabit
+bir aylık maaş alır.
+
+
+2.İsmi,
+ID numarası ve aylık maaşı tutulmalıdır.
+
+
+Yarı Zamanlı Çalışan:
+
+
+1.Saatlik
+ücret üzerinden ödeme alır.
+
+
+2.İsmi,
+ID numarası, saatlik ücreti ve çalıştığı saat sayısı tutulmalıdır.
+
+
+Serbest Çalışan:
+
+
+1.Tamamladığı
+projeler üzerinden ödeme alır.
+
+
+2.İsmi,
+ID numarası, proje başına ücreti ve tamamladığı proje sayısı tutulmalıdır.
+
+
+
+•Tüm
+çalışan türlerinin maaşı hesaplanabilmeli ve bilgileri ekrana
+yazdırılabilmelidir. Ayrıca, sistemin toplam maaş giderini hesaplaması
+gerekmektedir.
+
+
+•Bu
+sistemi oluşturmak için abstract
+sınıf ve interface kullanarak bir çözüm önerisi
+geliştirin.
+
+
+•Tüm
+çalışan türlerini içeren bir dizi oluşturun ve bu dizideki her çalışanın
+bilgilerini ekrana yazdırın.
+
+
+•Sistemin
+toplam maaş giderini hesaplayarak ekrana yazdırın.

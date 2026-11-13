@@ -1,0 +1,497 @@
+[00:03] Sabit katsayılı 2. derece homojen
+[00:03] diferansiyellerin çözümü.
+[00:05] Sabit katsayılı 2. derece homojen
+[00:07] diferansiyel nedir? Bir onunla
+[00:09] başlayalım.
+[00:11] Sabit katsayılı olması
+[00:13] y'lerin
+[00:16] katsayılarının birer sabitten sabit
+[00:19] sayıdan yani değişken olan x'li veya tli
+[00:22] ifadeler olmaması anlamına gelmektedir.
+[00:31] Buradaki sabit katsayılı lafı y
+[00:31] türevlerinin y'li ifadelerin
+[00:34] katsayılarını anlatıyor. Bu katsayılar
+[00:36] sabit sayı olduğunda
+[00:39] 2inci derece diferansiyel olması zaten
+[00:41] Y'nin iki kez türev almasından kaynaklı
+[00:43] bir durumdur.
+[00:45] Homojen diferansiyeller yani sabit
+[00:47] katsayılı 2. derece homojen olması ise
+[00:51] karşı tarafın 0 olması. Y'lilerin
+[00:55] karşısı 0 olduğunda burası 0 ise
+[00:59] diferansiyel denklem homojendir.
+[01:06] Homojendir.
+[01:06] Y'lilerin hepsi aynı tarafta iken
+[01:09] karşısı 0 ise diferansiyel denklem
+[01:13] homojendir. Bu diferansiyel 2ci derece
+[01:16] sabit katsayılı homojen bir diferansiyel
+[01:19] denklemdir. Bir başka örnek verecek
+[01:21] olsak 2. dereceden bir türev + 2y
+[01:27] = 0. Bu da 2. derece sabit katsayılı
+[01:31] homojen bir diferansiyel denklemdir.
+[01:34] 3 y'nin 2. türevi -5y'nin türevi + 4y =
+[01:40] 0. Bu da 2. dereceden sabit katsayılı
+[01:44] homojen bir diferansiyeldir.
+[01:46] Bu diferansiyellerin çözümünün nasıl
+[01:49] yapılacağını konuşacağız. Şimdi
+[01:58] bu diferansiyel denklemler
+[01:58] 2inci derece sabit katsayılı homojen
+[02:01] diferansiyel denklemler de genel çözüm
+[02:07] homojen çözüme eşittir.
+[02:17] Bu kısım ileride homojen olmayanların
+[02:17] çözümünü anlatacağım bir sonraki
+[02:19] videoda. Bu laf daha anlamlı hale
+[02:21] gelecek. Yani bu 2inci derece
+[02:25] sabit katsayılı diferansiyellerdi.
+[02:28] Homojen ise genel çözümü bulun dediğinde
+[02:31] homojen çözümü bulmak zaten genel çözümü
+[02:35] bize veren durumdur. Şimdi bu 2 derece
+[02:40] sabit katsayılı diferansiyeller
+[02:42] nasıl çözülür? Homojen olanları.
+[02:47] Şimdi
+[02:48] bir örnek üzerinden başlayacağız.
+[02:50] Buradan olayı genelleştireceğiz.
+[02:53] Bir örnek alalım.
+[02:55] Y'nin 2. türevi -3y'nin türevi -4y = 0.
+[03:04] Diferansiyel denklemini çözünüz
+[03:13] veya diferansiyel denkleminin genel
+[03:13] çözümünü bulunuz.
+[03:15] diferansiyelinin çözümü nedir?
+[03:18] Birçok şekilde söylenebilir ama
+[03:20] yapacağımız işlem hep diferansiyelin
+[03:23] genel çözümünü bulmak yani homojen
+[03:24] çözümü bulmak olacaktır. Diferansiyel
+[03:27] denkleminin
+[03:29] çözümü nedir?
+[03:39] Şimdi 2inci derece sabit katsayılı ve
+[03:39] homojen diferansiyelleri çözerken
+[03:41] yapılan şey şudur.
+[03:44] Y'nin kendisine 1 denir.
+[03:47] Y'nin türevine R denir. Y'nin 2inci
+[03:51] türevine r²are denir. Ve bunlar yerine
+[03:55] konularak diferansiyelde
+[03:58] diferansiyelde yerine konularak
+[04:00] karakteristik denklem elde edilir.
+[04:03] İngilizcesi karakteristik polinomial
+[04:06] diye geçer. Diferansiyelde yerine
+[04:08] konulup
+[04:12] karakteristik denklem elde edilir.
+[04:16] Karakteristik
+[04:21] denklem elde edilir. O denklemin
+[04:21] sonucuna göre de çözümü yazacağız.
+[04:25] Elde edilir. Şimdi bu soru için
+[04:27] karakteristik denklemi elde edelim.
+[04:30] Y'nin 2inci türevi yerine r²are
+[04:32] yazıyoruz. R²are bazı kaynaklarda burada
+[04:35] r yerine lambda kullanırlar. Bazıları a
+[04:39] kullanırlar. En çok kullanılan R'dir.
+[04:41] Orada kullanılan harfin hiçbir anlamı
+[04:43] yoktur.
+[04:45] r²
+[04:47] - 3r - 4. Y'nin 2ci türevi yerine r²are
+[04:52] yazdık. Y'nin türevi yerine r yazdık.
+[04:55] Yerine ise 1 yazdık. E= 0. İşte bu
+[04:59] gördüğümüz karakteristik denklemdir.
+[05:03] Şimdi bunun çözümünde
+[05:06] kaç ihtimal vardır? Bu ihtimallere göre
+[05:09] çözüm kümesi nasıl yazılırı önce
+[05:12] konuşacağız. arkasından buna tekrar
+[05:14] dönüp
+[05:16] çözeceğiz.
+[05:18] Karakteristik denklemin çözüm
+[05:19] ihtimalleri.
+[05:21] Karakteristik
+[05:33] çözümü
+[05:33] münde ihtimaller.
+[05:38] Biz burada ikinci derece bir denklem
+[05:38] çözdüğümüzden dolayı
+[05:42] karakteristik denklemde
+[05:44] 3 ihtimal söz konusudur.
+[05:47] Buradaki ifade çarpanlara ayırıp iki
+[05:49] kökü bulunacak da biz buradaki
+[05:51] ihtimalleri inceleyeceğiz.
+[05:55] Şimdi 1inci durum
+[06:01] buradaki 2inci derece bir denklem olduğu
+[06:01] için karakteristik denklem 2ci derece
+[06:03] diferansiyellerde hep 2inci derece
+[06:05] çıkar. Deltası 0dan büyükse
+[06:09] iki farklı
+[06:12] reel kök çıkar.
+[06:15] Çarpanına ayrılanların hepsi reel
+[06:18] köklere sahiptirler. Delta 0'dan büyük
+[06:22] ve delta 0'a eşitken çarpanlara
+[06:24] ayrılanlar bu grupların içindedirler.
+[06:28] Delta 0'sa ise iki farklı reel kök
+[06:31] vardır. Burada bahsettiğimiz delta lise
+[06:33] yıllarından hatırlayacağımız
+[06:36] b² - 4ac'dir.
+[06:44] Ondan sonra R1 ve R2 kökünü bulmak için
+[06:44] -b + delta/ 2a.
+[06:49] Çarpanlara ayrılmayanlar için bu delta
+[06:51] formülü üzerinden gideceğiz. Çarpanlara
+[06:53] ayrılanlar zaten direkt köklerini
+[06:55] verecek. -b burası -√ delta/ 2a'dır.
+[07:01] Bilmeyenler için şurada bir hatırlatmış
+[07:03] olduk bunu. Delta >0 ise iki farklı reel
+[07:07] kök vardır. Yani R1 ve R2 birbirinden
+[07:10] farklıdır ve reeldir. Bu durumda Y
+[07:15] homojen
+[07:18] eşittir bunu kısaca YH yazabiliriz.
+[07:21] C1 x E üzeri buradaki ilki gelecek. R1X
+[07:29] + C2 x e üzeri R2X.
+[07:41] Diferansiyel denklemin çözümü direkt bu
+[07:41] formüldeki R1 ve R2 yerlerine bulunan
+[07:44] R'lerin konulması ile elde edilir.
+[07:46] Buradaki C1 ve C2 bu diferansiyelin
+[07:50] çözümünde katsayılardır. Bunlar C1 ve C2
+[07:52] olarak kalacak. Başlangıç değer problemi
+[07:56] verip bunların bulunduğu soru tipini de
+[07:58] inceleyeceğiz bu videomuzda. Devam
+[08:01] edelim. 2inci duruma gelirsek
+[08:13] delta e= 0 olursa
+[08:13] burada eşit 2 kök vardır.
+[08:25] Yani R1 ile R2 birbirine eşittir ve
+[08:25] delta eş 0'sa hala reeldirler.
+[08:29] Bu durumda köklerin yazımı YH =
+[08:33] homojenin kısaltmasını yapıyoruz artık.
+[08:35] C1 x E üzeri R1X
+[08:39] + C2 x E üzeri R2X diyeceğiz. R1 ile R2
+[08:45] burada aynı zaten.
+[08:47] Orası biraz kötü oldu. Şunu bir
+[08:49] düzeltelim.
+[08:51] Tamam.
+[08:59] R2x.
+[08:59] Bu ikisi birbiriyle aynı olduğunda
+[09:02] ilkini yazdıktan sonra ikinciyi
+[09:04] yazdığımızda yanına ekstra bir x çarpanı
+[09:07] gelmelidir. Bu x çarpanını unutursak
+[09:11] direkt 0ı basarlar.
+[09:14] Yani bizim burada eğer ki eşit 2 kökümüz
+[09:17] çıkarsa buradaki yukarıdaki şu
+[09:19] karakteristik denklem için bahsediyoruz.
+[09:22] Bunun R1, R2'si birbiriyle eşit çıkarsa
+[09:26] kullanacağımız formül bu olacak.
+[09:29] İkinciyi yazdığımızda da yanına bir x
+[09:31] çarpanı gelecek. Eğer ki birbirleriyle
+[09:33] eşit ise. Şimdi 3üncü ve son durumumuza
+[09:36] geleceğiz.
+[09:38] 3ün durum
+[09:45] deltanın 0dan küçük olduğu durumdur.
+[09:45] Burada kökler karmaşık sayıdır.
+[09:48] İki farklı
+[09:51] karmaşık sayı çıkar. Kökler.
+[10:00] Delta küç 0da mutlaka çözümü delta
+[10:00] üzerinden yapacağız. Onun da
+[10:03] yapılışlarını inceleyeceğiz. Burada r1
+[10:05] kökü a + bi karmaşık sayının olmasını
+[10:09] sağlayan şey zaten i değeridir. Burada
+[10:13] R2
+[10:14] A - B'dir. Kökler karmaşık sayı ise
+[10:18] mutlaka birbirlerinin eşleniğidirler.
+[10:22] Burada bu köklerin reel kısmı ve sanal
+[10:26] kısmını çıkartacağız. Hemen bu durumda
+[10:30] reel kısım
+[10:31] burada a'dır.
+[10:34] Sanal kısım ise burada B'dir. Reel
+[10:38] kısmın işareti neyse onu alacağız. Fakat
+[10:40] sanal kısmı birinde + b birinde -b
+[10:42] görüyoruz. Sanal kısım daima artı
+[10:45] alınır.
+[10:47] Buradaki B daima pozitif olacak.
+[10:56] Reel kısım ise reel kısım neyse o
+[10:56] alınacak.
+[10:57] Şimdi burada YH'ın yazımı
+[11:01] C1 x E üzeri reel kısım E'nin üzerine
+[11:04] gelecek. AX çarpı sanal kısım ise
+[11:09] bunların yanına gelen kosinüs ve sinüs
+[11:12] içinde x'in katsayısı olacak. Buradaki B
+[11:15] sanal kısım. bx + c2 x e üzeri ax reel
+[11:21] kısım sinüs
+[11:27] burada önce sinüsü sonra kosinüsü
+[11:27] yazsanız olur. Hiçbir önemi yok
+[11:29] sırasının. Ben kosinüsü önce sinüsü
+[11:31] sonra yazdım. El alışkanlığı idi bu.
+[11:39] Yani bizim karakteristik denklemin
+[11:39] çözümünde 3 ihtimal var ve 2 derece
+[11:43] homojen
+[11:45] sabit katsayı diferansiyellerin
+[11:47] çözümünde de 3 durumumuz var. Şimdi
+[11:49] bizim bu sorumuza kaldığımız yerden
+[11:51] devam edelim. Biz ne yapmıştık burada?
+[11:56] Şimdi y'nin 2inci türevi yerine r²are,
+[11:59] y'nin türevi yerine r yine 1 koyarak
+[12:01] karakteristik denklemimizi elde
+[12:03] etmiştik. Bunları yerlerine koyarak elde
+[12:05] ettiğimiz denklem burada idi. Şimdi bunu
+[12:08] çarpanlarına ayırıp köklerini bulacağız.
+[12:11] R diye ayrılır. R²are buradaki -4 ise
+[12:15] -4'e 1 diye ayrılır. -4 ile 1'i
+[12:17] çarptığımızda -4, -4 ile 1'i
+[12:19] topladığımızda buradaki -3'ü veriyor. R
+[12:22] -4
+[12:24] x R + 1
+[12:27] = 0. Buradan R'yi bir 4 bulduk. Bir de
+[12:30] -1 bulduk. Bu durumlardan farklı iki
+[12:34] reel köke kök durumuna uyuyor. Yani
+[12:38] 1inci duruma uymakta. Buradan çözümü
+[12:41] yazacak olursak yh
+[12:45] = c1 x e üzeri buraya bakacak olursak
+[12:49] R1x diyor. R1'imiz bizim 4x
+[12:53] + c2 x e üzeri buradaki gelecek. -x
+[12:59] hangisini önce yazdığımızın hiçbir önemi
+[13:01] yok. Önce -x'i de yazabilirdik.
+[13:04] Sonra 4x'i de yazabilirdik. Bu
+[13:06] diferansiyel denklemin çözümü bu
+[13:07] kadardır.
+[13:09] En kolay çözüme sahip diferansiyel
+[13:11] denklem çeşitlerinden birisidir. 2.
+[13:14] derece sabit katsayılı homojen
+[13:16] diferansiyel denklemler.
+[13:19] Şimdi bu üç çeşide birkaç örnek yapıp bu
+[13:24] videomuzu yavaş yavaş tamamlama yolunda
+[13:26] ilerleyelim.
+[13:27] Şimdi soru.
+[13:31] Y'nin 2. türevi -6y'nin türevi + 9y = 0.
+[13:39] Diferansiyel denkleminin genel çözümü
+[13:41] nedir?
+[13:42] Burada ne derse desin zaten bir tek
+[13:45] çözümümüz var. O da y homojen.
+[13:47] Diferansiyel denkleminin
+[14:02] Biz buna baktığımızda hemen 2. derece
+[14:02] sabit katsayılı homojen diferansiyel
+[14:04] denklem olduğunu anlamalıyız. Ve hemen
+[14:07] rğerlerimizi
+[14:08] yerine koyarak karakteristik denklem
+[14:10] elde edeceğiz. Y'nin 2inci türevi yerine
+[14:12] r²are koyuyoruz. r² - Y'nin türevi
+[14:16] yerine R koyuyoruz. -6r + buradaki y
+[14:19] yerine 1 koyuyoruz. + 9 = 0 oldu.
+[14:23] Bakalım çarpanlarına ayrılıyor mu?
+[14:25] Çarpanlarına ayrılıyorsa çarpanlara
+[14:27] ayırma ile çözeceğiz. Çarpanlarına
+[14:29] ayrılmıyorsa deltaya girişeceğiz hemen.
+[14:31] Rr
+[14:33] -3'e -3 -3 ile -3'ü çarpınca +9 -3 ile
+[14:37] -3'ü toplayınca -6 ayrılıyor. Ve buradan
+[14:40] bu r -3
+[14:43] x r -3 diye ayrıldı. = 0. Buradan iki
+[14:48] kökümüz de eşit ve 3 olarak bulundu.
+[14:51] Yani bizim y homojenimiz
+[14:55] C1 x birbiriyle eşit olduğunda ne
+[14:58] yaptığımıza bir geriye dönüp bakalım. Bu
+[15:00] üç kuralı iyiden iyiye ezberlemeliyiz.
+[15:03] Sınava girerken herhangi bir karışıklık
+[15:05] olmaması lazım. eşit olduğunda kökler C1
+[15:08] E üzeri R1x + C2 E üzeri R2X çarpı
+[15:13] ekstradan bir x geliyor. Eğer ikisi
+[15:15] birbiriyle eşit ise bizim bulduğumuzda
+[15:19] burada iki kök birbiriyle eşit çıktı. O
+[15:22] zaman YHC1 E üzeri ilk kökümüz 3x.
+[15:28] 2inci kökümüz de 3x c2 x e üzeri 3x
+[15:32] çarpı 2 kök birbiriyle eşit olduğu için
+[15:34] x gelecek. Bu bizim homojen çözümümüzdür
+[15:39] ve bu diferansiyel denklemin genel
+[15:41] çözümü de budur. Bu kadar kısa şekilde
+[15:44] çözüm biter.
+[15:49] Şimdi bir de karmaşık sayı örneğimizi
+[15:49] yapalım.
+[16:03] y'nin 2. türevi + 2y'nin türevi + 5y = 0
+[16:03] diferansiyelinin
+[16:05] çözümünü
+[16:08] bulunuz.
+[16:15] Şimdi buraya baktığımızda
+[16:15] sabit katsayılı 2 derece homojen bir
+[16:18] diferansiyel görüyoruz. Bu nedenle y'nin
+[16:21] 2ci türevine r²are, y'nin türevi yerine
+[16:24] r'nin
+[16:25] yerine de 1 koyarak
+[16:28] karakteristik denklemimizi elde ediyoruz
+[16:30] veya karakteristik polinomumuzu.
+[16:33] Çarpanlara ayırma ile çözülebiliyor mu
+[16:35] diye baktığımızda çarpanlara
+[16:36] ayıramadığımızı görüyoruz. Bu nedenle
+[16:39] deltaya başvuruyoruz. Delta B² -
+[16:42] 4AC'dir.
+[16:43] A'mızı B'mizi çıkartalım. A R²enin
+[16:46] katsayısı olan 1. B'nin katsayısı olan
+[16:50] 2. C) buradaki sabit olan 5. B² 2 karesi
+[16:56] 4 -4 x a'mız 1, c'miz 5. Burayı
+[17:01] çarptığımızda 20 eder. 4'ten de 20'yi
+[17:03] çıkartırsak -16. Delta 0'dan küçük
+[17:06] olursa kökler karmaşık sayı olacaktır.
+[17:11] R1 ve R2 kökünü bulmaya başlıyoruz.
+[17:13] Şimdi -b + delta b/ 2a.
+[17:18] R2 kökü ise -b - delta b/ 2a. Ama kökler
+[17:24] karmaşık sayı olduğunda birini bulmamız
+[17:26] yeterli. Diğeri zaten onun eşleniği
+[17:29] olacak. Sadece iisinin önü değişik
+[17:31] olacak. Yani eş -b'miz.
+[17:35] Buradaki b ise -2 + ö
+[17:41] -16/
+[17:43] 2a 2 a'mız 1 çünkü. Şimdi şurada bir
+[17:48] karmaşık sayı çıkmasının nedenini bir
+[17:50] hatırım. √4 dediğimiz şey dışarıya 2
+[17:52] olarak çıkar. Ama kök içinde -4
+[17:55] yazdığımızda çift dereceli köklerin
+[17:56] içinde negatif yazılamamasından dolayı
+[17:59] tanımsızlık ortaya çıkmıştır. Burada da
+[18:01] bu tanımsızlığı ortadan kaldırmak için
+[18:03] buradaki eksiye yani -1'e i kare
+[18:06] denmiştir
+[18:08] ve 4i k -4 görüldüğünde ona 4i kare
+[18:11] denir. O da dışarıya 2i çıkar. Yani √ -4
+[18:15] dışarıya 2i çıkar. √ -9 dışarıya 3i
+[18:18] çıkar. Bizim sorumuzdaki √ -16 dışarıya
+[18:22] 4i olarak çıkacak. -2 + 4i/
+[18:27] 2. Yukarı 2 parantezine alıp aşağıdaki 2
+[18:30] ile götürürsek -1 + 2i olarak r1
+[18:33] kökümüzü bulduk.
+[18:37] R2 kökümüz de dolayısıyla bunun eşleniği
+[18:40] olacak. Yani iisinin önü değişik.
+[18:43] -1 - 2i.
+[18:46] Şimdi bu iki kökten
+[18:49] karmaşık sayı çıktığında
+[18:52] nasıl yazıyormuşuz denklemin çözümünü?
+[18:56] Bir formülümüze dönüyoruz.
+[18:58] Formülümüz burada gözükmekte. Karmaşık
+[19:00] sayılardan reel ve sanal kısmı
+[19:02] çıkartacağız.
+[19:04] Reel kısım E'nin üzerine geliyor. Sanal
+[19:06] kısım ise buradaki kosinüs ve sinüsteki
+[19:09] x'i içerideki x'in katsayısına geliyor.
+[19:12] Şimdi sorumuza dönüp burada gördüğümüzü
+[19:14] uygulayalım.
+[19:16] Reel kısım
+[19:19] -1. Sanal kısmı daima pozitif seçeceğiz
+[19:23] dedik. Buradaki sanal kısım 2. Buradaki
+[19:25] sanal kısım -2. Ama sanal kısım daima
+[19:28] pozitif seçecek. Yani 2 alacağız onu.
+[19:32] Yh = c1 x e üzeri reel kısım - x
+[19:39] çarpı kosinüs sanal kısım. Kosinüsün
+[19:43] içindeki x'in katsayısı 2x + c2 x e
+[19:47] üzeri -x çı sinüsün içindeki x'in
+[19:51] katsayısı da sanal kısım 2x. Bu
+[19:54] diferansiyel denklemimizin çözümü de
+[19:56] budur.
+[20:03] Şimdi üç duruma da birer örnek vermiş
+[20:03] olduk. Kökler birbiriyle aynı çıkarsa
+[20:06] ekstra x çarpanı geliyor. Karmaşık sayı
+[20:08] çıkarsa yaptığımız son durum. İkisi
+[20:11] birbirinden farklıysa yaptığımız ilk
+[20:13] soru idi. Şimdi burada son bir soruyla
+[20:16] bu videomuzu tamamlayacağız. C1 ve C2
+[20:19] katsayılarını ne zaman bulmamız
+[20:21] gerekecek?
+[20:23] Başlangıç değer problemi.
+[20:26] Başlangıç
+[20:28] değer problemi
+[20:30] ingilizcesi initial value problem
+[20:32] dediğimiz
+[20:34] durumdur. Buradaki başlangıç koşulları
+[20:37] verilecek bize. Y'nin 2. türevi -
+[20:43] 5y
+[20:47] +
+[20:47] 5y'nin türevi + 6y = 0 diyelim.
+[20:53] y 0 3 olsun.
+[20:57] Y türev 0
+[21:00] 5 olsun.
+[21:02] Bu şekilde bize başlangıç koşulları
+[21:04] verilmeli ki o zaman biz çözümümüzdeki
+[21:07] C1 ve C2'yi bulacağız. Yoksa C1 ve C2
+[21:09] şeklinde bırakacağız.
+[21:11] Başlangıç değer probleminin çözümünü
+[21:14] bulunuz. Bunlara başlangıç değer
+[21:16] problemi denir. Başlangıç değer
+[21:18] problemini
+[21:21] çözünüz.
+[21:28] Soruya baktığımızda 2. derece sabit
+[21:28] katsayılı homojen diferansiyel denklem
+[21:30] görüyoruz. Hemen karakteristik
+[21:32] denklemimizi elde etmeliyiz. Y'nin 2inci
+[21:34] türevi yerine r², Y'nin türevi yerine R,
+[21:40] y'nin yerine ise 1 + 6 = 0. çarpanlarına
+[21:44] ayrılıyor mu diye bakarsak evet
+[21:45] ayrılıyor. -3'e -2 -3 ile -2'yi çarpınca
+[21:49] + 6 -3 ile -2'yi toplayınca -5 bu r -3
+[21:56] x r - 2 diye çarpanlarına ayrıldı. R'nin
+[22:01] birisi 3 birisi 2. Birbirinden farklı
+[22:05] çıktığında
+[22:07] YH'ı
+[22:10] C1 E üzeri 3x + C2 E üzeri 2x diye
+[22:15] yazacağız. Önce e üzeri 2 yazsaydık
+[22:18] sonra e üzeri 3x yazsaydık olurdu.
+[22:20] Hiçbir önemi yok onun. Ona kafanızı
+[22:22] takmayın. İstediğiniz sırada
+[22:24] yazabilirsiniz.
+[22:26] Homojen çözümümüzü bulduk. Birbirinden
+[22:29] farklıyken sadece buydu. birbirine eşit
+[22:31] olsaydı ikincinin yanına bir x çarpanı
+[22:33] gelecekti. Karmaşık sayı olsaydı zaten
+[22:35] son durumda yaptık. Şimdi burada bu
+[22:38] başlangıç koşullarını kullanıp C1 ve
+[22:40] C2'yi bulacağız. İlk başlangıç
+[22:43] koşulumuzu alalım. diyor ki y 0 = 3.
+[22:48] Bunun anlamı
+[22:51] ben x'e 0 koyduğumda
+[22:53] sonuç 3 çıkıyor diyor.
+[23:02] Yani x'e 0 koyarsak
+[23:02] c1 e üzeri 0 olur. Orası c2 e üzeri 0
+[23:08] olur. Burası da eşittir sonuç 3 çıkar.
+[23:12] Yani bunda x yerine 0 koyarsak sonuç 3
+[23:15] çıkar demek. E üzeri 0lar 1iklerine göre
+[23:20] C1 + C2 = 3 olarak bulundu.
+[23:30] İlk başlangıç değeri bize C1 + C2'nin 3
+[23:30] olduğunu verdi. 2inci başlangıç değerine
+[23:32] gelirsek Y'nin türevinde 0 koyduğumda
+[23:36] diyor 5 çıkar.
+[23:38] O zaman bize Y'nin türevi lazım.
+[23:41] Y'nin türevini alalım.
+[23:44] Buradaki Y dediğimiz şey YH zaten yh'ın
+[23:47] türevi. E'lilerin türevi şöyle alınır.
+[23:51] Eliyi aynen yazarız. E üzeri FX'in
+[23:54] türevini şuraya yapalım.
+[23:56] E'li ifade aynen yazılır.
+[24:00] Çarpı üssün türevi gelir.
+[24:07] Yani buradaki E üzeri 3x'in türevi e
+[24:07] üzeri 3x x 3'tür. C1 zaten sabit
+[24:11] sayıdır. Dolayısıyla 3C1 E üzeri 3x
+[24:15] olur.
+[24:17] + buradaki e üzeri 2x'in türevi e üzeri
+[24:20] 2x x 2'dir. Yani 2c2
+[24:24] e üzeri 2x olur.
+[24:32] Y'nin türevini elde ettik. Şimdi bu
+[24:33] y'nin türevinde
+[24:35] x yerine 0 koyduğumuzda sonuç 5 çıkacak.
+[24:38] Koyalım.
+[24:39] E üzeri 0 zaten
+[24:43] 1 ediyor. 3C1
+[24:50] + buraya 0 koyduğumuzda
+[24:50] 2C2
+[24:53] E= 5 ediyor sonuç.
+[24:56] Bu iki denklemi yok etme metoduyla
+[24:58] çözdüğümüzde C1 ve C2'lerimizi
+[25:00] bulacağız.
+[25:01] C2'yi yok edelim. İlk denklemi -2 ile
+[25:04] çarpalım.
+[25:07] Temiz biçimde yazarsak şuraya -2C1
+[25:11] -2C2
+[25:12] = -6
+[25:14] 3C1 + 2C2 = 5 Alt alta topladığımızda
+[25:20] C2'ler birbirini götürdü. Buradan C1 =
+[25:24] -1 olarak bulundu.
+[25:27] Bunu götürüp ilk denklemimizi de yerine
+[25:29] koyarsak C1 -1 ise karşıya atarsak C2 =
+[25:34] 4 olur.
+[25:41] Şimdi burada en son çözümümüzü yazacak
+[25:41] olursak YH = artık C1 ve C2 katsayıları
+[25:45] da bulunduğuna göre C1 yerine -1
+[25:47] koyuyoruz. - E üzeri 3x C2 yerine 4
+[25:52] koyuyoruz. + 4 e üzeri 2x olarak
+[25:58] başlangıç değer problemimizi çözmüş
+[26:01] oluruz. Yani bu C1 ve C2'ler bize
+[26:04] başlangıç koşulları verildiğinde ancak
+[26:07] bulunacaklar.
+[26:09] Bu şekilde bu videomuzda
+[26:11] 2ci derece sabit katsayılı homojen
+[26:14] diferansiyel denklemlerin çözümünü
+[26:16] noktalamış oluyoruz.

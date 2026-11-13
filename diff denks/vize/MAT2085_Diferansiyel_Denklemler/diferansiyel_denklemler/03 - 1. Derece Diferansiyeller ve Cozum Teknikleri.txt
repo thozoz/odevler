@@ -1,0 +1,127 @@
+[00:04] 1. derece diferansiyeller ve çözüm
+[00:04] teknikleri. Bu videomuzda 1. derece
+[00:06] diferansiyel nedir ve hangi yöntemler
+[00:09] ile çözülür? Bunları konuşacağız. Bundan
+[00:12] sonraki videolarımızda da bu çözüm
+[00:14] tekniklerini tek ele alıp inceleyeceğiz.
+[00:17] Şimdi öncelikle 1. derece diferansiyel
+[00:20] nedir? 1ci derece
+[00:29] diferansiyel. Bir diferansiyel
+[00:29] denklemde sadece bir kez türevi alınmış
+[00:32] ifade
+[00:33] varsa ve bundan daha fazla türevi
+[00:36] alınmış ifade yoksa biz buna 1ci derece
+[00:40] diferansiyel deriz. Bu diferansiyel
+[00:43] denkleme baktığımızda bir kez türev
+[00:46] alınmış daha fazla türev alınmış bir
+[00:49] fonksiyon görmüyoruz. Bu bir 1. derece
+[00:53] diferansiyeldir. X Y'nin türevi
+[00:56] -4 X² = Y üzeri
+[01:01] 4. Bu da 1. derece bir
+[01:04] diferansiyeldir. Y'nin türevi bir kez
+[01:08] alınmış. Buradaki 4 üsttür. Burada 1.
+[01:12] derece diferansiyel bir kez türevi
+[01:15] alınmış fonksiyon barındıran
+[01:18] diferansiyellerdir. Birden daha fazla
+[01:20] türev alınması durumunda diferansiyelin
+[01:23] derecesi değişir. Mesela şöyle bir
+[01:25] diferansiyeli
+[01:32] incelediğimizde e= e üzeri x bu 2 derece
+[01:32] bir
+[01:38] diferansiyeldir. Çünkü iki kez türev
+[01:38] alınmış fonksiyon var.
+[01:40] Bizim buradaki ilgilendiğimiz bir kez
+[01:43] türevi
+[01:44] alınmış diferansiyel
+[01:46] denklemlerdir. Türevi başka nasıl
+[01:48] gösterebiliriz? Y'nin türevi eşittir d/
+[01:52] dx olduğu için diferansiyel denklemleri
+[01:55] dy/ dx biçiminde de
+[01:58] yazarız. 3x dy/ dx
+[02:02] = x³ y gibi mesela. Bu da 1. derece bir
+[02:06] diferansiyeldir. Bu dy/ dx'in yerine
+[02:09] istediğimiz an y'nin türevi
+[02:12] yazabiliriz. 1. derece diferansiyel daha
+[02:15] fazla uzatmadan bir kez türev alınmış
+[02:18] fonksiyon barındıran
+[02:21] diferansiyellerdir. Birden daha fazla
+[02:22] türevi alınmış fonksiyon içlerinde
+[02:25] yoktur. Peki 1ci derece diferansiyeller
+[02:28] nasıl çözüdür?
+[02:31] Şimdi burada 1. derece
+[02:33] diferansiyellerdeki çözüm tekniklerine
+[02:44] bakacağız. Şimdi birinci çözüm
+[02:45] tekniği
+[02:59] Birinci teknik ayrılabilir diferansiyel
+[03:00] denklemse onun üzerinden çözümü yaparız.
+[03:03] X'ler ve Y'ler ayrılabilirdir. Bu 1ci
+[03:06] derece diferansiyel
+[03:08] tekniğinde 2inci yöntemimiz integral
+[03:12] çarpanı
+[03:21] tekniği. Integral çarpanı tekniği birçok
+[03:21] kaynakta 1ci
+[03:24] derece
+[03:25] lineer
+[03:27] diferansiyel denklemler olarak
+[03:30] geçer. Ama asıl ismi aslında integral
+[03:33] çarpanı tekniği ile
+[03:35] çözülenlerdir. 3.üncü çözüm tekniğimiz
+[03:39] tam diferansiyeller.
+[03:50] Tam diferansiyeller 3üncü çözüm
+[03:50] tekniğimizdir. Bundan sonraki çözüm
+[03:52] tekniklerinin hepsinin amacı bu üç
+[03:56] yönteme benzetip çözümü yapmaktır.
+[04:01] 4.
+[04:15] Burada biz bir dönüşüme uğratırız.
+[04:15] Diferansiyel denklemi arkasından
+[04:17] ayrılabilir diferansiyel denklem gelir
+[04:19] veya integral çarpanıyla çözülebilen
+[04:21] veya tam diferansiyel gelir. Bu üçünden
+[04:24] biri gelir ve biz diferansiyeli çözeriz.
+[04:26] Nedir bu dönüşüm gerektiren
+[04:28] diferansiyeller?
+[04:50] metodu. Bunun homojen diferansiyeller
+[04:50] diye
+[04:51] de
+[05:00] geçer. Buradaki dönüşüm
+[05:00] gerektirenler sayısı epey çoktur. Şimdi
+[05:03] biz burada belli
+[05:05] başlıcalarını konuştuk.
+[05:07] Bu dönüşüm
+[05:09] gerektirenlerde hepsindeki ana
+[05:12] amaç öyle bir dönüşüm yapalım ki
+[05:15] diferansiyel denklem tam diferansiyel
+[05:18] integral çarpanı tekniği veya
+[05:19] ayrılabilir diferansiyel denkleme gelsin
+[05:22] de biz onu çözebilelim içerir fikrini
+[05:26] içerir. Önemli olan şey bizim burada
+[05:29] ayrılabilir diferansiyel nasıl çözülüyor
+[05:31] çok iyi anlamamız gerekiyor. integral
+[05:33] çarpanı tekniğinin nasıl çözüldüğünü
+[05:36] anlamamız gerekiyor. Bir de tam
+[05:37] diferansiyel. Bundan sonrakilerin her
+[05:40] birinde ne gibi dönüşümler yapılacağını
+[05:43] çok iyi anlamamız gerekiyor. Dönüşümün
+[05:45] arkasından yine ilk üç durum gelecek.
+[05:48] Çünkü burada 1ci derece diferansiyel
+[05:52] olayının genel hatlarını çizmek için bu
+[05:55] videoyu hazırladık. Bunun arkasından tek
+[05:57] teknikleri incelemeye başlayacağız. 1ci
+[06:00] derece diferansiyel. Bir baştan
+[06:01] incelersek
+[06:03] videomuzu içinde bir kez türev alınmış
+[06:05] diferansiyel denkleme
+[06:08] deniyor. Bunun çözüm
+[06:10] tekniklerinde birincisi ayrılabilir
+[06:12] diferansiyel denklemler, ikincisi
+[06:14] integral çarpanı tekniği, üçüncüsü tam
+[06:17] diferansiyeller. 4düncü yöntem ise
+[06:20] ana üç yöntemimize benzetme amacı
+[06:23] taşıyan dönüşüm
+[06:25] gerektirenler. Bunlar çok yaygın çıkar
+[06:28] sınavlarda. bernoildi,
+[06:31] ricotu yani homojen diferansiyeller.
+[06:34] Daha burada 45 tane daha sayılabilecek
+[06:36] dönüşüm gerektiren tip vardır. Bunların
+[06:39] hepsini ayrı ayrı inceleyeceğiz. Bu
+[06:41] videomuzu burada noktalıyoruz.

@@ -1,0 +1,30 @@
+NOT: Bu videonun YouTube'da altyazısı yok. Aşağıdaki içerik transkript değil,
+YouTube'un "Bu video hakkında soru sorun" (Gemini) özelliğinden alınan dakika dakika özettir.
+Örneklerin sonuçları elle kontrol edildi, üçü de doğru.
+
+Video: Diferansiyel Denklemler : Abel's Teoremi (www.buders.com)
+Link: https://www.youtube.com/watch?v=m0tphnrVgiY
+Süre: 25:03
+
+[00:00 - 00:45] Giriş ve Wronskian tanımı
+  y'' + p(t)y' + q(t)y = 0 formundaki 2. mertebe lineer denklemler için Wronskian tanımı.
+
+[00:45 - 06:00] Wronskian ile lineer bağımsızlık testi
+  W(y1, y2) = y1·y2' − y1'·y2
+  W ≠ 0 ise y1 ve y2 lineer bağımsızdır ve temel çözüm kümesi oluşturur;
+  bu durumda W hiçbir yerde sıfır olmaz.
+
+[06:00 - 10:30] Örnek 1: Verilen çözümlerle Wronskian hesabı
+  y'' − 3y' + 2y = 0, y1 = e^t, y2 = e^(2t)
+  W = e^t·2e^(2t) − e^t·e^(2t) = e^(3t)
+
+[10:30 - 16:30] Abel teoremi ve formülün türetilmesi
+  W(t) = C·e^(−∫p(t) dt)
+  Denklemi çözmeden Wronskian'ı bulmayı sağlar.
+
+[16:30 - 21:00] Örnek 2: Abel formülüyle Wronskian
+  p(t) = −2t  →  W(t) = C·e^(t²)
+
+[21:00 - 25:03] Örnek 3: Başlangıç koşullu
+  y'' − 4y' + 4y = 0, W(0) = 1
+  p = −4  →  W(t) = C·e^(4t), W(0) = 1 ise C = 1  →  W(t) = e^(4t)

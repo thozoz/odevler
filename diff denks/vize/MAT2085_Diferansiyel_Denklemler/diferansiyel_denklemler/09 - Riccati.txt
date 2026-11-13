@@ -1,0 +1,441 @@
+[00:04] Rika diferansiyel denklemi Rika
+[00:04] diferansiyel denklemi 1 derece bir
+[00:07] diferansiyel
+[00:08] denklemdir bunu bir not alalım 1 derece
+[00:11] bir
+[00:13] diferansiyel
+[00:15] diferansiyel çözümünde artı çözümünde
+[00:20] dönüşüm gerektiren bir
+[00:22] diferansiyelden dönüşüm
+[00:31] gerektiren dönüşüm gerektiren bir
+[00:31] diferansiyelden
+[00:33] ama çözümünde özel bir dönüşüm
+[00:38] gerektirir şimdi bu dönüşümün ne
+[00:41] olduğunu ve bu dönüşümün arkasından
+[00:44] izlenecek çözüm adımlarını konuşacağız
+[00:47] Öncelikle Rika diferansiyel denklemini
+[00:57] tanıyabilmek genel görüntüsü y'nin
+[00:57] türevi eş Ax
+[01:01] y k +
+[01:04] bx y + CX biçimindedir bu gördüğümüz
+[01:10] format Rika diferansiyel denkleminin
+[01:13] formatıdır
+[01:14] y'nin türevi Ax y k bx y + CX biçiminde
+[01:20] bir eşitliğe sahipse bu Rika
+[01:22] diferansiyel
+[01:29] denklemdir bunu başka nasıl yazabilir
+[01:29] buradaki y'nin türevi yerine dy / DX
+[01:33] yazarak da karşımıza getirebilirler bunu
+[01:35] Ax y'nin karesi +
+[01:39] bxy + CX
+[01:43] şeklinde soruyu yap yazan kişinin
+[01:46] keyfine kalmıştır Orası şimdi Rika
+[01:50] diferansiyellerin çözümünde dönüşüm
+[01:53] gerekiyordu ama tanıması kolaydır rti
+[01:56] sorularını Çünkü bize sorunun içinde
+[01:58] mutlaka y1 x diye bu diferansiyel
+[02:03] denkleme ait bir çözüm
+[02:07] verilecektir biz bu çözüm sayesinde
+[02:10] genel çözüme gideceğiz y1
+[02:14] verilecek bize bir 1 derece
+[02:17] diferansiyelde y1 diye bir çözüm
+[02:20] verilip bu çözüm yardımıyla çözmemizi
+[02:23] istiyorsa tahminen Rika edir formatına
+[02:26] uyuyor mu diye bir incelemekte fayda
+[02:28] vardır hemen şimdi en önemli noktaya
+[02:31] geliyoruz yapılacak
+[02:34] dönüşüm yapılacak
+[02:42] dönüşüm y
+[02:42] = v
+[02:45] +
+[02:53] y1 buradaki V x'e bağlı bir fonksiyondur
+[02:53] vx buraya vx değil de V yazdım ama
+[02:57] buradaki v'nin x'e bağlı bir fonksiyon
+[02:59] olduğunu bilmeliyiz buradaki y1 de bize
+[03:01] Şu verilen y1 O da x'e bağlı bir
+[03:04] fonksiyondur y1 x bizim buradaki yiz ise
+[03:08] bu y genel
+[03:12] çözümdür bize bu genel çözümün içinde
+[03:15] bir parça
+[03:16] verilmiş biz bu parçayı kullanarak genel
+[03:19] çözüme gideceğiz
+[03:20] rti yapılacak dönüşüm budur Bu dönüşümü
+[03:25] yaparken bu ifadenin türevini alacağız
+[03:30] şekilde y'nin türevi eş V türev + y1
+[03:37] türevi Bu ikisini bu ricati formatında
+[03:41] yerine koyduğumuzda bizim
+[03:44] karşımıza ardından berno diferansiyeli
+[03:52] gelecek
+[03:53] ricati diferansiyeli
+[03:56] çözüyorsun devamında da berno çözeceğiz
+[03:59] demek
+[04:00] berno illi diferansiyeli gelecek şimdi
+[04:03] berno illi diferansiyeli şu şekilde
+[04:06] karşımıza gelecek bir dönüşüm yapıyorsak
+[04:08] bir diferansiyelde zaten biz Y'ye ait
+[04:11] bir diferansiyel görmekteyiz Biz bunu
+[04:14] vye bağlı hale
+[04:16] getireceğiz dönüşüm yapılan
+[04:18] diferansiyeller de yli halden v'li hale
+[04:22] geçiyoruz dönüşümün temel mantığı budur
+[04:26] ve biz burada bu dönüşümü yaptığımızda
+[04:29] berno illi diferansiyelini geçeceğiz
+[04:32] neydi ber noil
+[04:33] diferansiyeli onu hatırlayacak olursak
+[04:36] Biz v'li bir berno diferansiyeli
+[04:38] göreceğiz v'nin türevi
+[04:41] + px
+[04:43] V
+[04:46] eş
+[04:48] QX x v üzeri n berno illi diferansiyeli
+[04:53] göreceğiz ve ardından bu berno
+[04:56] diferansiyelini
+[04:58] çözüp ve
+[05:00] bulacağız şimdi berno diferansiyeli
+[05:03] çözmeyi bilmeyen birisinin videoyu
+[05:06] burada bırakıp gidip berno illi
+[05:08] videosunu izlemesinde fayda var berno
+[05:11] illiyi bilmiyorken ricati zaten
+[05:12] çözülemez Çünkü rikin devamında yapılan
+[05:16] dönüşüm bizi berno ilye sürükleyecek ve
+[05:19] berno illiyi her zaman çözeceğiz ve v'yi
+[05:21] bulacağız v'yi bulduktan sonra onu y = v
+[05:27] + y1 burada yerine koyd
+[05:30] buradaki y1 de bildiğimiz için
+[05:32] diferansiyel denklemin çözümüne
+[05:37] ulaşacağız şimdi kısaca özetleyecek
+[05:41] olursak karşımıza birati diferansiyel
+[05:44] denklemi geldiğinde
+[05:47] Ax y k +
+[05:50] bx y + CX
+[05:54] de biz y = v + y1 dönüşümü yapacağız y1
+[06:02] bize soruda verilecek bu dönüşüm bizi
+[06:07] Beril diferansiyel götürecek berno
+[06:12] diferansiyelini Beril diferansiyeli şu
+[06:15] formatta bir hal alacak px
+[06:20] vş
+[06:22] QX Vü
+[06:25] n
+[06:31] berden v'yi
+[06:31] bulacağız perno de v'yi bulduktan sonra
+[06:35] da v'yi bulacağız berno diferansiyel
+[06:39] denklemini çözüp genel çözümümüz
+[06:41] ulaşacağız y = v + y1 bu v'yi getirip
+[06:46] buraya koyduğumuzda v ile y1 toplamı
+[06:49] bizim diferansiyel imizin çözümü
+[06:52] olacak Buradaki bizim için en zor şey
+[06:55] perno ilinin çözümü olacak tabii
+[06:58] ki şimdi Bir örnek
+[07:01] üzerinden inceleyelim örnek en iyi
+[07:04] öğreten şeydir
+[07:06] zaten şimdi bir soru
+[07:09] yazalım y'nin türevi eş y k - y / x - 1
+[07:18] / x
+[07:21] k x > 0 olmak
+[07:28] üzere
+[07:28] y1 x
+[07:31] eş
+[07:34] 1/2
+[07:35] ve y1 =
+[07:40] 2
+[07:41] olan diferansiyel denklemi
+[07:50] çözünüz başlangıç değer problemi de
+[07:50] verdim aynı zamanda bir bu y1 = 2 en
+[07:54] sonda C'yi bulmak içindir olan
+[07:56] diferansiyel
+[07:58] denklemi
+[08:05] çözünüz şimdi buradaki x > 0 Sadece bu
+[08:05] sorunun doğru olması için gerekli bir
+[08:07] şey buna kafa yormayacağım
+[08:09] y1 verilmiş bize bu diferansiyel
+[08:12] denkleme baktığımızda Bu bize Rika İyi
+[08:16] hemen
+[08:17] çağrıştırmak formatı y'nin
+[08:22] türevi
+[08:24] Ax y
+[08:26] k +
+[08:28] bx y + CX tam olarak formatı görmekteyiz
+[08:34] Aslında Ax dediğimiz şey burada 1 bx
+[08:37] dediğimiz şey -1 x CX dediğimiz şey -1 x
+[08:41] k aynı zamanda soru içinde bize zaten y1
+[08:44] verilmiş Bu bir rik
+[08:47] kati tanıma kısmını
+[08:56] geçtik şimdi Rika olduğunu tanıdığımıza
+[08:56] göre bir
+[08:57] adım hemen Yapı
+[09:00] dönüşümü müzü yazacağız y
+[09:03] = v + y1 dirir yapılacak dönüşümü müz
+[09:08] yani y = v + y1 imiz bizim burada
+[09:29] 1/1 x
+[09:29] y türev yerine de bir şey koymalıyız O
+[09:31] yüzden bunun yapılacak dönüşümü
+[09:34] belirledikten sonra bunun türevini
+[09:35] almalıyız y
+[09:37] türev v'nin türevi V türev olur Çünkü V
+[09:42] x'e bağlı bir
+[09:44] fonksiyondur v'nin türevi her zaman V
+[09:47] türev olacak
+[09:57] 1/1 demektir üst başa geçer üst 1 azalır
+[09:57] - xü - olur yani o -1 x
+[10:02] kedir -1 x kareye
+[10:05] ulaştık y türevin yerine bunu y yerine
+[10:09] ise bunu yazacağız şimdi bunları yerine
+[10:12] koyduğumuzda gelecek şeyden de emin
+[10:14] olmalıyız karşımıza bir berno gelecek y
+[10:18] türevi
+[10:19] yerine v'nin türevi -1 x k eş Bunu
+[10:28] gittik y'nin türevi yerine yazdık şimdi
+[10:31] y'nin karesi y yerine V + 1/2
+[10:40] yazacağız V +
+[10:40] 1/2
+[10:42] karesi sonrası eksiyi
+[10:46] sanırım y /
+[10:49] x yani 1/2 x y olarak düşünelim onu V +
+[11:08] 1/1 x kemiz
+[11:08] var - 1/2 K yapılacak dönüşümleri yerine
+[11:14] yazdıktan sonra karşımıza gelecek şey
+[11:16] mutlaka berno ilidir devam edelim
+[11:19] işlemimizi buradan -1 b x kare ile
+[11:21] buradan bir -1 b x kare birbirini
+[11:23] götürür V türev eş buranın karesini
+[11:27] alırsak V K birincinin karesi bununla
+[11:31] bunun çarpımının 2 katı + 2v /
+[11:37] x + 2in karesi +
+[11:42] 1/2 Burada da -1 B x'i çarparsak - v / x
+[11:48] Buradan da -1 b x k
+[11:51] gelir burasıyla da burası birbirini
+[12:00] götürdü şu iki kısımda V
+[12:00] türev = V
+[12:03] K 2/2 - 1/2 var burada +
+[12:08] 1/6 V eder şu
+[12:19] 1/0 formatını görürüz v'nin türevi - 1/2
+[12:19] V = V
+[12:22] K İşte bu karşımıza gelen diferansiyel
+[12:25] denklem berno
+[12:28] ilidir
+[12:29] bir adımımızı doğru bir şekilde geçtik
+[12:33] yapılacak dönüşümleri belirledik ricati
+[12:36] yerlerine koyduk ve karşımıza bir berno
+[12:38] illi geldi şimdi berno ilinin çözümüne
+[12:42] geleceğiz ik
+[12:50] adım berno
+[12:50] de dönüşüm yapılarak çözülen bir
+[12:54] diferansiyel denklem onu da hatırlayalım
+[12:58] berno
+[13:00] Bu da dönüşüm yapılarak çözülen 1 derece
+[13:04] diferansiyeli dönüşüm
+[13:07] yapılarak
+[13:08] çözülen 1 derece
+[13:17] diferansiyelden yapılacak dönüşüm neydi
+[13:17] berno ili
+[13:20] Eee Normalde bu yli olduğunda v = y üzer
+[13:26] 1 - N dönüşümü yaparız derdik berno
+[13:34] berno diferansiyeli yli
+[13:34] olduğunda v = y üzeri 1 - N derdik ve
+[13:39] Y'ye bağlı diferansiyel denklemi vye
+[13:42] bağlı hale çevirdik Ama bu diferansiyel
+[13:44] denklem vye bağlı ve berno ili O zaman
+[13:47] başka bir harf
+[13:48] kullanacağız w
+[13:52] diyelim V üzeri 1 -
+[13:56] N bu difer bu dönüşümü kullanım
+[14:00] buradaki n dediğimiz şey buradaki v'nin
+[14:04] üzerindeki sayı idi yapacağımız dönüşüm
+[14:17] vş 2'yi buraya koyarsak V üzeri
+[14:17] -1 ardından bunun türevini alacağız
+[14:20] berno ilinin gidişatı bu
+[14:23] şekildedir v'nin türevi eş bunun türevi
+[14:26] -1 başa geçer - -2 olur çarpı ama
+[14:31] içerisinin türevidir burada V türev
+[14:34] dediğim gibi berno videosunu izlememiş
+[14:36] kişi önce berno illi videosunu izlesin
+[14:38] Ondan sonra bu aşamaya
+[14:40] dönsün buradaki berno illi türevi
+[14:43] aldığımızda yapılan dönüşümünde mutlaka
+[14:45] burada üst başa geçer üst bir azalır yan
+[14:48] tarafa da v'nin türevi gelir Bunları
+[14:51] belirledikten
+[14:53] sonra bu diferansiyel
+[14:56] imizde
+[14:58] önce
+[15:00] V türev yerine
+[15:07] konulur Şuradaki V türevi yerine
+[15:07] koyacağız V türevin ne olduğuna Bir
+[15:09] bakalım V türev eş bu 1/2 diye döner
+[15:14] karşı tarafa çarpma olarak geçirirsek -
+[15:17] V kare w' türevi buradaki v'nin türevi
+[15:22] yerine Şimdi bunu
+[15:24] koyuyoruz - V K w
+[15:29] türevi
+[15:31] -
+[15:40] 1/0 tarafta da V kare var dediğim gibi
+[15:40] Öncelikle v'nin türevini yerine
+[15:42] koyuyoruz
+[15:43] berno mutlaka v'nin türevini yerine
+[15:47] koyduktan sonra Mutlaka birer tane v
+[15:50] sadeleşir Mutlaka birer tane ve
+[15:59] sadeleşir buradan birer tane V
+[15:59] sadeleştir elim Buradan bir tane v gitti
+[16:02] - v v türev buradan bir V gitti -1 / x
+[16:08] Buradan da bir V gitti eş
+[16:11] V
+[16:16] ardından bu yerine
+[16:16] konulur sadeleştirmede sonra
+[16:21] sonra V yerine V üzeri -1 w ise V yerine
+[17:01] metodu kullanacağımız diferansiyel
+[17:01] denkleme götürür integral çarpanı metodu
+[17:06] kullanacağız Ben noil çözüyorsun mutlaka
+[17:09] ve mutlaka bu yaptığımız dönüşümlerin
+[17:13] arkasından integral çarpanı metodu
+[17:17] kullanacağız bu metodun özelliği şu idi
+[17:20] y'nin türevi +
+[17:23] px y = QX
+[17:26] formatında integral çarpanı buluyor e
+[17:29] üzer px DX
+[17:38] şeklinde Şimdi biz de burada bu
+[17:38] gördüğümüz koyduktan sonra bu formata
+[17:41] Benz etce bu gördüğümüz diferansiyel
+[17:44] denklemi v'nin wn türevinin katsayısını
+[17:48] 1 yapmamız lazım bütün denklemi - v ile
+[17:51] çarpıyorum w v'nin
+[17:54] türevi burayı - v ile çarpınca + 1/2 w
+[18:00] burayı - w ile çarpınca da karşı tarafta
+[18:06] -1 elde
+[18:08] edildi ve tam olarak karşımızda integral
+[18:11] çarpanı uygulayabileceğimiz bir durum
+[18:13] geldi MX = e üzeri px
+[18:32] lnx e ile x yer değiştirir x üzeri ln e
+[18:32] olur E'nin üzerinde ne zaman ln görürsek
+[18:36] yer değiştireceğiz ln de 1 edeceği için
+[18:39] x integral çarpan mız x imiş integral
+[18:44] çarpanı yla diferansiyel denklemin her
+[18:47] iki tarafını çarparız x Ç v'nin türevi +
+[18:57] 1/1 x
+[18:57] x buradaki sol taraf her zaman integral
+[19:01] çarpanı
+[19:02] ile değişkenin değişken Neyse w ise w y
+[19:07] ise y çarpımının türevine dönüşür x Ç w'
+[19:12] çarpımının türevi Sağ taraf ise - x oldu
+[19:17] ardından her iki tarafın integralini
+[19:20] alacağız x w türev ile integral
+[19:24] birbirini götürür burada eş bunun
+[19:27] integrali ise ek x k 2 üstünü bir
+[19:31] artırdık oluşan üste böldük + C bu x'i
+[19:36] bölü olarak
+[19:44] geçirirsek w = - x /
+[19:44] 2 + c / x
+[19:57] oldu w' miz bu şimdi bizim aradığımız w
+[19:57] değildi
+[19:59] Biz ne dönüşümü yapmıştık
+[20:03] Berde ona geri dönelim w eş V üzer
+[20:13] -1 buraya 10u
+[20:13] getiriyoruz node yapılan
+[20:16] dönüşüm w = v üzer -1 bizim bulmaya
+[20:20] çalıştığımız şey V
+[20:23] idi w bu ise Vü
+[20:26] -1 buradan V
+[20:35] 1/1 üssünü alırız burada yani V
+[20:35] dediğimiz şey 1
+[20:37] b - x / 2 + c / x
+[20:43] oldu
+[20:46] şimdi bu v'yi bulduktan
+[20:49] sonra soruyu çözdük zannetmeye bizim
+[20:52] çözmeye çalıştığımız şey berno değildi
+[20:55] Şu an berno bitti Biz Radi yaptığımız
+[20:59] dönüşüme geri
+[21:01] döneceğiz bütün yaptığımız dönüşümlere
+[21:04] geri dönüyoruz önce burada berno diye
+[21:06] döndük şimdi Rika tiye burada berno ilye
+[21:10] döndük ve geri verdik Şimdi Rika
+[21:13] iye radde yaptığımız dönüşüm y = v + y1
+[21:21] idi y = v dediğimiz şey bu çıktı 1 B
+[21:29] - x /
+[21:31] 2 + c /
+[21:34] x + y1 imiz Neydi Bizim epeyce bir geri
+[21:46] döneceğiz Neredeydi
+[21:46] o o da 1/2 imiş Bir de dönmüşken
+[21:51] başlangıç koşulu da bakalım y1 2 Bu da
+[21:55] C'yi bulmak
+[21:57] için
+[22:09] buradan y1 1/2 imiş ve başlangıç koşul
+[22:09] umuz y1 = 2 imiş şimdi bu başlangıç
+[22:13] koşulunu da yerine koyarak buradaki cmi
+[22:17] bulacağız x yerine 1 y yerine 2
+[22:20] koyuyoruz 2 =
+[22:24] 1/2 1 koyarsak - 1/2 +
+[22:29] x yerine 1 koyduk C + Burası da 1 x
+[22:32] yerine 1 koyunca bunu bu tarafa
+[22:34] attık 1
+[22:38] =
+[22:40] 1/12 + C bununla bu tarafı çarparız C -
+[22:45] 1/2 = 1 bunu da bu tarafa atarsak C =
+[22:50] 3/2 C'yi de 3/2 bulduğumuza göre
+[22:54] diferansiyel denklemin en sona çözümü y
+[22:58] 1 b - x / 2 + C'yi de burada yerine
+[23:05] koyarsak 3/2 x
+[23:10] olur art bir de 1/2 imiz var Rika
+[23:14] diferansiyel denklemin çözümü bu
+[23:17] bulduğumuz sonuç olur bir baştan
+[23:21] itibaren yaptıklarımızı tekrar konuşarak
+[23:25] videomuzu
+[23:33] şimdi soruya başlarken dikkati
+[23:33] diferansiyel denklemini tanıdık Rika
+[23:37] diferansiyel denkleminde burada
+[23:41] Eee diferansiyel denklemi görüyoruz y
+[23:44] 1'in verildiğini görüyoruz rik kati
+[23:46] formatını oyduğunu gördük hemen y = v +
+[23:49] y1 dönüşümünü
+[23:51] yapıyoruz ve y1 dediğimiz şeyi getirip
+[23:54] buradaki y1 in yerine koyduk bunun
+[23:56] türevini aldık Bu ikisini diferansiyel
+[23:59] denklemde yerine koyacağız bu koymamız
+[24:04] arkasından kesinlikle berno formatı
+[24:08] gelecek berno illi formatı genel formatı
+[24:11] şudur y'nin türevi + px y = QX x y üzeri
+[24:18] n kesinlikle bir berno il gelecek
+[24:20] karşımıza arkasından berno çözeceğiz
+[24:24] berno de dönüşüm yapılması gereken bir
+[24:27] diferansiyel denklem onun dönüşümünü
+[24:29] yapacağız onun dönüşümü genelde v y üz 1
+[24:33] - ndi ama burada zaten diferansiyel
+[24:35] denklem vli olduğu için w kullandık ve
+[24:38] bu berno
+[24:40] de dönüşümleri yapıp yerine koyduğumuzda
+[24:43] karşımıza integral çarpanı geliyor
+[24:45] integral çarpanı yla da çözüp wy
+[24:49] buluyoruz w bizim çözümümüz değil Oradan
+[24:52] v'nin ne olduğunu buluyoruz getirip bu
+[24:54] v'yi de bu rdek yerine koyduğumuzda
+[24:58] denk çözmüş
+[25:00] oluyoruz Şimdi bu yaptıklarımızın
+[25:03] arkasından başlangıç değer koşulu olduğu
+[25:05] için de en son bu işlemleri yaptık Rika
+[25:07] çözmek
+[25:10] için bir kere y = v + y1 dönüşümünü
+[25:16] bileceğiz bunun türevini
+[25:19] aldığımızda ve yerine
+[25:22] koyduğumuzda bize Berin geleceğini
+[25:27] bileceğiz de mutlaka ve mutlaka v
+[25:31] = v üzer 1 - N dönüşümü
+[25:36] yapacağız bu dönüşümde nelerin sırayla
+[25:39] konulacağını yukarıda belirttim bu
+[25:41] dönüşümün arkasından karşımıza integral
+[25:44] çarpanı tekniği gelecek berno çözümünde
+[25:48] mutlaka integral çarpanı tekniği gelir
+[25:51] Bunun formatı da y'nin türevi burada
+[25:53] karşımıza w ile gelecek o
+[25:56] w + p x w =
+[26:01] QX bunu
+[26:04] çözüp bunu çözüp dyi bulacağız ne
+[26:07] olduğunu bulacağız Bunun arkasından bu w
+[26:12] Yaptığımız bu dönüşümden Şuradaki berno
+[26:15] dönüşümünden v'yi bulacağız bu v'yi de
+[26:18] en son getirip şu ilk dönüşümdeki yerine
+[26:22] koyacağız V +
+[26:25] y1 görüleceği üzere
+[26:30] 3 yöntem kullanmayı
+[26:32] gerektiriyor çok da kolay olan bir
+[26:34] diferansiyel denklem değildir Bu üçüne
+[26:38] hakim olunca Tabii ki kolaylaşıyor bu
+[26:41] şekilde bu videomuzu
+[26:43] noktalı

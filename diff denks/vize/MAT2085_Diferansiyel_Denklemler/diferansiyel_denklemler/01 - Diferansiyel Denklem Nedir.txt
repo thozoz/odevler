@@ -1,0 +1,78 @@
+[00:03] diferansiyel denklem
+[00:03] nedir diferansiyel denklem içinde türevi
+[00:07] alınmış fonksiyon barındıran denklemlere
+[00:10] denir türevi
+[00:13] alınmış fonksiyon varsa bir denklemin
+[00:16] içinde Biz ona diferansiyel denklem
+[00:18] deriz türevi alınmış
+[00:22] fonksiyon
+[00:24] içeren denklemlere
+[00:31] denir
+[00:31] örnek
+[00:33] olarak y'nin türevi - 3xy = 4 burada y
+[00:40] dediğimiz fonksiyonun türevi alınmış bu
+[00:43] y'nin üzerindeki çizginin anlamı y'nin
+[00:46] x'e veya başka bir harfe göre türevinin
+[00:49] alındığı anlamına gelir bir denklemin
+[00:53] içinde denklem eşitlik olan bilinmeyen
+[00:58] içeren ifadelere deniyor bir denklemin
+[01:00] içinde türevi alınmış bir fonksiyon
+[01:03] varsa bu denklemin ismi artık
+[01:06] diferansiyel denklem
+[01:09] olur Bir Başka örnek yaparsak D ky / DX
+[01:15] K +
+[01:17] 3 dy / DX - 4x y = e üzer x +
+[01:25] 1 Mesela bu denkleme baktığımızda da bir
+[01:28] diferansiyel denklem Çünkü burada bir
+[01:30] türev vardır Bu y'nin 2 türevi anlamına
+[01:35] gelmektedir Bu y'nin 1 türevi anlamına
+[01:40] gelmektedir - 4x y = e üzer x +
+[01:46] 1'dir şimdi
+[01:48] buradaki 2 türev ve 1 türev ifadesi
+[01:52] bunun diferansiyel denklem olmasına
+[01:54] neden olmaktadır başka nasıl yazılabilir
+[01:57] diferansiyel
+[01:58] denklem F türevi x = 4 bu gördüğümüz de
+[02:04] bir diferansiyel denklemdir diferansiyel
+[02:06] denklem Çünkü denklemde türevi alınmış
+[02:09] fonksiyon var y'nin türevi eş
+[02:20] 4 Mesela bir başka denklem yazdığımızda
+[02:20] 3x + 4y = 5 Bu bir diferansiyel denklem
+[02:25] değildir Çünkü herhangi bir fonksiyonun
+[02:27] türevi
+[02:28] alınmamış
+[02:31] FX + 3x = y Bu da bir diferansiyel
+[02:37] denklem değildir Çünkü herhangi bir
+[02:40] yerde türev yoktur yani bir denkleme
+[02:44] diferansiyel denklem
+[02:51] denebilir Peki bir diferansiyel
+[02:51] denklemde amaç nedir
+[02:55] amaç türevi alınmış olan fonksiyonun ne
+[02:59] olduğun bulmaktır amaç türevi
+[03:04] alınmış
+[03:11] fonksiyonun ne olduğunu
+[03:11] bulmaktır diferansiyel denklem
+[03:13] ilerledikçe
+[03:22] karmaşıklaşan değişmez türevi alınan
+[03:22] fonksiyonu bulmayı hedefler biz hangi
+[03:25] fonksiyonun türevi alınırsa bu denklem
+[03:27] bu şekilde sağlanır Hedef budur amaç
+[03:31] türevi alınmış fonksiyonun ne
+[03:33] olduğunu
+[03:43] bulmaktır yani y'nin türevi eş 3x + 1
+[03:43] bizim buradaki amacımız y'nin ne
+[03:45] olduğunu bulmaktır türevi alınmış olan
+[03:48] bu fonksiyonun ne olduğunu bulmaktır
+[03:50] y'nin 2 türevi - 3xy türev - 4y = eü x +
+[03:57] 1 Burada da amacımız ayı y'yi bulmak
+[04:01] türevi alınmış olan bu fonksiyon nedir
+[04:04] Bunu bulmaktır diferansiyel denklem
+[04:07] içinde türevi alınmış fonksiyon
+[04:09] barındıran denklemdir ve Bunun amacı da
+[04:12] o türevi alınmış olan fonksiyonun ne
+[04:16] olduğunu
+[04:17] bulmaktır Bununla ilgili yöntemler
+[04:20] çeşitler incelenecek bir sonraki
+[04:23] videomuzda diferansiyel denklemlerin
+[04:26] sınıflandırılmasını inceleyeceğiz bu
+[04:28] videomuzu burada nokt

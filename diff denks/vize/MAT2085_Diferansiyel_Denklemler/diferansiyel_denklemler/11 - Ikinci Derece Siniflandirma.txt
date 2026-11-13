@@ -1,0 +1,232 @@
+[00:04] ik derece diferansiyellerin sınıflanması
+[00:04] 2 derece diferansiyellerin sınıflanması
+[00:07] başlamadan önce 2 derece Diferansiyel
+[00:10] nedir 2 derece
+[00:18] diferansiyel Eskiler derece kavramı
+[00:18] yerine mertebeyi tercih ederler ikin
+[00:22] derece diferansiyel veya ik mertebe
+[00:25] diferansiyel olarak bunu
+[00:28] düşünebiliriz diferansiyel bir
+[00:30] diferansiyelin içinde en fazla türev
+[00:34] alınma adedinin 2 olmasını
+[00:37] gerektirir y'nin 2ci türevi Yani bu
+[00:41] ifade içinde daha fazla türev alınmamış
+[00:44] olması lazım En fazla alınan türev 2 ise
+[00:47] bu diferansiyele Biz 2in derece
+[00:51] diferansiyel deriz Bu bir 2in derece
+[00:56] diferansiyelden şey y'nin üzerindeki iki
+[00:58] türev işaretidir
+[01:04] y'nin
+[01:04] katsayısı olabilir 2 türev eş x + 5 Bu
+[01:09] da 2 derece bir
+[01:12] diferansiyelden olup olmaması 1 derece
+[01:14] türevin olup olmaması 2 derece olmayı
+[01:18] etkilemez 2 dereceyi başka nasıl
+[01:21] yazabiliriz y'nin türevi D / DX
+[01:25] yazılabilir y'nin 2
+[01:28] türevi kare y / DX K yazılabilir
+[01:32] diferansiyeli şu şekilde de yazabilir d
+[01:36] k y DX K + 3 dy / DX -
+[01:44] 2 dy
+[01:46] B Burası y olacak kendimizi kaptırdık
+[02:03] neyse gelirsek buraya 2y = x - 5
+[02:03] diyebiliriz Bu şekilde bir diferansiyel
+[02:06] gördüğümüzde Bunun yerine hemen bu y'nin
+[02:08] 2
+[02:09] türevi + bu y'nin türevi - 2y = x + 5
+[02:15] biçiminde yazmalıyız ki diferansiyeli
+[02:17] doğru düzgün
+[02:19] algılayabilen
+[02:21] uzatmadan 2 derece
+[02:24] diferansiyel en fazla alınmış olan türev
+[02:27] adedi 2 olmalıdır bir
+[02:31] diferansiyeli türev adedi 3 olduğu zaman
+[02:34] biz buna 3 derece diferansiyel veya 2
+[02:36] dereceden sonraki diferansiyellerin
+[02:38] genel ismi iki kezden fazla türev
+[02:41] alınmışsa bir
+[02:42] diferansiyelde 3 derece 4 derece 5
+[02:46] derece diferansiyel demek yerine
+[02:47] bunların toplamına yüksek mertebeden
+[02:50] diferansiyeller veya yüksek derece
+[02:53] diferansiyeller
+[02:54] denir Şimdi burada biz ik derece
+[02:58] diferansiyellerin sınıflaması yapac
+[03:01] sınıflamasına ve hangi yöntemler burada
+[03:05] kullanılır ona bakacağız 2 derece
+[03:09] diferansiyel 2in derece
+[03:16] diferansiyel
+[03:16] Öncelikle 2 derece
+[03:20] diferansiyeller sabit katsayılı
+[03:33] sabit kat sayılı olmayan biçiminde ikiye
+[03:33] ayrılır Bir ikin derece diferansiyele
+[03:39] baktığımızda ilk olarak onun sabit
+[03:41] katsayılı mı yoksa sabit katsayılı
+[03:44] olmayan bir diferansiyel mi olduğuna
+[03:47] bakmalıyız Çünkü Hangisi olduğuna göre
+[03:50] çözüm yöntemi ciddi derecede değişiklik
+[03:55] gösterir Hatta taban Tabana farklı
+[03:58] şeylerdir
+[04:01] sabit katsayıyla kastettiğimiz şey yler
+[04:04] önlerindeki sayıların sabit sayı
+[04:07] olmasıdır şuna bir örnek yapalım şurada
+[04:10] y'nin 2 türevi -2 y'nin türevi - 4 y = 0
+[04:18] karşısı 0 olabilir y'nin 2 türevi -3
+[04:22] y'nin türevi - 4y = x +
+[04:26] 2 y türevlerinin y ifadelerin
+[04:30] katsayılarına herhangi bir x değişkeni
+[04:33] veya T değişkeni herhangi bir değişken
+[04:37] bulunmayan
+[04:38] diferansiyeller sabit katsayılı ve sabit
+[04:41] katsayılı olmayan olarak 2in derece
+[04:44] diferansiyel ilk sınıflamasına tabi
+[04:47] tutulur şimdi sabit katsayılı olmayana
+[04:50] gelirsek x kare y'nin 2 türevi -3 y'nin
+[04:55] türevi - XY = 0 ve veya x k y'nin 2
+[05:02] türevi + x +
+[05:04] 1 y'nin türevi eş 3x - 2 gibi buradaki
+[05:10] yler yli ifadelerin katsayılarına x
+[05:14] değişkenli ifadeler bulunuyor bu sabit
+[05:17] katsayılı olmayan İkinci derece
+[05:28] diferansiyeller 2 derece diferansiyeller
+[05:28] ilk olarak sabit katsayılı sabit
+[05:31] katsayılı olmayan şeklinde iki gruba
+[05:35] ayrılır Bunun
+[05:37] arkasından sabit katsayılar da kendi
+[05:41] içinde ikiye
+[05:57] diferansiyeller
+[05:57] dier homojen olmayan
+[06:11] diferansiyeller Şimdi burada homojen
+[06:11] olması bir diferansiyelin ikinci
+[06:14] derecede yerlilerin hepsi aynı tarafa
+[06:17] toplandığında
+[06:25] sabit katsayılı homojen yazıyoruz yler
+[06:25] katsayıları sabit sayı eşittir karşı
+[06:27] tarafın 0 olmasıdır
+[06:30] y'nin 2 türevi + 4y = 0 gibi bunlar
+[06:35] sabit katsayılı homojen
+[06:48] diferansiyeller
+[06:48] burada genel çözüm diferansiyelin genel
+[06:52] çözümü sadece homojen çözüme
+[06:56] eşittir bunun çözümünü bir sonraki
+[06:59] videomuzda ilk bununla başlayacağız
+[07:02] sabit katsayılı homojen
+[07:04] diferansiyellerin çözümü ile
+[07:06] başlayacağız şu an sınıflama yapıyoruz
+[07:09] İkinci derece diferansiyeli gördüğümüzde
+[07:12] şu şudur bu buna girer gibi
+[07:22] sınıflayan olmayana geldiğimiz
+[07:22] zaman sabit katsayılı homojen
+[07:26] olmayan yiler hepsi aynı tarafa
+[07:29] toplandığında karşı taraf 0 değilse
+[07:33] karşı tarafta bir fonksiyon bulunuyorsa
+[07:35] y'nin 2 türevi + 4y = e üzer 2x - 1 gibi
+[07:42] bunlar da homojen
+[07:45] olmayan sabit katsayılı ikin derece
+[07:50] diferansiyeller homojene olmayan sabit
+[07:52] katsayılı 2 derece diferansiyellerin
+[07:55] genel
+[08:00] çözümü
+[08:00] homojen
+[08:06] ı y
+[08:06] Özeldir buradaki çözüm içinde homojen
+[08:12] olmayan sabit katsayılı 2 derece
+[08:15] diferansiyellerin çözümünde iki teknik
+[08:37] Bu da bundan sonra çekeceğimiz 2 video
+[08:37] olacak belirsiz katsayılar metodu ile bu
+[08:42] çözülür sabit katsayılı homojene olmayan
+[08:45] diferansiyellerin ilk çözüm tekniği
+[08:47] belirsiz katsayılar metodudur
+[08:49] İngilizcesi undetermined coefficient
+[08:56] Method
+[08:56] coefficient
+[08:58] metod
+[09:15] teknik parametrelerin değişimi
+[09:15] yöntemi lin
+[09:20] değişimi metodudur
+[09:22] bunun da diğer ismi variation
+[09:27] of yani İngilizce ismi
+[09:32] parameter parametrelerin değişim metodu
+[09:35] bizim karşımıza gelen sabit katsayılı
+[09:38] homojen olmayan diferansiyeller de iki
+[09:41] teknik şansımız vardır ya belirsiz
+[09:43] katsayılar metodu ya da ikinci Teknik
+[09:46] olarak parametrelerin değişim metodu ile
+[09:49] çözüm yapılır yani böyle bir
+[09:51] diferansiyelde karşımızda İki seçenek
+[09:53] vardır karşısı 0 ise homojen
+[09:56] diferansiyellerin çözüm tekniği
+[09:58] uygulanacak o tekniği zaten bir sonraki
+[10:00] videoda
+[10:01] açıklayacağız bu
+[10:03] bölüm yani sabit katsayılı olan bölüm bu
+[10:07] kadardır homojen homojen olmayan diye
+[10:10] ikiye ayrılır homojenler çözümü için bir
+[10:14] yöntemi öğreneceğiz homojen olmayanları
+[10:17] ise belirsiz katsayılar metodu ve
+[10:20] parametrelerin değişimi metodu ile
+[10:23] çözmekte bütün metotlar bittikten sonra
+[10:25] tekrar buraya dönüp burayı incelemekte
+[10:27] fayda vardır Biz diferansiyeli önce
+[10:30] hangi duruma uyuyor ve hangi yöntem bu
+[10:33] durumu çözer şeklinde Kafamızda
+[10:41] netleştirmiyor
+[10:41] kısma
+[10:42] dönersek Bu da kendi
+[11:12] homojen de olsa homojen olmasa da fark
+[11:12] etmez buradaki metotlar bu
+[11:16] kısmı yani sabit katsayılı olmadığında
+[11:20] metotları şu şekilde
+[11:36] metodu
+[11:37] indirgeme
+[11:39] metodu geme metodu bunun Türkçe ismi çok
+[11:44] bilinen bir şey değildir İngilizcesi
+[11:46] reduction of
+[11:49] Order yani ikinci dereceyi 1ci dereceye
+[11:52] düşürerek çözme tekniği indirgeme metodu
+[11:55] kullanılır bunlarda ve en önemlisi de
+[12:00] seri metodudur
+[12:07] öler kullanılır öler olabilmesi için
+[12:07] Belli şartlar vardır onları ileride kull
+[12:10] konuşacağız indirgeme metodu kullanılır
+[12:13] reduction of Order bunun kullanılma
+[12:15] şartı bellidir ve seri metodu ile çözüm
+[12:19] yapılır burada sabit katsayılı
+[12:22] olmayanların çözümünde homojen veya
+[12:24] homojen olmayan fark etmez öler metodu
+[12:27] indirgeme metodu ve seri çözümleri
+[12:31] kuvvet serileri kullanarak
+[12:33] diferansiyellerin çözümü vardır İkinci
+[12:35] derece diferansiyelleri temel olarak
+[12:38] karşımıza geldiğinde ilk olarak sabit
+[12:41] katsayılı olanlar sabit katsayılı
+[12:44] olmayanlar diye ikiye ayırmalıyız sabit
+[12:47] katsayılı olduğu zaman da homojen mi
+[12:49] homojen olmayan mı diye ikiye
+[12:51] ayırmalıyız homojen genel çözüm homojen
+[12:54] çözüme eşittir homojen değilse belirsiz
+[12:57] katsayılar ve parametrelerin değişim
+[12:59] metodu ile çözüm yapılır Eğer ki sabit
+[13:02] katsayılı değilse öler metodu mu
+[13:05] uygulayacağız indirgeme metodu mu
+[13:07] uygulayacağız seri metodu mu
+[13:08] uygulayacağız bunları düşünmeliyiz ki
+[13:10] genel olarak sabit katsayılı
+[13:13] olmayanlarda metot size söylenir seri
+[13:16] metodu uygulayacağımız da seri metodu
+[13:18] uygulayın derler indirgeme metodu
+[13:20] uygulayacağımız da bunu uygulayın diye
+[13:22] söylenir genel olarak İkinci derece
+[13:25] diferansiyellerin sınıflaması bu şekilde
+[13:29] gerçekleşmektedir
+[13:31] bu videomuzu burada noktalı bir sonraki
+[13:35] videomuzda
+[13:37] homojen olan sabit katsayılı 2 derece
+[13:40] diferansiyellerin çözümüyle başlayacağız
+[13:43] arkasından belirsiz katsayılar metodu
+[13:46] arkasından parametrelerin değişim metodu
+[13:48] sonra sabit katsayılı olmayanlara geçip
+[13:51] öler metodu indirgeme metodu ve seri
+[13:55] çözümü kısımlarını inceleyeceğiz bu
+[13:58] videoyu burada
+[14:01] noktalı

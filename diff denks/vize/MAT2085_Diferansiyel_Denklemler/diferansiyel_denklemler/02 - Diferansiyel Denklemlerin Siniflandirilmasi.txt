@@ -1,0 +1,304 @@
+[00:04] Diferansiyel denklemlerin sınıflanması.
+[00:04] Diferansiyel denklemler dört ana başlık
+[00:07] altında sınıflamaya tabi tutulur.
+[00:10] 4 ana başlık.
+[00:17] Bunlar nelerdir?
+[00:17] Birinci olarak diferansiyelin çeşidi.
+[00:21] Bu adi diferansiyel denklem mi
+[00:30] yoksa
+[00:30] kısmi diferansiyel denklem mi oldu?
+[00:38] İlk sınıflamamız diferansiyel denklemin
+[00:38] adi diferansiyel denklem mi yoksa kısmi
+[00:40] diferansiyel denklem mi olduğu
+[00:42] konusundadır.
+[00:45] İkinci sınıflamamız diferansiyelin
+[00:48] derecesi
+[00:54] veya diğer eskilerin söylemiyle
+[00:54] mertebesi
+[00:57] 1ci derece diferansiyel mi? 2 derece
+[01:00] diferansiyel mi gibi.
+[01:12] diferansiyelin lineer mi yoksa lineer
+[01:12] olmayan mı? Lineer mi
+[01:16] yoksa lineer olmayan mı?
+[01:24] Diferansiyel lineer mi? Lineer değil mi?
+[01:24] Onun sınıflamasıdır. 3ünc sınıflamamız.
+[01:28] 4. ve son sınıflama. Diferansiyel
+[01:31] denklem homojen mi?
+[01:38] Homojen değil mi?
+[01:38] Homojen olmayan.
+[01:48] Şu miyi atalım. 4. sınıflamamız homojen
+[01:48] homojen olmayan biçimindedir.
+[01:50] Şimdi
+[01:52] bu sınıflamaları tek tek inceleyelim ve
+[01:55] ne olduklarını öğrenelim.
+[01:57] Bu videoda yapacağımız iş budur. İlk
+[02:00] olarak 1. sınıflamayla başlayalım.
+[02:05] Adi diferansiyel denklem nedir?
+[02:08] Diferansiyel denklem
+[02:11] kısmi diferansiyel denklem nedir?
+[02:21] Bu bizim buradaki birinci
+[02:21] sınıflamamızdır.
+[02:29] Adi diferansiyel denklem bizim
+[02:29] normal aldığımız türevdir.
+[02:32] Y'nin x'e göre türevi ve bunlar y'nin
+[02:36] türevi biçiminde yazılanlardır.
+[02:39] Kısmi diferansiyel denklemler ise kısmi
+[02:41] türev ile oluşan
+[02:45] diferansiyel denklemlerdir.
+[02:48] Kısmi türev çengelli türev ile
+[02:50] gösterilir. Bunun yazımı ise şu
+[02:52] şekildedir.
+[02:54] Y'nin x'e göre türevi şunun üzerine bir
+[02:57] çentik atılarak değil de altına x
+[02:59] yazılarak gösterilir. X'e göre kısmi
+[03:02] türevi alındığını göstermek için.
+[03:05] Burada 2. türev şu şekilde gösterilirken
+[03:08] d²y/ dx²
+[03:19] dx²
+[03:19] yx biçiminde yazılır.
+[03:23] Bir diferansiyel denklem
+[03:25] bu şekildeki türevlerden oluşuyorlarsa
+[03:28] biz bunlara tam türev diyoruz zaten. Bu
+[03:31] türevlerden oluşuyorsa diferansiyel
+[03:33] denklem adi diferansiyel denklemdir.
+[03:35] Y'nin türevi -3xy
+[03:37] = 2.
+[03:39] Y'nin 2. türevi -3y'nin türevi -4y = 0.
+[03:45] Bu da bir adi diferansiyel denklemdir.
+[03:48] dy/ dx = 4. Bunların her biri adi
+[03:53] diferansiyel denklemlerdir.
+[03:57] Ve bizim bu diferansiyel denklemler
+[04:00] dersinde işlediğimiz bütün yaptığımız
+[04:03] diferansiyel denklem yöntemleri adi
+[04:06] diferansiyel denklemlere aittir. Kısmi
+[04:09] diferansiyel denklemler dersi ayrı bir
+[04:11] ders olarak okutulur
+[04:14] ve normal diferansiyel denklemler
+[04:16] alındıktan sonra öğretilir. Kısmi
+[04:19] diferansiyel denklemlere geldiğimizde
+[04:22] bu şekildeki türevlerle oluşan
+[04:24] diferansiyel denklemlerdir.
+[04:27] dx + 3x = 4 gibi
+[04:43] 2inci türevi atalım bir de
+[04:43] e= 0 gibi. Bunlar da
+[04:48] kısmi diferansiyel denklemlerdir. Bir
+[04:51] diferansiyel denkleme baktığımız an adi
+[04:54] diferansiyel denklem mi? kısmi
+[04:56] diferansiyel denklem olduğunu kolayca
+[04:58] anlayabiliriz. Eğer ki kısmi türevin
+[05:01] nasıl yazıldığını biliyorsak buradaki de
+[05:05] normal bildiğimiz türevdir.
+[05:08] Bu şekildeki diferansiyel denklemler adi
+[05:11] diferansiyel denklemler. Bu şekildekiler
+[05:13] kısmidir. İlk sınıflamamız bu şekilde
+[05:16] olur.
+[05:19] Bu sınıflamayı böylece geçiyoruz. 2.
+[05:22] sınıflamamıza geldiğimizde
+[05:25] diferansiyelin derecesi,
+[05:29] diferansiyelin
+[05:31] derecesi veya mertebesi
+[05:35] diferansiyelin derecesi.
+[05:38] Bir diferansiyel denklemin içinde kaç
+[05:40] kez en fazla türev alınmışsa o
+[05:42] diferansiyelin derecesini belirlerdi.
+[05:45] 3xy = 5. Bu diferansiyel denklemde en
+[05:49] fazla alınmış olan türev 1. derece
+[05:51] türevdir. Bu 1. derece diferansiyel.
+[06:02] Y'nin 2. türevi -3. Y'nin türevi
+[06:02] 5. Burada alınan türev
+[06:06] iki defa alınmıştır. 2. derece
+[06:09] diferansiyel.
+[06:11] En fazla alınmış olan türev adedi
+[06:13] diferansiyelin derecesini
+[06:14] göstermektedir.
+[06:17] Y'nin 3. türevi - 3y'nin 2. türevi
+[06:21] -4y'nin türevi + 5y = e üzeri x + x
+[06:27] üzeri 10 - 1. Bu diferansiyel denklem
+[06:31] baktığımızda alınmış olan en fazla türev
+[06:34] adedi 3'tür. Bu nedenle bu 3 derece bir
+[06:38] diferansiyeldir.
+[06:40] Diferansiyelin derecesini bir
+[06:42] diferansiyel denklemdeki en fazla
+[06:45] alınmış olan türev adedi belirler.
+[06:48] İkinci sınıflamamız diferansiyelin
+[06:51] derecesi hakkında olan sınıflamadır.
+[06:54] Bu sınıflamayı da böylece geçiyoruz.
+[07:03] 3ün sınıflamamız
+[07:03] lineer
+[07:06] lineer olmayan
+[07:15] lineerlik kavramı
+[07:15] bozan kavramları anlatarak
+[07:18] inceleyeceğiz.
+[07:21] Y'nin
+[07:23] Y veya
+[07:25] Y türevlerin
+[07:28] türevli
+[07:29] ifadelerin
+[07:47] Yani y üzeri 4 gibi bir ifade görürsek
+[07:47] veya y'nin türevinin kübü veya yinci
+[07:51] türev üzeri 1/3.
+[07:54] Bunların bu tarz ifadeler
+[07:57] lineer olmayan diferansiyellerde bulunan
+[08:01] ifadelerdir. İlk olarak bunu bilmeliyiz.
+[08:12] İkinci olarak bilmemiz gereken şey y ile
+[08:12] y türev çarpma durumunda olursa
+[08:21] bulunursa
+[08:21] bu da lineerliği bozan bir durumdur.
+[08:32] Y² x Y'nin 3. türevi gibi.
+[08:32] Bu tarz ifadeler de lineerliği bozar.
+[08:41] 3üncü olarak bilmemiz gereken
+[08:41] y'li ifadeler.
+[08:44] Y'liler
+[08:45] E'nin üssünde
+[08:57] sin cosun içinde yazılırsa cos gibi
+[08:57] ifadelerin
+[09:08] bu da lineerliği bozar.
+[09:08] sinüs x + y'nin
+[09:12] sin cos veya bir herhangi bir
+[09:14] trigonometriğin içinde yazılması
+[09:15] durumunda lineerlik bozulur. E üzeri x y
+[09:20] bu da lineerliği bozar.
+[09:27] Lineerellik temel olarak bu üç durum
+[09:27] tarafından bozulur. Bu tarz ifadeler
+[09:30] içermeyen durumların hepsi lineerdir.
+[09:35] Y'lerin üssü veya Y türevlerinin üssü
+[09:37] alınmışsa lineer değildir. Y ile Y
+[09:41] türevli çarpma durumunda ise lineer
+[09:44] değildir.
+[09:45] sin cos ei li bir şeylerin içine veya
+[09:50] üstüne yazılmış olursa yine lineer
+[09:52] değildir.
+[09:54] Birkaç örnek. Şimdi
+[10:03] Y'nin 3. türevi -4y'nin 2. türevi
+[10:03] -5y'nin türevi
+[10:06] -6y = x üzeri 5.
+[10:10] Bu diferansiyel denkleme baktığımızda
+[10:13] y'lilere odaklanmalıyız.
+[10:15] Herhangi bir şekilde üssü alınmamış,
+[10:17] üssü alınmamış, üssü alınmamış, üssü
+[10:19] alınmamış. E veya sin cos içinde de
+[10:23] değil, 2y'li çarpma durumunda da değil.
+[10:25] Bu lineer bir diferansiyel denklemdir.
+[10:40] Bu diferansiyel denkleme geldiğimizde y
+[10:40] ile y'nin 2inci türevinin çarpma
+[10:42] durumunda olduğunu gördüğümüzden dolayı
+[10:44] bu lineer olmayandır.
+[11:04] Bu diferansiyel denkleme baktığımızda
+[11:04] burada y'nin üssü alındığı için y küp
+[11:07] görüyoruz. Yine lineer olmayan bir
+[11:11] diferansiyel denklemdir.
+[11:23] Bu diferansiyel denkleme baktığımızda
+[11:24] y'nin türevi var, y var. Başka y'lerle
+[11:27] ilgili yukarıdaki durumları ihlal eden
+[11:30] herhangi bir ifade yok. lineer.
+[11:45] Bu ifade baktığımızda y e'nin üzerinde
+[11:45] yazıldığı için bu lineer olmayan
+[11:49] ifadedir. Lineer değil.
+[11:53] Li değer olup olmama şu yukarıda
+[11:55] yazılanların bozulup bozulmaması ile
+[11:58] ilgilidir.
+[12:00] Y'lerin üstü alınmışsa lineer değildir.
+[12:03] Y ile Y'li çarpma durumundaysa lineer
+[12:06] değildir. Y'liler sin ei gibi ifadelerin
+[12:09] içine yazılmışsa lineer değildir.
+[12:14] 4. ve son sınıflamıza geliyoruz.
+[12:18] Homojen homojen olmayan
+[12:29] bu sınıflama
+[12:29] bütün yliler
+[12:49] olmayanlar
+[12:49] da diğer tarafa toplandığında
+[13:03] Y'lilerin
+[13:03] karşısı
+[13:05] 0 ise homojen,
+[13:10] 0 değil ise homojen değil.
+[13:19] Çok daha matematiksel bir tanım
+[13:19] yapabilirdik ama bu tanım çok daha
+[13:21] anlaşılır bir tanımdır.
+[13:24] Y'nin 2. türevi -3y'nin türevi -4y = 0.
+[13:29] Bütün y'liler sol tarafta yazıldığında
+[13:31] karşı tarafa baktığımızda 0. Bu homojen
+[13:34] bir diferansiyel denklemdir.
+[13:38] Y'nin 2 türevi 1. türevi olsun. -4xy =
+[13:43] 0. Buna baktığımızda y'liler aynı tarafa
+[13:47] toplanmış. Karşı taraf 0. Evet. Bu da
+[13:50] homojen.
+[13:52] Burada x katsayısı olması y'nin önünde
+[13:55] bizi ilgilendirmiyor. Y'nin önündeki
+[13:56] katsayılar önemli değil. X³ Y'nin 2.
+[13:59] türevi -4 üzeri X Y'nin türevi -5 XY =
+[14:05] 0.
+[14:07] Y'lilerin hepsi aynı tarafa toplanmış.
+[14:09] Bu tarafta Y'li olmayan bir şey yok.
+[14:11] Karşı taraf 0. Evet. Bu da homojen.
+[14:22] Y'nin 2. türevi -3. Y'nin türevi -4 = 0.
+[14:22] Buna baktığımızda burada y'li olmayan
+[14:24] bir terim var.
+[14:26] Karşı taraf 0 yapılmış da Y'liler aynı
+[14:29] tarafa, Y'li olmayanlar diğer tarafa
+[14:31] toplandığında karşı tarafın 0 çıkması
+[14:33] gerekiyor. Bu diferansiyel denklem
+[14:36] aslında şöyle
+[14:38] homojen değil.
+[14:48] Y'nin türevi -4xy
+[14:48] = e üzeri x. Y'liler aynı tarafa
+[14:51] toplandığında karşı taraf 0 değil.
+[14:55] Homojen
+[14:57] değir.
+[15:07] Y'nin türevi eş 4y.
+[15:07] Bu y'lileri aynı tarafa topladığımız
+[15:10] zaman
+[15:13] çok açık bir homojen diferansiyel
+[15:15] denklemdir.
+[15:17] Buradan anlamamız gereken Y'liler aynı
+[15:20] tarafa, Y'li olmayanlar diğer tarafa
+[15:22] toplandığında Y'lilerin karşısı 0
+[15:25] kalıyorsa homojen, 0 kalmıyorsa homojen
+[15:28] değildir.
+[15:30] 4 tane sınıflama bu şekilde öğrenmiş
+[15:34] olduk. Şimdi bir diferansiyel denklem
+[15:36] yazıp 4'ü hakkında da yorum yapalım.
+[16:01] Şimdi ilk olarak
+[16:01] adi diferansiyel denklem mi, kısmi
+[16:03] diferansiyel denklem mi? Y'nin türevleri
+[16:06] bu bizim bildiğimiz normal türevdir. Bu
+[16:09] nedenle bu adi diferansiyel denklemdir.
+[16:15] Birinci sınıflamamız bu. Diferansiyelin
+[16:17] derecesine gelirsek en fazla iki kez
+[16:19] türev alınmış. 2inci derece bir
+[16:22] diferansiyeldir.
+[16:27] L'in neer olup olmadığına bakarsak y'li
+[16:27] ifadelere odaklanacağız. Herhangi bir
+[16:30] şekilde üstü alınmamış. Herhangi bir
+[16:32] şekilde üste alınmamış. herhangi bir
+[16:33] şekilde üstü alınmamış. Herhangi bir
+[16:35] şekilde başka y'liyile çarpılmamış.
+[16:39] Herhangi bir yerde sin cos içinde veya e
+[16:41] üstünde de yineer.
+[16:49] 4üncü ve son sınıflamamız homojenlik
+[16:49] için yerlilerin hepsi sol tarafa
+[16:51] toplanmış. Karşısı 0 değil. Bu nedenle
+[16:54] homojen değil.
+[17:02] Bir tane daha yapıp videomuzu
+[17:02] noktalayalım.
+[17:21] Şimdi bu diferansiyel denkleme
+[17:21] baktığımızda
+[17:27] burada kısmi türevler görüyoruz. kısmi
+[17:28] diferansiyel denklem. Bu
+[17:36] derecesine baktığımızda
+[17:36] yx defa türev alındığını gösteriyor.
+[17:40] 2inci derece kısmı diferansiyel.
+[17:50] L'in eğer olup olmadığına bakarsak yx
+[17:50] iki defa türevi alınmış. yx bir kes
+[17:52] türevi alınmış ama burada
+[17:55] y'nin üssü alınmış. Y'nin üssünün
+[17:58] alınması direkt lineerliği bozar.
+[18:02] Lineer değil.
+[18:06] Homojen olup olmadığına gelirsek bütün
+[18:08] yerileri aynı tarafa topladığımızda şunu
+[18:11] da şu tarafa attığımızda bu tarafta 1
+[18:13] kalacağı için homojen
+[18:16] değil.
+[18:21] Bu şekilde diferansiyel denklemlerin
+[18:21] sınıflamasında kullanılan 4 sınıflama
+[18:25] metodunu konuşmuş olduk. Böylece bu
+[18:28] videomuzu noktalıyoruz.

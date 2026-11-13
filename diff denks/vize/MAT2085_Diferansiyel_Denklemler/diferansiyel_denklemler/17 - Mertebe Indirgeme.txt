@@ -1,0 +1,311 @@
+[00:02] mertebe indirgeme
+[00:02] yöntemi İngilizce ismi reduction of
+[00:06] Order mertebe indirgeme yöntemi İkinci
+[00:10] derece diferansiyellerin çözümünde
+[00:12] kullanılan bir yöntemdir bunu bir not
+[00:15] alalım İkinci
+[00:17] derece diferansiyellerin çözümünde
+[00:20] kullanılan bir yöntemdir
+[00:31] 2 derece diferansiyellerin de
+[00:31] genellikle zorunlu değildir Bu
+[00:35] genellikle değişken katsayılı olan sabit
+[00:40] katsayılı
+[00:41] olmayanlarda değişken katsayılı
+[00:51] kullanılır değişken katsayıyla
+[00:51] kastettiğimiz şey
+[00:54] yler katsayılarına x değişkenlerinin
+[00:58] bulunmasından bahsediyoruz genellikle
+[01:01] diyoruz Eee değiş sabit katsayıları da
+[01:05] çözebiliyor bu yöntem fakat 2 derece
+[01:09] diferansiyelleri çözerken farklı bir
+[01:11] metodu vardır Bu
+[01:13] yöntemin mertebe indirgeme yöntemi zaten
+[01:17] ismi bize gösteriyor 2 derece
+[01:20] diferansiyeli 1 derece
+[01:24] diferansiyele derece diferansiyeli
+[01:33] düşürerek çözüyoruz yani mertebe burada
+[01:33] derecedir zaten biz 2 derece
+[01:36] diferansiyeli 1 derece
+[01:38] diferansiyele düşürüp diferansiyeli öyle
+[01:41] çözüyoruz düşürüp
+[01:50] çözüyoruz Fakat bu işlem için mutlaka
+[01:50] bize 2 derece diferansiyelin bir kökünün
+[01:54] verilmesi gereklidir zorunlu olan şey bu
+[01:58] ik derece diferans
+[02:00] y1 kökünün bize verilmesi
+[02:04] gerekir diferansiyelin Bir kökü
+[02:06] verildiği
+[02:09] takdirde Biz mertebeyi indirgeyerek
+[02:12] çözebiliyor o yüzden bunların soruları
+[02:14] çok kendini belli eder y1 kökü buysa
+[02:19] sizden genel çözümü bulmanızı İster veya
+[02:23] 2 çözümü bulmanızı İster şimdi tekrar
+[02:27] edecek olursak
+[02:30] mertebe indirgeme yöntemi İkinci derece
+[02:34] diferansiyelleri kökünün birini verip 1
+[02:38] derece diferansiyele düşürerek çözme
+[02:41] yöntemidir
+[02:43] şimdi bunun daha fazla teorik
+[02:45] anlatımıyla bir şey kazanamayız soru
+[02:49] üzerinde
+[02:51] görelim iki örnek
+[02:53] çözeceğiz ilk örneğimizde başlayalım
+[03:10] 2x x biraz kötü oldu
+[03:10] 2x y'nin türevi - 2y =
+[03:16] 0 diferansiyelin bir
+[03:49] kökünü
+[03:49] kökünü ve genel
+[03:55] çözümünü çözümü indirgeme yöntemi
+[03:58] kullanarak bulunur içinde indirgeme
+[04:00] yöntemi kullanın demezse gidip bambaşka
+[04:03] yöntemler kullanan kişiler çıkabilir O
+[04:05] yüzden soru içinde mutlaka belirtir bunu
+[04:09] indirgeme
+[04:11] yöntemi kullanarak
+[04:23] diyorum
+[04:23] şimdi burada yapılacak Birinci Adım
+[04:35] Y2
+[04:35] = v x y1 diyeceğiz Buradaki en temel ve
+[04:42] en önemli formül indirgeme yönteminde
+[04:45] budur 2
+[04:48] kökün 1 kök
+[04:50] ile V gibi bu V dediğimiz x'e bağlı
+[04:55] fonksiyon
+[05:03] V gibi bir fonksiyonun
+[05:03] çarpımının çarpımı olduğunu söyleyerek
+[05:07] başlıyoruz Y2 = v x bizim y1 imiz ne
+[05:12] burada
+[05:14] x v x x
+[05:18] oldu
+[05:20] y2y bulmak için şimdi hepimizin
+[05:24] anlayacağı üzere v'yi
+[05:27] bulmalıyız v'yi buld
+[05:30] takdirde y2y yani diferansiyelin diğer
+[05:34] kökünü bulmuş
+[05:35] oluruz genel çözümü bulmak için ise bu
+[05:39] ikisini C1 ve C2 katsayıları ile çarpıp
+[05:43] birleştireceğiz en sona göreceğiz bunu
+[05:46] şimdi y2y belirledik bunun türevlerini
+[05:50] alıp
+[05:52] y2n türevleri alınıp diferansiyelde
+[05:56] yerine konur türevleri alınıp
+[06:02] diferansiyelde
+[06:02] yerine
+[06:04] konulur şimdi bunun türevlerini almaya
+[06:07] başlayalım 1 türevi burada V x'e bağlı
+[06:11] bir fonksiyon olduğu için çarpımın
+[06:13] türevi Vardır her zaman çarpımın türevi
+[06:15] olur burada v'nin türevi V türev çarpı
+[06:19] ikinciyi olduğu gibi yazdık ı birinciyi
+[06:22] olduğu gibi yazıyoruz X'in türevi 1
+[06:25] ediyor Bu nedenle
+[06:28] yazmadım 1 türev bu diferansiyel imiz de
+[06:31] 2 türevde bulunduğu için 2 türevi de
+[06:33] almamız gerekiyor y2n 2
+[06:37] türevi v'nin türevinin burada v'nin
+[06:40] türevi ile x yine çarpımın türevi v'nin
+[06:42] türevinin bir kez daha türevini alırsak
+[06:45] v'nin 2 türevi olur x x + v'nin türevini
+[06:49] olduğu gibi yazarız çarpımın türevi
+[06:51] Çünkü X'in türevi 1 eder yazmamıza gerek
+[06:54] yok Artı buradaki v'nin türevi de v'nin
+[06:58] türevi olur bunu da düzenleyecek olursak
+[07:01] y2n türevi 2 türevi ve 2 türev x + 2
+[07:08] tane V1
+[07:11] türev şimdi bunları y2y belirledikten
+[07:16] arkasından türevlerini aldıktan sonra
+[07:18] diferansiyelde gidip sadece yerine
+[07:20] koyacağız şimdi diferansiyelde yerine
+[07:23] koyma adımımız başlıyor 2
+[07:33] adım x k çarpı y'nin 2 türevi
+[07:33] Burada v'nin 2
+[07:36] türevi x + 2 v'nin
+[07:41] türevi + 2x
+[07:44] Ç şimdi şuraya geldik y'nin türevi
+[07:47] yerine v'nin türevi x + v'yi koyuyoruz
+[07:52] v'nin türevi x + v'yi koyuyoruz - 2 x
+[07:59] y'yi yerine koyuyoruz
+[08:02] vx eş
+[08:05] 0 şimdi yerine koyduktan
+[08:08] sonra burada doğru yolda olup
+[08:10] olmadığımızı gösteren bir nokta vardır
+[08:13] şimdi bunları çarpacağı sadeleştirici
+[08:34] dahi durumu yoktur v'nin 2 türevi ve
+[08:34] v'nin türevi
+[08:37] kalır v'li
+[08:40] olan
+[08:43] olanlar birbirini
+[08:51] götürür Biz daha burada işlemi yapmadan
+[08:52] bunun gerçekleşeceğini bilmeliyiz ki
+[08:54] eğer ki yanlış bir işlem çıktıysa
+[08:56] şuursuzca devam etmeyelim orada Şimdi x
+[09:00] kare ile çarparsak burayı v'nin 2 türevi
+[09:03] x k x kare ile burayı çarparsak + 2x
+[09:08] kare v'nin türevi 2 x'i dağıtırsa buraya
+[09:12] + 2x kare v'nin
+[09:15] türevi 2x ile v'yi çarparsak + 2x
+[09:19] V - 2x V de burada var buradaki xile
+[09:24] v'nin yerini değiştirdim sadece eş
+[09:27] 0 G üzere bununla bu birbirini götürdü
+[09:33] Ve x k v'nin 2
+[09:36] türevi + 4x K v'nin türevi eş 0
+[09:43] kaldı buradan doğru yolda olduğumuzu
+[09:47] anlamış
+[09:48] olmalıyız indirgeme metodu
+[09:51] kullanıyorsak her zaman için bu noktada
+[09:55] v'nin 2 türevi ve v'nin türevi kalır V
+[09:59] olan
+[10:01] gider Şimdi bundan sonraki adım 3 adım
+[10:06] Şimdi biz burada yukarıda da
+[10:08] bahsetmiştik 1 derece diferansiyele
+[10:10] düşürerek çözecek 3 adım bu v'nin 2
+[10:14] türevi v'nin türevi kaldığı zaman v'nin
+[10:16] türevine gidip u diyeceğiz v'nin 2
+[10:20] türevi de dolayısıyla uun türevi haline
+[10:23] gelecek ve bunu diferansiyelde yerine
+[10:26] koyacağız koyalım Şimdi bunu x
+[10:30] un'un
+[10:31] türevi + 4x k u = 0
+[10:37] oldu Bundan sonra bu 1 derece
+[10:40] diferansiyele düştü ve bu her zaman
+[10:43] hiçbir istisnai durum yok ayrılabilir
+[10:46] diferansiyel çıkar çıkar ayrılabilir
+[10:50] diferansiyel
+[10:56] çıkar ayrılabilir diferansiyel çıkması
+[10:57] ne demek
+[11:05] yerine du / DX yazıp x'i bir tarafa
+[11:05] u'ları bir tarafa ayırıp bunu
+[11:07] çözebiliriz demektir ayrılabilir olması
+[11:10] x k du / DX şu kısmı da karşıya atalım
+[11:17] 4x k u ama katsayısı eksi olacak karşıya
+[11:21] atınca dxi bu tarafa gönderelim uyu bu
+[11:24] tarafa alalım x k bu tarafa gönderelim
+[11:26] birçok şey söyledik ya neyse
+[11:29] / u bu u bu tarafa bölü olarak geçti
+[11:33] burada - 4x K var dxi yanına gönderdim
+[11:38] ve buradaki x kübü de bölü olarak
+[11:41] geçirdim Şu ifadeyi birazcık daha düzgün
+[11:44] yazacak olursak du / u = -4 x
+[11:51] DX çok açık bir şekilde diferansiyel
+[11:53] imiz
+[11:54] ayrıldı burada dediğim gibi her zaman
+[11:57] ayrılabilir çıkacak
+[12:00] çıkartamıyorum
+[12:31] imizin sonucuna Ama bu indirgeme
+[12:31] metodunda çözüm yaparken bu c'ler hep 0
+[12:35] kabul edeceğiz Bu da önemli bir noktadır
+[12:37] Bu c'ler indirgeme metodunda her zaman 0
+[12:41] kabul
+[12:42] edilecek şimdi ln uyu bulduk Bizim
+[12:45] amacımız uyu falan bulmak değil ln uyu
+[12:47] bulmak hiç değil Bizim amacımız en başa
+[12:51] dönelim Neyi bulmak olduğunu kopmayalım
+[12:54] Biz buradaki v'yi arıyoruz y2y bulmak
+[12:58] için v'yi bulmak lazım v'yi bulduktan
+[13:01] sonra çünkü x ile çarpacağı İnelim
+[13:04] aşağıya ve v'yi bulmaya doğru gidelim
+[13:07] lnu uyu bir yalnız bırakalım burada e
+[13:11] vardır ln log e demektir e'yi bu tarafa
+[13:14] gönderiyoruz u = e üzeri -4 lnx olur e
+[13:21] ile E'nin üstünde ln olduğu zaman e ile
+[13:24] buradaki x yer değiştirir u
+[13:28] = x üzeri -4 L olur lne de 1 ettiği için
+[13:33] u = x üzeri -4 oldu Tamamdır Biz u
+[13:38] aramıyoruz Biz V
+[13:41] arıyoruz yaptığımız Şuradaki dönüşümü
+[13:44] hatırlayacağız 3 adımın başındaki
+[13:47] yaptığımız Şuradaki dönüşüm v'nin
+[13:49] türevine u demekti şimdi buradaki u
+[13:53] yerine v'nin türevini geri götürüyoruz 4
+[13:56] adım
+[14:03] adım buradaki uun yerine v'nin
+[14:03] türevini geri getiriyoruz x üzeri
+[14:07] -4 bu yine
+[14:11] ayrılabilir ayrılabilir bir
+[14:14] diferansiyelden D v'nin türevi yerine dv
+[14:18] / DX yazarız ayrılabilir olan her
+[14:22] durumda v'nin türevi yerine dv / DX
+[14:25] yazarız Burası da her zaman
+[14:27] ayrılabilir yani birisi indirgeme
+[14:30] metoduyla soru
+[15:04] x üzeri -3 oluşan üste bölelim -3 + C
+[15:04] Ama bu indirgeme metoduyla çözerken
+[15:06] c'ler her zaman için 0 kabul ediyoruz
+[15:09] demiştik Burada da bu şekilde kabul
+[15:11] ettik ve v' mizi bulduk v = x üzeri
+[15:18] -3 bö
+[15:21] -3 Şimdi bunu Y2 Deek yerine
+[15:25] koyduğumuzda 2 çözümü buluyoruz şimdi
+[15:28] sonuca geldik 2ci
+[15:31] çözüm yani
+[15:34] Y2
+[15:36] eş v x Neydi o bir geriye dönüp bakmamız
+[15:40] lazım bu kadar işlem yaptık ki kafadan
+[15:43] çıkıyor tabii
+[15:49] ki Neredeydi
+[15:49] o v x x demişiz v'yi bulduğumuza göre x
+[15:53] ile çarptığımızda y2y bulmuş olacağız
+[16:02] x üzeri
+[16:02] -3 bö -3 x x Yani y2m buradan x üzeri -2
+[16:13] / -3 çıkar Bu ikinci çözümümüz dür soru
+[16:17] bizden iki şeyi isteyebilir ya İkinci
+[16:19] çözümü ister ya da genel çözümü genel
+[16:38] e C1 x y1 + C2 x Y2 bizim y1 imizin
+[16:38] burada y
+[16:40] genel C1 x y1 imiz zaten x soru vermişti
+[16:44] on C2 x Y2 de şimdi biz bulduk x üzer -2
+[16:50] b-3 işte Bu da
+[16:52] bizim genel çözümümüz
+[16:59] ek çözeceğim demiş ama ik örneğe gerek
+[16:59] olduğunu düşündüğüm bir yöntem değil bu
+[17:03] basit bir şey yüzlerce sorusu gelse dahi
+[17:06] hep aynı işlemleri hep aynı sıralamayla
+[17:09] yapacağız neler zor olabilir belki zaman
+[17:13] zaman türev alırken zorluk gelebilir
+[17:15] belki zaman zaman integral alırken
+[17:18] zorluk gelir ama işlem adımlarında
+[17:21] hiçbir şekilde değişiklik Olmaz
+[17:23] gerçekten basit bir yöntemdir bu şimdi
+[17:27] tekrar soru üzer
+[17:29] inceleyerek bu videomuzu
+[17:32] bitirelim şimdi bir soruya baktığımızda
+[17:35] x kare y'nin 2 türevi + 2x y'nin türevi
+[17:39] - 2y = 0 diferansiyelin 1 kökü y1 x x
+[17:43] olduğuna göre diferansiyelin diğer
+[17:45] kökünü ve genel çözümünü indirgeme
+[17:49] yöntemi kullanarak bulunuz diyordu 1ci
+[17:51] adımımız 2 çözümün y2n v x y1 olduğunu
+[17:57] söylemekti ardından buradaki Y2 = v x x
+[18:03] dedik buradaki y1 yerine koyduk
+[18:05] türevlerini aldık her zaman bunun
+[18:07] türevlerini alacağız ve diferansiyel de
+[18:10] götürüp yerine koyduk diferansiyel de
+[18:12] yerine koyduktan sonra mutlaka v'nin
+[18:15] ikinci türevi ve v'nin türevi kalacak
+[18:17] v'li ifade yok olup gidecektir bu doğru
+[18:20] yolda olup olmadığımızın en önemli
+[18:24] yanlış bir tuşa bastım Neyse en önemli
+[18:27] göstergesidir
+[18:28] burada ikinci adımın sonuna dikkat
+[18:30] edelim e v'li ifade kalmadı v'nin 2
+[18:35] türevi v'nin türevi kaldı 3 adım her
+[18:38] zaman için bu v'nin türevine u v'nin 3
+[18:42] türevine uun türevi diyeceğiz ve Uu
+[18:44] halde bir diferansiyel denklem elde edip
+[18:46] bunu her zaman ayrılabilir
+[18:48] diferansiyelden
+[18:50] çözeceğiz uyu yalnız bırakıp bulacağız
+[18:54] uyu yalnız bıraktıktan sonra v'nin
+[18:57] türevine u demiş
+[18:59] yerine
+[19:00] koyacağız ve orası da her zaman
+[19:03] ayrılabilir diferansiyel onu da
+[19:05] çözdükten sonra v'yi bulmuş olacağız ve
+[19:09] integraller gelen cere bu yöntemde her
+[19:12] zaman 0
+[19:13] denilir bu v'yi de bulduktan sonra bunu
+[19:17] Y2 v x x'te v yerine koyduğumuzda Y2
+[19:21] yani 2 çözümümüz bulmuş olacağız genel
+[19:24] çözümde C1 y1 c22 şeklinde bu özümün
+[19:29] ilmiydi bu yöntemi bu şekilde bitirmiş
+[19:32] olalım

@@ -1,0 +1,268 @@
+[00:04] Bernoilli diferansiyel denklemi.
+[00:04] Bernili diferansiyel denklemi 1. derece
+[00:07] özel bir formatı olan diferansiyel
+[00:10] denklemdir.
+[00:12] Nedir bu formatı?
+[00:14] Y'nin türevi
+[00:16] +
+[00:17] px
+[00:19] y
+[00:21] türev çok ince oldu. E= qx
+[00:27] y üzeri n
+[00:30] şeklindeki bir diferansiyel denklemdir.
+[00:34] Buradaki diferansiyel denkleme çok
+[00:37] benzer bir formatı integral çarpanı
+[00:40] yöntemiyle çözülen diferansiyellerde
+[00:42] görmüştük. y'nin türevi + pxy
+[00:47] = qx
+[00:50] şeklindeki diferansiyeller
+[00:53] integral çarpanı yöntemiyle
+[00:56] çözülüyordu. Integral çarpanı
+[00:59] metodu ile çözülen diferansiyel
+[01:01] denklemlerdi.
+[01:03] Bu şekildeki diferansiyeller lineerdir.
+[01:05] Şimdi bu diferansiyel denklemin en
+[01:07] sonuna bir yeri n ekleniyor. Bu y üzeri
+[01:10] nedeniyle
+[01:12] berno ile diferansiyel denklemi lineer
+[01:14] olmayan bir diferansiyel denklemdir.
+[01:18] Buradaki sorunu çıkartan şey y üzeri
+[01:20] nir. Integral çarpanı metoduyla
+[01:22] çözmemizi engelleyen
+[01:25] Bernili diferansiyel denklemlerinde
+[01:27] Bernili'nin gördüğü
+[01:30] burada bir dönüşüm yardımıyla
+[01:33] biz bu diferansiyel denklemi buna
+[01:35] benzetip integral çarpanı metoduyla
+[01:38] çözüyoruz.
+[01:39] Yani Berno'nin gördüğü dönüşüm
+[01:43] Y'yi başka bir harfe çevireceğiz. V
+[01:45] harfini. V = Y üzeri 1 - N dönüşümü
+[01:52] yapılır.
+[01:55] dönüşümü yapılır.
+[01:58] Buradaki n dediğimiz şey buradaki y'nin
+[02:02] üssüdür.
+[02:04] V = üzeri 1 - n dönüşümü yapılır ve
+[02:09] diferansiyel denklem bu dönüşümün
+[02:11] arkasından bu dönüşüm
+[02:15] sonrasında
+[02:17] diferansiyel denklem
+[02:21] V'nin türevi
+[02:23] + px
+[02:26] v = qx formatına getirilir ve integral
+[02:32] çarpanı metodu metoduyla çözülür.
+[02:36] Çarpanı metodu ile çözülür.
+[02:46] Yani bernole diferansiyelleri
+[02:46] v = yüz 1 - n dönüşümü ile bu integral
+[02:51] çarpanı metodunu kullanacağımız hale
+[02:54] çevrilip çözülürler.
+[02:57] Yapılan işlem tamamıyla budur. Integral
+[03:01] çarpanıyla diferansiyel çözmeyi bilmeyen
+[03:03] bir kişi burayı izlememeli. Önce gidip
+[03:06] bunun videosunu izlese daha iyi yapar.
+[03:10] Şimdi bir diferansiyel denklem alalım
+[03:13] bernole olan ve bu konuştuklarımızı
+[03:17] uygulayalım.
+[03:25] y'nin türevi
+[03:25] + 4/x
+[03:28] y
+[03:31] =
+[03:33] x³
+[03:35] y² diferansiyelini
+[03:47] Diferansiyel denkleme baktığımızda
+[03:47] bernole olduğunu tanıyabilmeliyiz.
+[03:51] Şimdi bu diferansiyele baktığımızda çok
+[03:53] açık bernoil olduğu gözüken bir
+[03:55] diferansiyel denklem.
+[03:58] Y'nin türevi + px
+[04:03] y = qx
+[04:06] yeri n. Tam anlamıyla
+[04:10] bernoilli formatı. Bernili olduğunu
+[04:13] tespit ettik. diferansiyelin birinci
+[04:16] yapacağımız adım yapılacak dönüşümü
+[04:20] belirlemektir. V = yüz - n dönüşümü
+[04:25] yapıyoruz.
+[04:26] N'miz kaç bu soruda? y²are bulunduğu
+[04:30] için burada n = 2'dir. Yani yapacağımız
+[04:33] dönüşüm v = y üzeri 1'den 2'yi
+[04:39] çıkartırsak -1 kalır.
+[04:42] V = yeri -1 dönüşümünü yapıyoruz. Şimdi
+[04:47] diferansiyelin içinde y'nin türevi
+[04:49] olduğu için bize de y'nin türevi olan
+[04:51] bir ifade lazım ki onun yerine bir şey
+[04:53] koyabilelim. O yüzden bunun türevini
+[04:55] alıyoruz.
+[04:57] Dönüşümü yapacağımız şeyi belirledikten
+[04:59] hemen sonra onun türevini alacağız.
+[05:02] V'nin türevi V türevdir. Neye göre türev
+[05:05] aldığımızı sorabilir bazıları. X'e göre
+[05:07] türev alıyoruz.
+[05:09] V'nin içinde nasıl bir şey olduğunu
+[05:11] görmediğimiz için ona V türev diyoruz.
+[05:14] Y üzeri -1'in türevi ise -1 başa geçer.
+[05:19] Üst 1 azalır.
+[05:21] Çarpı bir de y'nin türevi gelir.
+[05:25] Y'nin içinde nasıl x'li bir şey olduğunu
+[05:27] bilmediğimiz için üst başa geçer, üst
+[05:29] bir azalır. Çarpı içerisinin türevi
+[05:31] deriz. Y'lilerin türevi burada alınırken
+[05:34] mesela y karenin türevini almamız
+[05:35] gerekseydi şurada y kare bulunsaydı
+[05:40] üst başa geçer üst 1 azalır çarpı y'nin
+[05:44] türevi olurdu. Y küp olsaydı
+[05:48] 3y² x y'nin türevi olurdu. Buradaki v =
+[05:53] yeri -1 yazdıktan sonra buradaki bu
+[05:56] türevi çok doğru şekilde almalıyız.
+[05:59] Yoksa
+[06:01] daha başlamadan
+[06:03] çözümümüz yanlış yola girmiş olur.
+[06:07] V = yeri -1. V'nin türevi de bu. Bunları
+[06:12] belirledikten sonra
+[06:15] ikinci adımımızda
+[06:20] önce
+[06:20] her zaman y'nin türevi yerine konulur.
+[06:26] Burada bahsettiğim sıralamalara itaat
+[06:28] edilip çözülürse sorunsuz bir şekilde
+[06:31] gider.
+[06:33] Kafamıza göre takılırsak da doğru
+[06:35] çıkabilir ama aralarda karışır.
+[06:39] Karışmaya başlar.
+[06:41] nerede olduğunuzu şaşırma gibi durumlar
+[06:43] yaşayabilirsiniz.
+[06:45] Önce y'nin türevi yerine konulur.
+[06:48] Y'nin türevini burada yalnız bırakırsak
+[06:51] Y'nin türevi eşittir bu 1/
+[06:55] -1/ y² eder. Karşı tarafla çarparsak -
+[06:59] y² x v'nin türevi olur.
+[07:06] Şimdi bunu götürüp diferansiyelimizi de
+[07:06] yerine koyuyoruz. y'nin türevinin yerine
+[07:09] koyuyoruz bunu. - y²
+[07:13] v'nin türevi + 4/x
+[07:17] y =
+[07:19] önünde ne vardı? x³ y².
+[07:23] Şimdi y'nin türevi yerine konduktan
+[07:26] sonra
+[07:28] mutlaka birer tane y sadeleşir. Mutlaka
+[07:32] birer tane
+[07:35] y sadeleşir. Her iki taraftan da
+[07:38] mutlaka.
+[07:40] Bu sadeleştirmeyi yapmadan soruya devam
+[07:42] etmeyeceğiz. Buradaki y²eden bir y
+[07:44] giderse - y b türevi. Buradan bir y
+[07:48] gider. 4/ x buradan bir y gider. x³ y.
+[07:57] Bu y sadeleştirmi. Önce y'nin türevini
+[08:00] yerine koyuyoruz. Arkasından y
+[08:02] sadeleştirmesini yapıyoruz. Ve bu
+[08:04] noktaya geldik.
+[08:06] Şimdi 3üncü adımımızda y'yi yerine
+[08:10] koyacağız. Yaptığımız dönüşüm bizim V =
+[08:13] yeri -1 idi. Bunun da anlamı y = 1/ V
+[08:19] demektir. Y gördüğümüz yere 1/V yazarız.
+[08:24] y gördüğümüz yere 1/ v yazdığımız zaman
+[08:27] burada -v'nin türevi bö v + 4/ x = x³/
+[08:35] bunun yerine 1/ v koyduğumuzda x³/ v
+[08:39] olur. Şimdi buradan sonra diferansiyel
+[08:42] denklem
+[08:44] tamamen v'li hale geldi.
+[08:47] Buradan sonra benzeyeceği şey V'nin
+[08:50] türevi + tx v = qx formatıdır ve
+[08:57] integral çarpanı yöntemiyle çözeceğiz.
+[09:00] Burada yapacağımız şey mutlaka ve
+[09:02] mutlaka bu formata benzetmek olacaktır.
+[09:06] Buradaki V'yi de Y'yi de yerine
+[09:09] koyduktan sonra bu formata benzeteceğiz.
+[09:12] V'nin türevinin katsayısının 1 kalması
+[09:14] lazım. Bütün denklemi -V ile çarpalım.
+[09:18] V'nin türevi - 4/x
+[09:22] V = -V ile çarparsak -x³ oldu. İşte
+[09:28] şimdi karşımıza tam anlamıyla bu format
+[09:32] geldi ve integral çarpanı tekniği ile
+[09:35] bunu çözebiliriz. 4. adım itibariyle
+[09:39] integral çarpanı tekniği ile başlıyor.
+[09:42] Başlıyor soru. Integral çarpanı
+[09:46] tekniği.
+[09:49] Berno sorularında mutlaka ve mutlaka
+[09:52] integral çarpanı tekniğini kullanacağız.
+[09:55] Mutlaka. Burada V'li hale getirdiğimiz
+[09:58] diferansiyel integral çarpanı tekniğinin
+[10:00] uygulanacağı hale getirecek. Bütün
+[10:02] yapacağımız işlemlerin amacı olacak.
+[10:04] Burada integral çarpanı tekniğinde
+[10:07] integral çarpanı buluyorduk. M e üzeri
+[10:12] px dx idi.
+[10:15] e üzeri burada px'imiz -4/x
+[10:19] -4/ x dx.
+[10:22] Buranın integralini aldığımızda e üzeri
+[10:25] -4 lnx olur.
+[10:28] 4/ x'in integrali 4 lnx'tir.
+[10:32] E ile x yer değiştirir. x üzeri -4 ln
+[10:37] olur. lne 1 ettiği için x üzeri -4
+[10:41] olarak
+[10:43] integral çarpanımızı bulmuş olduk.
+[10:47] Integral çarpanını bulduktan sonra
+[10:50] diferansiyelimizin her iki tarafını
+[10:52] integral çarpanıyla çarpıyorduk. X üzeri
+[10:54] -4 x v'nin türevi -4/ x v = karşı tarafı
+[11:02] da integral çarpanıyla çarpıyoruz.
+[11:07] integral çarpanıyla sol tarafı
+[11:07] çarptığımızda mutlaka integral çarpanı
+[11:11] ile
+[11:13] buradaki fonksiyonun çarpımının türevi
+[11:16] olurdu. Burası y'li olsaydı x üzeri -4 x
+[11:20] y'nin türevi olurdu. Burası v'li olduğu
+[11:22] için x üzeri -4 x v'nin türevi olur.
+[11:25] Eşittir karşı taraf ise -x üzeri -1
+[11:27] olur.
+[11:29] Ardından her iki tarafın integralini
+[11:32] alacağız. Her iki tarafın integralini
+[11:34] alırsak burada,
+[11:37] her iki tarafın integralini aldığımızda
+[11:41] eee türevle integral burada birbirini
+[11:44] götürür. X üzeri -4 x v
+[11:48] eş bu tarafta ise integral alırsak üssü
+[11:52] 1 arttırırız.
+[11:54] x üzeri 0 ettiği durumda bu demek ki ln
+[11:58] şu gördüğümüz şey -1/ x demektir. Demek
+[12:01] ki burası - ln
+[12:04] x
+[12:06] + c haline geldi.
+[12:10] X üzeri -4'ü
+[12:12] 1/ x üzeri 4 olarak düşünürsek karşı
+[12:15] tarafla çarparız. V = -x üzeri 4 lnx
+[12:21] + cx üzer.
+[12:24] V'yi bulduğumuzda soru bitmiyor.
+[12:29] Bizim aradığımız şey V değil, Y idir. Y
+[12:32] idir. Y idi. 5. adımda
+[12:37] Y'yi bulacağız. Yaptığımız dönüşüm v =
+[12:41] yeri -1'di.
+[12:43] Dolayısıyla biz y'nin 1/ v'ye eşit
+[12:48] olduğunu biliyoruz. Buradaki v'yi
+[12:50] getirip yerine koyduğumuzda diferansiyel
+[12:52] denklemimizin çözümüne ulaşıyoruz. 1/
+[12:57] -x üzeri 4 lnx
+[13:01] + cx üzer.
+[13:04] Diferansiyel denklemimizin çözümü budur.
+[13:09] Şimdi baştan itibaren yaptığımız
+[13:11] adımları
+[13:12] tekrar edelim.
+[13:31] şurada sorumuz ilk olarak yapacağımız
+[13:32] dönüşümü belirledik. V = üzeri 1 - n
+[13:36] dönüşümü yapıyoruz. Bunun sonucunda v =
+[13:40] yüz -1 dönüşümü yapacağımızı anladık.
+[13:43] Bunun türevini alıyoruz.
+[13:46] Bunun türevini aldıktan sonra önce y
+[13:47] türevi yerine koyuyoruz. Y türevi yerine
+[13:50] koyduktan sonra
+[13:53] mutlaka birer tane y sadeleştiriyoruz.
+[13:57] Ardından
+[13:58] v = y -1 dönüşümündeki y'yi yerine
+[14:01] koyuyoruz. 1/ b elde edeceğimiz şey
+[14:06] mutlaka integral çarpanı kullanılacak
+[14:08] format olacaktı. O formatı elde ettikten
+[14:11] sonra da integral çarpanı tekniği ile
+[14:13] v'nin ne olduğunu buluyoruz. Aradığımız
+[14:16] şey V değildi, Y idi. En sona Y'nin ne
+[14:20] olduğunu buluyoruz ve Berneli
+[14:23] diferansiyel denklemimizi çözmüş
+[14:25] oluyoruz. Bu şekilde bu videomuzu da
+[14:28] noktalıyoruz.
