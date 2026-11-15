@@ -1,5 +1,17 @@
-* text eol=lf
+* text=auto eol=lf
+
 *.py text eol=lf
+*.md text eol=lf
+*.java text eol=lf
+*.xml text eol=lf
+
 *.pdf binary
+*.xopp binary
 *.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
 *.zip binary
+*.docx binary
+*.pptx binary
+*.mp4 binary
